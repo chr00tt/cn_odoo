@@ -1,0 +1,34 @@
+#. module: account
+#: code:addons/account/models/chart_template.py:0
+#: model:ir.model.fields,field_description:account.field_res_config_settings__account_journal_suspense_account_id
+#, python-format
+msgid "Bank Suspense Account"
+msgstr "银行暂记账户"
+
+#. module: account
+#: code:addons/account/models/chart_template.py:0
+#, python-format
+msgid "Outstanding Receipts"
+msgstr "待处理收款"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_config_settings__account_journal_payment_debit_account_id
+msgid "Outstanding Receipts Account"
+msgstr "待处理收款科目"
+
+#. module: account
+#: code:addons/account/models/chart_template.py:0
+#, python-format
+msgid "Outstanding Payments"
+msgstr "待处理付款"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_config_settings__account_journal_payment_credit_account_id
+msgid "Outstanding Payments Account"
+msgstr "待处理付款科目"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_journal__bank_acc_number
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__acc_number
+msgid "Account Number"
+msgstr "帐号"
