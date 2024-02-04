@@ -32,3 +32,8 @@ msgstr "待处理付款科目"
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__acc_number
 msgid "Account Number"
 msgstr "帐号"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "Package"
+msgstr "会计包"
