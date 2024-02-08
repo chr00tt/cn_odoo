@@ -2,3 +2,8 @@
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Late Components"
 msgstr "延迟的组件"
+
+#. module: mrp
+#: model:ir.actions.server,name:mrp.action_plan_with_components_availability
+msgid "Plan based on Components Availability"
+msgstr "基于组件可用性进行计划"
