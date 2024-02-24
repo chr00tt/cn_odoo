@@ -6,6 +6,7 @@
     'name': 'cn Manufacturing',
     'version': '2.0',
     'category': 'Manufacturing/Manufacturing',
+    'author': 'He Jian',
     'depends': ['mrp'],
     'installable': True,
     'auto_install': True,

@@ -1,0 +1,10 @@
+#. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
+#: model:ir.model.fields,field_description:stock.field_product_product__outgoing_qty
+#: model:ir.model.fields,field_description:stock.field_product_template__outgoing_qty
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#, python-format
+msgid "Outgoing"
+msgstr "出货"
