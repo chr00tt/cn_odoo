@@ -3,7 +3,7 @@
 {
     'name' : 'cn Invoicing',
     'version' : '1.2',
-    'summary': 'cn Invoices & Payments',
+    'author': "He Jian",
     'category': 'Accounting/Accounting',
     'depends' : ['account'],
     'installable': True,
