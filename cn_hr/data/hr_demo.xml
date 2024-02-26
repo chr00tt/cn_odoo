@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+      <record id="hr.dep_management" model="hr.department">
+          <field name="name">管理</field>
+      </record>
+
+      <record id="hr.dep_rd" model="hr.department">
+          <field name="name">研发部</field>
+      </record>
+
+      <record id="hr.dep_ps" model="hr.department">
+          <field name="name">服务部</field>
+      </record>    
+    </data>
+</odoo>

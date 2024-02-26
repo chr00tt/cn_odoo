@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="hr.dep_administration" model="hr.department">
+          <field name="name">行政部</field>
+        </record>
+
+        <record id="hr.dep_sales" model="hr.department">
+          <field name="name">销售部</field>
+        </record>
+    </data>
+</odoo>
