@@ -1,0 +1,8 @@
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_warehouse.py:0
+#: model:stock.picking.type,name:stock.chi_picking_type_in
+#: model:stock.picking.type,name:stock.picking_type_in
+#, python-format
+msgid "Receipts"
+msgstr "收货"
