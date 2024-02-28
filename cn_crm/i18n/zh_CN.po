@@ -1,0 +1,17 @@
+#. module: crm
+#: model:ir.ui.menu,name:crm.menu_crm_opportunities
+#: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
+#: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
+msgid "My Pipeline"
+msgstr "我的管道"
+
+#. module: crm
+#. odoo-python
+#: code:addons/crm/models/crm_team.py:0
+#: model:ir.actions.act_window,name:crm.crm_lead_action_pipeline
+#: model:ir.model.fields,field_description:crm.field_crm_team__use_opportunities
+#: model:ir.ui.menu,name:crm.crm_opportunity_report_menu
+#: model:ir.ui.menu,name:crm.menu_crm_config_lead
+#, python-format
+msgid "Pipeline"
+msgstr "管道"
