@@ -98,6 +98,43 @@
             <field name="name">600把椅子报价</field>
         </record>
 
+        <record id="crm.crm_case_graph_1" model="crm.lead">
+            <field name="name">经常性交货合同</field>
+        </record>
+        <record id="crm.crm_case_graph_2" model="crm.lead">
+            <field name="name">需要有关定价的信息</field>
+        </record>
+        <record id="crm.crm_case_graph_3" model="crm.lead">
+            <field name="name">Trelian 新办公室</field>
+        </record>
+        <record id="crm.crm_case_graph_4" model="crm.lead">
+            <field name="name">品牌家具</field>
+        </record>
+        <record id="crm.crm_case_graph_5" model="crm.lead">
+            <field name="name">设计新货架</field>
+        </record>
+        <record id="crm.crm_case_graph_6" model="crm.lead">
+            <field name="name">办公椅</field>
+        </record>
+        <record id="crm.crm_case_graph_7" model="crm.lead">
+            <field name="name">周期性清洁</field>
+        </record>
+        <record id="crm.crm_case_graph_8" model="crm.lead">
+            <field name="name">定制办公桌（100份）</field>
+        </record>
+        <record id="crm.crm_case_graph_9" model="crm.lead">
+            <field name="name">需要价格：紧急</field>
+        </record>
+        <record id="crm.crm_case_graph_10" model="crm.lead">
+            <field name="name">新地点的家具</field>
+        </record>
+        <record id="crm.crm_case_graph_11" model="crm.lead">
+            <field name="name">使旧办公室现代化</field>
+        </record>
+        <record id="crm.crm_case_graph_12" model="crm.lead">
+            <field name="name">35个窗户报价</field>
+        </record>
+
         <record id="crm.activity_1" model="mail.activity">
             <field name="summary">开会讨论定价信息。</field>
         </record>
