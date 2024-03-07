@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<odoo>
+    <data noupdate="1">
+        <record id="crm.crm_case_1" model="crm.lead">
+            <field name="name">俱乐部办公家具</field>
+        </record>
+        <record id="crm.crm_case_2" model="crm.lead">
+            <field name="name">设计软件</field>
+        </record>
+        <record id="crm.crm_case_3" model="crm.lead">
+            <field name="name">25张桌子的价格</field>
+        </record>
+        <record id="crm.crm_case_4" model="crm.lead">
+            <field name="name">坎贝尔：椅子</field>
+        </record>
+        <record id="crm.crm_case_5" model="crm.lead">
+            <field name="name">50把椅子报价</field>
+        </record>
+        <record id="crm.crm_case_6" model="crm.lead">
+            <field name="name">Opensides: 需要信息</field>
+        </record>
+        <record id="crm.crm_case_7" model="crm.lead">
+            <field name="name">Gardner: 更换办公桌</field>
+        </record>
+        <record id="crm.crm_case_8" model="crm.lead">
+            <field name="name">产品目录</field>
+        </record>
+        <record id="crm.crm_case_9" model="crm.lead">
+            <field name="name">经销商：办公家具</field>
+        </record>
+        <record id="crm.crm_case_10" model="crm.lead">
+            <field name="name">设计软件信息</field>
+        </record>
+        <record id="crm.crm_case_11" model="crm.lead">
+            <field name="name">估计需要办公家具</field>
+        </record>
+        <record id="crm.crm_case_12" model="crm.lead">
+            <field name="name">100张桌子报价</field>
+        </record>
+        <record id="crm.crm_case_13" model="crm.lead">
+            <field name="name">12张桌子报价</field>
+        </record>
+        <record id="crm.crm_case_14" model="crm.lead">
+            <field name="name">办公室设计项目</field>
+        </record>
+        <record id="crm.crm_case_15" model="crm.lead">
+            <field name="name">有关服务的信息</field>
+        </record>
+        <record id="crm.crm_case_16" model="crm.lead">
+            <field name="name">整体解决方案：家具</field>
+        </record>
+        <record id="crm.crm_case_17" model="crm.lead">
+            <field name="name">Balmer Inc: 潜在经销商</field>
+        </record>
+        <record id="crm.crm_case_18" model="crm.lead">
+            <field name="name">DeltaPC: 10张电脑桌</field>
+        </record>
+        <record id="crm.crm_case_19" model="crm.lead">
+            <field name="name">可定制的桌子</field>
+        </record>
+        <record id="crm.crm_case_20" model="crm.lead">
+            <field name="name">经销合同</field>
+        </record>
+        <record id="crm.crm_case_21" model="crm.lead">
+            <field name="name">办公室设计与架构</field>
+        </record>
+        <record id="crm.crm_case_22" model="crm.lead">
+            <field name="name">5张老板椅</field>
+        </record>
+        <record id="crm.crm_case_23" model="crm.lead">
+            <field name="name">访问在线产品目录</field>
+        </record>
+        <record id="crm.crm_case_24" model="crm.lead">
+            <field name="name">需要20张桌子</field>
+        </record>
+        <record id="crm.crm_case_25" model="crm.lead">
+            <field name="name">现代开放空间</field>
+        </record>
+        <record id="crm.crm_case_26" model="crm.lead">
+            <field name="name">开放空间设计</field>
+        </record>
+        <record id="crm.crm_case_27" model="crm.lead">
+            <field name="name">对产品感兴趣</field>
+        </record>
+        <record id="crm.crm_case_28" model="crm.lead">
+            <field name="name">提供一间60平米的办公室</field>
+        </record>
+        <record id="crm.crm_case_29" model="crm.lead">
+            <field name="name">俱乐部办公室需要更多办公桌</field>
+        </record>
+        <record id="crm.crm_case_30" model="crm.lead">
+            <field name="name">Acadia College 家具</field>
+        </record>
+        <record id="crm.crm_case_31" model="crm.lead">
+            <field name="name">150块地毯报价</field>
+        </record>
+        <record id="crm.crm_case_32" model="crm.lead">
+            <field name="name">600把椅子报价</field>
+        </record>
+
+        <record id="crm.activity_1" model="mail.activity">
+            <field name="summary">开会讨论定价信息。</field>
+        </record>
+        <record id="crm.activity_2" model="mail.activity">
+            <field name="summary">通过电子邮件发送产品目录</field>
+        </record>
+        <record id="crm.activity_3" model="mail.activity">
+            <field name="summary">打电话获取系统需求</field>
+        </record>
+        <record id="crm.activity_4" model="mail.activity">
+            <field name="summary">转为报价</field>
+        </record>
+        <record id="crm.activity_5" model="mail.activity">
+            <field name="summary">发送服务价格表</field>
+        </record>
+        <record id="crm.activity_6" model="mail.activity">
+            <field name="summary">打电话了解培训需求</field>
+        </record>
+        <record id="crm.activity_7" model="mail.activity">
+            <field name="summary">跟进方案建议</field>
+        </record>
+        <record id="crm.activity_13" model="mail.activity">
+            <field name="summary">与技术服务部进行电话会议</field>
+        </record>
+        <record id="crm.activity_14" model="mail.activity">
+            <field name="summary">通过电子邮件发送产品目录</field>
+        </record>
+    </data>
+</odoo>

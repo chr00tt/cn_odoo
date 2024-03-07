@@ -9,6 +9,9 @@
     'depends': [
         'crm',
     ],
+    'demo': [
+        'data/crm_lead_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
