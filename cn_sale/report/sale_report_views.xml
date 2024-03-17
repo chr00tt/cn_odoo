@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--翻译-->
+    <record id="view_order_product_search" model="ir.ui.view">
+        <field name="model">sale.report</field>
+        <field name="inherit_id" ref="stock.view_order_product_search"/>
+        <field name="arch" type="xml">
+            <filter name="filter_order_date" position="attributes">
+                <attribute name="string">订单日期：最近365天</attribute>
+            </filter>
+        </field>
+    </record>
+</odoo>

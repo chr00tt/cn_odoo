@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <!-- 翻译 -->
+        <record id="sale.email_template_edi_sale" model="mail.template">
+            <field name="name">销售订单：通过Email发送</field>
+        </record>
+        <record id="sale.mail_template_sale_confirmation" model="mail.template">
+            <field name="name">销售订单：确认Email</field>
+        </record>
+</odoo>

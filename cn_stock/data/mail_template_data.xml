@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 翻译 -->
+    <record id="stock.mail_template_data_delivery_confirmation" model="mail.template">
+        <field name="name">交付：通过Email发送</field>
+    </record>
+</odoo>
