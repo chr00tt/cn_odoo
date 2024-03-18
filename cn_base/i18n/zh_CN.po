@@ -1,0 +1,5 @@
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_cron_trigger_action
+#: model:ir.ui.menu,name:base.ir_cron_trigger_menu
+msgid "Scheduled Actions Triggers"
+msgstr "安排的动作触发"
