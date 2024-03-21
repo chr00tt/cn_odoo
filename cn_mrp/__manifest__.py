@@ -8,6 +8,9 @@
     'category': 'Manufacturing/Manufacturing',
     'author': 'He Jian',
     'depends': ['mrp'],
+    'demo': [
+        'data/mrp_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
