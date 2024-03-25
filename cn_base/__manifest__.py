@@ -6,6 +6,7 @@
     'name': 'cn Base',
     'author': "He Jian",
     'category': 'Hidden',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['base'],
     'installable': True,
     'auto_install': True,

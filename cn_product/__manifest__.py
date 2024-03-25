@@ -6,6 +6,7 @@
     'version': '1.2',
     'author': "He Jian",
     'category': 'Sales/Sales',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['product'],
     'data': [
         'data/product_data.xml',

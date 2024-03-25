@@ -6,6 +6,7 @@
     'version': '1.1',
     'author': "He Jian",
     'category': 'Human Resources/Employees',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': [
         'hr',
     ],

@@ -5,6 +5,7 @@
     'name': '中国 库存',
     'author': "He Jian",
     'category': 'Inventory/Inventory',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['stock'],
     'data': [
         'data/stock_data.xml',

@@ -5,6 +5,7 @@
     'version' : '1.2',
     'author': "He Jian",
     'category': 'Accounting/Accounting',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends' : ['account'],
     'installable': True,
     'auto_install': True,

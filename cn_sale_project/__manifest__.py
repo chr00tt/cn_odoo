@@ -4,6 +4,7 @@
     'name': "cn Sales - Project",
     'author': "He Jian",
     'category': 'Hidden',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['sale_project'],
     'auto_install': True,
     'license': 'LGPL-3',

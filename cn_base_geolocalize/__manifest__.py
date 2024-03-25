@@ -4,6 +4,7 @@
     'name': 'cn Partners Geolocation',
     'author': "He Jian",
     'category': 'Hidden/Tools',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['base_geolocalize'],
     'installable': True,
     'auto_install': True,

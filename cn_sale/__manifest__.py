@@ -3,8 +3,9 @@
 
 {
     'name': '中国 销售',
-    'category': 'Sales/Sales',
     "author": "He Jian",
+    'category': 'Sales/Sales',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['sale'],
     'data': [
         'data/mail_data.xml',

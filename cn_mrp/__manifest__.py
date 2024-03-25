@@ -3,15 +3,13 @@
 
 
 {
-    'name': 'cn CRM',
+    'name': 'cn Manufacturing',
     'author': "He Jian",
-    'category': 'Sales/CRM',
+    'category': 'Manufacturing/Manufacturing',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': [
-        'crm',
-    ],
+    'depends': ['mrp'],
     'demo': [
-        'data/crm_lead_demo.xml',
+        'data/mrp_demo.xml',
     ],
     'installable': True,
     'auto_install': True,
