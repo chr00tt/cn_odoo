@@ -1,0 +1,13 @@
+#. module: account
+#: code:addons/account/models/account_bank_statement.py:256
+#: model:ir.actions.act_window,name:account.action_move_journal_line
+#: model:ir.actions.act_window,name:account.action_move_select
+#: model:ir.model,name:account.model_account_move
+#: model:ir.ui.menu,name:account.menu_action_move_journal_line_form
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
+#: model_terms:ir.ui.view,arch_db:account.view_bank_statement_form
+#: model_terms:ir.ui.view,arch_db:account.view_move_tree
+#, python-format
+msgid "Journal Entries"
+msgstr "日记帐分录"
