@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+
 {
-    'name': 'cn Inventory',
-    'website': 'https://www.odoo.com/app/manufacturing',
+    'name': 'cn Manufacturing',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': "He Jian",
-    'category': 'Inventory/Inventory',
-    'depends': ['stock'],
-    'installable': True,
+    'category': 'Manufacturing/Manufacturing',
+    'depends': ['mrp'],
     'auto_install': True,
     'license': 'LGPL-3',
 }

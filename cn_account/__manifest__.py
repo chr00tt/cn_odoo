@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name' : 'cn Invoicing',
-    'version' : '1.2',
+    'website': 'https://www.odoo.com/app/manufacturing',
     'author': "He Jian",
     'category': 'Accounting/Accounting',
     'depends' : ['account'],
