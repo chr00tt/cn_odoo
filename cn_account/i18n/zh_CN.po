@@ -1,0 +1,6 @@
+#. module: account
+#. openerp-web
+#: model:ir.model.fields,field_description:account.field_account_move_line__name
+#, python-format
+msgid "Label"
+msgstr "摘要"

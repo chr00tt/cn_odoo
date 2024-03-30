@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="mrp.product_product_computer_desk" model="product.product">
+            <field name="name">桌子</field>
+        </record>
+        <record id="mrp.product_product_wood_ply" model="product.product">
+            <field name="name">胶合板</field>
+        </record>
+        <record id="mrp.product_product_wood_wear" model="product.product">
+            <field name="name">耐磨层</field>
+        </record>
+    </data>
+</odoo>
