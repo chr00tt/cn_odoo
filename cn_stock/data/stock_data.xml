@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="stock.stock_location_locations" model="stock.location">
+            <field name="name">物理位置</field>
+        </record>
+        <record id="stock.stock_location_locations_partner" model="stock.location">
+            <field name="name">伙伴</field>
+        </record>
+        <record id="stock.stock_location_locations_virtual" model="stock.location">
+            <field name="name">虚拟位置</field>
+        </record>
+
+        <record id="stock.stock_location_suppliers" model="stock.location">
+            <field name="name">供应商</field>
+        </record>
+        <record id="stock.stock_location_customers" model="stock.location">
+            <field name="name">客户</field>
+        </record>
+    </data>
+</odoo>

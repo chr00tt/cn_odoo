@@ -7,6 +7,9 @@
     'author': "He Jian",
     'category': 'Inventory/Inventory',
     'depends': ['stock'],
+    'data': [
+        'data/stock_data.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
