@@ -4,11 +4,26 @@
         <record id="mrp.product_product_computer_desk" model="product.product">
             <field name="name">桌子</field>
         </record>
+        <record id="mrp.product_product_computer_desk_head" model="product.product">
+            <field name="name">桌面</field>
+        </record>
+        <record id="mrp.product_product_computer_desk_leg" model="product.product">
+            <field name="name">桌腿</field>
+        </record>
+        <record id="mrp.product_product_computer_desk_bolt" model="product.product">
+            <field name="name">螺栓</field>
+        </record>
+        <record id="mrp.product_product_computer_desk_screw" model="product.product">
+            <field name="name">螺钉</field>
+        </record>
         <record id="mrp.product_product_wood_ply" model="product.product">
             <field name="name">胶合板</field>
         </record>
         <record id="mrp.product_product_wood_wear" model="product.product">
             <field name="name">耐磨层</field>
+        </record>
+        <record id="mrp.product_product_wood_panel" model="product.product">
+            <field name="name">木板</field>
         </record>
     </data>
 </odoo>
