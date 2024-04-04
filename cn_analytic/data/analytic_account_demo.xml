@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Analytic Plans -->
+        <record id="analytic.analytic_plan_projects" model="account.analytic.plan">
+            <field name="name">项目</field>
+        </record>
+        <record id="analytic.analytic_plan_departments" model="account.analytic.plan">
+            <field name="name">部门</field>
+        </record>
+    </data>
+</odoo>

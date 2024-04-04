@@ -3,7 +3,7 @@
 
 {
     'name': 'cn Inventory',
-    'website': 'https://www.odoo.com/app/manufacturing',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': "He Jian",
     'category': 'Inventory/Inventory',
     'depends': ['stock'],
