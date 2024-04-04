@@ -1,0 +1,4 @@
+#. module: account_budget
+#: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_percentage
+msgid "Achievement"
+msgstr "完成"
