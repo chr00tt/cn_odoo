@@ -9,3 +9,12 @@ msgstr "会计包"
 #, python-format
 msgid "Label"
 msgstr "摘要"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__name
+#: model:ir.model.fields,field_description:account.field_account_full_reconcile__name
+#: model:ir.model.fields,field_description:account.field_account_move__name
+#: model:ir.model.fields,field_description:account.field_account_move_line__move_name
+#: model:ir.model.fields,field_description:account.field_account_payment__name
+msgid "Number"
+msgstr "编号"
