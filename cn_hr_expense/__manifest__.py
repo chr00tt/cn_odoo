@@ -8,6 +8,7 @@
     'author': "He Jian",
     'category': 'Human Resources/Expenses',
     'depends': ['hr_expense'],
+    'demo': ['data/hr_expense_demo.xml'],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
