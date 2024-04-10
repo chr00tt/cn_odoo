@@ -1,0 +1,4 @@
+#. module: delivery
+#: model:ir.model.fields,field_description:delivery.field_product_packaging_shipper_package_code
+msgid "Package Code"
+msgstr "包裹代码"
