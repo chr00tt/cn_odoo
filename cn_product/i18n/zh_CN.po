@@ -1,0 +1,4 @@
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_packaging_qty
+msgid "Quantity per Package"
+msgstr "包裹容量"
