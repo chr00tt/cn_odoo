@@ -6,4 +6,4 @@ msgstr "包裹代码"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier_margin
 msgid "Margin"
-msgstr "毛利"
+msgstr "利润率"
