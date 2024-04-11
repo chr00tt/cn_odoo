@@ -6,3 +6,8 @@
 #, python-format
 msgid "Receipts"
 msgstr "收货"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.action_report_delivery
+msgid "Delivery Slip"
+msgstr "送货单"
