@@ -1,0 +1,48 @@
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__salvage_type
+msgid "Salvage Type"
+msgstr "残值类型"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__asset_product_item
+msgid "Create an asset by product item"
+msgstr "按产品项创建资产"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__account_plus_value_id
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_remove__account_plus_value_id
+msgid "Plus-Value Account"
+msgstr "增值科目"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__account_min_value_id
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_remove__account_min_value_id
+msgid "Min-Value Account"
+msgstr "减值科目"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__account_residual_value_id
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_remove__account_residual_value_id
+msgid "Residual Value Account"
+msgstr "残值科目"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__allow_reversal
+msgid "Allow Reversal of journal entries"
+msgstr "允许冲销日记账分录"
+
+#. module: account_asset_management
+#. odoo-python
+#: code:addons/account_asset_management/models/account_asset_profile.py:0
+#, python-format
+msgid "Number of Years or end date"
+msgstr "年数或结束日期"
+
+#. module: account_asset_management
+#. odoo-python
+#: code:addons/account_asset_management/report/account_asset_report_xls.py:0
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset__method_number
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_profile__method_number
+#, python-format
+msgid "Number of Years"
+msgstr "年数"
