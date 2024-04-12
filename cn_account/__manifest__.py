@@ -11,6 +11,9 @@
         'data/account.account.template.csv',
         'data/cn_account_post.xml',
     ],
+    'demo': [
+        'data/cn_account_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
