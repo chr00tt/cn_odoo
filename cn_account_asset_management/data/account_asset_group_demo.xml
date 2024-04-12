@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
+        <record id="account_asset_group_houses_and_buildings" model="account.asset.group">
+            <field name="name">房屋及建筑物</field>
+        </record>
+        <record id="account_asset_group_machinery_equipment" model="account.asset.group">
+            <field name="name">机器设备</field>
+        </record>
+        <record id="account_asset_group_vehicles" model="account.asset.group">
+            <field name="name">运输工具</field>
+        </record>
+
         <record id="account_asset_group_production_facility" model="account.asset.group">
             <field name="name">生产设备</field>
+            <field name="parent_id" ref="account_asset_group_machinery_equipment"/>
+        </record>
+        <record id="account_asset_group_office_facility" model="account.asset.group">
+            <field name="name">办公设备</field>
+            <field name="parent_id" ref="account_asset_group_machinery_equipment"/>
+        </record>
+
+        <record id="account_asset_group_car" model="account.asset.group">
+            <field name="name">汽车</field>
+            <field name="parent_id" ref="account_asset_group_vehicles"/>
+        </record>
+        <record id="account_asset_group_truck" model="account.asset.group">
+            <field name="name">卡车</field>
+            <field name="parent_id" ref="account_asset_group_vehicles"/>
         </record>
     </data>
 </odoo>
