@@ -46,3 +46,23 @@ msgstr "年数或结束日期"
 #, python-format
 msgid "Number of Years"
 msgstr "年数"
+
+#. module: account_asset_management
+#: model:ir.model.fields.selection,name:account_asset_management.selection__account_asset_line__type__depreciate
+msgid "Depreciation"
+msgstr "折旧"
+
+#. module: account_asset_management
+#: model:ir.model.fields,field_description:account_asset_management.field_account_asset_line__line_days
+msgid "Days"
+msgstr "天数"
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
+msgid "Init"
+msgstr "初始化"
+
+#. module: account_asset_management
+#: model_terms:ir.ui.view,arch_db:account_asset_management.account_asset_view_form
+msgid "View Move"
+msgstr "查看凭证"
