@@ -15,5 +15,75 @@
             <field name="favorite_user_ids" eval="[(4, ref('base.user_admin'))]"/>
             <field name="analytic_account_id" ref="analytic_project_1"/>
         </record>
+
+        <!-- Tasks -->
+        <record id="project_task_1" model="project.task">
+            <field name="planned_hours" eval="200.0"/>
+            <field name="user_id" ref="base.user_demo"/>
+            <field name="priority">0</field>
+            <field name="project_id" ref="project_project_1"/>
+            <field name="name">1.储罐设计</field>
+            <field name="stage_id" ref="project.project_stage_1"/>
+            <field name="color">3</field>
+        </record>
+        <record id="project_task_2" model="project.task">
+            <field name="planned_hours" eval="100.0"/>
+            <field name="user_id" ref="base.user_demo"/>
+            <field name="priority">0</field>
+            <field name="project_id" ref="project_project_1"/>
+            <field name="name">2.储罐制造</field>
+            <field name="stage_id" ref="project.project_stage_0"/>
+        </record>
+        <record id="project_task_3" model="project.task">
+            <field name="planned_hours" eval="16.0"/>
+            <field name="user_id" ref="base.user_demo"/>
+            <field name="priority">0</field>
+            <field name="project_id" ref="project_project_1"/>
+            <field name="name">3.储罐检测</field>
+            <field name="stage_id" ref="project.project_stage_0"/>
+            <field name="color">4</field>
+        </record>
+        <record id="project_task_4" model="project.task">
+            <field name="planned_hours" eval="16.0"/>
+            <field name="user_id" ref="base.user_demo"/>
+            <field name="priority">0</field>
+            <field name="project_id" ref="project_project_1"/>
+            <field name="name">4.防腐涂层</field>
+            <field name="stage_id" ref="project.project_stage_0"/>
+            <field name="color">5</field>
+        </record>
+        <record id="project_task_5" model="project.task">
+            <field name="planned_hours" eval="16.0"/>
+            <field name="user_id" ref="base.user_demo"/>
+            <field name="priority">0</field>
+            <field name="project_id" ref="project_project_1"/>
+            <field name="name">5.储罐包装</field>
+            <field name="stage_id" ref="project.project_stage_0"/>
+            <field name="color">6</field>
+        </record>
+        <record id="project_task_6" model="project.task">
+            <field name="planned_hours" eval="16.0"/>
+            <field name="user_id" ref="base.user_demo"/>
+            <field name="priority">0</field>
+            <field name="project_id" ref="project_project_1"/>
+            <field name="name">6.储罐运输</field>
+            <field name="stage_id" ref="project.project_stage_0"/>
+        </record>
+        <record id="project_task_7" model="project.task">
+            <field name="planned_hours" eval="16.0"/>
+            <field name="user_id" ref="base.user_demo"/>
+            <field name="priority">0</field>
+            <field name="project_id" ref="project_project_1"/>
+            <field name="name">7.现场安装</field>
+            <field name="stage_id" ref="project.project_stage_0"/>
+        </record>
+        <record id="project_task_8" model="project.task">
+            <field name="planned_hours" eval="16.0"/>
+            <field name="user_id" ref="base.user_demo"/>
+            <field name="priority">0</field>
+            <field name="project_id" ref="project_project_1"/>
+            <field name="name">8.高压气源调试</field>
+            <field name="stage_id" ref="project.project_stage_0"/>
+        </record>
     </data>
 </odoo>
