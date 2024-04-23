@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 加载会计包 -->
+    <function model="account.chart.template" name="try_loading">
+        <value eval="[ref('cn_account.cn_chart_template')]"/>
+        <value model="res.company" eval="obj().env.ref('base.main_company')"/>
+    </function>
+
+    <!-- 设置会计权限 -->
+    <record id="account.group_account_user" model="res.groups">
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+    </record>
+
+    <!-- 开启分析会计 -->
+    <record model="res.groups" id="base.group_user">
+        <field name="implied_ids" eval="[Command.link(ref('analytic.group_analytic_accounting'))]"/>
+    </record>
+</odoo>
