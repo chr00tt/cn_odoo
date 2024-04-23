@@ -11,7 +11,7 @@
             <field name="can_be_expensed" eval="True"/>
             <field name="sale_ok" eval="False"/>
             <field name="purchase_ok" eval="False"/>
-            <field name="property_account_expense_id" ref="account_660205"/>
+            <field name="property_account_expense_id" ref="cn_account.account_660205"/>
         </record>
     </data>
 </odoo>
