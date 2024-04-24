@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <!-- 开启分析会计 -->
+        <record model="res.groups" id="base.group_user">
+            <field name="implied_ids" eval="[(4, ref('analytic.group_analytic_accounting'))]"/>
+        </record>
+    </data>
+</openerp>
