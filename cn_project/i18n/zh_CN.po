@@ -1,0 +1,11 @@
+#. module: project
+#: model_terms:ir.ui.view,arch_db:project.edit_project
+msgid "<span class=\"o_stat_text\">Gross Margin</span>"
+msgstr "<span class=\"o_stat_text\">毛利</span>"
+
+#. module: project
+#: code:addons/project/models/project.py:0
+#: code:addons/project/models/project.py:0
+#, python-format
+msgid "Gross Margin"
+msgstr "毛利"
