@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="res.partner" id="base.partner_admin">
+            <field name="name">何键</field>
+            <field name="company_name">你的公司</field>
+            <field name="street">江北区圣人路鲁能星城十二街区</field>
+            <field name="city">重庆</field>
+            <field name="zip">400025</field>
+            <field name='country_id' ref='base.cn'/>
+            <field name='state_id' ref='base.state_cn_CQ'/>
+            <field name="phone">+86 1234-5678-1234</field>
+        </record>
+    </data>
+</odoo>

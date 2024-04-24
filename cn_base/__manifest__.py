@@ -12,6 +12,9 @@
         'data/res_partner_data.xml',
         'data/res_company_data.xml',
     ],
+    'demo': [
+        'data/res_users_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
