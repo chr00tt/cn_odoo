@@ -7,6 +7,9 @@
     'category': 'Inventory/Inventory',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['stock'],
+    'demo': [
+        'data/stock_demo.xml',
+    ],
     'data': [
         'data/stock_data.xml',
         'data/mail_template_data.xml',
