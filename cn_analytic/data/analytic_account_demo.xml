@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Analytic Groups -->
+        <record id="analytic.analytic_group_projects" model="account.analytic.group">
+            <field name="name">项目</field>
+        </record>
+        <record id="analytic.analytic_group_departments" model="account.analytic.group">
+            <field name="name">部门</field>
+        </record>
+        <!-- Analytic Accounts -->
+        <record id="analytic.analytic_administratif" model="account.analytic.account">
+            <field name="name">行政</field>
+        </record>
+        <record id="analytic.analytic_commercial_marketing" model="account.analytic.account">
+            <field name="name">市场</field>
+        </record>
+        <record id="analytic.analytic_rd_department" model="account.analytic.account">
+            <field name="name">研发</field>
+        </record>
+    </data>
+</odoo>
