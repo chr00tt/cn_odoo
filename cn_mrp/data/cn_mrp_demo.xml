@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- 开启工单 -->
+        <record model="res.groups" id="base.group_user">
+            <field name="implied_ids" eval="[Command.link(ref('mrp.group_mrp_routings'))]"/>
+        </record>
+    </data>
+</odoo>
