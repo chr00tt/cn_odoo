@@ -7,6 +7,9 @@
     'author': "He Jian",
     'category': 'Inventory/Inventory',
     'depends': ['stock'],
+    'demo': [
+        'data/stock_demo.xml',
+    ],
     'data': [
         'data/stock_data.xml',
     ],
