@@ -10,6 +10,7 @@
     'depends': ['mrp'],
     'demo': [
         'data/mrp_demo.xml',
+        'data/cn_mrp_demo.xml',
     ],
     'installable': True,
     'auto_install': True,
