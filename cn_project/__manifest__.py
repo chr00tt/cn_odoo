@@ -10,6 +10,7 @@
         'project',
     ],
     'demo': [
+        'data/cn_project_demo.xml',
         'data/project_demo.xml',
         'data/project.project.csv',
         'data/project.task.csv',
