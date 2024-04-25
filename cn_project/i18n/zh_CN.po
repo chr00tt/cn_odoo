@@ -1,0 +1,8 @@
+#. module: project
+#. odoo-python
+#: code:addons/project/controllers/portal.py:0
+#: model:ir.model.fields,field_description:project.field_project_task__name
+#: model:ir.model.fields,field_description:project.field_project_update__name
+#, python-format
+msgid "Title"
+msgstr "标题"

@@ -9,7 +9,11 @@
     'depends': [
         'project',
     ],
-    'demo': ['data/project_demo.xml'],
+    'demo': [
+        'data/project_demo.xml',
+        'data/project.project.csv',
+        'data/project.task.csv',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
