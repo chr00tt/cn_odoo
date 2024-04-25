@@ -1,2 +1,2 @@
-"id","name"
-"project_computing_infrastructure","算力基础设施高质量发展行动计划"
+"id","name","type_ids/id"
+"project_computing_infrastructure","算力基础设施高质量发展行动计划","project.project_stage_0,project.project_stage_1,project.project_stage_2,project.project_stage_3"
