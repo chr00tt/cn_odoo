@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
+        <record id="project.analytic_renovations" model="account.analytic.account">
+            <field name="name">长兴县天逸湾幼儿园装修工程</field>
+        </record>
+
+        <record id="project.project_project_3" model="project.project">
+            <field name="name">长兴县天逸湾幼儿园装修工程</field>
+        </record>
+
         <record id="analytic_project_1" model="account.analytic.account">
             <field name="name">高压储罐研制</field>
             <field name="partner_id" ref="base.partner_demo_portal"/>
