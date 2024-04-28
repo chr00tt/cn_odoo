@@ -7,6 +7,7 @@
     'category': 'Accounting/Accounting',
     'depends' : ['account'],
     'data': [
+        'data/account_data.xml',
         'data/cn_account.xml',
         'data/account.account.tag.csv',
         'data/account.account.template.csv',
