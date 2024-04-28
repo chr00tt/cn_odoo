@@ -18,3 +18,8 @@ msgstr "摘要"
 #: model:ir.model.fields,field_description:account.field_account_payment__name
 msgid "Number"
 msgstr "编号"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Post Exchange difference entries in:</span>"
+msgstr "<span class=\"o_form_label\">在以下发布汇兑差额分录：</span>"
