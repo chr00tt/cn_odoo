@@ -65,7 +65,7 @@
                         <field name="domain_formula">-sum([('debit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_operating_product'))])</field>
                     </record>
                     <record id="report_cashflow_oper_employee" model="account.report.line">
-                        <field name="name">购买商品、接受劳务支付的现金</field>
+                        <field name="name">支付给职工以及为职工支付的现金</field>
                         <field name="code">OPER_EMPL</field>
                         <field name="groupby">account_id</field>
                         <field name="foldable" eval="True"/>

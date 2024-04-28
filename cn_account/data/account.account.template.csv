@@ -86,7 +86,7 @@
 "account_22210102","已交税金","22210102","liability_current","cn_chart_template","","False"
 "account_22210103","转出未交增值税","22210103","liability_current","cn_chart_template","","False"
 "account_22210104","减免税款","22210104","liability_current","cn_chart_template","","False"
-"account_22210105","销项税额","22210105","liability_current","cn_chart_template","","False"
+"account_22210105","销项税额","22210105","liability_current","cn_chart_template","account.account_tag_operating,cn_account.account_tag_operating_taxrefund","False"
 "account_22210106","出口退税","22210106","liability_current","cn_chart_template","","False"
 "account_22210107","进项税额转出","22210107","liability_current","cn_chart_template","","False"
 "account_22210108","出口抵减内销产品应纳税额","22210108","liability_current","cn_chart_template","","False"
