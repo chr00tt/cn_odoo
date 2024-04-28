@@ -118,7 +118,7 @@
                     <record id="report_cashflow_investing_balance" model="account.report.expression">
                         <field name="label">balance</field>
                         <field name="engine">aggregation</field>
-                        <field name="formula">OPER_NET.balance</field>
+                        <field name="formula">INVE_NET.balance</field>
                         <field name="date_scope">normal</field>
                     </record>
                 </field>
@@ -129,6 +129,98 @@
                         <field name="groupby">account_id</field>
                         <field name="foldable" eval="True"/>
                         <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_invest'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_income" model="account.report.line">
+                        <field name="name">取得投资收益收到的现金</field>
+                        <field name="code">INVE_INCO</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_income'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_asset" model="account.report.line">
+                        <field name="name">处置固定资产、无形资产和其他长期资产收回的现金净额</field>
+                        <field name="code">INVE_ASSE</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_asset'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_subsidiary" model="account.report.line">
+                        <field name="name">处置子公司及其他营业单位收到的现金净额</field>
+                        <field name="code">INVE_SUBS</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_subsidiary'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_otherin" model="account.report.line">
+                        <field name="name">收到其他与投资活动有关的现金</field>
+                        <field name="code">INVE_OTIN</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_other'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_in" model="account.report.line">
+                        <field name="name">　投资活动现金流入小计</field>
+                        <field name="code">INVE_IN</field>
+                        <field name="expression_ids">
+                            <record id="report_cashflow_inve_in_balance" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">aggregation</field>
+                                <field name="formula">INVE_ININ.balance + INVE_INCO.balance + INVE_ASSE.balance + INVE_SUBS.balance + INVE_OTIN.balance</field>
+                                <field name="date_scope">normal</field>
+                            </record>
+                        </field>
+                    </record>
+                    <record id="report_cashflow_inve_asset_out" model="account.report.line">
+                        <field name="name">购建固定资产、无形资产和其他长期资产支付的现金</field>
+                        <field name="code">INVE_ASOU</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('debit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_asset'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_inout" model="account.report.line">
+                        <field name="name">投资支付的现金</field>
+                        <field name="code">INVE_INOU</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('debit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_invest'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_subsidiary_out" model="account.report.line">
+                        <field name="name">取得子公司及其他营业单位支付的现金净额</field>
+                        <field name="code">INVE_SUOU</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('debit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_subsidiary'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_otherout" model="account.report.line">
+                        <field name="name">支付其他与投资活动有关的现金</field>
+                        <field name="code">INVE_OTOU</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_investing_other'))])</field>
+                    </record>
+                    <record id="report_cashflow_inve_out" model="account.report.line">
+                        <field name="name">　投资活动现金流出小计</field>
+                        <field name="code">INVE_OUT</field>
+                        <field name="expression_ids">
+                            <record id="report_cashflow_inve_out_balance" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">aggregation</field>
+                                <field name="formula">INVE_ASOU.balance + INVE_INOU.balance + INVE_SUOU.balance + INVE_OTOU.balance</field>
+                                <field name="date_scope">normal</field>
+                            </record>
+                        </field>
+                    </record>
+                    <record id="report_cashflow_inve_net" model="account.report.line">
+                        <field name="name">　　投资活动产生的现金流量净额</field>
+                        <field name="code">INVE_NET</field>
+                        <field name="expression_ids">
+                            <record id="report_cashflow_inve_net_balance" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">aggregation</field>
+                                <field name="formula">INVE_IN.balance - INVE_OUT.balance</field>
+                                <field name="date_scope">normal</field>
+                            </record>
+                        </field>
                     </record>
                 </field>
             </record>
