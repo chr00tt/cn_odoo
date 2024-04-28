@@ -3,9 +3,9 @@
 
 {
     'name': 'cn Project',
-    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': "He Jian",
     'category': 'Services/Project',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': [
         'project',
     ],
