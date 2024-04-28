@@ -19,7 +19,7 @@
                     <record id="report_cashflow_operating_balance" model="account.report.expression">
                         <field name="label">balance</field>
                         <field name="engine">aggregation</field>
-                        <field name="formula">OPER_SALE.balance + OPER_TAXR.balance</field>
+                        <field name="formula">OPER_IN.balance</field>
                         <field name="date_scope">normal</field>
                     </record>
                 </field>
@@ -38,12 +38,24 @@
                         <field name="foldable" eval="True"/>
                         <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_operating_taxrefund'))])</field>
                     </record>
-                    <record id="report_cashflow_oper_taxrefund" model="account.report.line">
+                    <record id="report_cashflow_oper_other" model="account.report.line">
                         <field name="name">收到其他与经营活动有关的现金</field>
                         <field name="code">OPER_OTIN</field>
                         <field name="groupby">account_id</field>
                         <field name="foldable" eval="True"/>
-                        <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_operating_taxrefund'))])</field>
+                        <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_operating_other'))])</field>
+                    </record>
+                    <record id="report_cashflow_oper_in" model="account.report.line">
+                        <field name="name">　经营活动现金流入小计</field>
+                        <field name="code">OPER_IN</field>
+                        <field name="expression_ids">
+                            <record id="report_cashflow_oper_in_balance" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">aggregation</field>
+                                <field name="formula">OPER_SALE.balance + OPER_TAXR.balance + OPER_OTIN.balance</field>
+                                <field name="date_scope">normal</field>
+                            </record>
+                        </field>
                     </record>
                 </field>
             </record>

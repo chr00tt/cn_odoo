@@ -171,7 +171,7 @@
 "account_6542","分保费用","6542","expense","cn_chart_template","","False"
 "account_6601","销售费用","6601","expense","cn_chart_template","","False"
 "account_6602","管理费用","6602","expense","cn_chart_template","","False"
-"account_6603","财务费用","6603","expense","cn_chart_template","","False"
+"account_6603","财务费用","6603","expense","cn_chart_template","account.account_tag_financing","False"
 "account_6604","勘探费用","6604","expense","cn_chart_template","","False"
 "account_6701","资产减值损失","6701","expense","cn_chart_template","","False"
 "account_6711","营业外支出","6711","expense","cn_chart_template","","False"

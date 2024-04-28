@@ -15,7 +15,7 @@
     ],
     'demo': [
         'data/cn_account_demo.xml',
-        'data/account_account_demo.xml',
+        'demo/account.account.csv',
     ],
     'installable': True,
     'auto_install': True,

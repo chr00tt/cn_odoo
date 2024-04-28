@@ -1,6 +1,5 @@
 "id","name","applicability"
 "account_tag_operating_product","商品、劳务","accounts"
 "account_tag_operating_taxrefund","税费和返还","accounts"
-"account_tag_operating_otherin","收到其他与经营活动有关的现金","accounts"
+"account_tag_operating_other","其他与经营活动有关的现金","accounts"
 "account_tag_operating_employee","支付给职工以及为职工支付的现金","accounts"
-"account_tag_operating_otherout","支付其他与经营活动有关的现金","accounts"
