@@ -104,7 +104,7 @@
                             <record id="report_cashflow_oper_net_balance" model="account.report.expression">
                                 <field name="label">balance</field>
                                 <field name="engine">aggregation</field>
-                                <field name="formula">OPER_IN.balance - OPER_OUT.balance</field>
+                                <field name="formula">OPER_IN.balance + OPER_OUT.balance</field>
                                 <field name="date_scope">normal</field>
                             </record>
                         </field>
@@ -217,7 +217,7 @@
                             <record id="report_cashflow_inve_net_balance" model="account.report.expression">
                                 <field name="label">balance</field>
                                 <field name="engine">aggregation</field>
-                                <field name="formula">INVE_IN.balance - INVE_OUT.balance</field>
+                                <field name="formula">INVE_IN.balance + INVE_OUT.balance</field>
                                 <field name="date_scope">normal</field>
                             </record>
                         </field>
