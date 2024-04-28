@@ -3,18 +3,35 @@
     <record id="cash_flow_report" model="account.report">
         <field name="name">现金流量表</field>
         <field name="root_report_id" ref="account_reports.cash_flow_report"/>
-        <field name="filter_unfold_all" eval="True"/>
-        <field name="filter_date_range" eval="True"/>
-        <field name="filter_journals" eval="True"/>
-        <field name="filter_period_comparison" eval="False"/>
         <field name="country_id" ref="base.cn"/>
         <field name="filter_multi_company">selector</field>
-        <field name="custom_handler_model_id" ref="model_account_cash_flow_report_handler"/>
         <field name="column_ids">
             <record id="cash_flow_report_balance" model="account.report.column">
                 <field name="name">余额</field>
                 <field name="expression_label">balance</field>
-                <field name="figure_type">monetary</field>
+            </record>
+        </field>
+        <field name="line_ids">
+            <record id="report_cashflow_operating" model="account.report.line">
+                <field name="name">一、经营活动产生的现金流量：</field>
+                <field name="code">OPER</field>
+                <field name="expression_ids">
+                    <record id="report_cashflow_operating_balance" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">aggregation</field>
+                        <field name="formula">OPER_SALE.balance</field>
+                        <field name="date_scope">normal</field>
+                    </record>
+                </field>
+                <field name="children_ids">
+                    <record id="report_cashflow_oper_sale" model="account.report.line">
+                        <field name="name">销售商品、提供劳务收到的现金</field>
+                        <field name="code">OPER_SALE</field>
+                        <field name="groupby">account_id</field>
+                        <field name="foldable" eval="True"/>
+                        <field name="domain_formula">-sum([('credit', '&gt;', 0.0), ('account_id.tag_ids', '=', ref('cn_account.account_tag_operating_sale')),('journal_id.type','in',('bank','cash'))])</field>
+                    </record>
+                </field>
             </record>
         </field>
     </record>

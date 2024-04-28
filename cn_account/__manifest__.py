@@ -8,6 +8,7 @@
     'depends' : ['account'],
     'data': [
         'data/cn_account.xml',
+        'data/account.account.tag.csv',
         'data/account.account.template.csv',
         'data/cn_account_post.xml',
     ],

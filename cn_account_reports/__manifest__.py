@@ -10,6 +10,7 @@
         'cn_account',
     ],
     'data': [
+        'data/cash_flow_report.xml',
         'data/profit_and_loss.xml',
     ],
     'auto_install': True,
