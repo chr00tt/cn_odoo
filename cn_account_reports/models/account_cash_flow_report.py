@@ -41,6 +41,26 @@ class CashFlowReportCustomHandler(models.AbstractModel):
 
         return report_data
 
+    def _add_report_data(self, layout_line_id, aml_data, layout_data, report_data):
+        super(CashFlowReportCustomHandler, self)._add_report_data(layout_line_id, aml_data, layout_data, report_data)
+
+        aml_column_group_key = aml_data['column_group_key']
+        aml_balance = aml_data['balance']
+        if layout_line_id in ['advance_payments_customer', 'tax_in', 'received_operating_activities']:
+            report_data.setdefault('operating_in', {'balance': {}})
+            report_data['operating_in']['balance'].setdefault(aml_column_group_key, 0.0)
+            report_data['operating_in']['balance'][aml_column_group_key] += aml_balance
+            report_data.setdefault('operating_net', {'balance': {}})
+            report_data['operating_net']['balance'].setdefault(aml_column_group_key, 0.0)
+            report_data['operating_net']['balance'][aml_column_group_key] += aml_balance
+        elif layout_line_id in['advance_payments_suppliers', 'employee', 'tax_out', 'paid_operating_activities']:
+            report_data.setdefault('operating_out', {'balance': {}})
+            report_data['operating_out']['balance'].setdefault(aml_column_group_key, 0.0)
+            report_data['operating_out']['balance'][aml_column_group_key] += aml_balance
+            report_data.setdefault('operating_net', {'balance': {}})
+            report_data['operating_net']['balance'].setdefault(aml_column_group_key, 0.0)
+            report_data['operating_net']['balance'][aml_column_group_key] += aml_balance
+
     def _dispatch_aml_data(self, tags_ids, aml_data, layout_data, report_data):
         # Dispatch the aml_data in the correct layout_line
         if aml_data['account_account_type'] == 'asset_receivable':
