@@ -5,6 +5,9 @@
     'category': 'Invoicing Management',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends' : ['account'],
+    'demo': [
+        'data/cn_account_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
