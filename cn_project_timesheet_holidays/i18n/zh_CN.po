@@ -1,0 +1,9 @@
+#. module: project_timesheet_holidays
+#: model:ir.model.fields,field_description:project_timesheet_holidays.field_hr_holidays_status_timesheet_generate
+msgid "Generate Timesheet"
+msgstr "生成工时单"
+
+#. module: project_timesheet_holidays
+#: model:ir.model.fields,field_description:project_timesheet_holidays.field_hr_holidays_status_timesheet_task_id
+msgid "Internal Task for timesheet"
+msgstr "工时单的内部任务"
