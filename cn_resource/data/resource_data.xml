@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<data>
+
+    <record id="resource.resource_calendar_std" model="resource.calendar">
+        <field name="name">标准5天/8小时制</field>
+    </record>
+</data>
+</odoo>
