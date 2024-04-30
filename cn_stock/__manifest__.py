@@ -3,10 +3,10 @@
 
 {
     'name': 'cn Inventory',
-    'version': '1.1',
+    'author': 'He Jian',
     'depends': ['stock'],
     'category': 'Inventory/Inventory',
-    'author': 'He Jian',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',

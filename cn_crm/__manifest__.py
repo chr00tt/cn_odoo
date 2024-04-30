@@ -6,6 +6,7 @@
     'name': 'cn CRM',
     'author': 'He Jian',
     'category': 'Sales/CRM',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': [
         'crm',
     ],

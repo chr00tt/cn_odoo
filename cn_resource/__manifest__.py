@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+
 {
-    'name' : 'cn Invoicing',
+    'name': 'cn Resource',
     'author': 'He Jian',
-    'category': 'Accounting/Accounting',
+    'category': 'Hidden',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['account'],
-    'installable': True,
+    'depends': ['resource'],
     'auto_install': True,
     'license': 'LGPL-3',
 }

@@ -6,6 +6,7 @@
     'name': 'cn Manufacturing',
     'version': '2.0',
     'category': 'Manufacturing/Manufacturing',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': 'He Jian',
     'depends': ['mrp'],
     'demo': [
