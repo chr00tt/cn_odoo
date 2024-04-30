@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="project.project_project_2" model="project.project">
+            <field name="name">新产品研发</field>
+        </record>
+    </data>
+</odoo>
