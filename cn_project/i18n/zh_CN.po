@@ -9,3 +9,15 @@ msgstr "<span class=\"o_stat_text\">毛利</span>"
 #, python-format
 msgid "Gross Margin"
 msgstr "毛利"
+
+#. module: project
+#: model:ir.model.fields.selection,name:project.selection__project_project__last_update_status__on_hold
+#: model:ir.model.fields.selection,name:project.selection__project_update__status__on_hold
+msgid "On Hold"
+msgstr "搁置"
+
+#. module: project
+#: model:ir.model.fields.selection,name:project.selection__project_project__last_update_status__on_track
+#: model:ir.model.fields.selection,name:project.selection__project_update__status__on_track
+msgid "On Track"
+msgstr "进行中"
