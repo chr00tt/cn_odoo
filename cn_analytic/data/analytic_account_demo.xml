@@ -8,7 +8,13 @@
         <record id="analytic.analytic_plan_departments" model="account.analytic.plan">
             <field name="name">部门</field>
         </record>
+        <record id="analytic.analytic_plan_internal" model="account.analytic.plan">
+            <field name="name">内部</field>
+        </record>
         <!-- Analytic Accounts -->
+        <record id="analytic.analytic_administratif" model="account.analytic.account">
+            <field name="name">行政部</field>
+        </record>
         <record id="analytic.analytic_commercial_marketing" model="account.analytic.account">
             <field name="name">市场部</field>
         </record>
