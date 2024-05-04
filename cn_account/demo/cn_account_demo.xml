@@ -2,11 +2,11 @@
 <odoo>
     <data>
         <!-- 加载会计包 -->
-        <function model="account.chart.template" name="try_loading">
+        <!-- <function model="account.chart.template" name="try_loading">
             <value eval="[]"/>
             <value>cn_standard</value>
             <value model="res.company" eval="obj().env.ref('base.main_company')"/>
-        </function>
+        </function> -->
 
         <!-- 显示所有会计功能 -->
         <record id="account.group_account_user" model="res.groups">

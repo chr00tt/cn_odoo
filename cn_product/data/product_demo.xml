@@ -19,5 +19,25 @@
         <record id="product.product_category_consumable" model="product.category">
             <field name="name">耗材</field>
         </record>
+
+        <!-- Physical Products -->
+
+        <record id="product.product_product_3" model="product.product">
+            <field name="name">组合办公桌</field>
+        </record>
+
+        <!-- MRP Demo Data-->
+
+        <record id="product.product_product_12" model="product.product">
+            <field name="name">黑色办公椅</field>
+        </record>
+
+        <record id="product.product_product_13" model="product.product">
+            <field name="name">转角桌左座</field>
+        </record>
+
+        <record id="product.product_product_16" model="product.product">
+            <field name="name">黑色抽屉</field>
+        </record>
     </data>
 </odoo>
