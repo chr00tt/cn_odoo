@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- 开启计量单位、多步路线 -->
+        <record model="res.groups" id="base.group_user">
+            <field name="implied_ids" eval="[(4, ref('stock.group_adv_location')), (4, ref('uom.group_uom'))]"/>
+        </record>
+    </data>
+</odoo>
