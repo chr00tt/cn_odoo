@@ -23,3 +23,24 @@ msgstr "编号"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Post Exchange difference entries in:</span>"
 msgstr "<span class=\"o_form_label\">在以下发布汇兑差额分录：</span>"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move.py:0
+#: model:ir.model.fields,field_description:account.field_res_partner__invoice_warn
+#: model:ir.model.fields,field_description:account.field_res_users__invoice_warn
+#: model:ir.model.fields.selection,name:account.selection__account_analytic_applicability__business_domain__invoice
+#: model:ir.model.fields.selection,name:account.selection__account_payment__reconciled_invoices_type__invoice
+#: model:ir.model.fields.selection,name:account.selection__account_tax_repartition_line__document_type__invoice
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+#, python-format
+msgid "Invoice"
+msgstr "结算单"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_analytic_applicability__account_prefix
+msgid "Financial Accounts Prefix"
+msgstr "会计科目前缀"
