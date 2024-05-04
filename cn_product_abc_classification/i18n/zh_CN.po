@@ -1,0 +1,147 @@
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_level__percentage
+msgid "% Indicator"
+msgstr "% 指标"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_level__percentage_products
+msgid "% Products"
+msgstr "% 产品"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.product_template_form_view
+msgid "ABC Classification"
+msgstr "ABC 分类"
+
+#. module: product_abc_classification
+#: model:ir.model,name:product_abc_classification.model_abc_classification_level
+msgid "ABC Classification Level"
+msgstr "ABC 分类级别"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_form_view
+msgid "ABC Classification Product Level"
+msgstr "ABC 分类产品级别"
+
+#. module: product_abc_classification
+#: model:ir.actions.act_window,name:product_abc_classification.abc_classification_profile_action
+#: model:ir.ui.menu,name:product_abc_classification.menu_abc_classification_profile_config_stock
+msgid "ABC Classification profiles"
+msgstr "ABC 分类配置"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "ABC Profile"
+msgstr "ABC 配置"
+
+#. module: product_abc_classification
+#: model:ir.model,name:product_abc_classification.model_abc_classification_product_level
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_product__abc_classification_product_level_ids
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_template__abc_classification_product_level_ids
+msgid "Abc Classification Product Level"
+msgstr "ABC 分类产品级别"
+
+#. module: product_abc_classification
+#: model:ir.model,name:product_abc_classification.model_abc_classification_profile
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__allowed_profile_ids
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_product__abc_classification_profile_ids
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_template__abc_classification_profile_ids
+msgid "Abc Classification Profile"
+msgstr "ABC 分类配置"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_search_view
+msgid "Abc classification"
+msgstr "ABC 分类"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Additional Information"
+msgstr "其他信息"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__auto_apply_computed_value
+msgid "Auto Apply Computed Value"
+msgstr "自动应用计算值"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Computation"
+msgstr "计算"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__computed_level_id
+msgid "Computed classification level"
+msgstr "计算的分类级别"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__level_ids
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_search_view
+msgid "Level"
+msgstr "级别"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Levels"
+msgstr "级别"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__manual_level_id
+msgid "Manual classification level"
+msgstr "手动分类级别"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_level__name
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__name
+msgid "Name"
+msgstr "名称"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__period
+msgid "Period on which to compute the classification (Days)"
+msgstr "计算分类的周期（天）"
+
+#. module: product_abc_classification
+#: model:ir.model,name:product_abc_classification.model_product_template
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__product_id
+msgid "Product"
+msgstr "产品"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__product_count
+msgid "Product Count"
+msgstr "产品数量"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Products"
+msgstr "产品"
+
+#. module: product_abc_classification
+#: model:ir.actions.act_window,name:product_abc_classification.abc_classification_product_level_action
+#: model:ir.ui.menu,name:product_abc_classification.menu_abc_classification_product_level_config_stock
+msgid "Products ABC Classification"
+msgstr "产品 ABC 分类"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_level__profile_id
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__profile_id
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_search_view
+msgid "Profile"
+msgstr "配置"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Profile Information"
+msgstr "配置信息"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__profile_type
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__profile_type
+msgid "Type of ABC classification"
+msgstr "ABC 分类类型"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "e.g. Sale Profile"
+msgstr "例如：销售配置"

@@ -1,0 +1,4 @@
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields.selection,name:product_abc_classification_sale_stock.selection__abc_classification_profile__profile_type__sale_stock
+msgid "Based on the count of delivered sale order line by product"
+msgstr "基于产品的已交付销售订单的数量"

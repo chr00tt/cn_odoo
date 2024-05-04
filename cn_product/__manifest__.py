@@ -3,9 +3,9 @@
 
 {
     'name': 'cn Products & Pricelists',
-    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': "He Jian",
     'category': 'Sales/Sales',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['product'],
     'data': [
         'data/product_data.xml',
