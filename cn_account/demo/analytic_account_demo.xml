@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="analytic.analytic_plan_departments" model="account.analytic.plan">
+            <field name="applicability_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'business_domain': 'invoice',
+                    'account_prefix': '1122',
+                    'applicability': 'mandatory',
+                }),
+                (0,0, {
+                    'business_domain': 'invoice',
+                    'account_prefix': '6051',
+                    'applicability': 'mandatory',
+                }),
+                (0,0, {
+                    'business_domain': 'bill',
+                    'account_prefix': '6601',
+                    'applicability': 'mandatory',
+                }),
+                (0,0, {
+                    'business_domain': 'bill',
+                    'account_prefix': '6602',
+                    'applicability': 'mandatory',
+                }),
+            ]"/>
+        </record>
+    </data>
+</odoo>
