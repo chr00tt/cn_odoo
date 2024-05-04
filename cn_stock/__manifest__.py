@@ -7,6 +7,9 @@
     'depends': ['stock'],
     'category': 'Inventory/Inventory',
     'website': 'https://github.com/chr00tt/cn_odoo',
+    'demo': [
+        'data/stock_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
