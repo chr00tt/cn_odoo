@@ -1,0 +1,33 @@
+#. module: amazon_forecast_integration
+#: model:ir.model.fields,field_description:amazon_forecast_integration.field_res_config_settings__amazon_access_key
+#: model:ir.model.fields,field_description:amazon_forecast_integration.field_res_config_settings__amazon_region
+msgid "Access Key"
+msgstr "访问密钥"
+
+#. module: amazon_forecast_integration
+#: model_terms:ir.ui.view,arch_db:amazon_forecast_integration.res_config_settings_view_form
+msgid "Access Key:"
+msgstr "访问密钥:"
+
+#. module: amazon_forecast_integration
+#: model:ir.model.fields,field_description:amazon_forecast_integration.field_res_config_settings__amazon_forecast
+#: model:ir.ui.menu,name:amazon_forecast_integration.menu_stock_forecast
+msgid "Amazon Forecast"
+msgstr "亚马逊预测"
+
+#. module: amazon_forecast_integration
+#: model_terms:ir.ui.view,arch_db:amazon_forecast_integration.res_config_settings_view_form
+msgid ""
+"Forecast helps to predict stock and maintain\n"
+"                                inventory correctly"
+msgstr "亚马逊预测有助于正确预测库存和维护库存"
+
+#. module: amazon_forecast_integration
+#: model:ir.model.fields,field_description:amazon_forecast_integration.field_res_config_settings__amazon_secret_access_key
+msgid "Secret Access Key"
+msgstr "秘密访问密钥"
+
+#. module: amazon_forecast_integration
+#: model_terms:ir.ui.view,arch_db:amazon_forecast_integration.res_config_settings_view_form
+msgid "Secret Access Key:"
+msgstr "秘密访问密钥"

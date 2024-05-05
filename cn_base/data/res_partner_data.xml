@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="True">
+        <record model="res.partner" id="base.partner_admin">
+            <field name="name">何键</field>
+        </record>
         <record id="base.main_partner" model="res.partner">
             <field name="name">我的公司</field>
         </record>
