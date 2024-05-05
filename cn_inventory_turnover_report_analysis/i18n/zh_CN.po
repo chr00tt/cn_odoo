@@ -1,0 +1,76 @@
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__average_stock
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__average_stock
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.inventory_pdf_turnover_report
+msgid "Average Stock"
+msgstr "平均库存"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__closing_stock
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__closing_stock
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.inventory_pdf_turnover_report
+msgid "Closing Stock"
+msgstr "期末库存"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__company_id
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__company_id
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_report__company_ids
+msgid "Company"
+msgstr "公司"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.actions.report,name:inventory_turnover_report_analysis.inventory_turnover_report
+#: model:ir.ui.menu,name:inventory_turnover_report_analysis.inventory_report_menu
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.inventory_pdf_turnover_report
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.turnover_report_view_form
+msgid "Inventory Turnover Analysis Report"
+msgstr "库存周转分析"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__opening_stock
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__opening_stock
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.inventory_pdf_turnover_report
+msgid "Opening Stock"
+msgstr "期初库存"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__product_id
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__product_id
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.inventory_pdf_turnover_report
+msgid "Product"
+msgstr "产品"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__category_id
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__category_id
+msgid "Product category"
+msgstr "产品类别"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__purchase_count
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__purchase_count
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.inventory_pdf_turnover_report
+msgid "Purchase Count"
+msgstr "采购数量"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__sale_count
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__sale_count
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.inventory_pdf_turnover_report
+msgid "Sales Count"
+msgstr "销售数量"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__turnover_ratio
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__turnover_ratio
+#: model_terms:ir.ui.view,arch_db:inventory_turnover_report_analysis.inventory_pdf_turnover_report
+msgid "Turnover Ratio"
+msgstr "周转率"
+
+#. module: inventory_turnover_report_analysis
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_fetch_data__warehouse_id
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_graph_analysis__warehouse_id
+#: model:ir.model.fields,field_description:inventory_turnover_report_analysis.field_turnover_report__warehouse_ids
+msgid "Warehouse"
+msgstr "仓库"

@@ -4,9 +4,9 @@
 
 {
     'name': 'cn Expenses',
-    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': "He Jian",
     'category': 'Human Resources/Expenses',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['hr_expense'],
     'demo': ['data/hr_expense_demo.xml'],
     'installable': True,
