@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
+        <!-- 允许多种货币 -->
+        <record model="res.groups" id="base.group_user">
+            <field name="implied_ids" eval="[(4, ref('base.group_multi_currency'))]"/>
+        </record>
         <!-- 开启分析会计 -->
         <record model="res.groups" id="base.group_user">
             <field name="implied_ids" eval="[(4, ref('analytic.group_analytic_accounting'))]"/>
