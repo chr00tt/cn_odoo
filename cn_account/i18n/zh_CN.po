@@ -1,14 +1,15 @@
 #. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "Package"
-msgstr "会计包"
+#: model:ir.model.fields,field_description:account.field_account_journal__bank_acc_number
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__acc_number
+#: model:ir.model.fields,field_description:account.field_res_partner_bank__acc_number
+#: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
+msgid "Account Number"
+msgstr "银行账户"
 
 #. module: account
-#. odoo-python
-#: model:ir.model.fields,field_description:account.field_account_move_line__name
-#, python-format
-msgid "Label"
-msgstr "摘要"
+#: model:ir.model.fields,field_description:account.field_account_analytic_applicability__account_prefix
+msgid "Financial Accounts Prefix"
+msgstr "会计科目前缀"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__name
@@ -41,6 +42,13 @@ msgid "Invoice"
 msgstr "结算单"
 
 #. module: account
-#: model:ir.model.fields,field_description:account.field_account_analytic_applicability__account_prefix
-msgid "Financial Accounts Prefix"
-msgstr "会计科目前缀"
+#. odoo-python
+#: model:ir.model.fields,field_description:account.field_account_move_line__name
+#, python-format
+msgid "Label"
+msgstr "摘要"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "Package"
+msgstr "会计包"

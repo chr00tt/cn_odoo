@@ -20,31 +20,57 @@
         <!-- 库存现金-人民币 -->
         <function model="ir.model.data" name="_update_xmlids">
             <value model="base" eval="[{
-                'xml_id': 'account.account_100101',
+                'xml_id': 'account.account_account_100101',
                 'record': obj().env['account.account'].search([
                     ('code', '=', '100101'),
                     ('company_id', '=', ref('base.main_company'))]),
                 'noupdate': True,
             }]"/>
         </function>
-        <record id="account.account_100101" model="account.account">
+        <record id="account.account_account_100101" model="account.account">
             <field name="name">库存现金-人民币</field>
+            <field name="currency_id" ref="base.CNY"/>
+        </record>
+        <function model="ir.model.data" name="_update_xmlids">
+            <value model="base" eval="[{
+                'xml_id': 'account.account_journal_100101',
+                'record': obj().env['account.journal'].search([
+                    ('default_account_id', '=', ref('account.account_account_100101')),
+                    ('company_id', '=', ref('base.main_company'))]),
+                'noupdate': True,
+            }]"/>
+        </function>
+        <record id="account.account_journal_100101" model="account.journal">
+            <field name="name">现金-人民币</field>
             <field name="currency_id" ref="base.CNY"/>
         </record>
 
         <!-- 银行存款-人民币-财务公司-8302户 -->
         <function model="ir.model.data" name="_update_xmlids">
             <value model="base" eval="[{
-                'xml_id': 'account.account_1002010101',
+                'xml_id': 'account.account_account_1002010101',
                 'record': obj().env['account.account'].search([
                     ('code', '=', '100201'),
                     ('company_id', '=', ref('base.main_company'))]),
                 'noupdate': True,
             }]"/>
         </function>
-        <record id="account.account_1002010101" model="account.account">
+        <record id="account.account_account_1002010101" model="account.account">
             <field name="name">银行存款-人民币-财务公司-8302户</field>
             <field name="code">1002010101</field>
+            <field name="currency_id" ref="base.CNY"/>
+        </record>
+        <function model="ir.model.data" name="_update_xmlids">
+            <value model="base" eval="[{
+                'xml_id': 'account.account_journal_1002010101',
+                'record': obj().env['account.journal'].search([
+                    ('default_account_id', '=', ref('account.account_account_1002010101')),
+                    ('company_id', '=', ref('base.main_company'))]),
+                'noupdate': True,
+            }]"/>
+        </function>
+        <record id="account.account_journal_1002010101" model="account.journal">
+            <field name="name">银行-人民币-财务公司-8302户</field>
             <field name="currency_id" ref="base.CNY"/>
         </record>
     </data>
