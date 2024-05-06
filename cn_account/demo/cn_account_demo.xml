@@ -60,6 +60,15 @@
             <field name="code">1002010101</field>
             <field name="currency_id" ref="base.CNY"/>
         </record>
+        <record id="bank_finance_company" model="res.bank">
+            <field name="name">财务公司</field>
+        </record>
+        <record id="partner_bank_8302" model="res.partner.bank">
+            <field name="acc_number">人民币-财务公司-8302户</field>
+            <field name="partner_id" ref="base.main_partner"/>
+            <field name="bank_id" ref="cn_account.bank_finance_company"/>
+            <field name="currency_id" ref="base.CNY"/>
+        </record>
         <function model="ir.model.data" name="_update_xmlids">
             <value model="base" eval="[{
                 'xml_id': 'account.account_journal_1002010101',
@@ -72,6 +81,7 @@
         <record id="account.account_journal_1002010101" model="account.journal">
             <field name="name">银行-人民币-财务公司-8302户</field>
             <field name="currency_id" ref="base.CNY"/>
+            <field name="bank_account_id" ref="cn_account.partner_bank_8302"/>
         </record>
     </data>
 </odoo>
