@@ -64,7 +64,7 @@
             <field name="name">财务公司</field>
         </record>
         <record id="partner_bank_8302" model="res.partner.bank">
-            <field name="acc_number">人民币-财务公司-9302户</field>
+            <field name="acc_number">人民币-9302户</field>
             <field name="partner_id" ref="base.main_partner"/>
             <field name="bank_id" ref="cn_account.bank_finance_company"/>
             <field name="currency_id" ref="base.CNY"/>
