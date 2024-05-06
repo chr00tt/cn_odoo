@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- 加载会计包 -->
+        <function model="account.chart.template" name="try_loading">
+            <value eval="[ref('cn_account.cn_chart_template')]"/>
+            <value model="res.company" eval="obj().env.ref('base.main_company')"/>
+        </function>
+
+        <!-- 显示所有会计功能 -->
+        <record id="account.group_account_user" model="res.groups">
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+        </record>
+
+        <!-- 开启分析会计 -->
+        <record model="res.groups" id="base.group_user">
+            <field name="implied_ids" eval="[(4, ref('analytic.group_analytic_accounting'))]"/>
+        </record>
+
+        <!-- 库存现金-人民币 -->
+        <function model="ir.model.data" name="_update_xmlids">
+            <value model="base" eval="[{
+                'xml_id': 'account.account_100101',
+                'record': obj().env['account.account'].search([
+                    ('code', '=', '100101'),
+                    ('company_id', '=', ref('base.main_company'))]),
+                'noupdate': True,
+            }]"/>
+        </function>
+        <record id="account.account_100101" model="account.account">
+            <field name="name">库存现金-人民币</field>
+            <field name="currency_id" ref="base.CNY"/>
+        </record>
+
+        <!-- 银行存款-人民币-财务公司-8302户 -->
+        <function model="ir.model.data" name="_update_xmlids">
+            <value model="base" eval="[{
+                'xml_id': 'account.account_1002010101',
+                'record': obj().env['account.account'].search([
+                    ('code', '=', '100201'),
+                    ('company_id', '=', ref('base.main_company'))]),
+                'noupdate': True,
+            }]"/>
+        </function>
+        <record id="account.account_1002010101" model="account.account">
+            <field name="name">银行存款-人民币-财务公司-8302户</field>
+            <field name="code">1002010101</field>
+            <field name="currency_id" ref="base.CNY"/>
+        </record>
+    </data>
+</odoo>

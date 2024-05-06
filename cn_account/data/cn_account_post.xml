@@ -31,6 +31,9 @@
             <field name="default_cash_difference_income_account_id" ref="account_1901"/>
             <field name="default_cash_difference_expense_account_id" ref="account_1901"/>
             <field name="default_pos_receivable_account_id" ref="account_1124" />
+            <field name="account_journal_suspense_account_id" ref="account_100207" />
+            <field name="account_journal_payment_debit_account_id" ref="account_100208" />
+            <field name="account_journal_payment_credit_account_id" ref="account_100209" />
         </record>
 
         <!-- sales tax included -->

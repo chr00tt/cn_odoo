@@ -14,7 +14,7 @@
         'data/cn_account_post.xml',
     ],
     'demo': [
-        'data/cn_account_demo.xml',
+        'demo/cn_account_demo.xml',
         'demo/account.account.csv',
         'demo/analytic_account_demo.xml',
     ],
