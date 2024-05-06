@@ -20,6 +20,7 @@
         'demo/res.bank.csv',
         'demo/res.partner.bank.csv',
         'demo/account.journal.csv',
+        'demo/account.move.csv',
     ],
     'installable': True,
     'auto_install': True,
