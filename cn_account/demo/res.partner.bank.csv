@@ -1,1 +1,2 @@
-"id","acc_number","partner_id","bank_id","currency_id"
+"id","acc_number","partner_id/id","bank_id","currency_id"
+"partner_bank_1","人民币-财务公司-6316户","base.main_partner","财务公司","CNY"
