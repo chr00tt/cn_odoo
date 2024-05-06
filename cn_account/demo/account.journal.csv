@@ -1,0 +1,2 @@
+"id","name","type","default_account_id","code","currency_id","company_id/id"
+"journal_100102","现金-外币","cash","库存现金-外币","CSH2","CNY","base.main_company"
