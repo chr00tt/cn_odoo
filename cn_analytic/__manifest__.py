@@ -10,6 +10,7 @@
     'demo': [
         'data/analytic_account_demo.xml',
         'demo/account.analytic.plan.csv',
+        'demo/account.analytic.account.csv',
     ],
     'installable': True,
     'auto_install': True,
