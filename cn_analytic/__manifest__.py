@@ -8,7 +8,8 @@
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends' : ['analytic'],
     'demo': [
-        'data/analytic_account_demo.xml'
+        'data/analytic_account_demo.xml',
+        'demo/account.analytic.plan.csv',
     ],
     'installable': True,
     'auto_install': True,
