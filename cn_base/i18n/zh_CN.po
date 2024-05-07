@@ -1,0 +1,4 @@
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_module_filter
+msgid "Categories"
+msgstr "类别"
