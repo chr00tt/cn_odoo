@@ -8,7 +8,10 @@
     'category': 'Human Resources/Expenses',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['hr_expense'],
-    'demo': ['data/hr_expense_demo.xml'],
+    'demo': [
+        'data/hr_expense_demo.xml',
+        'demo/product.product.csv',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',

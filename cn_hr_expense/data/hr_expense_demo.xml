@@ -4,18 +4,5 @@
         <record id="hr_expense.hr_expense_account_journal" model="account.journal">
             <field name="name">费用</field>
         </record>
-
-        <record id="product_product_local_transportation" model="product.product">
-            <field name="name">市内交通费</field>
-            <field name="standard_price">0.0</field>
-            <field name="type">service</field>
-            <field name="uom_id" ref="uom.product_uom_unit"/>
-            <field name="uom_po_id" ref="uom.product_uom_unit"/>
-            <field name="default_code">SNJT</field>
-            <field name="can_be_expensed" eval="True"/>
-            <field name="sale_ok" eval="False"/>
-            <field name="purchase_ok" eval="False"/>
-            <field name="property_account_expense_id" ref="cn_account.account_660205"/>
-        </record>
     </data>
 </odoo>
