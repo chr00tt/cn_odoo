@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-
 {
-    'name': 'cn Expenses',
+    'name': 'cn Employees',
     'author': "He Jian",
-    'category': 'Human Resources/Expenses',
+    'category': 'Human Resources/Employees',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['hr_expense'],
+    'depends': [
+        'hr',
+    ],
     'demo': [
-        'data/hr_expense_demo.xml',
-        'demo/product.product.csv',
-        'demo/hr.expense.sheet.csv',
-        'demo/hr.expense.csv',
+        'demo/hr.department.csv',
+        'demo/hr.employee.csv',
     ],
     'installable': True,
     'auto_install': True,
