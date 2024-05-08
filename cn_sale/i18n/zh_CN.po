@@ -3,3 +3,13 @@
 #: model:ir.model.fields.selection,name:sale.selection__sale_order_line__invoice_status__no
 msgid "Nothing to Invoice"
 msgstr "无需开票"
+
+#. module: sale
+#: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
+msgid "<i class=\"fa fa-download\"/> Download"
+msgstr "<i class=\"fa fa-download\"/> 下载"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_account_base_import
+msgid "Accounting Import"
+msgstr "会计导入"

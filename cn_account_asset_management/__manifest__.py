@@ -2,9 +2,9 @@
 
 {
     "name": "cn Assets Management",
-    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': "He Jian",
     "category": "Accounting & Finance",
+    'website': 'https://github.com/chr00tt/cn_odoo',
     "depends": ["account_asset_management"],
     "demo": [
         'data/account_asset_group_demo.xml',
