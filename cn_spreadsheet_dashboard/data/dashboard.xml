@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="spreadsheet_dashboard.spreadsheet_dashboard_group_finance" model="spreadsheet.dashboard.group">
+        <field name="name">财务</field>
+    </record>
+
+    <record id="spreadsheet_dashboard.spreadsheet_dashboard_group_sales" model="spreadsheet.dashboard.group">
+        <field name="name">销售</field>
+    </record>
+
+    <record id="spreadsheet_dashboard.spreadsheet_dashboard_group_hr" model="spreadsheet.dashboard.group">
+        <field name="name">人力资源</field>
+    </record>
+
+    <record id="spreadsheet_dashboard.spreadsheet_dashboard_group_website" model="spreadsheet.dashboard.group">
+        <field name="name">网站</field>
+    </record>
+
+    <record id="spreadsheet_dashboard.spreadsheet_dashboard_group_project" model="spreadsheet.dashboard.group">
+        <field name="name">项目</field>
+    </record>
+
+    <record id="spreadsheet_dashboard.spreadsheet_dashboard_group_logistics" model="spreadsheet.dashboard.group">
+        <field name="name">物流</field>
+    </record>
+</odoo>

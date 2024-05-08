@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="spreadsheet_dashboard_account_accountant.dashboard_accounting" model="spreadsheet.dashboard">
+        <field name="name">会计</field>
+    </record>
+
+    <record id="spreadsheet_dashboard_account_accountant.dashboard_benchmark" model="spreadsheet.dashboard">
+        <field name="name">指标</field>
+    </record>
+</odoo>
