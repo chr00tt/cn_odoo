@@ -1,4 +1,5 @@
 "id","name","type","default_code","can_be_expensed","property_account_expense_id","supplier_taxes_id"
 "expense_product_1","差旅费","service","CL","TRUE","管理费用-差旅费","13%进项税"
 "expense_product_2","业务招待费","service","YW","TRUE","管理费用-业务招待费","13%进项税"
-"expense_product_3","借款","service","JK","TRUE","其他应收款-备用金",""
+"expense_product_3","资料费","service","ZL","TRUE","管理费用-其他","13%进项税"
+"expense_product_9","借款","service","JK","TRUE","其他应收款-备用金",""
