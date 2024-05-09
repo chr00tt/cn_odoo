@@ -6,6 +6,11 @@
     'author': "He Jian",
     'category': 'Accounting/Accounting',
     'depends' : ['account'],
+    'data': [
+        'data/cn_account.xml',
+        'data/account.account.template.csv',
+        'data/cn_account_post.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
