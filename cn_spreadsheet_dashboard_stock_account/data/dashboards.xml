@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="spreadsheet_dashboard_stock_account.spreadsheet_dashboard_inventory_on_hand" model="spreadsheet.dashboard">
+        <field name="name">在手库存</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="spreadsheet_dashboard_purchase_stock.spreadsheet_dashboard_purchase" model="spreadsheet.dashboard">
+        <field name="name">采购</field>
+    </record>
+
+</odoo>

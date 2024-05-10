@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="spreadsheet_dashboard_sale.spreadsheet_dashboard_sales" model="spreadsheet.dashboard">
+        <field name="name">销售</field>
+    </record>
+
+    <record id="spreadsheet_dashboard_sale.spreadsheet_dashboard_product" model="spreadsheet.dashboard">
+        <field name="name">产品</field>
+    </record>
+
+</odoo>
