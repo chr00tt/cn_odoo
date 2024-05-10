@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="spreadsheet_dashboard_hr_expense.spreadsheet_dashboard_expense" model="spreadsheet.dashboard">
+        <field name="name">费用</field>
+    </record>
+</odoo>

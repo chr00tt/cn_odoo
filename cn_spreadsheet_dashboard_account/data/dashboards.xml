@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="spreadsheet_dashboard_account.dashboard_invoicing" model="spreadsheet.dashboard">
+        <field name="name">开票</field>
+    </record>
+</odoo>
