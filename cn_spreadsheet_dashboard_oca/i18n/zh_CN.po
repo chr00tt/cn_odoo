@@ -1,0 +1,4 @@
+#. module: spreadsheet_dashboard_oca
+#: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard_oca.spreadsheet_dashboard_tree_view
+msgid "Edit"
+msgstr "编辑"
