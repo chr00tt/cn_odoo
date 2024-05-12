@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo noupdate="1">
+    <record id="bi_sql_editor.incorrect_sql_view" model="bi.sql.view">
+        <field name="name">不正确的SQL视图草稿</field>
+    </record>
+    <record id="bi_sql_editor.partner_sql_view" model="bi.sql.view">
+        <field name="name">伙伴视图</field>
+    </record>
+    <record id="bi_sql_editor.module_sql_view" model="bi.sql.view">
+        <field name="name">按作者列出的模块</field>
+    </record>
+</odoo>
