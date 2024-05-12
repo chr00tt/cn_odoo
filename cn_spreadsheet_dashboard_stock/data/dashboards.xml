@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="spreadsheet_dashboard_stock.spreadsheet_dashboard_inventory_flow" model="spreadsheet.dashboard">
+        <field name="name">库存流转</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="stock.stock_location_14" model="stock.location">
+            <field name="name">货架2</field>
+        </record>
+        <record id="stock.stock_location_components" model="stock.location">
+            <field name="name">货架1</field>
+        </record>
+    </data>
+</odoo>
