@@ -8,9 +8,6 @@
     'category': 'Manufacturing/Manufacturing',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['mrp'],
-    'data': [
-        'data/cn_mrp_data.xml',
-    ],
     'demo': [
         'data/cn_mrp_demo.xml',
     ],
