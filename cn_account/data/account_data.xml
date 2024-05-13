@@ -10,5 +10,13 @@
         <record id="account.account_tag_investing" model="account.account.tag">
             <field name="name">投资和特别活动</field>
         </record>
+
+        <!-- Payment methods -->
+        <record id="account.account_payment_method_manual_in" model="account.payment.method">
+            <field name="name">手动</field>
+        </record>
+        <record id="account.account_payment_method_manual_out" model="account.payment.method">
+            <field name="name">手动</field>
+        </record>
     </data>
 </odoo>
