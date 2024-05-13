@@ -11,6 +11,7 @@
     ],
     'demo': [
         'demo/hr.department.csv',
+        'demo/res.partner.csv',
         'demo/hr.employee.csv',
     ],
     'installable': True,
