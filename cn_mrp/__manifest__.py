@@ -10,6 +10,7 @@
     'depends': ['mrp'],
     'demo': [
         'data/cn_mrp_demo.xml',
+        'data/mrp_demo.xml',
     ],
     'auto_install': True,
     'license': 'LGPL-3',
