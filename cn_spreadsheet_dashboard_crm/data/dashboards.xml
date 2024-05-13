@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="spreadsheet_dashboard_crm.dashboard_leads" model="spreadsheet.dashboard">
+        <field name="name">线索</field>
+    </record>
+
+    <record id="spreadsheet_dashboard_crm.dashboard_pipeline" model="spreadsheet.dashboard">
+        <field name="name">管道</field>
+    </record>
+
+
+</odoo>
