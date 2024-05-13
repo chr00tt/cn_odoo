@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- 员工支出日记帐 -->
+        <record id="base.main_company" model="res.company">
+            <field name="expense_journal_id" ref="hr_expense.hr_expense_account_journal"/>
+        </record>
+    </data>
+</odoo>

@@ -13,6 +13,7 @@
         'demo/product.product.csv',
         'demo/hr.expense.sheet.csv',
         'demo/hr.expense.csv',
+        'data/cn_hr_expense_demo.xml',
     ],
     'installable': True,
     'auto_install': True,
