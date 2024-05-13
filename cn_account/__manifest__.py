@@ -8,10 +8,11 @@
     'depends' : ['account'],
     'data': [
         'data/account_data.xml',
-        'data/cn_account.xml',
         'data/account.account.tag.csv',
-        'data/account.account.template.csv',
-        'data/cn_account_post.xml',
+        'data/account.tax.group.csv',
+        'data/enterprise/enterprise_account.xml',
+        'data/enterprise/account.account.template.csv',
+        'data/enterprise/enterprise_account_post.xml',
     ],
     'demo': [
         'demo/cn_account_demo.xml',
