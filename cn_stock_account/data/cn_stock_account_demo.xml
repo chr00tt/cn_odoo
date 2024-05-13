@@ -8,14 +8,12 @@
         </record>
         <record id="cn_product.product_category_purchased_materia" model="product.category">
             <field name="property_valuation">real_time</field>
-            <field name="property_account_creditor_price_difference_categ" model="account.account" search="[('code', '=', '140400')]"/>
             <field name="property_stock_valuation_account_id" search="[('code', '=', '140300')]"/>
             <field name="property_stock_account_input_categ_id" search="[('code', '=', '140100')]"/>
         </record>
         <record id="cn_product.product_category_parts" model="product.category">
             <field name="property_cost_method">fifo</field>
             <field name="property_valuation">real_time</field>
-            <field name="property_account_creditor_price_difference_categ" search="[('code', '=', '140400')]"/>
             <field name="property_stock_valuation_account_id" search="[('code', '=', '140300')]"/>
         </record>
     </data>
