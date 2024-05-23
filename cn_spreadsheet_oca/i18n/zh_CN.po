@@ -87,6 +87,14 @@ msgid "Readers"
 msgstr "读者"
 
 #. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/filter_panel_datasources.esm.js:0
+#, python-format
+msgid "Refresh all data"
+msgstr "刷新所有数据"
+
+
+#. module: spreadsheet_oca
 #: model:ir.actions.act_window,name:spreadsheet_oca.spreadsheet_spreadsheet_act_window
 #: model:ir.ui.menu,name:spreadsheet_oca.spreadsheet_spreadsheet_menu
 msgid "Spreadsheets"
