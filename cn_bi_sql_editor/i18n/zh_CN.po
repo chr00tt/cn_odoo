@@ -9,6 +9,16 @@ msgid "Computed Context"
 msgstr "计算的上下文"
 
 #. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Create SQL Elements"
+msgstr "创建SQL元素"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Create UI"
+msgstr "创建用户界面"
+
+#. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__create_uid
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__create_uid
 msgid "Created by"
@@ -29,6 +39,11 @@ msgstr "自定义的上下文"
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__size
 msgid "Database Size"
 msgstr "数据库大小"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Delete SQL Elements"
+msgstr "删除SQL元素"
 
 #. module: bi_sql_editor
 #: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
@@ -59,6 +74,13 @@ msgstr "图形类型"
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__is_materialized
 msgid "Is Materialized View"
 msgstr "是物化视图"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid ""
+"It will delete the materialized view, and all the previous mapping realized "
+"with the columns"
+msgstr "将删除物化视图，以及所有以前用列实现的映射"
 
 #. module: bi_sql_editor
 #: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__write_uid
