@@ -2,3 +2,8 @@
 #: model:product.template,name:mrp.product_product_wood_ply_product_template
 msgid "Ply Layer"
 msgstr "胶合板"
+
+#. module: mrp
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
+msgid "Specific Capacities"
+msgstr "特定产能"

@@ -47,15 +47,45 @@ msgid "Data"
 msgstr "数据"
 
 #. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Dimensions"
+msgstr "维度"
+
+#. module: spreadsheet_oca
 #: model_terms:ir.ui.view,arch_db:spreadsheet_oca.spreadsheet_spreadsheet_form_view
 #: model_terms:ir.ui.view,arch_db:spreadsheet_oca.spreadsheet_spreadsheet_tree_view
 msgid "Edit"
 msgstr "编辑"
 
 #. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Edit domain"
+msgstr "编辑域"
+
+#. module: spreadsheet_oca
 #: model:ir.actions.act_window,name:spreadsheet_oca.spreadsheet_spreadsheet_import_act_window
 msgid "Import Pivot"
 msgstr "导入数据透视表"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Insert pivot"
+msgstr "插入数据透视表"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Last updated at"
+msgstr "上次更新于"
 
 #. module: spreadsheet_oca
 #: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import__mode_id
@@ -82,6 +112,13 @@ msgid "Owner"
 msgstr "所有者"
 
 #. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Pivot name"
+msgstr "数据透视表名称"
+
+#. module: spreadsheet_oca
 #: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__reader_ids
 msgid "Readers"
 msgstr "读者"
@@ -93,6 +130,12 @@ msgstr "读者"
 msgid "Refresh all data"
 msgstr "刷新所有数据"
 
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Sorting"
+msgstr "排序"
 
 #. module: spreadsheet_oca
 #: model:ir.actions.act_window,name:spreadsheet_oca.spreadsheet_spreadsheet_act_window
