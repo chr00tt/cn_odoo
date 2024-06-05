@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="1">
+    <data>
         <record id="project.analytic_renovations" model="account.analytic.account">
             <field name="name">长兴县天逸湾幼儿园装修工程</field>
         </record>
@@ -92,6 +92,85 @@
             <field name="project_id" ref="project_project_1"/>
             <field name="name">8.高压气源调试</field>
             <field name="stage_id" ref="project.project_stage_0"/>
+        </record>
+
+        <record id="project.project_1_task_1" model="project.task">
+            <field name="name">办公室计划</field>
+        </record>
+        <record id="project.project_1_task_2" model="project.task">
+            <field name="name">餐室：厨房</field>
+        </record>
+        <record id="project.project_1_task_3" model="project.task">
+            <field name="name">降噪</field>
+        </record>
+        <record id="project.project_1_task_4" model="project.task">
+            <field name="name">客户要求的修改</field>
+        </record>
+        <record id="project.project_1_task_5" model="project.task">
+            <field name="name">能源证书</field>
+        </record>
+        <record id="project.project_1_task_6" model="project.task">
+            <field name="name">房间1：装修</field>
+        </record>
+        <record id="project.project_1_task_7" model="project.task">
+            <field name="name">房间2：装修</field>
+        </record>
+        <record id="project.project_1_task_8" model="project.task">
+            <field name="name">经理用黑色椅子</field>
+        </record>
+        <record id="project.project_1_task_9" model="project.task">
+            <field name="name">会议室家具</field>
+        </record>
+        <record id="project.project_1_task_10" model="project.task">
+            <field name="name">客户评审</field>
+        </record>
+        <record id="project.project_1_task_11" model="project.task">
+            <field name="name">每日站立会议-发送会议记录</field>
+        </record>
+        <record id="project.project_1_task_12" model="project.task">
+            <field name="name">客户会议</field>
+        </record>
+        <record id="project.project_1_task_13" model="project.task">
+            <field name="name">每日会议摘要</field>
+        </record>
+        <record id="project.project_1_task_14" model="project.task">
+            <field name="name">准备</field>
+        </record>
+        <record id="project.project_1_task_15" model="project.task">
+            <field name="name">会议记录</field>
+        </record>
+        <record id="project.project_2_task_1" model="project.task">
+            <field name="name">客户分析+架构</field>
+        </record>
+        <record id="project.project_2_task_2" model="project.task">
+            <field name="name">基本轮廓</field>
+        </record>
+        <record id="project.project_2_task_3" model="project.task">
+            <field name="name">规划和预算</field>
+        </record>
+        <record id="project.project_2_task_4" model="project.task">
+            <field name="name">用户界面改进</field>
+        </record>
+        <record id="project.project_2_task_5" model="project.task">
+            <field name="name">社交网络整合</field>
+        </record>
+        <record id="project.project_2_task_6" model="project.task">
+            <field name="name">创建新组件</field>
+        </record>
+        <record id="project.project_2_task_7" model="project.task">
+            <field name="name">新门户系统</field>
+        </record>
+        <record id="project.project_2_task_8" model="project.task">
+            <field name="name">可用性审查</field>
+        </record>
+        <record id="project.project_2_task_9" model="project.task">
+            <field name="name">文件管理</field>
+        </record>
+        <record id="project.project_2_task_10" model="project.task">
+            <field name="name">单元测试</field>
+        </record>
+        <record id="project.project_2_task_11" model="project.task">
+            <field name="name">代码文档</field>
         </record>
     </data>
 </odoo>
