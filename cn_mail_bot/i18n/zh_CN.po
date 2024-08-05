@@ -1,0 +1,10 @@
+#. module: mail_bot
+#: code:addons/mail_bot/models/res_users.py:0
+#, python-format
+msgid ""
+"Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
+"help you discover its features.<br/><b>Try to send me an emoji</b> <span "
+"class=\"o_odoobot_command\">:)</span>"
+msgstr ""
+"您好,<br/>系统内部支持互相聊天沟通协作。来一起学一学新功能。<br/><b>请试着发个笑脸表情看看效果</b> <span "
+"class=\"o_odoobot_command\">:)</span>"

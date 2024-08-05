@@ -223,3 +223,12 @@ msgstr "视图顺序"
 msgid "Views, Action and Menu Created"
 msgstr "已创建视图、动作和菜单"
 
+#. module: bi_sql_editor
+#. odoo-python
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid ""
+"You can only unlink draft views.If you want to delete them, first set them "
+"to draft."
+msgstr "只能删除草稿视图。如果要删除，请先将视图设置为草稿。"
+
