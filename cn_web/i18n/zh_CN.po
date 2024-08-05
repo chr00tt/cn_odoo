@@ -1,0 +1,7 @@
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#, python-format
+msgid "Odoo Client Error"
+msgstr "客户端错误"
