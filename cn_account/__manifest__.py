@@ -7,7 +7,6 @@
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': [
         'account',
-        'l10n_cn_standard',
     ],
     'demo': [
         'data/cn_account_demo.xml',
