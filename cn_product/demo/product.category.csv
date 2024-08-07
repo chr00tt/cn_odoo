@@ -1,0 +1,4 @@
+"parent_id/id","id","name"
+"product.product_category_all","product_category_finished_goods","产成品"
+"product.product_category_all","product_category_purchased_materia","外购材料"
+"product.product_category_all","product_category_parts","零部件"

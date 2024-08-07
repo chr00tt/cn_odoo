@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 设置会计权限 -->
+    <record id="stock_account.group_stock_accounting_automatic" model="res.groups">
+        <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+    </record>
+
+    <data noupdate="1">
+        <!-- 产品类别 -->
+        <record id="cn_product.product_category_finished_goods" model="product.category">
+            <field name="property_valuation">real_time</field>
+            <field name="property_stock_valuation_account_id" search="[('code', '=', '140500')]"/>
+        </record>
+        <record id="cn_product.product_category_purchased_materia" model="product.category">
+            <field name="property_valuation">real_time</field>
+            <field name="property_stock_valuation_account_id" search="[('code', '=', '140300')]"/>
+            <field name="property_stock_account_input_categ_id" search="[('code', '=', '140100')]"/>
+        </record>
+        <record id="cn_product.product_category_parts" model="product.category">
+            <field name="property_cost_method">fifo</field>
+            <field name="property_valuation">real_time</field>
+            <field name="property_stock_valuation_account_id" search="[('code', '=', '140300')]"/>
+        </record>
+    </data>
+</odoo>

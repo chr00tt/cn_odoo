@@ -1,16 +1,14 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+
 {
-    'name' : 'cn Invoicing',
+    'name': 'cn WMS Accounting',
     'author': 'He Jian',
-    'category': 'Accounting/Accounting',
+    'depends': ['stock_account'],
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': [
-        'account',
-        'l10n_cn_standard',
-    ],
+    'category': 'Hidden',
     'demo': [
-        'data/cn_account_demo.xml',
+        'data/cn_stock_account_demo.xml',
     ],
     'installable': True,
     'auto_install': True,
