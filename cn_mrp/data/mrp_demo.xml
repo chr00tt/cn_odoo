@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
+        <record id="mrp.product_product_computer_desk" model="product.product">
+            <field name="categ_id" ref="cn_product.product_category_finished_goods"/>
+        </record>
         <record id="mrp.product_product_computer_desk_head" model="product.product">
             <field name="categ_id" ref="cn_product.product_category_parts"/>
         </record>

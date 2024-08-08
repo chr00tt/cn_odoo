@@ -2,3 +2,14 @@
 #: model_terms:ir.ui.view,arch_db:base.view_module_filter
 msgid "Categories"
 msgstr "类别"
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_module.py:0
+#, python-format
+msgid ""
+"Odoo is currently processing a scheduled action.\n"
+"Module operations are not possible at this time, please try again later or contact your system administrator."
+msgstr ""
+"系统当前正在处理计划的动作.\n"
+"此时不能进行模块动作，请稍后重试或联系您的系统管理员."
