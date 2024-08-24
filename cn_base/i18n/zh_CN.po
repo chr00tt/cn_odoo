@@ -13,3 +13,9 @@ msgid ""
 msgstr ""
 "系统当前正在处理计划的动作.\n"
 "此时不能进行模块动作，请稍后重试或联系您的系统管理员."
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
+#: model_terms:ir.ui.view,arch_db:base.view_model_form
+msgid "Properties"
+msgstr "属性"
