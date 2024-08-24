@@ -5,24 +5,24 @@
         <function model="ir.model.data" name="_update_xmlids">
             <value model="base" eval="[{
                 'xml_id': 'stock.stock_location_transit',
-                'record': obj().env.ref('base.main_company').internal_transit_location_id,
+                'record': obj().env.ref('cn_account.res_company_cn_account').internal_transit_location_id,
                 'noupdate': True,
                 }, {
                 'xml_id': 'stock.stock_location_inventory',
-                'record': obj().env['ir.property'].with_company(ref('base.main_company'))._get('property_stock_inventory','product.template'),
+                'record': obj().env['ir.property'].with_company(ref('cn_account.res_company_cn_account'))._get('property_stock_inventory','product.template'),
                 'noupdate': True,
                 }, {
                 'xml_id': 'stock.stock_location_production',
                 'record': obj().env['stock.location'].search([
                     ('usage', '=', 'production'),
-                    ('company_id', '=', ref('base.main_company'))]),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
                 'noupdate': True,
                 }, {
                 'xml_id': 'stock.stock_location_scrap',
                 'record': obj().env['stock.location'].search([
                     ('usage', '=', 'inventory'),
                     ('scrap_location', '=', True),
-                    ('company_id', '=', ref('base.main_company'))]),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
                 'noupdate': True,
             }]"/>
         </function>

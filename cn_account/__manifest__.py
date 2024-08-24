@@ -18,6 +18,7 @@
         'data/administrative_institution/administrative_institution_account_post.xml',
     ],
     'demo': [
+        'demo/demo_company.xml',
         'demo/cn_account_demo.xml',
         'demo/account.account.csv',
         'demo/analytic_account_demo.xml',

@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <!-- 加载会计包 -->
-        <function model="account.chart.template" name="try_loading">
-            <value eval="[ref('cn_account.cn_chart_template')]"/>
-            <value model="res.company" eval="obj().env.ref('base.main_company')"/>
-        </function>
-
         <!-- 显示所有会计功能 -->
         <record id="account.group_account_user" model="res.groups">
             <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
@@ -25,7 +19,7 @@
                 'xml_id': 'account.account_100101',
                 'record': obj().env['account.account'].search([
                     ('code', '=', '100101'),
-                    ('company_id', '=', ref('base.main_company'))]),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
                 'noupdate': True,
             }]"/>
         </function>
@@ -38,7 +32,7 @@
                 'xml_id': 'account.journal_100101',
                 'record': obj().env['account.journal'].search([
                     ('default_account_id', '=', ref('account.account_100101')),
-                    ('company_id', '=', ref('base.main_company'))]),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
                 'noupdate': True,
             }]"/>
         </function>
@@ -53,7 +47,7 @@
                 'xml_id': 'account.account_1002010101',
                 'record': obj().env['account.account'].search([
                     ('code', '=', '100201'),
-                    ('company_id', '=', ref('base.main_company'))]),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
                 'noupdate': True,
             }]"/>
         </function>
@@ -76,7 +70,7 @@
                 'xml_id': 'account.journal_1002010101',
                 'record': obj().env['account.journal'].search([
                     ('default_account_id', '=', ref('account.account_1002010101')),
-                    ('company_id', '=', ref('base.main_company'))]),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
                 'noupdate': True,
             }]"/>
         </function>

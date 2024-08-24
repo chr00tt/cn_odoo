@@ -4,7 +4,7 @@
         <record id="account_asset_profile_car" model="account.asset.profile">
             <field name="name">销售用汽车</field>
             <field name="group_ids" eval="[(4, ref('account_asset_group_car'))]"/>
-            <field name="journal_id" search="[('type', '=', 'purchase'), ('company_id', '=', ref('base.main_company'))]"/>
+            <field name="journal_id" search="[('type', '=', 'purchase'), ('company_id', '=', ref('cn_account.res_company_cn_account'))]"/>
             <field name="account_asset_id" search="[('code', '=', '160100')]"/>
             <field name="account_depreciation_id" search="[('code', '=', '160200')]"/>
             <field name="account_expense_depreciation_id" search="[('code', '=', '660102')]"/>
