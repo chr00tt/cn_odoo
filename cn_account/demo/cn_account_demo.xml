@@ -61,7 +61,7 @@
         </record>
         <record id="partner_bank_8302" model="res.partner.bank">
             <field name="acc_number">人民币-9302户</field>
-            <field name="partner_id" ref="base.main_partner"/>
+            <field name="partner_id" ref="res_partner_cn_account"/>
             <field name="bank_id" ref="cn_account.bank_finance_company"/>
             <field name="currency_id" ref="base.CNY"/>
         </record>
@@ -79,5 +79,15 @@
             <field name="currency_id" ref="base.CNY"/>
             <field name="bank_account_id" ref="cn_account.partner_bank_8302"/>
         </record>
+
+        <function model="ir.model.data" name="_update_xmlids">
+            <value model="base" eval="[{
+                'xml_id': 'account.account_journal_misc',
+                'record': obj().env['account.journal'].search([
+                    ('code', '=', '杂项'),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
+                'noupdate': True,
+            }]"/>
+        </function>
     </data>
 </odoo>
