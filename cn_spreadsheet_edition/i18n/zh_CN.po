@@ -1,5 +1,13 @@
 #. module: spreadsheet_edition
 #. openerp-web
+#: code:addons/spreadsheet_edition/static/src/bundle/list/side_panels/listing_details_side_panel.xml:0
+#: code:addons/spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.xml:0
+#, python-format
+msgid "Domain"
+msgstr "条件域"
+
+#. module: spreadsheet_edition
+#. openerp-web
 #: code:addons/spreadsheet_edition/static/src/assets/components/spreadsheet_selector_dialog/spreadsheet_selector_dialog.js:0
 #, python-format
 msgid "pivot"
