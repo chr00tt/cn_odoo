@@ -1,0 +1,13 @@
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_abstract_payment_communication
+#: model:ir.model.fields,field_description:account.field_account_payment_communication
+#: model:ir.model.fields,field_description:account.field_account_register_payments_communication
+msgid "Memo"
+msgstr "备注"
+
+#. module: account
+#. openerp-web
+#: code:addons/account/static/src/xml/account_payment.xml:64
+#, python-format
+msgid "Memo:"
+msgstr "备注："
