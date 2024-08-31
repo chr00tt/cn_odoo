@@ -19,6 +19,11 @@ msgstr "形式发票"
 msgid "Nothing to Invoice"
 msgstr "无需开票"
 
+#. module: sale
+#: model:ir.actions.report,name:sale.action_report_pro_forma_invoice
+msgid "PRO-FORMA Invoice"
+msgstr "形式发票"
+
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_base_import
 msgid "Accounting Import"
