@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="report_saleorder_document_inherit_cn_sale" inherit_id="sale.report_saleorder_document">
+    <!-- 为表格添加边框 -->
+    <th position="attributes">
+        <attribute name="style">border-top:1px solid black;border-bottom:1px solid black;border-left:1px solid black;border-right:1px solid black;</attribute>
+    </th>
+    <td position="attributes">
+        <attribute name="style">border-top:1px solid black;border-bottom:1px solid black;border-left:1px solid black;border-right:1px solid black;</attribute>
+    </td>
+</template>
+</odoo>

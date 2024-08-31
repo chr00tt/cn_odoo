@@ -10,6 +10,9 @@
     'depends': [
         'sale',
     ],
+    'data': [
+        'report/ir_actions_report_templates.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
