@@ -8,6 +8,7 @@
     'category': 'Hidden',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'data': [
+        'data/cn_base_data.xml',
         'data/res_partner_data.xml',
         'data/res_company_data.xml',
     ],

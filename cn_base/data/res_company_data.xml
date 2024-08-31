@@ -3,7 +3,6 @@
     <data noupdate="1">
         <record id="base.main_company" model="res.company">
             <field name="name">我的公司</field>
-            <field name="currency_id" ref="base.CNY"/>
         </record>
     </data> 
 </odoo>
