@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
+        <!-- 库存位置名称 -->
+        <function model="ir.model.data" name="_update_xmlids">
+            <value model="base" eval="[{
+                'xml_id': 'stock.stock_location_transit',
+                'record': obj().env.ref('cn_account.res_company_cn_account').internal_transit_location_id,
+                'noupdate': True,
+                }, {
+                'xml_id': 'stock.stock_location_inventory',
+                'record': obj().env['ir.property'].with_company(ref('cn_account.res_company_cn_account'))._get('property_stock_inventory','product.template'),
+                'noupdate': True,
+                }, {
+                'xml_id': 'stock.stock_location_production',
+                'record': obj().env['stock.location'].search([
+                    ('usage', '=', 'production'),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
+                'noupdate': True,
+                }, {
+                'xml_id': 'stock.stock_location_scrap',
+                'record': obj().env['stock.location'].search([
+                    ('usage', '=', 'inventory'),
+                    ('scrap_location', '=', True),
+                    ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
+                'noupdate': True,
+            }]"/>
+        </function>
+        <record model="stock.location" id="stock.stock_location_transit">
+            <field name="name">仓库间运输</field>
+        </record>
+        <record model="stock.location" id="stock.stock_location_inventory">
+            <field name="name">库存调整</field>
+        </record>
+        <record model="stock.location" id="stock.stock_location_production">
+            <field name="name">生产</field>
+        </record>
+        <record model="stock.location" id="stock.stock_location_scrap">
+            <field name="name">报废</field>
+        </record>
+
         <!-- 产品类别 -->
         <record id="cn_product.product_category_finished_goods" model="product.category">
             <field name="property_valuation">real_time</field>
