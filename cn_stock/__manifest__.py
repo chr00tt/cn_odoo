@@ -13,7 +13,7 @@
     ],
     'data': [
         'data/stock_data.xml',
-        'data/cn_stock_data.xml',
+        'data/cn_stock_demo.xml',
     ],
     'installable': True,
     'auto_install': True,

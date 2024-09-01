@@ -5,3 +5,10 @@
 #, python-format
 msgid "Odoo Client Error"
 msgstr "客户端错误"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/pivot/pivot_model.js:0
+#, python-format
+msgid "Variation"
+msgstr "变化"
