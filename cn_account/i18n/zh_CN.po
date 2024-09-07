@@ -63,3 +63,8 @@ msgstr "会计包"
 #: model:ir.model.fields,field_description:account.field_account_report_expression__green_on_positive
 msgid "Is Growth Good when Positive"
 msgstr "正数的时候增长是好的吗"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_account__opening_credit
+msgid "Opening Credit"
+msgstr "期初贷方"

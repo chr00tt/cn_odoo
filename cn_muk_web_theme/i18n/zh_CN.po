@@ -1,0 +1,182 @@
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\">Background Image</span>\n"
+"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\">Favicon</span>\n"
+"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Menu Colors</span>"
+msgstr "<span class=\"o_form_label\">菜单颜色</span>"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Theme Colors</span>"
+msgstr "<span class=\"o_form_label\">主题颜色</span>"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Apps Color"
+msgstr "Apps 颜色"
+
+#. module: muk_web_theme
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_company__background_image
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_config_settings__theme_background_image
+msgid "Apps Menu Background Image"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model,name:muk_web_theme.model_ir_asset
+msgid "Asset"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model,name:muk_web_theme.model_web_editor_assets
+msgid "Assets Utils"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model,name:muk_web_theme.model_ir_attachment
+msgid "Attachment"
+msgstr ""
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Backend Theme"
+msgstr "后端主题"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Background"
+msgstr "背景"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Brand"
+msgstr "品牌"
+
+#. module: muk_web_theme
+#: model:ir.model,name:muk_web_theme.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_config_settings__theme_favicon
+msgid "Company Favicon"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model,name:muk_web_theme.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model,name:muk_web_theme.model_ir_http
+msgid "HTTP Routing"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields.selection,name:muk_web_theme.selection__res_users__sidebar_type__invisible
+msgid "Invisible"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields.selection,name:muk_web_theme.selection__res_users__sidebar_type__large
+msgid "Large"
+msgstr ""
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Menu Color"
+msgstr "菜单颜色"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Primary"
+msgstr "主色"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Reset Colors"
+msgstr "重置颜色"
+
+#. module: muk_web_theme
+#. odoo-javascript
+#: code:addons/muk_web_theme/static/src/webclient/appssearch/appssearch.xml:0
+#, python-format
+msgid "Search menus..."
+msgstr ""
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Set the background image for the apps menu"
+msgstr "设置应用菜单的背景图片"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Set the favicon for the system"
+msgstr "设置系统的 favicon"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Set the main menu colors"
+msgstr "设置主菜单颜色"
+
+#. module: muk_web_theme
+#: model_terms:ir.ui.view,arch_db:muk_web_theme.res_config_settings_view_form
+msgid "Set the main theme colors"
+msgstr "设置主题颜色"
+
+#. module: muk_web_theme
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_users__sidebar_type
+msgid "Sidebar Type"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields.selection,name:muk_web_theme.selection__res_users__sidebar_type__small
+msgid "Small"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_config_settings__theme_color_appbar_background
+msgid "Theme AppBar Background"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_config_settings__theme_color_appbar_color
+msgid "Theme AppBar Color"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_config_settings__theme_color_brand
+msgid "Theme Brand Color"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_config_settings__theme_color_menu
+msgid "Theme Menu Color"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields,field_description:muk_web_theme.field_res_config_settings__theme_color_primary
+msgid "Theme Primary Color"
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model.fields,help:muk_web_theme.field_res_config_settings__theme_favicon
+msgid ""
+"This field holds the image used to display a favicon for a given company."
+msgstr ""
+
+#. module: muk_web_theme
+#: model:ir.model,name:muk_web_theme.model_res_users
+msgid "User"
+msgstr ""
