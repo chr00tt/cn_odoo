@@ -5,6 +5,7 @@ from odoo import models
 class CashFlowReportCustomHandler(models.AbstractModel):
     _name = 'cn_account.cash.flow.report.handler'
     _inherit = 'account.cash.flow.report.handler'
+    _description = '现金流量报告自定义处理程序'
 
     def _get_report_data(self, report, options, layout_data):
         report_data = {}

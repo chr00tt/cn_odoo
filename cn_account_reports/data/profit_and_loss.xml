@@ -198,7 +198,7 @@
                         <field name="label">balance</field>
                         <field name="engine">domain</field>
                         <field name="formula" eval="[('account_id.code','=like','6701%')]"/>
-                        <field name="subformula">sum</field>
+                        <field name="subformula">-sum</field>
                     </record>
                 </field>
             </record>
