@@ -68,3 +68,16 @@ msgstr "正数的时候增长是好的吗"
 #: model:ir.model.fields,field_description:account.field_account_account__opening_credit
 msgid "Opening Credit"
 msgstr "期初贷方"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/controllers/portal.py:0
+#: model:ir.model.fields,field_description:account.field_account_bank_statement__name
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__ref
+#: model:ir.model.fields,field_description:account.field_account_move__ref
+#: model:ir.model.fields,field_description:account.field_account_move_line__ref
+#: model:ir.model.fields,field_description:account.field_account_payment__ref
+#: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
+#, python-format
+msgid "Reference"
+msgstr "备注"
