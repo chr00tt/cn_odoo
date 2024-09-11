@@ -168,32 +168,32 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__odp
 msgid "ODF Presentation"
-msgstr ""
+msgstr "ODF 演示"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fodp
 msgid "ODF Presentation (Flat)"
-msgstr ""
+msgstr "ODF 演示（平淡）"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__ods
 msgid "ODF Spreadsheet"
-msgstr ""
+msgstr "ODF 电子表格"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fods
 msgid "ODF Spreadsheet (Flat)"
-msgstr ""
+msgstr "ODF 电子表格（平淡）"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__odt
 msgid "ODF Text Document"
-msgstr ""
+msgstr "ODF 文本文档"
 
 #. module: report_py3o
 #: model:ir.model.fields.selection,name:report_py3o.selection__py3o_template__filetype__fodt
 msgid "ODF Text Document (Flat)"
-msgstr ""
+msgstr "ODF 文本文档（平淡）"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_filetype
