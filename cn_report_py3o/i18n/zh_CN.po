@@ -47,7 +47,7 @@ msgstr "显示名称"
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_fallback
 msgid "Fallback"
-msgstr ""
+msgstr "备用"
 
 #. module: report_py3o
 #. odoo-python
@@ -141,7 +141,7 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__module
 msgid "Module"
-msgstr ""
+msgstr "模块"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__msg_py3o_report_not_available
@@ -151,7 +151,7 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_multi_in_one
 msgid "Multiple Records in a Single Report"
-msgstr ""
+msgstr "单个报告中多条记录"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_py3o_template__name
@@ -198,12 +198,12 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_filetype
 msgid "Output Format"
-msgstr ""
+msgstr "输出格式"
 
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__lo_bin_path
 msgid "Path to the libreoffice runtime"
-msgstr ""
+msgstr "libreoffice软件路径"
 
 #. module: report_py3o
 #: model:ir.actions.report,name:report_py3o.res_users_report_py3o
@@ -244,7 +244,7 @@ msgstr ""
 #. module: report_py3o
 #: model:ir.model.fields,field_description:report_py3o.field_ir_actions_report__py3o_template_id
 msgid "Template"
-msgstr ""
+msgstr "模板"
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__module
