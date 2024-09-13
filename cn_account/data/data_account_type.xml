@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="account.account.type" id="data_account_type_off_balance">
+          <field name="name">其他</field>
+          <field name="type">other</field>
+        </record>
+    </data>
+</odoo>
