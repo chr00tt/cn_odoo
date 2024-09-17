@@ -1,4 +1,9 @@
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Post Exchange difference entries in:</span>"
+msgstr "<span class=\"o_form_label\">在以下发布汇兑差额分录：</span>"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__bank_acc_number
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__acc_number
 #: model:ir.model.fields,field_description:account.field_res_partner_bank__acc_number
@@ -16,20 +21,6 @@ msgstr "会计科目"
 #: model:ir.model.fields,field_description:account.field_account_analytic_applicability__account_prefix
 msgid "Financial Accounts Prefix"
 msgstr "会计科目前缀"
-
-#. module: account
-#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__name
-#: model:ir.model.fields,field_description:account.field_account_full_reconcile__name
-#: model:ir.model.fields,field_description:account.field_account_move__name
-#: model:ir.model.fields,field_description:account.field_account_move_line__move_name
-#: model:ir.model.fields,field_description:account.field_account_payment__name
-msgid "Number"
-msgstr "编号"
-
-#. module: account
-#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
-msgid "<span class=\"o_form_label\">Post Exchange difference entries in:</span>"
-msgstr "<span class=\"o_form_label\">在以下发布汇兑差额分录：</span>"
 
 #. module: account
 #. odoo-python
@@ -53,6 +44,29 @@ msgstr "结算单"
 #, python-format
 msgid "Label"
 msgstr "摘要"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__name
+#: model:ir.model.fields,field_description:account.field_account_full_reconcile__name
+#: model:ir.model.fields,field_description:account.field_account_move__name
+#: model:ir.model.fields,field_description:account.field_account_move_line__move_name
+#: model:ir.model.fields,field_description:account.field_account_payment__name
+msgid "Number"
+msgstr "编号"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+#, python-format
+msgid "Outstanding Payments"
+msgstr "未对账付款"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/chart_template.py:0
+#, python-format
+msgid "Outstanding Receipts"
+msgstr "未对账收款"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form

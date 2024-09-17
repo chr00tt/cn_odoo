@@ -41,7 +41,7 @@
             <field name="currency_id" ref="base.CNY"/>
         </record>
 
-        <!-- 银行存款-人民币-财务公司-8302户 -->
+        <!-- 银行存款-人民币-财务公司-9302户 -->
         <function model="ir.model.data" name="_update_xmlids">
             <value model="base" eval="[{
                 'xml_id': 'account.account_1002010101',

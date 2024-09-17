@@ -23,6 +23,7 @@
         'demo/demo_company.xml',
         'demo/cn_account_demo.xml',
         'demo/account.account.csv',
+        'demo/account.group.csv',
         'demo/analytic_account_demo.xml',
         'demo/res.bank.csv',
         'demo/res.partner.bank.csv',
