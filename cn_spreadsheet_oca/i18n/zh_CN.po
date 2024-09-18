@@ -1,7 +1,28 @@
 #. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Add date"
+msgstr "添加日期"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Add relation"
+msgstr "添加关联"
+
+#. module: spreadsheet_oca
 #: model:spreadsheet.spreadsheet.import.mode,name:spreadsheet_oca.spreadsheet_import_mode_add_sheet
 msgid "Add sheet to spreadsheet"
 msgstr "添加工作表到电子表格"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Add text"
+msgstr "添加文本"
 
 #. module: spreadsheet_oca
 #. odoo-javascript
@@ -21,6 +42,13 @@ msgstr "添加到电子表格"
 #, python-format
 msgid "Add to spreadsheet"
 msgstr "添加到电子表格"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Automatically filter on the current period"
+msgstr "自动按当前期间筛选"
 
 #. module: spreadsheet_oca
 #. odoo-javascript
@@ -66,6 +94,13 @@ msgstr "编辑"
 #, python-format
 msgid "Edit domain"
 msgstr "编辑域"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/filter.esm.js:0
+#, python-format
+msgid "Filters"
+msgstr "筛选"
 
 #. module: spreadsheet_oca
 #: model:ir.actions.act_window,name:spreadsheet_oca.spreadsheet_spreadsheet_import_act_window
@@ -149,6 +184,13 @@ msgstr "刷新所有数据"
 
 #. module: spreadsheet_oca
 #. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/filter.esm.js:0
+#, python-format
+msgid "Relative Period"
+msgstr "相对期间"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
 #: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
 #, python-format
 msgid "Sorting"
@@ -166,6 +208,13 @@ msgstr "电子表格"
 #: model:ir.ui.menu,name:spreadsheet_oca.spreadsheet_spreadsheet_menu
 msgid "Spreadsheets"
 msgstr "电子表格"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/bundle/spreadsheet.xml:0
+#, python-format
+msgid "Time range"
+msgstr "时间范围"
 
 #. module: spreadsheet_oca
 #: model:res.groups,name:spreadsheet_oca.group_user
