@@ -84,6 +84,11 @@ msgid "Opening Credit"
 msgstr "期初贷方"
 
 #. module: account
+#: model:ir.model.fields.selection,name:account.selection__account_payment__payment_type__inbound
+msgid "Receive"
+msgstr "收款"
+
+#. module: account
 #. odoo-python
 #: code:addons/account/controllers/portal.py:0
 #: model:ir.model.fields,field_description:account.field_account_bank_statement__name
@@ -95,3 +100,9 @@ msgstr "期初贷方"
 #, python-format
 msgid "Reference"
 msgstr "备注"
+
+#. module: account
+#: model:ir.model.fields.selection,name:account.selection__account_payment__payment_type__outbound
+msgid "Send"
+msgstr "付款"
+
