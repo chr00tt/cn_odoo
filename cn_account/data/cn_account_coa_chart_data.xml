@@ -4,16 +4,16 @@
 
         <record id="transfer_account_id" model="account.account.template">
             <field name="code">1003</field>
-            <field name="name">转让帐户</field>
+            <field name="name">内部转帐</field>
             <field name="reconcile" eval='True'/>
             <field name="user_type_id" ref="account.data_account_type_current_assets"/>
         </record>
 
         <record id="cn_chart_template" model="account.chart.template">
             <field name="name">中国 - 企业会计准则</field>
-            <field name="code_digits">6</field>
-            <field name="bank_account_code_prefix">1002</field>
-            <field name="cash_account_code_prefix">1001</field>
+            <field name="code_digits">4</field>
+            <field name="bank_account_code_prefix">10020</field>
+            <field name="cash_account_code_prefix">10010</field>
             <field name="transfer_account_id" ref="transfer_account_id"/>
             <field name="currency_id" ref="base.CNY"/>
         </record>
