@@ -16,6 +16,16 @@
             <field name="expense_currency_exchange_account_id" ref="account_6061"/>
         </record>
 
+        <!-- Account Tax -->
+        <record id="tag_sale_13" model="account.account.tag">
+            <field name="name">13%销项税</field>
+            <field name="applicability">taxes</field>
+        </record>
+        <record id="tag_purchase_13" model="account.account.tag">
+            <field name="name">13%进项税</field>
+            <field name="applicability">taxes</field>
+        </record>
+
         <!-- Tax template for sale and purchase -->
         <record id="sale_tax_template" model="account.tax.template">
             <field name="chart_template_id" ref="cn_chart_template"/>
@@ -24,6 +34,7 @@
             <field name="type_tax_use">sale</field>
             <field name="account_id" ref="account_22210105"/>
             <field name="refund_account_id" ref="account_22210105"/>
+            <field name="tag_ids" eval="[(6, 0, [ref('tag_sale_13')])]"/>
         </record>
 
        <record id="purchase_tax_template" model="account.tax.template">
@@ -33,6 +44,7 @@
             <field name="type_tax_use">purchase</field>
             <field name="account_id" ref="account_22210101"/>
             <field name="refund_account_id" ref="account_22210101"/>
+            <field name="tag_ids" eval="[(6, 0, [ref('tag_purchase_13')])]"/>
         </record>
     </data>
 </odoo>
