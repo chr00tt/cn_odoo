@@ -315,5 +315,72 @@
                 }),
             ]"/>
         </record>
+
+        <!-- purchase tax included -->
+        <record id="purchase_included_13" model="account.tax.template">
+            <field name="chart_template_id" ref="cn_chart_template"/>
+            <field name="name">13%进项税(含)</field>
+            <field name="description">13%进项税(含)</field>
+            <field name="amount">13</field>
+            <field name="amount_type">percent</field>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="1"/>
+            <field name="tax_group_id" ref="tax_group_vat_13"/>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_22210101'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_22210101'),
+                }),
+            ]"/>
+        </record>
+
+        <record id="purchase_included_9" model="account.tax.template">
+            <field name="chart_template_id" ref="cn_chart_template"/>
+            <field name="name">9%进项税(含)</field>
+            <field name="description">9%进项税(含)</field>
+            <field name="amount">9</field>
+            <field name="amount_type">percent</field>
+            <field name="type_tax_use">purchase</field>
+            <field name="price_include" eval="1"/>
+            <field name="tax_group_id" ref="tax_group_vat_9"/>
+            <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_22210101'),
+                }),
+            ]"/>
+            <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'base',
+                }),
+                (0,0, {
+                    'factor_percent': 100,
+                    'repartition_type': 'tax',
+                    'account_id': ref('account_22210101'),
+                }),
+            ]"/>
+        </record>
     </data>
 </odoo>
