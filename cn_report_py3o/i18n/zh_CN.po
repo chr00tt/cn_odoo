@@ -77,7 +77,7 @@ msgstr "ID"
 msgid ""
 "If the user does not provide a template this will be used it should be a "
 "relative path to root of YOUR module or an absolute path on your server."
-msgstr ""
+msgstr "如果未设置模板，则将使用备用模板。可以是模块的相对路径或服务器的绝对路径。"
 
 #. module: report_py3o
 #: model:ir.model.fields,help:report_py3o.field_ir_actions_report__py3o_multi_in_one
