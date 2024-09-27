@@ -14,3 +14,8 @@ msgstr "我的销售漏斗"
 #: model:ir.ui.menu,name:crm.menu_crm_config_lead
 msgid "Pipeline"
 msgstr "销售漏斗"
+
+#. module: crm
+#: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
+msgid "Ongoing"
+msgstr "进行中"
