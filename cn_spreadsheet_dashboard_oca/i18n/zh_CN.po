@@ -12,3 +12,13 @@ msgstr "拷贝"
 #: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard_oca.spreadsheet_dashboard_tree_view
 msgid "Edit"
 msgstr "编辑"
+
+#. module: spreadsheet_dashboard_oca
+#: model:spreadsheet.spreadsheet.import.mode,name:spreadsheet_dashboard_oca.spreadsheet_import_mode_dashboard
+msgid "To dashboard"
+msgstr "添加到仪表板"
+
+#. module: spreadsheet_dashboard_oca
+#: model:spreadsheet.spreadsheet.import.mode,name:spreadsheet_dashboard_oca.spreadsheet_import_mode_dashboard_sheet
+msgid "To dashboard new sheet"
+msgstr "添加新工作表到仪表板"
