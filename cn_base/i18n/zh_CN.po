@@ -15,6 +15,11 @@ msgstr ""
 "此时不能进行模块动作，请稍后重试或联系您的系统管理员."
 
 #. module: base
+#: model:ir.model.fields,field_description:base.field_ir_model__order
+msgid "Order"
+msgstr "顺序"
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
 #: model_terms:ir.ui.view,arch_db:base.view_model_form
 msgid "Properties"
