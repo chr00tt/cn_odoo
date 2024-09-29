@@ -4,6 +4,37 @@ msgid "Categories"
 msgstr "类别"
 
 #. module: base
+#: model:ir.actions.act_window,name:base.action_res_company_form
+#: model:ir.model,name:base.model_res_company
+#: model:ir.model.fields,field_description:base.field_res_users__company_ids
+#: model:ir.ui.menu,name:base.menu_action_res_company_form
+#: model_terms:ir.ui.view,arch_db:base.view_company_tree
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+msgid "Companies"
+msgstr "机构"
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_qweb_fields.py:0
+#: model:ir.model.fields,field_description:base.field_ir_attachment__company_id
+#: model:ir.model.fields,field_description:base.field_ir_default__company_id
+#: model:ir.model.fields,field_description:base.field_ir_property__company_id
+#: model:ir.model.fields,field_description:base.field_ir_sequence__company_id
+#: model:ir.model.fields,field_description:base.field_res_currency_rate__company_id
+#: model:ir.model.fields,field_description:base.field_res_partner__company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_bank__company_id
+#: model:ir.model.fields,field_description:base.field_res_users__company_id
+#: model:ir.model.fields.selection,name:base.selection__res_partner__company_type__company
+#: model_terms:ir.ui.view,arch_db:base.ir_default_search_view
+#: model_terms:ir.ui.view,arch_db:base.view_attachment_search
+#: model_terms:ir.ui.view,arch_db:base.view_company_form
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+#: model_terms:ir.ui.view,arch_db:base.view_users_search
+#, python-format
+msgid "Company"
+msgstr "机构"
+
+#. module: base
 #. odoo-python
 #: code:addons/base/models/ir_module.py:0
 #, python-format
@@ -24,3 +55,8 @@ msgstr "顺序"
 #: model_terms:ir.ui.view,arch_db:base.view_model_form
 msgid "Properties"
 msgstr "属性"
+
+#. module: base
+#: model:ir.ui.menu,name:base.menu_users
+msgid "Users & Companies"
+msgstr "用户 & 机构"
