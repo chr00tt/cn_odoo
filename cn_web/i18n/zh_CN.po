@@ -8,6 +8,14 @@ msgstr "客户端错误"
 
 #. module: web
 #. odoo-javascript
+#: code:addons/web/static/src/webclient/user_menu/user_menu_items.js:0
+#: model_terms:ir.ui.view,arch_db:web.login_successful
+#, python-format
+msgid "Log out"
+msgstr "退出登录"
+
+#. module: web
+#. odoo-javascript
 #: code:addons/web/static/src/views/pivot/pivot_model.js:0
 #, python-format
 msgid "Variation"
