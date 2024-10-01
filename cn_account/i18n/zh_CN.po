@@ -18,6 +18,13 @@ msgid "Financial Account"
 msgstr "会计科目"
 
 #. module: account
+#: model:ir.actions.act_window,name:account.action_invoice_tree1
+#: model:ir.ui.menu,name:account.menu_action_invoice_tree1
+#, python-format
+msgid "Invoices"
+msgstr "结算单"
+
+#. module: account
 #: code:addons/account/models/account_bank_statement.py:256
 #: model:ir.actions.act_window,name:account.action_move_journal_line
 #: model:ir.actions.act_window,name:account.action_move_select
