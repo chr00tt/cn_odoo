@@ -1,4 +1,10 @@
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_analytic_line__general_account_id
+#: model_terms:ir.ui.view,arch_db:account.view_account_analytic_line_filter_inherit_account
+msgid "Financial Account"
+msgstr "会计科目"
+
+#. module: account
 #: code:addons/account/models/account_bank_statement.py:256
 #: model:ir.actions.act_window,name:account.action_move_journal_line
 #: model:ir.actions.act_window,name:account.action_move_select
