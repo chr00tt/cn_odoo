@@ -7,6 +7,11 @@ msgid "Credit Notes"
 msgstr "贷记单"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.invoice_form
+msgid "Draft Credit Note"
+msgstr "草稿贷记单"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_line__general_account_id
 #: model_terms:ir.ui.view,arch_db:account.view_account_analytic_line_filter_inherit_account
 msgid "Financial Account"
@@ -25,3 +30,25 @@ msgstr "会计科目"
 #, python-format
 msgid "Journal Entries"
 msgstr "日记帐分录"
+
+#. module: account
+#. openerp-web
+#: model:ir.model.fields,field_description:account.field_account_invoice__amount_tax
+#: model_terms:ir.ui.view,arch_db:account.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account.invoice_tree
+#, python-format
+msgid "Tax"
+msgstr "税额"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account.invoice_tree
+msgid "Tax Excluded"
+msgstr "未税金额"
+
+#: model_terms:ir.ui.view,arch_db:account.invoice_form
+#: model_terms:ir.ui.view,arch_db:account.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account.invoice_tree
+#: model_terms:ir.ui.view,arch_db:account.view_account_bnk_stmt_cashbox
+msgid "Total"
+msgstr "合计"
