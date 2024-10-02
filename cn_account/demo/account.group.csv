@@ -1,3 +1,4 @@
 "id","code_prefix_start","name","company_id"
 "account_group_template_enterprise_100201","100201","人民币","xx公司"
 "account_group_template_enterprise_100202","100202","外币","xx公司"
+"account_group_template_enterprise_1221","1221","其他应收款","xx公司"
