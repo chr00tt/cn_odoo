@@ -1,0 +1,6 @@
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_rule__global
+#: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
+#: model_terms:ir.ui.view,arch_db:base.view_rule_search
+msgid "Global"
+msgstr "全局"
