@@ -1,0 +1,9 @@
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippet_options
+msgid "In"
+msgstr "进入"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippet_options
+msgid "Out"
+msgstr "退出"

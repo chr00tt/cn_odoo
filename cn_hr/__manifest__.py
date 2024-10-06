@@ -14,7 +14,6 @@
         'demo/res.partner.csv',
         'demo/hr.employee.csv',
     ],
-    'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
 }
