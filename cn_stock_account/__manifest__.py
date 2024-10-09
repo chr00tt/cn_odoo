@@ -3,14 +3,13 @@
 
 {
     'name': 'cn WMS Accounting',
-    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': "He Jian",
-    'depends': ['stock_account'],
     'category': 'Hidden',
+    'website': 'https://github.com/chr00tt/cn_odoo',
+    'depends': ['stock_account'],
     'demo': [
         'data/cn_stock_account_demo.xml',
     ],
-    'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
 }

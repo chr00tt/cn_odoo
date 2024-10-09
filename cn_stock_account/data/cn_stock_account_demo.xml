@@ -43,16 +43,21 @@
         <record id="cn_product.product_category_finished_goods" model="product.category">
             <field name="property_valuation">real_time</field>
             <field name="property_stock_valuation_account_id" search="[('code', '=', '1405')]"/>
+            <field name="property_stock_account_input_categ_id" search="[('code', '=', '1402')]"/>
+            <field name="property_stock_account_output_categ_id" search="[('code', '=', '1406')]"/>
         </record>
         <record id="cn_product.product_category_purchased_materia" model="product.category">
             <field name="property_valuation">real_time</field>
-            <field name="property_stock_valuation_account_id" search="[('code', '=', '140300')]"/>
-            <field name="property_stock_account_input_categ_id" search="[('code', '=', '140100')]"/>
+            <field name="property_stock_valuation_account_id" search="[('code', '=', '1403')]"/>
+            <field name="property_stock_account_input_categ_id" search="[('code', '=', '1401')]"/>
+            <field name="property_stock_account_output_categ_id" search="[('code', '=', '1406')]"/>
         </record>
         <record id="cn_product.product_category_parts" model="product.category">
             <field name="property_cost_method">fifo</field>
             <field name="property_valuation">real_time</field>
-            <field name="property_stock_valuation_account_id" search="[('code', '=', '140300')]"/>
+            <field name="property_stock_valuation_account_id" search="[('code', '=', '1403')]"/>
+            <field name="property_stock_account_input_categ_id" search="[('code', '=', '1402')]"/>
+            <field name="property_stock_account_output_categ_id" search="[('code', '=', '1406')]"/>
         </record>
     </data>
 </odoo>
