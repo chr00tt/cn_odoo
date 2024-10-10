@@ -1,10 +1,82 @@
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.invoice_form
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_refund
+msgid "Add Credit Note"
+msgstr "添加贷记单"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.invoice_supplier_form
+msgid "Ask for a Credit Note"
+msgstr "贷记单"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.invoice_supplier_form
+msgid "Auto-Complete"
+msgstr "自动完成"
+
+#. module: account
+#: selection:account.invoice.refund,filter_refund:0
+msgid "Cancel: create credit note and reconcile"
+msgstr "取消：创建贷记单，并核销"
+
+#. module: account
+#: selection:account.invoice.refund,filter_refund:0
+msgid "Create a draft credit note"
+msgstr "创建草稿贷记单"
+
+#. module: account
+#: model_terms:ir.actions.act_window,help:account.action_invoice_in_refund
+msgid "Create a vendor credit note"
+msgstr "创建供应商贷记单"
+
+#. module: account
+#: code:addons/account/models/account_invoice.py:486
+#: code:addons/account/models/account_invoice.py:1316
+#: model:ir.actions.act_window,name:account.action_account_invoice_refund
+#: model:ir.model,name:account.model_account_invoice_refund
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:account.report_invoice_document
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_refund
+#, python-format
+msgid "Credit Note"
+msgstr "贷记单"
+
+#. module: account
+#: code:addons/account/models/account_invoice.py:487
+#, python-format
+msgid "Credit Note - %s"
+msgstr "贷记单-%s"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+msgid "Credit Note Bill"
+msgstr "贷记单账单"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_invoice_refund__date_invoice
+msgid "Credit Note Date"
+msgstr "贷记单日期"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_journal__refund_sequence_id
+msgid "Credit Note Entry Sequence"
+msgstr "贷记单分录序列"
+
+
+#. module: account
 #: model:ir.actions.act_window,name:account.action_invoice_out_refund
 #: model:ir.ui.menu,name:account.menu_action_invoice_out_refund
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Credit Notes"
 msgstr "贷记单"
+
+#. module: account
+#: selection:account.invoice,type:0 selection:account.invoice.report,type:0
+#: code:addons/account/models/account_payment.py:769
+#, python-format
+msgid "Customer Credit Note"
+msgstr "客户贷记单"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.invoice_form
@@ -59,3 +131,17 @@ msgstr "未税金额"
 #: model_terms:ir.ui.view,arch_db:account.view_account_bnk_stmt_cashbox
 msgid "Total"
 msgstr "合计"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_refund
+msgid ""
+"You will be able to edit and validate this\n"
+"                                credit note directly or keep it draft,\n"
+"                                waiting for the document to be issued by\n"
+"                                your supplier/customer."
+msgstr ""
+"您可以编缉和验证\n"
+"                                这一贷记单或保存草稿,\n"
+"                                以等待供应商\n"
+"                                或客户的单据."
+
