@@ -11,6 +11,7 @@
     ],
     'data': [
         'data/cash_flow_report.xml',
+        'data/institutions_balance_sheet.xml',
         'data/profit_and_loss.xml',
     ],
     'auto_install': True,

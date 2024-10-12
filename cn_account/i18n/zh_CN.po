@@ -106,3 +106,11 @@ msgstr "备注"
 msgid "Send"
 msgstr "付款"
 
+#. module: account
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
+#: code:addons/account/static/src/xml/legacy_account_payment.xml:0
+#, python-format
+msgid "View"
+msgstr "查看"
+
