@@ -1,0 +1,7 @@
+#. module: account_reports
+#: code:addons/account_reports/models/account_followup_report.py:297
+#: code:addons/account_reports/models/account_followup_report.py:298
+#: code:addons/account_reports/models/account_general_ledger.py:338
+#, python-format
+msgid "Communication"
+msgstr "摘要"
