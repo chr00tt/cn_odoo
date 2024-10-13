@@ -1,0 +1,5 @@
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_account_reconcile
+msgid "Allow Reconciliation"
+msgstr "允许对账"
+

@@ -1,0 +1,6 @@
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/xml/editor.xml:44
+#, python-format
+msgid "Document"
+msgstr "文档"

@@ -1,0 +1,5 @@
+#. module: account_reports
+#: code:addons/account_reports/models/account_report_coa.py:52
+#, python-format
+msgid "Class %s"
+msgstr "种类 %s"
