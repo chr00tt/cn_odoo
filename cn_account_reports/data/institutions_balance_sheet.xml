@@ -24,9 +24,8 @@
                 <field name="aggregation_formula">CN_INSTITUTIONS_CA.balance + CN_INSTITUTIONS_PNCA.balance</field>
                 <field name="children_ids">
                     <record id="account_financial_report_current_assets_view0_cn_institutions" model="account.report.line">
-                        <field name="name">流动资产</field>
-                        <field name="code">CN_INSTITUTIONS_CA</field>
-                        <field name="aggregation_formula">CN_INSTITUTIONS_BA.balance + CN_INSTITUTIONS_REC.balance + CN_INSTITUTIONS_CAS.balance + CN_INSTITUTIONS_PRE.balance</field>
+                        <field name="name">流动资产：</field>
+                        <field name="code">CN_INSTITUTIONS_CA0</field>
                         <field name="children_ids">
                             <record id="account_financial_report_bank_view0_cn_institutions" model="account.report.line">
                                 <field name="name">货币资金</field>
@@ -100,10 +99,15 @@
                             </record>
                             <record id="account_financial_report_current_assets0_cn_institutions" model="account.report.line">
                                 <field name="name">　流动资产合计</field>
-                                <field name="code">CN_INSTITUTIONS_CAS</field>
-                                <field name="groupby">account_id</field>
-                                <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum(['|', ('account_id.account_type', '=', 'asset_current'), '&amp;', ('account_id.account_type', '=', 'asset_receivable'), ('account_id.non_trade', '=', True)])</field>
+                                <field name="code">CN_INSTITUTIONS_CA</field>
+                                <field name="expression_ids">
+                                    <record id="account_financial_report_current_assets0_balance_cn_institutions" model="account.report.expression">
+                                        <field name="label">balance</field>
+                                        <field name="engine">aggregation</field>
+                                        <field name="formula">CN_INSTITUTIONS_BA.balance + CN_INSTITUTIONS_11.balance + CN_INSTITUTIONS_1211 + CN_INSTITUTIONS_1212 + CN_INSTITUTIONS_PRE.balance + CN_INSTITUTIONS_1215 + CN_INSTITUTIONS_1216 + CN_INSTITUTIONS_1218 + CN_INSTITUTIONS_13 + CN_INSTITUTIONS_14</field>
+                                        <field name="green_on_positive" eval="False"/>
+                                    </record>
+                                </field>
                             </record>
                         </field>
                     </record>
@@ -413,7 +417,7 @@
                                 <field name="code">CN_INSTITUTIONS_NL</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum(['&amp;', ('account_id.type', '=', 'liability_non_current'), ('account_id.code', 'not ilike', '2901')])</field>
+                                <field name="domain_formula">sum(['&amp;', ('account_id.account_type', '=', 'liability_non_current'), ('account_id.code', 'not ilike', '2901')])</field>
                             </record>
                         </field>
                     </record>
@@ -426,9 +430,15 @@
                     </record>
                     <record id="account_financial_report_liabilities_view0_cn_institutions" model="account.report.line">
                         <field name="name">　负债合计</field>
-                        <field name="code">CN_INSTITUTIONS_LB</field>
-                        <field name="aggregation_formula">CN_INSTITUTIONS_CL.balance + CN_INSTITUTIONS_NL.balance + CN_INSTITUTIONS_2901.balance</field>
-                        <field name="green_on_positive" eval="False"/>
+                        <field name="code">CN_INSTITUTIONS_L</field>
+                        <field name="expression_ids">
+                            <record id="account_financial_report_liabilities_view0_balance_cn_institutions" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">aggregation</field>
+                                <field name="formula">CN_INSTITUTIONS_CL.balance + CN_INSTITUTIONS_NL.balance + CN_INSTITUTIONS_2901.balance</field>
+                                <field name="green_on_positive" eval="False"/>
+                            </record>
+                        </field>
                     </record>
 
                     <record id="account_financial_report_equity0_cn_institutions" model="account.report.line">
@@ -500,53 +510,16 @@
                                 <field name="code">CN_INSTITUTIONS_CURR_YEAR_EARNINGS</field>
                                 <field name="aggregation_formula">CN_INSTITUTIONS_PREV_YEAR_EARNINGS.CURR_YEAR_EARNINGS_PNL_balance + CN_INSTITUTIONS_PREV_YEAR_EARNINGS.CURR_YEAR_EARNINGS_ALLOC_balance</field>
                             </record>
-
-                            <record id="account_financial_retained_earnings0_cn_institutions" model="account.report.line">
-                                <field name="name">Retained Earnings</field>
-                                <field name="code">CN_INSTITUTIONS_RETAINED_EARNINGS</field>
-                                <field name="groupby">account_id</field>
-                                <field name="foldable" eval="True"/>
-                                <field name="domain_formula">-sum([('account_id.account_type', '=', 'equity')])</field>
-                            </record>
-                            <record id="account_financial_unaffected_earnings0_cn_institutions" model="account.report.line">
-                                <field name="name">Unallocated Earnings</field>
-                                <field name="code">CN_INSTITUTIONS_UNAFFECTED_EARNINGS</field>
-                                <field name="aggregation_formula">CN_INSTITUTIONS_CURR_YEAR_EARNINGS.balance + TW_PREV_YEAR_EARNINGS.balance</field>
-                                <field name="children_ids">
-                                    <record id="account_financial_current_year_earnings0_cn_institutions" model="account.report.line">
-                                        <field name="name">Current Year Unallocated Earnings</field>
-                                        <field name="code">CN_INSTITUTIONS_CURR_YEAR_EARNINGS</field>
-                                        <field name="aggregation_formula">CN_INSTITUTIONS_CURR_YEAR_EARNINGS_PNL.balance + CN_INSTITUTIONS_CURR_YEAR_EARNINGS_ALLOC.balance</field>
-                                        <field name="children_ids">
-                                            <record id="account_financial_current_year_earnings_line_1_cn_institutions" model="account.report.line">
-                                                <field name="name">Current Year Earnings</field>
-                                                <field name="code">CN_INSTITUTIONS_CURR_YEAR_EARNINGS_PNL</field>
-                                                <field name="expression_ids">
-                                                    <record id="account_financial_current_year_earnings_line_1_balance_cn_institutions" model="account.report.expression">
-                                                        <field name="label">balance</field>
-                                                        <field name="engine">aggregation</field>
-                                                        <field name="formula">NEP.balance</field>
-                                                        <field name="date_scope">from_fiscalyear</field>
-                                                        <field name="subformula">cross_report</field>
-                                                    </record>
-                                                </field>
-                                            </record>
-                                            <record id="account_financial_current_year_earnings_line_2_cn_institutions" model="account.report.line">
-                                                <field name="name">Current Year Allocated Earnings</field>
-                                                <field name="code">CN_INSTITUTIONS_CURR_YEAR_EARNINGS_ALLOC</field>
-                                                <field name="expression_ids">
-                                                    <record id="account_financial_current_year_earnings_line_2_balance_cn_institutions" model="account.report.expression">
-                                                        <field name="label">balance</field>
-                                                        <field name="engine">domain</field>
-                                                        <field name="formula" eval="[('account_id.account_type', '=', 'equity_unaffected')]"/>
-                                                        <field name="date_scope">from_fiscalyear</field>
-                                                        <field name="subformula">-sum</field>
-                                                    </record>
-                                                </field>
-                                            </record>
-                                        </field>
+                            <record id="account_financial_report_liabilities_and_equity_view0_cn_institutions" model="account.report.line">
+                                <field name="name">负债和净资产总计</field>
+                                <field name="code">CN_INSTITUTIONS_LE</field>
+                                <field name="expression_ids">
+                                    <record id="account_financial_report_liabilities_and_equity_view0_balance" model="account.report.expression">
+                                        <field name="label">balance</field>
+                                        <field name="engine">aggregation</field>
+                                        <field name="formula">CN_INSTITUTIONS_L.balance + CN_INSTITUTIONS_EQ.balance</field>
+                                        <field name="green_on_positive" eval="False"/>
                                     </record>
-
                                 </field>
                             </record>
                         </field>
