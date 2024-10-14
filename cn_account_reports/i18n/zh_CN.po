@@ -18,6 +18,35 @@ msgid "Bank reconciliation report"
 msgstr "银行对账报告"
 
 #. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_current_year_earnings_line_2
+msgid "Current Year Allocated Earnings"
+msgstr "本年利润分配"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_current_year_earnings_line_1
+msgid "Current Year Earnings"
+msgstr "本年利润"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_current_year_earnings0
+msgid "Current Year Unallocated Earnings"
+msgstr "本年未分配利润"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_general_ledger.py:286
+#: code:addons/account_reports/models/account_partner_ledger.py:36
+#: model:ir.ui.view,arch_db:account_reports.template_coa_report
+#, python-format
+msgid "Initial Balance"
+msgstr "期初余额"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:32
+#, python-format
+msgid "JRNL"
+msgstr "日记账"
+
+#. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:112
 #, python-format
 msgid "Minus Unreconciled Payments"
@@ -30,6 +59,11 @@ msgid "Minus Unreconciled Statement Lines"
 msgstr "减去未对账明细行"
 
 #. module: account_reports
+#: model:ir.ui.view,arch_db:account_reports.search_template_extra_options
+msgid "Only Show Unreconciled Entries"
+msgstr "只显示未对账的分录"
+
+#. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:152
 #, python-format
 msgid "Plus Missing Statements"
@@ -40,6 +74,16 @@ msgstr "加上缺乏对账单"
 #, python-format
 msgid "Plus Unreconciled Statement Lines"
 msgstr "加上未对账明细"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_previous_year_earnings0
+msgid "Previous Years Unallocated Earnings"
+msgstr "以前年度未分配利润"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_unaffected_earnings0
+msgid "Unallocated Earnings"
+msgstr "未分配利润"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_unfold_all_filter
