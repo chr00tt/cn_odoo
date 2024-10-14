@@ -35,6 +35,13 @@ msgid "Company"
 msgstr "机构"
 
 #. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__name
+#: model:ir.model.fields,field_description:base.field_res_partner__company_name
+#: model:ir.model.fields,field_description:base.field_res_users__company_name
+msgid "Company Name"
+msgstr "机构名称"
+
+#. module: base
 #. odoo-python
 #: code:addons/base/models/ir_module.py:0
 #, python-format
