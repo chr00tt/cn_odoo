@@ -141,7 +141,7 @@
                                 <field name="code">CN_INSTITUTIONS_1601_1602</field>
                                 <field name="aggregation_formula">CN_INSTITUTIONS_1601.balance - CN_INSTITUTIONS_1602.balance</field>
                             </record>
-                            <record id="account_financial_report_1601_cn_institutions" model="account.report.line">
+                            <record id="account_financial_report_1611_cn_institutions" model="account.report.line">
                                 <field name="name">工程物资</field>
                                 <field name="code">CN_INSTITUTIONS_1611</field>
                                 <field name="groupby">account_id</field>
@@ -425,9 +425,9 @@
                         <field name="aggregation_formula">CN_INSTITUTIONS_CL.balance + CN_INSTITUTIONS_NL.balance + CN_INSTITUTIONS_2901.balance</field>
                     </record>
 
-                    <record id="account_financial_report_equity0_cn_institutions" model="account.report.line">
+                    <record id="account_financial_report_equity_view0_cn_institutions" model="account.report.line">
                         <field name="name">净资产：</field>
-                        <field name="code">CN_INSTITUTIONS_EQ</field>
+                        <field name="code">CN_INSTITUTIONS_EQ0</field>
                         <field name="children_ids">
                             <record id="account_financial_previous_year_earnings0_cn_institutions" model="account.report.line">
                                 <field name="name">累计盈余</field>
@@ -493,6 +493,11 @@
                                 <field name="name">本期盈余</field>
                                 <field name="code">CN_INSTITUTIONS_CURR_YEAR_EARNINGS</field>
                                 <field name="aggregation_formula">CN_INSTITUTIONS_PREV_YEAR_EARNINGS.CURR_YEAR_EARNINGS_PNL_balance + CN_INSTITUTIONS_PREV_YEAR_EARNINGS.CURR_YEAR_EARNINGS_ALLOC_balance</field>
+                            </record>
+                            <record id="account_financial_report_equity0_cn_institutions" model="account.report.line">
+                                <field name="name">　净资产合计</field>
+                                <field name="code">CN_INSTITUTIONS_EQ</field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_PREV_YEAR_EARNINGS.balance + CN_INSTITUTIONS_3101.balance + CN_INSTITUTIONS_3201.balance + CN_INSTITUTIONS_3401.balance + CN_INSTITUTIONS_CURR_YEAR_EARNINGS.balance</field>
                             </record>
                             <record id="account_financial_report_liabilities_and_equity_view0_cn_institutions" model="account.report.line">
                                 <field name="name">负债和净资产总计</field>
