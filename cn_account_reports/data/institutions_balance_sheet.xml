@@ -21,7 +21,6 @@
             <record id="account_financial_report_total_assets0_cn_institutions" model="account.report.line">
                 <field name="name">资产</field>
                 <field name="code">CN_INSTITUTIONS_TA</field>
-                <field name="aggregation_formula">CN_INSTITUTIONS_CA.balance + CN_INSTITUTIONS_PNCA.balance</field>
                 <field name="children_ids">
                     <record id="account_financial_report_current_assets_view0_cn_institutions" model="account.report.line">
                         <field name="name">流动资产：</field>
@@ -39,21 +38,21 @@
                                 <field name="code">CN_INSTITUTIONS_11</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '11')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '11%')])</field>
                             </record>
                             <record id="account_financial_report_1211_cn_institutions" model="account.report.line">
                                 <field name="name">应收票据</field>
                                 <field name="code">CN_INSTITUTIONS_1211</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1211')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1211%')])</field>
                             </record>
                             <record id="account_financial_report_1212_cn_institutions" model="account.report.line">
                                 <field name="name">应收账款净额</field>
                                 <field name="code">CN_INSTITUTIONS_1212</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum(['|', ('account_id.code', '=like', '1212'), ('account_id.code', '=like', '121901')])</field>
+                                <field name="domain_formula">sum(['|', ('account_id.code', '=like', '1212%'), ('account_id.code', '=like', '121901%')])</field>
                             </record>
                             <record id="account_financial_report_prepayements0_cn_institutions" model="account.report.line">
                                 <field name="name">预付账款</field>
@@ -67,47 +66,40 @@
                                 <field name="code">CN_INSTITUTIONS_1215</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1215')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1215%')])</field>
                             </record>
                             <record id="account_financial_report_1216_cn_institutions" model="account.report.line">
                                 <field name="name">应收利息</field>
                                 <field name="code">CN_INSTITUTIONS_1216</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1216')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1216%')])</field>
                             </record>
                             <record id="account_financial_report_1218_cn_institutions" model="account.report.line">
                                 <field name="name">其他应收款净额</field>
                                 <field name="code">CN_INSTITUTIONS_1218</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum(['|', ('account_id.code', '=like', '1218'), ('account_id.code', '=like', '121902')])</field>
+                                <field name="domain_formula">sum(['|', ('account_id.code', '=like', '1218%'), ('account_id.code', '=like', '121902%')])</field>
                             </record>
                             <record id="account_financial_report_13_cn_institutions" model="account.report.line">
                                 <field name="name">存货</field>
                                 <field name="code">CN_INSTITUTIONS_13</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '13')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '13%')])</field>
                             </record>
                             <record id="account_financial_report_14_cn_institutions" model="account.report.line">
                                 <field name="name">待摊费用</field>
                                 <field name="code">CN_INSTITUTIONS_14</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '14')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '14%')])</field>
                             </record>
                             <record id="account_financial_report_current_assets0_cn_institutions" model="account.report.line">
                                 <field name="name">　流动资产合计</field>
                                 <field name="code">CN_INSTITUTIONS_CA</field>
-                                <field name="expression_ids">
-                                    <record id="account_financial_report_current_assets0_balance_cn_institutions" model="account.report.expression">
-                                        <field name="label">balance</field>
-                                        <field name="engine">aggregation</field>
-                                        <field name="formula">CN_INSTITUTIONS_BA.balance + CN_INSTITUTIONS_11.balance + CN_INSTITUTIONS_1211 + CN_INSTITUTIONS_1212 + CN_INSTITUTIONS_PRE.balance + CN_INSTITUTIONS_1215 + CN_INSTITUTIONS_1216 + CN_INSTITUTIONS_1218 + CN_INSTITUTIONS_13 + CN_INSTITUTIONS_14</field>
-                                        <field name="green_on_positive" eval="False"/>
-                                    </record>
-                                </field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_BA.balance + CN_INSTITUTIONS_11.balance + CN_INSTITUTIONS_1211.balance + CN_INSTITUTIONS_1212.balance + CN_INSTITUTIONS_PRE.balance + CN_INSTITUTIONS_1215.balance + CN_INSTITUTIONS_1216.balance + CN_INSTITUTIONS_1218.balance + CN_INSTITUTIONS_13.balance + CN_INSTITUTIONS_14.balance</field>
                             </record>
                         </field>
                     </record>
@@ -121,139 +113,139 @@
                                 <field name="code">CN_INSTITUTIONS_1501</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1501')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1501%')])</field>
                             </record>
                             <record id="account_financial_report_1502_cn_institutions" model="account.report.line">
                                 <field name="name">长期债券投资</field>
                                 <field name="code">CN_INSTITUTIONS_1502</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1502')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1502%')])</field>
                             </record>
                             <record id="account_financial_report_1601_cn_institutions" model="account.report.line">
                                 <field name="name">固定资产原值</field>
                                 <field name="code">CN_INSTITUTIONS_1601</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1601')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1601%')])</field>
                             </record>
                             <record id="account_financial_report_1602_cn_institutions" model="account.report.line">
                                 <field name="name">　减：固定资产累计折旧</field>
                                 <field name="code">CN_INSTITUTIONS_1602</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1602')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1602%')])</field>
                             </record>
                             <record id="account_financial_report_1601_1602_cn_institutions" model="account.report.line">
                                 <field name="name">　固定资产净值</field>
                                 <field name="code">CN_INSTITUTIONS_1601_1602</field>
-                                <field name="aggregation_formula">CN_INSTITUTIONS_1601 - CN_INSTITUTIONS_1602</field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_1601.balance - CN_INSTITUTIONS_1602.balance</field>
                             </record>
                             <record id="account_financial_report_1601_cn_institutions" model="account.report.line">
                                 <field name="name">工程物资</field>
                                 <field name="code">CN_INSTITUTIONS_1611</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1611')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1611%')])</field>
                             </record>
                             <record id="account_financial_report_1613_cn_institutions" model="account.report.line">
                                 <field name="name">在建工程</field>
                                 <field name="code">CN_INSTITUTIONS_1613</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1613')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1613%')])</field>
                             </record>
                             <record id="account_financial_report_1701_cn_institutions" model="account.report.line">
                                 <field name="name">无形资产原值</field>
                                 <field name="code">CN_INSTITUTIONS_1701</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1701')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1701%')])</field>
                             </record>
                             <record id="account_financial_report_1702_cn_institutions" model="account.report.line">
                                 <field name="name">　减：无形资产累计摊销</field>
                                 <field name="code">CN_INSTITUTIONS_1702</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1702')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1702%')])</field>
                             </record>
                             <record id="account_financial_report_1701_1702_cn_institutions" model="account.report.line">
                                 <field name="name">　无形资产净值</field>
                                 <field name="code">CN_INSTITUTIONS_1701_1702</field>
-                                <field name="aggregation_formula">CN_INSTITUTIONS_1701 - CN_INSTITUTIONS_1702</field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_1701.balance - CN_INSTITUTIONS_1702.balance</field>
                             </record>
                             <record id="account_financial_report_1703_cn_institutions" model="account.report.line">
                                 <field name="name">研发支出</field>
                                 <field name="code">CN_INSTITUTIONS_1703</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1703')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1703%')])</field>
                             </record>
                             <record id="account_financial_report_1801_cn_institutions" model="account.report.line">
                                 <field name="name">公共基础设施原值</field>
                                 <field name="code">CN_INSTITUTIONS_1801</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1801')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1801%')])</field>
                             </record>
                             <record id="account_financial_report_1802_cn_institutions" model="account.report.line">
                                 <field name="name">　减：公共基础设施累计折旧（摊销）</field>
                                 <field name="code">CN_INSTITUTIONS_1802</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1802')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1802%')])</field>
                             </record>
                             <record id="account_financial_report_1801_1802_cn_institutions" model="account.report.line">
                                 <field name="name">　公共基础设施净值</field>
                                 <field name="code">CN_INSTITUTIONS_1801_1802</field>
-                                <field name="aggregation_formula">CN_INSTITUTIONS_1801 - CN_INSTITUTIONS_1802</field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_1801.balance - CN_INSTITUTIONS_1802.balance</field>
                             </record>
                             <record id="account_financial_report_1811_cn_institutions" model="account.report.line">
                                 <field name="name">政府储备物资</field>
                                 <field name="code">CN_INSTITUTIONS_1811</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1811')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1811%')])</field>
                             </record>
                             <record id="account_financial_report_1821_cn_institutions" model="account.report.line">
                                 <field name="name">文物文化资产</field>
                                 <field name="code">CN_INSTITUTIONS_1821</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1821')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1821%')])</field>
                             </record>
                             <record id="account_financial_report_1831_cn_institutions" model="account.report.line">
                                 <field name="name">保障性住房原值</field>
                                 <field name="code">CN_INSTITUTIONS_1831</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1831')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1831%')])</field>
                             </record>
                             <record id="account_financial_report_1832_cn_institutions" model="account.report.line">
                                 <field name="name">　减：保障性住房累计折旧</field>
                                 <field name="code">CN_INSTITUTIONS_1832</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1832')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1832%')])</field>
                             </record>
                             <record id="account_financial_report_1831_1832_cn_institutions" model="account.report.line">
                                 <field name="name">　保障性住房净值</field>
                                 <field name="code">CN_INSTITUTIONS_1831_1832</field>
-                                <field name="aggregation_formula">CN_INSTITUTIONS_1831 - CN_INSTITUTIONS_1832</field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_1831.balance - CN_INSTITUTIONS_1832.balance</field>
                             </record>
                             <record id="account_financial_report_1901_cn_institutions" model="account.report.line">
                                 <field name="name">长期待摊费用</field>
                                 <field name="code">CN_INSTITUTIONS_1901</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1901')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1901%')])</field>
                             </record>
                             <record id="account_financial_report_1902_cn_institutions" model="account.report.line">
                                 <field name="name">待处理财产损溢</field>
                                 <field name="code">CN_INSTITUTIONS_1902</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '1902')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '1902%')])</field>
                             </record>
                             <record id="account_financial_report_1832_cn_institutions" model="account.report.line">
                                 <field name="name">　非流动资产合计</field>
@@ -269,20 +261,19 @@
                         <field name="code">CN_INSTITUTIONS_1891</field>
                         <field name="groupby">account_id</field>
                         <field name="foldable" eval="True"/>
-                        <field name="domain_formula">sum([('account_id.code', '=like', '1891')])</field>
+                        <field name="domain_formula">sum([('account_id.code', '=like', '1891%')])</field>
                     </record>
                     <record id="account_financial_report_1_cn_institutions" model="account.report.line">
                         <field name="name">　资产总计</field>
                         <field name="code">CN_INSTITUTIONS_1</field>
                         <field name="groupby">account_id</field>
-                        <field name="domain_formula">sum([('account_id.code', '=like', '1')])</field>
+                        <field name="domain_formula">sum([('account_id.code', '=like', '1%')])</field>
                     </record>
                 </field>
             </record>
             <record id="account_financial_report_libailities_and_equity" model="account.report.line">
                 <field name="name">负债和净资产</field>
                 <field name="code">CN_INSTITUTIONS_LBEQ</field>
-                <field name="aggregation_formula">CN_INSTITUTIONS_LB.balance + CN_INSTITUTIONS_EQ.balance</field>
                 <field name="children_ids">
                     <record id="account_financial_report_current_liabilities0_cn_institutions" model="account.report.line">
                         <field name="name">流动负债：</field>
@@ -293,84 +284,84 @@
                                 <field name="code">CN_INSTITUTIONS_2001</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2001')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2001%')])</field>
                             </record>
                             <record id="account_financial_report_2101_cn_institutions" model="account.report.line">
                                 <field name="name">应交增值税</field>
                                 <field name="code">CN_INSTITUTIONS_2101</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2101')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2101%')])</field>
                             </record>
                             <record id="account_financial_report_2102_cn_institutions" model="account.report.line">
                                 <field name="name">其他应交税费</field>
                                 <field name="code">CN_INSTITUTIONS_2102</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2102')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2102%')])</field>
                             </record>
                             <record id="account_financial_report_2103_cn_institutions" model="account.report.line">
                                 <field name="name">应缴财政款</field>
                                 <field name="code">CN_INSTITUTIONS_2103</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2103')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2103%')])</field>
                             </record>
                             <record id="account_financial_report_2201_cn_institutions" model="account.report.line">
                                 <field name="name">应付职工薪酬</field>
                                 <field name="code">CN_INSTITUTIONS_2201</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2201')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2201%')])</field>
                             </record>
                             <record id="account_financial_report_2301_cn_institutions" model="account.report.line">
                                 <field name="name">应付票据</field>
                                 <field name="code">CN_INSTITUTIONS_2301</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2301')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2301%')])</field>
                             </record>
                             <record id="account_financial_report_2302_cn_institutions" model="account.report.line">
                                 <field name="name">应付账款</field>
                                 <field name="code">CN_INSTITUTIONS_2302</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2302')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2302%')])</field>
                             </record>
                             <record id="account_financial_report_2303_cn_institutions" model="account.report.line">
                                 <field name="name">应付政府补贴款</field>
                                 <field name="code">CN_INSTITUTIONS_2303</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2303')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2303%')])</field>
                             </record>
                             <record id="account_financial_report_2304_cn_institutions" model="account.report.line">
                                 <field name="name">应付利息</field>
                                 <field name="code">CN_INSTITUTIONS_2304</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2304')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2304%')])</field>
                             </record>
                             <record id="account_financial_report_2305_cn_institutions" model="account.report.line">
                                 <field name="name">预收账款</field>
                                 <field name="code">CN_INSTITUTIONS_2305</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2305')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2305%')])</field>
                             </record>
                             <record id="account_financial_report_2307_cn_institutions" model="account.report.line">
                                 <field name="name">其他应付款</field>
                                 <field name="code">CN_INSTITUTIONS_2307</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2307')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2307%')])</field>
                             </record>
                             <record id="account_financial_report_2401_cn_institutions" model="account.report.line">
                                 <field name="name">预提费用</field>
                                 <field name="code">CN_INSTITUTIONS_2401</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2401')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2401%')])</field>
                             </record>
                             <record id="account_financial_report_CL_cn_institutions" model="account.report.line">
                                 <field name="name">　流动负债合计</field>
@@ -389,21 +380,21 @@
                                 <field name="code">CN_INSTITUTIONS_2501</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2501')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2501%')])</field>
                             </record>
                             <record id="account_financial_report_2502_cn_institutions" model="account.report.line">
                                 <field name="name">长期应付款</field>
                                 <field name="code">CN_INSTITUTIONS_2502</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2502')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2502%')])</field>
                             </record>
                             <record id="account_financial_report_2601_cn_institutions" model="account.report.line">
                                 <field name="name">预计负债</field>
                                 <field name="code">CN_INSTITUTIONS_2601</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '2601')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '2601%')])</field>
                             </record>
                             <record id="account_financial_report_non_current_liabilities_other_cn_institutions" model="account.report.line">
                                 <field name="name">其他非流动负债</field>
@@ -417,7 +408,7 @@
                                 <field name="code">CN_INSTITUTIONS_NL</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum(['&amp;', ('account_id.account_type', '=', 'liability_non_current'), ('account_id.code', 'not ilike', '2901')])</field>
+                                <field name="domain_formula">sum(['&amp;', ('account_id.account_type', '=', 'liability_non_current'), ('account_id.code', 'not ilike', '2901%')])</field>
                             </record>
                         </field>
                     </record>
@@ -426,19 +417,12 @@
                         <field name="code">CN_INSTITUTIONS_2901</field>
                         <field name="groupby">account_id</field>
                         <field name="foldable" eval="True"/>
-                        <field name="domain_formula">sum([('account_id.code', '=like', '2901')])</field>
+                        <field name="domain_formula">sum([('account_id.code', '=like', '2901%')])</field>
                     </record>
                     <record id="account_financial_report_liabilities_view0_cn_institutions" model="account.report.line">
                         <field name="name">　负债合计</field>
                         <field name="code">CN_INSTITUTIONS_L</field>
-                        <field name="expression_ids">
-                            <record id="account_financial_report_liabilities_view0_balance_cn_institutions" model="account.report.expression">
-                                <field name="label">balance</field>
-                                <field name="engine">aggregation</field>
-                                <field name="formula">CN_INSTITUTIONS_CL.balance + CN_INSTITUTIONS_NL.balance + CN_INSTITUTIONS_2901.balance</field>
-                                <field name="green_on_positive" eval="False"/>
-                            </record>
-                        </field>
+                        <field name="aggregation_formula">CN_INSTITUTIONS_CL.balance + CN_INSTITUTIONS_NL.balance + CN_INSTITUTIONS_2901.balance</field>
                     </record>
 
                     <record id="account_financial_report_equity0_cn_institutions" model="account.report.line">
@@ -489,21 +473,21 @@
                                 <field name="code">CN_INSTITUTIONS_3101</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '3101')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '3101%')])</field>
                             </record>
                             <record id="account_financial_report_3201_cn_institutions" model="account.report.line">
                                 <field name="name">权益法调整</field>
                                 <field name="code">CN_INSTITUTIONS_3201</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '3201')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '3201%')])</field>
                             </record>
                             <record id="account_financial_report_3401_cn_institutions" model="account.report.line">
                                 <field name="name">无偿调拨净资产</field>
                                 <field name="code">CN_INSTITUTIONS_3401</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
-                                <field name="domain_formula">sum([('account_id.code', '=like', '3401')])</field>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '3401%')])</field>
                             </record>
                             <record id="account_financial_current_year_earnings0_cn_institutions" model="account.report.line">
                                 <field name="name">本期盈余</field>
@@ -513,14 +497,7 @@
                             <record id="account_financial_report_liabilities_and_equity_view0_cn_institutions" model="account.report.line">
                                 <field name="name">负债和净资产总计</field>
                                 <field name="code">CN_INSTITUTIONS_LE</field>
-                                <field name="expression_ids">
-                                    <record id="account_financial_report_liabilities_and_equity_view0_balance" model="account.report.expression">
-                                        <field name="label">balance</field>
-                                        <field name="engine">aggregation</field>
-                                        <field name="formula">CN_INSTITUTIONS_L.balance + CN_INSTITUTIONS_EQ.balance</field>
-                                        <field name="green_on_positive" eval="False"/>
-                                    </record>
-                                </field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_L.balance + CN_INSTITUTIONS_EQ.balance</field>
                             </record>
                         </field>
                     </record>
