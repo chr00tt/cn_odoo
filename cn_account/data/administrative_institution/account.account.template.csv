@@ -58,7 +58,7 @@
 "account_template_administrative_institution_3101","专用基金","3101","equity","中国 - 行政事业单位","","False"
 "account_template_administrative_institution_3201","权益法调整","3201","equity","中国 - 行政事业单位","","False"
 "account_template_administrative_institution_3301","本期盈余","3301","equity","中国 - 行政事业单位","","False"
-"account_template_administrative_institution_3302","本年盈余分配","3302","equity","中国 - 行政事业单位","","False"
+"account_template_administrative_institution_3302","本年盈余分配","3302","equity_unaffected","中国 - 行政事业单位","","False"
 "account_template_administrative_institution_3401","无偿调拨净资产","3401","equity","中国 - 行政事业单位","","False"
 "account_template_administrative_institution_3501","以前年度盈余调整","3501","equity","中国 - 行政事业单位","","False"
 "account_template_administrative_institution_4001","财政拨款收入","4001","income","中国 - 行政事业单位","","False"

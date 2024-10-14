@@ -453,12 +453,52 @@
                                         <field name="subformula">-sum</field>
                                         <field name="date_scope">from_beginning</field>
                                     </record>
+                                    <record id="account_financial_current_year_earnings_line_1_balance_cn_institutions" model="account.report.expression">
+                                        <field name="label">CURR_YEAR_EARNINGS_PNL_balance</field>
+                                        <field name="engine">aggregation</field>
+                                        <field name="formula">NEP.balance</field>
+                                        <field name="date_scope">from_fiscalyear</field>
+                                        <field name="subformula">cross_report</field>
+                                    </record>
+                                    <record id="account_financial_current_year_earnings_line_2_balance_cn_institutions" model="account.report.expression">
+                                        <field name="label">CURR_YEAR_EARNINGS_ALLOC_balance</field>
+                                        <field name="engine">domain</field>
+                                        <field name="formula" eval="[('account_id.account_type', '=', 'equity_unaffected')]"/>
+                                        <field name="date_scope">from_fiscalyear</field>
+                                        <field name="subformula">-sum</field>
+                                    </record>
                                     <record id="account_financial_previous_year_earnings0_balance_cn_institutions" model="account.report.expression">
                                         <field name="label">balance</field>
                                         <field name="engine">aggregation</field>
-                                        <field name="formula">CN_INSTITUTIONS_PREV_YEAR_EARNINGS.balance_domain + CN_INSTITUTIONS_PREV_YEAR_EARNINGS.allocated_earnings - CN_INSTITUTIONS_CURR_YEAR_EARNINGS.balance</field>
+                                        <field name="formula">CN_INSTITUTIONS_PREV_YEAR_EARNINGS.balance_domain + CN_INSTITUTIONS_PREV_YEAR_EARNINGS.allocated_earnings - CN_INSTITUTIONS_PREV_YEAR_EARNINGS.CURR_YEAR_EARNINGS_PNL_balance - CN_INSTITUTIONS_PREV_YEAR_EARNINGS.CURR_YEAR_EARNINGS_ALLOC_balance</field>
                                     </record>
                                 </field>
+                            </record>
+                            <record id="account_financial_report_3101_cn_institutions" model="account.report.line">
+                                <field name="name">专用基金</field>
+                                <field name="code">CN_INSTITUTIONS_3101</field>
+                                <field name="groupby">account_id</field>
+                                <field name="foldable" eval="True"/>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '3101')])</field>
+                            </record>
+                            <record id="account_financial_report_3201_cn_institutions" model="account.report.line">
+                                <field name="name">权益法调整</field>
+                                <field name="code">CN_INSTITUTIONS_3201</field>
+                                <field name="groupby">account_id</field>
+                                <field name="foldable" eval="True"/>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '3201')])</field>
+                            </record>
+                            <record id="account_financial_report_3401_cn_institutions" model="account.report.line">
+                                <field name="name">无偿调拨净资产</field>
+                                <field name="code">CN_INSTITUTIONS_3401</field>
+                                <field name="groupby">account_id</field>
+                                <field name="foldable" eval="True"/>
+                                <field name="domain_formula">sum([('account_id.code', '=like', '3401')])</field>
+                            </record>
+                            <record id="account_financial_current_year_earnings0_cn_institutions" model="account.report.line">
+                                <field name="name">本期盈余</field>
+                                <field name="code">CN_INSTITUTIONS_CURR_YEAR_EARNINGS</field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_PREV_YEAR_EARNINGS.CURR_YEAR_EARNINGS_PNL_balance + CN_INSTITUTIONS_PREV_YEAR_EARNINGS.CURR_YEAR_EARNINGS_ALLOC_balance</field>
                             </record>
 
                             <record id="account_financial_retained_earnings0_cn_institutions" model="account.report.line">
