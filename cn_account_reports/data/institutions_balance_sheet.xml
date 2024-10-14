@@ -18,9 +18,9 @@
             </record>
         </field>
         <field name="line_ids">
-            <record id="account_financial_report_total_assets0_cn_institutions" model="account.report.line">
+            <record id="account_financial_report_assets0_cn_institutions" model="account.report.line">
                 <field name="name">资产</field>
-                <field name="code">CN_INSTITUTIONS_TA</field>
+                <field name="code">CN_INSTITUTIONS_TA0</field>
                 <field name="children_ids">
                     <record id="account_financial_report_current_assets_view0_cn_institutions" model="account.report.line">
                         <field name="name">流动资产：</field>
@@ -104,8 +104,8 @@
                         </field>
                     </record>
                     <record id="account_financial_report_non_current_assets_view0_cn_institutions" model="account.report.line">
-                        <field name="name">非流动资产</field>
-                        <field name="code">CN_INSTITUTIONS_PNCA</field>
+                        <field name="name">非流动资产：</field>
+                        <field name="code">CN_INSTITUTIONS_PNCA0</field>
                         <field name="domain_formula">sum([('account_id.account_type', '=', 'asset_non_current')])</field>
                         <field name="children_ids">
                             <record id="account_financial_report_1501_cn_institutions" model="account.report.line">
@@ -247,9 +247,9 @@
                                 <field name="foldable" eval="True"/>
                                 <field name="domain_formula">sum([('account_id.code', '=like', '1902%')])</field>
                             </record>
-                            <record id="account_financial_report_1832_cn_institutions" model="account.report.line">
+                            <record id="account_financial_report_non_current_assets_cn_institutions" model="account.report.line">
                                 <field name="name">　非流动资产合计</field>
-                                <field name="code">CN_INSTITUTIONS_1832</field>
+                                <field name="code">CN_INSTITUTIONS_PNCA</field>
                                 <field name="groupby">account_id</field>
                                 <field name="foldable" eval="True"/>
                                 <field name="domain_formula">sum([('account_id.account_type', 'in', ('asset_fixed', 'asset_non_current'))])</field>
@@ -263,11 +263,10 @@
                         <field name="foldable" eval="True"/>
                         <field name="domain_formula">sum([('account_id.code', '=like', '1891%')])</field>
                     </record>
-                    <record id="account_financial_report_1_cn_institutions" model="account.report.line">
+                    <record id="account_financial_report_total_assets0_cn_institutions" model="account.report.line">
                         <field name="name">　资产总计</field>
-                        <field name="code">CN_INSTITUTIONS_1</field>
-                        <field name="groupby">account_id</field>
-                        <field name="domain_formula">sum([('account_id.code', '=like', '1%')])</field>
+                        <field name="code">CN_INSTITUTIONS_TA</field>
+                        <field name="aggregation_formula">CN_INSTITUTIONS_CA.balance + CN_INSTITUTIONS_PNCA.balance + CN_INSTITUTIONS_1891.balance</field>
                     </record>
                 </field>
             </record>
@@ -366,8 +365,7 @@
                             <record id="account_financial_report_CL_cn_institutions" model="account.report.line">
                                 <field name="name">　流动负债合计</field>
                                 <field name="code">CN_INSTITUTIONS_CL</field>
-                                <field name="groupby">account_id</field>
-                                <field name="domain_formula">sum([('account_id.account_type', 'in', ('liability_current', 'liability_payable'))])</field>
+                                <field name="aggregation_formula">CN_INSTITUTIONS_2001.balance + CN_INSTITUTIONS_2101.balance + CN_INSTITUTIONS_2102.balance + CN_INSTITUTIONS_2103.balance + CN_INSTITUTIONS_2201.balance + CN_INSTITUTIONS_2301.balance + CN_INSTITUTIONS_2302.balance + CN_INSTITUTIONS_2303.balance + CN_INSTITUTIONS_2304.balance + CN_INSTITUTIONS_2305.balance + CN_INSTITUTIONS_2307.balance + CN_INSTITUTIONS_2401.balance</field>
                             </record>
                         </field>
                     </record>
