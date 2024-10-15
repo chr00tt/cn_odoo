@@ -1,4 +1,24 @@
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.edit_menu_access_search
+#: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
+#: model_terms:ir.ui.view,arch_db:base.ir_filters_view_search
+#: model_terms:ir.ui.view,arch_db:base.ir_mail_server_form
+#: model_terms:ir.ui.view,arch_db:base.res_bank_view_search
+#: model_terms:ir.ui.view,arch_db:base.res_partner_category_view_search
+#: model_terms:ir.ui.view,arch_db:base.res_partner_industry_view_search
+#: model_terms:ir.ui.view,arch_db:base.view_ir_mail_server_search
+#: model_terms:ir.ui.view,arch_db:base.view_partner_bank_form
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+#: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+#: model_terms:ir.ui.view,arch_db:base.view_rule_search
+#: model_terms:ir.ui.view,arch_db:base.view_sequence_search
+#: model_terms:ir.ui.view,arch_db:base.view_users_form
+msgid "Archived"
+msgstr "已停用"
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_module_filter
 msgid "Categories"
 msgstr "类别"

@@ -1,10 +1,14 @@
 #. module: web
 #. odoo-javascript
-#: code:addons/web/static/src/core/errors/error_dialogs.js:0
-#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#: code:addons/web/static/src/legacy/js/views/form/form_controller.js:0
+#: code:addons/web/static/src/legacy/js/views/list/list_controller.js:0
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
 #, python-format
-msgid "Odoo Client Error"
-msgstr "客户端错误"
+msgid "Archive"
+msgstr "停用"
 
 #. module: web
 #. odoo-javascript
@@ -13,6 +17,24 @@ msgstr "客户端错误"
 #, python-format
 msgid "Log out"
 msgstr "退出登录"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#, python-format
+msgid "Odoo Client Error"
+msgstr "客户端错误"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/legacy/js/views/form/form_controller.js:0
+#: code:addons/web/static/src/legacy/js/views/list/list_controller.js:0
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#, python-format
+msgid "Unarchive"
+msgstr "启用"
 
 #. module: web
 #. odoo-javascript
