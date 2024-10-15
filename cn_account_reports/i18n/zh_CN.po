@@ -32,3 +32,12 @@ msgstr "以前年度未分配利润"
 msgid "Unallocated Earnings"
 msgstr "未分配利润"
 
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
+#: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
+#: code:addons/account_reports/models/account_report.py:0
+#, python-format
+msgid "Total %s"
+msgstr "%s合计"
+
