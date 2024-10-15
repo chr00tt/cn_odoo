@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+        <!-- Chart template -->
+        <record id="chart_template_administrative_institution" model="account.chart.template">
+            <field name="name">中国 - 行政事业单位</field>
+            <field name="code_digits" eval="4" />
+            <field name="cash_account_code_prefix">10010</field>
+            <field name="bank_account_code_prefix">10020</field>
+            <field name="transfer_account_code_prefix">10030</field>
+            <field name="currency_id" ref="base.CNY" />
+            <field name="country_id" ref="base.cn"/>
+        </record>
+    </data>
+</odoo>

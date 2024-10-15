@@ -1,0 +1,21 @@
+#. module: account_reports
+#: code:addons/account_reports/models/account_aged_partner_balance.py:22
+#: code:addons/account_reports/models/account_aged_partner_balance.py:80
+#: code:addons/account_reports/models/account_consolidated_journals.py:85
+#: code:addons/account_reports/models/account_financial_report.py:1108
+#: code:addons/account_reports/models/account_financial_report.py:1193
+#: code:addons/account_reports/models/account_general_ledger.py:426
+#: code:addons/account_reports/models/account_partner_ledger.py:262
+#: code:addons/account_reports/models/account_report_coa.py:52
+#: code:addons/account_reports/models/account_report_coa.py:113
+#: model_terms:ir.ui.view,arch_db:account_reports.customer_statements_tree_view
+#: model_terms:ir.ui.view,arch_db:account_reports.template_coa_table_header
+#, python-format
+msgid "Total"
+msgstr "合计"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_general_ledger.py:417
+#, python-format
+msgid "Total "
+msgstr "合计"
