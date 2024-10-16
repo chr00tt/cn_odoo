@@ -5,6 +5,47 @@ msgid ""
 "                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
 "<span class=\"o_form_label\">税务申报周期</span>\n"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_aged_partner_balance_report_handler
+msgid "Aged Partner Balance Custom Handler"
+msgstr "往来单位账龄余额自定义处理程序"
+
+#. module: account_reports
+#: model:account.report,name:account_reports.aged_payable_report
+#: model:account.report.line,name:account_reports.aged_payable_line
+#: model:ir.actions.client,name:account_reports.action_account_report_ap
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_payable
+msgid "Aged Payable"
+msgstr "应付账龄分析"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_aged_payable_report_handler
+msgid "Aged Payable Custom Handler"
+msgstr "应付账龄分析自定义处理程序"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Payables"
+msgstr "应付账龄分析"
+
+#. module: account_reports
+#: model:account.report,name:account_reports.aged_receivable_report
+#: model:account.report.line,name:account_reports.aged_receivable_line
+#: model:ir.actions.client,name:account_reports.action_account_report_ar
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_receivable
+msgid "Aged Receivable"
+msgstr "应收账龄分析"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_aged_receivable_report_handler
+msgid "Aged Receivable Custom Handler"
+msgstr "应收账龄分析自定义处理程序"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Receivables"
+msgstr "应收账龄分析"
 "                   <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
 
 #. module: account_reports
