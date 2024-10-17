@@ -14,10 +14,6 @@
         'data/enterprise/account.account.template.csv',
         'data/enterprise/account.group.template.csv',
         'data/enterprise/enterprise_account_post.xml',
-        'data/administrative_institution/administrative_institution_account.xml',
-        'data/administrative_institution/account.account.template.csv',
-        'data/administrative_institution/account.group.template.csv',
-        'data/administrative_institution/administrative_institution_account_post.xml',
     ],
     'demo': [
         'demo/demo_company.xml',
