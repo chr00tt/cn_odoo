@@ -7,7 +7,7 @@ class AccountChartTemplate(models.Model):
 
     @api.model
     def generate_journals(self, acc_template_ref, company, journals_dict=None):
-        journal_data = super(AccountChartTemplate, self).generate_journals(acc_template_ref=acc_template_ref, company=company, journals_dict=journal_to_add)
+        journal_data = super(AccountChartTemplate, self).generate_journals(acc_template_ref, company, journals_dict=journals_dict)
         for journal in journal_data:
             if journal['code'] == _('MISC'):
                 journal['name'] = '手工录入'
