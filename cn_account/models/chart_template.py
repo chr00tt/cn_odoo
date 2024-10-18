@@ -7,11 +7,8 @@ class AccountChartTemplate(models.Model):
 
     @api.model
     def generate_journals(self, acc_template_ref, company, journals_dict=None):
-        journal_data = super(AccountChartTemplate, self).generate_journals(acc_template_ref, company, journals_dict=journals_dict)
-        for journal in journal_data:
-            if journal['code'] == _('MISC'):
-                journal['name'] = '手工录入'
-                journal['code'] = '记'
-                break
+        result = super(AccountChartTemplate, self).generate_journals(acc_template_ref, company, journals_dict=journals_dict)
+        journal = self.env['account.journal'].search([('code', '=', _('MISC'))])
+        journal.write({'name': '手工录入', 'code': '记'})
 
-        return journal_data
+        return result
