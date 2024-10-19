@@ -1,0 +1,80 @@
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_partner
+msgid "<span class=\"fa fa-folder-open\"/> Partners"
+msgstr "<span class=\"fa fa-folder-open\"/> 往来单位"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
+#: model:ir.model,name:account_reports.model_account_account
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__account_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__account_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__account_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__account_id
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__account_id
+#, python-format
+msgid "Account"
+msgstr "科目"
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#, python-format
+msgid "JRNL"
+msgstr "日记账"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_analytic_report.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__partner_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__partner_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__partner_id
+#, python-format
+msgid "Partner"
+msgstr "往来单位"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
+msgid "Partner Categories:"
+msgstr "往来单位分类："
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: code:addons/account_reports/models/res_partner.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_partner_ledger
+#: model:ir.model,name:account_reports.model_account_partner_ledger
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_partner_ledger
+#: model_terms:ir.ui.view,arch_db:account_reports.partner_view_buttons
+#, python-format
+msgid "Partner Ledger"
+msgstr "往来单位分类账"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__partner_name
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__partner_name
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__partner_name
+msgid "Partner Name"
+msgstr "往来单位名称"
+
+#. module: account_reports
+#: model:ir.ui.menu,name:account_reports.account_reports_partners_reports_menu
+msgid "Partner Reports"
+msgstr "往来单位报告"
+
+#. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/static/src/js/account_reports.js:0
+
+#, python-format
+msgid "Partners"
+msgstr "往来单位"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
+msgid "Partners:"
+msgstr "往来单位"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#, python-format
+msgid "Ref"
+msgstr "编号"
+
