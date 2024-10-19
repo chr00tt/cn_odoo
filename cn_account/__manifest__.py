@@ -13,6 +13,7 @@
     ],
     'demo': [
         'data/cn_account_demo.xml',
+        'demo/demo_company.xml',
     ],
     'installable': True,
     'auto_install': True,

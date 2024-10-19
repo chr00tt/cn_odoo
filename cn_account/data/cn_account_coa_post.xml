@@ -327,9 +327,4 @@
         ]"/>
     </record>
 </data>
-<data noupdate="1">
-    <function model="account.chart.template" name="try_loading">
-        <value eval="[ref('cn_account.cn_chart_template')]"/>
-    </function>
-</data>
 </odoo>

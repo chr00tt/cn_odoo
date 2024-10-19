@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_partner_cn_account" model="res.partner">
+        <field name="name">xx公司</field>
+        <field name="street">江北区建新东路</field>
+        <field name="city">重庆</field>
+        <field name="country_id" ref="base.cn"/>
+        <field name="state_id" ref="base.state_cn_CQ"/>
+        <field name="zip">510375</field>
+        <field name="phone">+86 123 2345 6789</field>
+        <field name="email">info@company.example.com</field>
+        <field name="website">www.example.com</field>
+    </record>
+
+    <record id="res_company_cn_account" model="res.company">
+        <field name="name">xx公司</field>
+        <field name="partner_id" ref="res_partner_cn_account"/>
+    </record>
+
+    <function model="res.users" name="write">
+        <value eval="[ref('base.user_root'), ref('base.user_admin'), ref('base.user_demo')]"/>
+        <value eval="{'company_ids': [(4, ref('cn_account.res_company_cn_account'))]}"/>
+    </function>
+
+    <function model="account.chart.template" name="try_loading">
+        <value eval="[ref('cn_account.cn_chart_template')]"/>
+        <value model="res.company" eval="obj().env.ref('cn_account.res_company_cn_account')"/>
+    </function>
+</odoo>
