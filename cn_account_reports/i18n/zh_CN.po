@@ -1,0 +1,5 @@
+#. module: account_reports
+#: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "Operations to Process"
+msgstr "待处理"

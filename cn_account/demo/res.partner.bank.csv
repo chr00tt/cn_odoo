@@ -1,0 +1,7 @@
+"id","acc_number","partner_id/id","bank_id","currency_id"
+"partner_bank_1","人民币-6316户","base.main_partner","财务公司","CNY"
+"partner_bank_2","人民币-9335户","base.main_partner","中国工商银行","CNY"
+"partner_bank_3","人民币-4791户","base.main_partner","中国工商银行","CNY"
+"partner_bank_4","人民币-1942户","base.main_partner","中国建设银行-北京市分行","CNY"
+"partner_bank_5","人民币-8183户","base.main_partner","中国建设银行-木樨地支行","CNY"
+"partner_bank_6","人民币-6405户","base.main_partner","中国建设银行-木樨地支行","CNY"

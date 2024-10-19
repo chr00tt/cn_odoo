@@ -1,0 +1,7 @@
+"id","company_id/id","name","date","journal_id","line_ids/id","line_ids/account_id","line_ids/name","line_ids/analytic_distribution","line_ids/debit","line_ids/credit"
+"account_move_1","base.main_company","杂项/2022/01/0001","2022-01-04","杂项操作","account_move_line_1_1","应付职工薪酬-住房费用-住房公积金","交1月住房公积金","","911505",""
+"","","","","","account_move_line_1_2","其他应收款-拨付分支机构资金-离退休干部局费用-住房公积金","交1月住房公积金","","68124",""
+"","","","","","account_move_line_1_3","其他应付款-代扣代缴款项-住房费用","交1月住房公积金","","979629",""
+"","","","","","account_move_line_1_4","银行存款-人民币-中国建设银行-北京市分行","交1月住房公积金","","","1959258"
+"","","","","","account_move_line_1_5","管理费用-职工薪酬-住房费用-住房公积金","交1月住房公积金","","911505",""
+"","","","","","account_move_line_1_6","应付职工薪酬-住房费用-住房公积金","交1月住房公积金","","","911505"
