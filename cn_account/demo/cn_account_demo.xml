@@ -84,7 +84,7 @@
             <value model="base" eval="[{
                 'xml_id': 'account.account_journal_misc',
                 'record': obj().env['account.journal'].search([
-                    ('code', '=', '杂项'),
+                    ('code', '=', '记'),
                     ('company_id', '=', ref('cn_account.res_company_cn_account'))]),
                 'noupdate': True,
             }]"/>
