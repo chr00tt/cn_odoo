@@ -1,0 +1,4 @@
+#. module: account_accountant
+#: model_terms:ir.ui.view,arch_db:account_accountant.view_account_form
+msgid "-> Reconcile"
+msgstr "-> 对账"

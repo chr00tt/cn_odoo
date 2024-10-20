@@ -13,9 +13,9 @@
     ],
     'demo': [
         'data/cn_account_demo.xml',
+        'demo/demo_company.xml',
         'data/account_account_demo.xml',
     ],
-    'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
 }

@@ -1,0 +1,4 @@
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_account__exclude_from_aged_reports
+msgid "Exclude From Aged Reports"
+msgstr "不包括在账龄报告中"

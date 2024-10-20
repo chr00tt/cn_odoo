@@ -2,133 +2,133 @@
 <odoo>
     <data noupdate="1">
         <record id="account_660101" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660101</field>
             <field name="name">销售费用-职工薪酬</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660102" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660102</field>
             <field name="name">销售费用-折旧费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660103" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660103</field>
             <field name="name">销售费用-办公费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660104" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660104</field>
             <field name="name">销售费用-运输费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660105" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660105</field>
             <field name="name">销售费用-差旅费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660106" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660106</field>
             <field name="name">销售费用-修理费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660107" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660107</field>
             <field name="name">销售费用-长期待摊费用摊销</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660108" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660108</field>
             <field name="name">销售费用-低值易耗品摊销</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660109" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660109</field>
             <field name="name">销售费用-销售服务费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660110" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660110</field>
             <field name="name">销售费用-劳动保护费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660111" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660111</field>
             <field name="name">销售费用-保险费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660112" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660112</field>
             <field name="name">销售费用-展览费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660113" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660113</field>
             <field name="name">销售费用-广告费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660114" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660114</field>
             <field name="name">销售费用-租赁费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660115" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660115</field>
             <field name="name">销售费用-物料消耗</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660116" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660116</field>
             <field name="name">销售费用-委托代销手续费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660117" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660117</field>
             <field name="name">销售费用-装卸费及业务经费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660118" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660118</field>
             <field name="name">销售费用-包装费及仓储保管费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660119" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660119</field>
             <field name="name">销售费用-其他</field>
             <field name="reconcile" eval="False"/>
@@ -136,77 +136,77 @@
         </record>
 
         <record id="account_660201" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660201</field>
             <field name="name">管理费用-职工薪酬</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660202" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660202</field>
             <field name="name">管理费用-折旧费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660203" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660203</field>
             <field name="name">管理费用-办公费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660204" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660204</field>
             <field name="name">管理费用-运输费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660205" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660205</field>
             <field name="name">管理费用-差旅费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660206" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660206</field>
             <field name="name">管理费用-修理费</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660207" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660207</field>
             <field name="name">管理费用-无形资产摊销</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660208" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660208</field>
             <field name="name">管理费用-长期待摊费用摊销</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660209" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660209</field>
             <field name="name">管理费用-低值易耗品摊销</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660210" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660210</field>
             <field name="name">管理费用-存货盘亏及毁损</field>
             <field name="reconcile" eval="False"/>
             <field name="user_type_id" ref="account.data_account_type_expenses"/>
         </record>
         <record id="account_660211" model="account.account">
-            <field name="company_id" ref="base.main_company"/>
+            <field name="company_id" ref="res_company_cn_account"/>
             <field name="code">660211</field>
             <field name="name">管理费用-业务招待费</field>
             <field name="reconcile" eval="False"/>
