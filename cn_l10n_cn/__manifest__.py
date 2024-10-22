@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+
 {
-    'name': 'cn Accounting Import',
+    'name': 'cn China - Accounting',
     'author': "He Jian",
-    'category': 'Accounting/Accounting',
+    'category': 'Accounting/Localizations/Account Charts',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['account_base_import'],
+    'depends': ['l10n_cn'],
     'auto_install': True,
-    "license": "AGPL-3",
+    'license': 'LGPL-3',
 }

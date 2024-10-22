@@ -49,6 +49,13 @@ msgid "Aged Receivables"
 msgstr "应收账龄分析"
 
 #. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+#, python-format
+msgid "As of %s"
+msgstr "%s"
+
+#. module: account_reports
 #: model:account.report.column,name:account_reports.multicurrency_revaluation_report_balance_current
 msgid "Balance at Current Rate"
 msgstr "按当前汇率的余额"
@@ -143,4 +150,9 @@ msgstr "未分配利润"
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_multicurrency_revaluation
 msgid "Unrealized Currency Gains/Losses"
 msgstr "未实现汇兑损益"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.multicurrency_report_main_template
+msgid "⇒ Reset to Odoo’s Rate"
+msgstr "⇒重置为系统的汇率"
 

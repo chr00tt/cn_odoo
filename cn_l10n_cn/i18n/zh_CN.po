@@ -1,0 +1,6 @@
+#. module: l10n_cn
+#: model:ir.model.fields,field_description:l10n_cn.field_account_bank_statement_line__fapiao
+#: model:ir.model.fields,field_description:l10n_cn.field_account_move__fapiao
+#: model:ir.model.fields,field_description:l10n_cn.field_account_payment__fapiao
+msgid "Fapiao Number"
+msgstr "发票号"
