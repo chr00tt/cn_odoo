@@ -1,0 +1,5 @@
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+msgid "Total %s"
+msgstr "%s合计"
