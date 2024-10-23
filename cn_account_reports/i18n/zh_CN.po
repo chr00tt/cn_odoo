@@ -131,6 +131,11 @@ msgid "Previous Years Unallocated Earnings"
 msgstr "以前年度未分配利润"
 
 #. module: account_reports
+#: model:account.report.column,name:account_reports.partner_ledger_report_ref
+msgid "Ref"
+msgstr "编号"
+
+#. module: account_reports
 #. odoo-python
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0

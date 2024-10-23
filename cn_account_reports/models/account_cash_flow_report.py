@@ -1,66 +1,10 @@
 # -*- coding: utf-8 -*-
-from odoo import models
-
+from odoo import models, fields, api, _
 
 class CashFlowReportCustomHandler(models.AbstractModel):
     _name = 'cn_account.cash.flow.report.handler'
     _inherit = 'account.cash.flow.report.handler'
     _description = '现金流量报告自定义处理程序'
-
-    def _get_report_data(self, report, options, layout_data):
-        report_data = {}
-
-        currency_table_query = self.env['res.currency']._get_query_currency_table(options)
-
-        payment_move_ids, payment_account_ids = self._get_liquidity_move_ids(report, options)
-
-        # Compute 'Cash and cash equivalents, beginning of period'
-        for aml_data in self._compute_liquidity_balance(report, options, currency_table_query, payment_account_ids, 'to_beginning_of_period'):
-            self._add_report_data('opening_balance', aml_data, layout_data, report_data)
-            self._add_report_data('closing_balance', aml_data, layout_data, report_data)
-
-        # Compute 'Cash and cash equivalents, closing balance'
-        for aml_data in self._compute_liquidity_balance(report, options, currency_table_query, payment_account_ids, 'strict_range'):
-            self._add_report_data('closing_balance', aml_data, layout_data, report_data)
-
-        tags_ids = {
-            'operating': self.env.ref('account.account_tag_operating').id,
-            'investing': self.env.ref('account.account_tag_investing').id,
-            'financing': self.env.ref('account.account_tag_financing').id,
-            'product': self.env.ref('cn_account.account_tag_operating_product').id,
-        }
-
-        # Process liquidity moves
-        for aml_groupby_account in self._get_liquidity_moves(report, options, currency_table_query, payment_account_ids, payment_move_ids):
-            for aml_data in aml_groupby_account.values():
-                self._dispatch_aml_data(tags_ids, aml_data, layout_data, report_data)
-
-        # Process reconciled moves
-        for aml_groupby_account in self._get_reconciled_moves(report, options, currency_table_query, payment_account_ids, payment_move_ids):
-            for aml_data in aml_groupby_account.values():
-                self._dispatch_aml_data(tags_ids, aml_data, layout_data, report_data)
-
-        return report_data
-
-    def _add_report_data(self, layout_line_id, aml_data, layout_data, report_data):
-        super(CashFlowReportCustomHandler, self)._add_report_data(layout_line_id, aml_data, layout_data, report_data)
-
-        aml_column_group_key = aml_data['column_group_key']
-        aml_balance = aml_data['balance']
-        if layout_line_id in ['advance_payments_customer', 'tax_in', 'received_operating_activities']:
-            report_data.setdefault('operating_in', {'balance': {}})
-            report_data['operating_in']['balance'].setdefault(aml_column_group_key, 0.0)
-            report_data['operating_in']['balance'][aml_column_group_key] += aml_balance
-            report_data.setdefault('operating_net', {'balance': {}})
-            report_data['operating_net']['balance'].setdefault(aml_column_group_key, 0.0)
-            report_data['operating_net']['balance'][aml_column_group_key] += aml_balance
-        elif layout_line_id in['advance_payments_suppliers', 'employee', 'tax_out', 'paid_operating_activities']:
-            report_data.setdefault('operating_out', {'balance': {}})
-            report_data['operating_out']['balance'].setdefault(aml_column_group_key, 0.0)
-            report_data['operating_out']['balance'][aml_column_group_key] += aml_balance
-            report_data.setdefault('operating_net', {'balance': {}})
-            report_data['operating_net']['balance'].setdefault(aml_column_group_key, 0.0)
-            report_data['operating_net']['balance'][aml_column_group_key] += aml_balance
 
     def _dispatch_aml_data(self, tags_ids, aml_data, layout_data, report_data):
         # Dispatch the aml_data in the correct layout_line
