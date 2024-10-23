@@ -1,7 +1,109 @@
 #. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/models/account_aged_partner_balance.py:153
+#: code:addons/account_reports/static/src/xml/account_report_financial_line.xml:109
+#: model:ir.actions.client,name:account_reports.action_account_report_ap
+#: model:ir.model,name:account_reports.model_account_aged_payable
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_payable
+#: model:ir.ui.view,arch_db:account_reports.report_financial_line
+#, python-format
+msgid "Aged Payable"
+msgstr "应付账龄"
+
+#. module: account_reports
+#: model:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Payables"
+msgstr "应付账龄"
+
+#. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/models/account_aged_partner_balance.py:99
+#: code:addons/account_reports/static/src/xml/account_report_financial_line.xml:108
+#: model:ir.actions.client,name:account_reports.action_account_report_ar
+#: model:ir.model,name:account_reports.model_account_aged_receivable
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_receivable
+#: model:ir.ui.view,arch_db:account_reports.report_financial_line
+#, python-format
+msgid "Aged Receivable"
+msgstr "应收账龄"
+
+#. module: account_reports
+#: model:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Receivables"
+msgstr "应收账龄"
+
+#. module: account_reports
 #: code:addons/account_reports/models/account_followup_report.py:297
 #: code:addons/account_reports/models/account_followup_report.py:298
 #: code:addons/account_reports/models/account_general_ledger.py:338
 #, python-format
 msgid "Communication"
 msgstr "摘要"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_res_company
+msgid "Companies"
+msgstr "机构"
+
+#. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/static/src/xml/account_report_backend.xml:173
+#: model:ir.ui.view,arch_db:account_reports.report_financial_body
+#, python-format
+msgid "Companies:"
+msgstr "机构"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_company_id
+msgid "Company"
+msgstr "机构"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:207
+#, python-format
+msgid "JRNL"
+msgstr "日记账"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_aged_partner_balance.py:125
+#: code:addons/account_reports/models/account_aged_partner_balance.py:179
+#, python-format
+msgid "Older"
+msgstr "超过120"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_general_ledger.py:338
+#: model:ir.model,name:account_reports.model_res_partner
+#: model:ir.model.fields,field_description:account_reports.field_account_report_context_followup_partner_id
+#, python-format
+msgid "Partner"
+msgstr "往来单位"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_report_context_followup_all_partner_filter
+msgid "Partner Filter"
+msgstr "往来单位筛选"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:176
+#: model:ir.actions.client,name:account_reports.action_account_report_partner_ledger
+#: model:ir.model,name:account_reports.model_account_partner_ledger
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_partner_ledger
+#: model:ir.ui.view,arch_db:account_reports.report_financial_line
+#, python-format
+msgid "Partner Ledger"
+msgstr "往来单位分类账"
+
+#. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/static/src/xml/account_report_backend.xml:7
+#, python-format
+msgid "Partners:"
+msgstr "往来单位"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:207
+#, python-format
+msgid "Ref"
+msgstr "编号"
+
