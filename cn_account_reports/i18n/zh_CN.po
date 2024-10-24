@@ -12,12 +12,12 @@ msgstr "科目"
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_payable
 #, python-format
 msgid "Aged Payable"
-msgstr "应付账龄分析"
+msgstr "应付账龄"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
 msgid "Aged Payables"
-msgstr "应付账龄分析"
+msgstr "应付账龄"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_aged_partner_balance.py:98
@@ -26,12 +26,32 @@ msgstr "应付账龄分析"
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_receivable
 #, python-format
 msgid "Aged Receivable"
-msgstr "应收账龄分析"
+msgstr "应收账龄"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
 msgid "Aged Receivables"
-msgstr "应收账龄分析"
+msgstr "应收账龄"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_followup_report.py:32
+#: code:addons/account_reports/models/account_general_ledger.py:30
+#, python-format
+msgid "Communication"
+msgstr "摘要"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_consolidated_journals.py:50
+#: code:addons/account_reports/models/account_financial_report.py:142
+#: code:addons/account_reports/models/account_general_ledger.py:34
+#: code:addons/account_reports/models/account_partner_ledger.py:38
+#: code:addons/account_reports/models/account_report_coa.py:32
+#: code:addons/account_reports/models/account_report_coa.py:37
+#: code:addons/account_reports/models/account_report_coa.py:41
+#: code:addons/account_reports/models/account_report_coa.py:43
+#, python-format
+msgid "Credit"
+msgstr "贷方"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_aged_partner_balance.py:21
@@ -98,6 +118,14 @@ msgstr "往来单位"
 #: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
 msgid "Partners:"
 msgstr "往来单位"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_aged_partner_balance.py:21
+#: code:addons/account_reports/models/account_analytic_report.py:23
+#: code:addons/account_reports/models/account_bank_reconciliation_report.py:23
+#, python-format
+msgid "Reference"
+msgstr "编号"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_aged_partner_balance.py:22
