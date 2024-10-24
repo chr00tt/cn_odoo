@@ -4,7 +4,7 @@ from odoo import models, fields, api, _
 class CashFlowReportCustomHandler(models.AbstractModel):
     _name = 'cn_account.cash.flow.report.handler'
     _inherit = 'account.cash.flow.report.handler'
-    _description = '现金流量报告自定义处理程序'
+    _description = '现金流量表自定义处理程序'
 
     def _dispatch_aml_data(self, tags_ids, aml_data, layout_data, report_data):
         # Dispatch the aml_data in the correct layout_line

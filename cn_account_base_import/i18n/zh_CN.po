@@ -30,3 +30,22 @@ msgstr "选择科目表设置方式"
 msgid "Import CoA"
 msgstr "导入科目表"
 
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+#: model:ir.actions.client,name:account_base_import.action_account_move_line_import
+#, python-format
+msgid "Import Journal Items"
+msgstr "导入日记账项目"
+
+#. module: account_base_import
+#. odoo-javascript
+#: code:addons/account_base_import/static/src/xml/account_import.xml:0
+#, python-format
+msgid ""
+"Tip: we recommend importing your initial balances using the Chart of Account"
+" import. Only use the Journal Items import for unreconciled entries in your "
+"Payable and Receivable Accounts."
+msgstr "提示：我们建议您使用会计科目表导入初始余额。仅对应付账款和应收账款科目中未对账的条目使用日记账项导入。"
+
