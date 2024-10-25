@@ -165,6 +165,18 @@ msgid "Unrealized Currency Gains/Losses"
 msgstr "未实现汇兑损益"
 
 #. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.bank_reconciliation_report_main_template
+msgid "journal items"
+msgstr "日记账项目"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.aged_report_line_template
+#: model_terms:ir.ui.view,arch_db:account_reports.line_template_general_ledger_report
+#: model_terms:ir.ui.view,arch_db:account_reports.line_template_partner_ledger_report
+msgid "⇒ Journal Items"
+msgstr "⇒日记账项目"
+
+#. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.multicurrency_report_main_template
 msgid "⇒ Reset to Odoo’s Rate"
 msgstr "⇒重置为系统的汇率"
