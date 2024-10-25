@@ -2,3 +2,11 @@
 #: model:ir.model.fields,field_description:account_reports.field_account_account__exclude_from_aged_reports
 msgid "Exclude From Aged Reports"
 msgstr "不包括在账龄报告中"
+
+#. module: account_reports
+#: model:ir.actions.act_window,name:account_reports.action_view_tax_units
+#: model:ir.model.fields,field_description:account_reports.field_res_company__account_tax_unit_ids
+#: model:ir.ui.menu,name:account_reports.menu_view_tax_units
+msgid "Tax Units"
+msgstr "税务单位"
+
