@@ -27,6 +27,11 @@ msgid "Balance at operation rate"
 msgstr "按操作汇率的余额"
 
 #. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_multicurrency_revaluation_wizard
+msgid "Create Entry"
+msgstr "创建分录"
+
+#. module: account_reports
 #: code:addons/account_reports/models/account_partner_ledger.py:0
 #, python-format
 msgid "JRNL"
@@ -102,5 +107,5 @@ msgstr "编号"
 #: model:ir.ui.menu,name:account_reports.menu_action_account_report_multicurrency_revaluation
 #, python-format
 msgid "Unrealized Currency Gains/Losses"
-msgstr "未实现汇兑损溢"
+msgstr "未实现汇兑损益"
 
