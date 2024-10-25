@@ -89,6 +89,13 @@ msgid "Current Year Unallocated Earnings"
 msgstr "本年未分配利润"
 
 #. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "Global Tax Summary"
+msgstr "整体税务摘要"
+
+#. module: account_reports
 #: model:account.report.column,name:account_reports.partner_ledger_report_journal_code
 msgid "JRNL"
 msgstr "日记账"
