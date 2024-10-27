@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data>
+    <data noupdate="1">
+        <!-- Analytic Accounts -->
+        <record id="project.analytic_office_design" model="account.analytic.account">
+            <field name="name">办公室设计</field>
+        </record>
+        <record id="project.analytic_research_development" model="account.analytic.account">
+            <field name="name">研究和开发</field>
+        </record>
+        <record id="project.analytic_renovations" model="account.analytic.account">
+            <field name="name">翻修</field>
+        </record>
+
         <record id="project.analytic_renovations" model="account.analytic.account">
             <field name="name">长兴县天逸湾幼儿园装修工程</field>
         </record>

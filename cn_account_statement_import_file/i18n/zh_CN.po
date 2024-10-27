@@ -1,0 +1,20 @@
+#. module: account_statement_import_file
+#: model_terms:ir.ui.view,arch_db:account_statement_import_file.account_statement_import_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: account_statement_import_file
+#: model_terms:ir.ui.view,arch_db:account_statement_import_file.journal_dashboard_view_inherit
+msgid "Import Statement (OCA)"
+msgstr "导入对账单"
+
+#. module: account_statement_import_file
+#: model_terms:ir.ui.view,arch_db:account_statement_import_file.account_statement_import_form
+msgid "Import and View"
+msgstr "导入和查看"
+
+#. module: account_statement_import_file
+#: model_terms:ir.ui.view,arch_db:account_statement_import_file.account_statement_import_form
+msgid "Supported formats:"
+msgstr "支持的格式："
+

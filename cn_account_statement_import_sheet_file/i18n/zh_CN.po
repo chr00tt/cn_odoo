@@ -1,0 +1,90 @@
+#. module: account_statement_import_sheet_file
+#: model_terms:ir.ui.view,arch_db:account_statement_import_sheet_file.account_statement_import_sheet_mapping_tree
+msgid ""
+"<span class=\"fa fa-info-circle\"/> Add the column names or column number "
+"(when the file has no header).\n"
+"                                You can concatenate multiple columns in the "
+"file into the same field, indicating the\n"
+"                                column names or numbers separated by comma."
+msgstr "添加列名或列号（当文件没有标题时）。可将文件中的多列连接到同一字段中，用逗号分隔列名或数字。"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_column
+msgid "Amount column"
+msgstr "金额栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__amount_type
+msgid "Amount type"
+msgstr "金额类型"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__balance_column
+msgid "Balance Column"
+msgstr "余额栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__bank_account_column
+msgid "Bank Account Column"
+msgstr "银行账户栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__bank_name_column
+msgid "Bank Name Column"
+msgstr "银行名称栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__currency_column
+msgid "Currency Column"
+msgstr "币种栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__description_column
+msgid "Description Column"
+msgstr "描述栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__no_header
+msgid "File does not contain header line"
+msgstr "文件不含表头行"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__footer_lines_skip_count
+msgid "Footer lines skip count"
+msgstr "表尾跳过行数"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__header_lines_skip_count
+msgid "Header lines skip count"
+msgstr "表头跳过行数"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__notes_column
+msgid "Notes Column"
+msgstr "备注栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__original_amount_column
+msgid "Original Amount Column"
+msgstr "原始金额栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__original_currency_column
+msgid "Original Currency Column"
+msgstr "原始币种栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__partner_name_column
+msgid "Partner Name Column"
+msgstr "往来单位名称栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__reference_column
+msgid "Reference Column"
+msgstr "编号栏"
+
+#. module: account_statement_import_sheet_file
+#: model:ir.model.fields,field_description:account_statement_import_sheet_file.field_account_statement_import_sheet_mapping__timestamp_column
+msgid "Timestamp Column"
+msgstr "时间栏"
+

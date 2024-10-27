@@ -1,7 +1,7 @@
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.account_journal_dashboard_kanban_view
 msgid "Operations"
-msgstr "银行对账"
+msgstr "交易"
 
 #. module: account_accountant
 #: model:ir.actions.server,name:account_accountant.action_bank_statement_attachment

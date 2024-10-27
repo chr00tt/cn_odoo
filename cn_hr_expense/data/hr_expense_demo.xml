@@ -4,5 +4,31 @@
         <record id="hr_expense.hr_expense_account_journal" model="account.journal">
             <field name="name">费用</field>
         </record>
+
+        <!-- ++++++++++++++ Expense sheet for Admin ++++++++++++++-->
+        <record id="hr_expense.screen_expense" model="hr.expense">
+            <field name="name">显示屏</field>
+        </record>
+        <record id="hr_expense.laptop_expense" model="hr.expense">
+            <field name="name">笔记本电脑</field>
+        </record>
+        <record id="hr_expense.travel_admin_by_car_expense" model="hr.expense">
+            <field name="name">汽油费</field>
+        </record>
+        <record id="hr_expense.breakfast_admin_expense" model="hr.expense">
+            <field name="name">早餐</field>
+        </record>
+        <record id="hr_expense.travel_by_air_expense" model="hr.expense">
+            <field name="name">机票</field>
+        </record>
+        <record id="hr_expense.hotel_bill_expense" model="hr.expense">
+            <field name="name">住宿费</field>
+        </record>
+        <record id="hr_expense.lunch_customer_bill_expense" model="hr.expense">
+            <field name="name">与客户共进午餐</field>
+        </record>
+        <record id="hr_expense.lunch_bill_expense" model="hr.expense">
+            <field name="name">午餐</field>
+        </record>
     </data>
 </odoo>

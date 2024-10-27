@@ -14,6 +14,5 @@
         'data/profit_and_loss.xml',
     ],
     'auto_install': True,
-    'installable': True,
     'license': 'LGPL-3',
 }

@@ -12,6 +12,12 @@
             <field name="name">内部</field>
         </record>
         <!-- Analytic Accounts -->
+        <record id="analytic.analytic_internal" model="account.analytic.account">
+            <field name="name">运营成本</field>
+        </record>
+        <record id="analytic.analytic_our_super_product" model="account.analytic.account">
+            <field name="name">超级产品</field>
+        </record>
         <record id="analytic.analytic_administratif" model="account.analytic.account">
             <field name="name">行政部</field>
         </record>
