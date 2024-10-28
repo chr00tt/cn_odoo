@@ -20,6 +20,11 @@ msgid "Cancel: create credit note and reconcile"
 msgstr "取消：创建贷记单，并核销"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_res_config_settings__invoice_reference_type
+msgid "Communication"
+msgstr "标识"
+
+#. module: account
 #: selection:account.invoice.refund,filter_refund:0
 msgid "Create a draft credit note"
 msgstr "创建草稿贷记单"
@@ -77,6 +82,11 @@ msgstr "贷记单"
 #, python-format
 msgid "Customer Credit Note"
 msgstr "客户贷记单"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid "Default payment communication on customer invoices"
+msgstr "客户结算单的默认付款标识"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.invoice_form
