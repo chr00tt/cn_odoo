@@ -99,6 +99,12 @@ msgid "Is Growth Good when Positive"
 msgstr "正数的时候增长是好的吗"
 
 #. module: account
+#: model:ir.model.fields.selection,name:account.selection__account_account__account_type__off_balance
+#: model:ir.model.fields.selection,name:account.selection__account_account_template__account_type__off_balance
+msgid "Off-Balance Sheet"
+msgstr "表外科目"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__opening_credit
 msgid "Opening Credit"
 msgstr "期初贷方"
