@@ -231,6 +231,16 @@ msgstr "对账单"
 #. odoo-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: code:addons/account/static/src/xml/legacy_account_payment.xml:0
+#: model:ir.actions.act_window,name:account.action_account_unreconcile
+#: model_terms:ir.ui.view,arch_db:account.account_unreconcile_view
+#, python-format
+msgid "Unreconcile"
+msgstr "取消核对"
+
+#. module: account
+#. odoo-javascript
+#: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
+#: code:addons/account/static/src/xml/legacy_account_payment.xml:0
 #, python-format
 msgid "View"
 msgstr "查看"
