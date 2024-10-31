@@ -95,6 +95,12 @@ msgid "Default payment communication on customer invoices"
 msgstr "客户结算单的默认付款标识"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid ""
+"Disable to have a simplified view of vendor bills, without the products."
+msgstr "禁用产品显示，简化供应商账单。"
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.invoice_form
 msgid "Draft Credit Note"
 msgstr "草稿贷记单"
@@ -154,6 +160,11 @@ msgstr "在银行对账起始日期之前的收付款，不会在银行对账时
 #: model_terms:ir.ui.view,arch_db:account.view_account_bnk_stmt_cashbox
 msgid "Total"
 msgstr "合计"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_config_settings__group_products_in_bills
+msgid "Use products in vendor bills"
+msgstr "供应商账单显示产品"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_refund
