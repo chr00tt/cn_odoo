@@ -1,5 +1,113 @@
 #. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_partner
+msgid "<span class=\"fa fa-folder-open\"/> Partners"
+msgstr "<span class=\"fa fa-filter\"/> 往来单位"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_aged_partner
+msgid "Aged Partner Balances"
+msgstr "往来单位账龄余额"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_aged_partner_balance.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_ap
+#: model:ir.model,name:account_reports.model_account_aged_payable
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_payable
+#, python-format
+msgid "Aged Payable"
+msgstr "应付账龄"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Payables"
+msgstr "应付账龄"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_aged_partner_balance.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_ar
+#: model:ir.model,name:account_reports.model_account_aged_receivable
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_receivable
+#, python-format
+msgid "Aged Receivable"
+msgstr "应收账龄"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Receivables"
+msgstr "应收账龄"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#, python-format
+msgid "Communication"
+msgstr "摘要"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_consolidated_journals.py:0
+#: code:addons/account_reports/models/account_financial_report.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: code:addons/account_reports/models/account_report_coa.py:0
+#: code:addons/account_reports/models/account_report_coa.py:0
+#: code:addons/account_reports/models/account_report_coa.py:0
+#: code:addons/account_reports/models/account_report_coa.py:0
+#, python-format
+msgid "Credit"
+msgstr "贷方"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__domain
+msgid "Domain"
+msgstr "域"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_aged_partner_balance.py:0
+#, python-format
+msgid "Older"
+msgstr "超过120"
+
+#. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
 #, python-format
 msgid "Operations to Process"
 msgstr "待处理"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_analytic_report.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#, python-format
+msgid "Partner"
+msgstr "往来单位"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
+msgid "Partner Categories:"
+msgstr "往来单位分类："
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_partner_ledger
+#: model:ir.model,name:account_reports.model_account_partner_ledger
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_partner_ledger
+#: model_terms:ir.ui.view,arch_db:account_reports.partner_view_buttons
+#, python-format
+msgid "Partner Ledger"
+msgstr "往来单位分类账"
+
+#. module: account_reports
+#: model:ir.ui.menu,name:account_reports.account_reports_partners_reports_menu
+msgid "Partner Reports"
+msgstr "往来单位报表"
+
+#. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/static/src/js/account_reports.js:0
+#, python-format
+msgid "Partners"
+msgstr "往来单位"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
+msgid "Partners:"
+msgstr "往来单位："
+

@@ -4,3 +4,44 @@
 #, python-format
 msgid "Label"
 msgstr "摘要"
+
+#. module: account
+#. openerp-web
+#: code:addons/account/static/src/xml/account_reconciliation.xml:0
+#: code:addons/account/static/src/xml/account_reconciliation.xml:0
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__partner_id
+#: model:ir.model.fields,field_description:account.field_account_invoice_report__partner_id
+#: model:ir.model.fields,field_description:account.field_account_move__partner_id
+#: model:ir.model.fields,field_description:account.field_account_move_line__partner_id
+#: model:ir.model.fields,field_description:account.field_account_payment__partner_id
+#: model_terms:ir.ui.view,arch_db:account.report_journal
+#: model_terms:ir.ui.view,arch_db:account.view_account_analytic_line_filter_inherit_account
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+#, python-format
+msgid "Partner"
+msgstr "往来单位"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.action_account_moves_ledger_partner
+#: model:ir.ui.menu,name:account.menu_action_account_moves_ledger_partner
+msgid "Partner Ledger"
+msgstr "往来单位分类账"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__partner_name
+msgid "Partner Name"
+msgstr "往来单位名称"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_payment__partner_type
+msgid "Partner Type"
+msgstr "往来单位类型"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_payment__payment_type
+#: model:ir.model.fields,field_description:account.field_account_payment_method__payment_type
+msgid "Payment Type"
+msgstr "支付类型"
+
