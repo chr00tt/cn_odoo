@@ -1,5 +1,14 @@
 #. module: web
 #. odoo-javascript
+#: code:addons/web/static/src/legacy/js/components/action_menus.js:0
+#: code:addons/web/static/src/search/action_menus/action_menus.xml:0
+#: code:addons/web/static/src/views/form/status_bar_buttons/status_bar_buttons.xml:0
+#, python-format
+msgid "Action"
+msgstr "操作"
+
+#. module: web
+#. odoo-javascript
 #: code:addons/web/static/src/legacy/js/views/form/form_controller.js:0
 #: code:addons/web/static/src/legacy/js/views/list/list_controller.js:0
 #: code:addons/web/static/src/views/form/form_controller.js:0
