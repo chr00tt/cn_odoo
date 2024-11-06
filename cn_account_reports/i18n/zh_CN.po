@@ -78,6 +78,11 @@ msgid "Balance at Operation Rate"
 msgstr "按操作汇率的余额"
 
 #. module: account_reports
+#: model:account.report.column,name:account_reports.general_ledger_report_communication
+msgid "Communication"
+msgstr "摘要"
+
+#. module: account_reports
 #: model:account.report.column,name:account_reports.aged_payable_report_currency
 #: model:account.report.column,name:account_reports.aged_receivable_report_currency
 #: model:account.report.column,name:account_reports.general_ledger_report_amount_currency
