@@ -257,6 +257,12 @@ msgid "Reference"
 msgstr "备注"
 
 #. module: account
+#: model:ir.ui.menu,name:account.account_report_folder
+#: model:ir.ui.menu,name:account.menu_finance_reports
+msgid "Reporting"
+msgstr "报表"
+
+#. module: account
 #. odoo-python
 #: code:addons/account/wizard/account_move_reversal.py:0
 #, python-format
