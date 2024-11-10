@@ -19,7 +19,6 @@
         'demo/account.journal.csv',
         'demo/account.move.csv',
     ],
-    'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
 }
