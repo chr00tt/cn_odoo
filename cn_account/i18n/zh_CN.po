@@ -300,6 +300,15 @@ msgid "Statements"
 msgstr "对账单"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
+msgid ""
+"Taxes, fiscal positions, chart of accounts &amp; legal statements for your "
+"country"
+msgstr ""
+"符合当地政府规定的符合法律法规的税务、财务制度、会计科目表 &amp; "
+"国家的法定报表。"
+
+#. module: account
 #. odoo-javascript
 #: code:addons/account/static/src/components/account_payment_field/account_payment.xml:0
 #: code:addons/account/static/src/xml/legacy_account_payment.xml:0
