@@ -1,0 +1,106 @@
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.partner_view_buttons
+msgid "<span class=\"o_stat_text\">Partner Ledger</span>"
+msgstr "<span class=\"o_stat_text\">往来单位分类帐</span>"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_aged_partner_balance_report_handler
+msgid "Aged Partner Balance Custom Handler"
+msgstr "往来单位账龄分析余额自定义处理程序"
+
+#. module: account_reports
+#: model:account.report,name:account_reports.aged_payable_report
+#: model:account.report.line,name:account_reports.aged_payable_line
+#: model:ir.actions.client,name:account_reports.action_account_report_ap
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_payable
+msgid "Aged Payable"
+msgstr "应付账龄分析"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_aged_payable_report_handler
+msgid "Aged Payable Custom Handler"
+msgstr "应付账龄分析自定义处理程序"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Payables"
+msgstr "应付账龄分析"
+
+#. module: account_reports
+#: model:account.report,name:account_reports.aged_receivable_report
+#: model:account.report.line,name:account_reports.aged_receivable_line
+#: model:ir.actions.client,name:account_reports.action_account_report_ar
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_receivable
+msgid "Aged Receivable"
+msgstr "应收账龄分析"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_aged_receivable_report_handler
+msgid "Aged Receivable Custom Handler"
+msgstr "应收账龄分析自定义处理程序"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Receivables"
+msgstr "应收账龄分析"
+
+#. module: account_reports
+#: model:account.report.column,name:account_reports.general_ledger_report_partner_name
+msgid "Partner"
+msgstr "往来单位"
+
+#. module: account_reports
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+#, python-format
+msgid "Partner Categories"
+msgstr "往来单位类别"
+
+#. module: account_reports
+#: model:account.report,name:account_reports.partner_ledger_report
+#: model:ir.actions.client,name:account_reports.action_account_report_partner_ledger
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_partner_ledger
+#: model_terms:ir.ui.view,arch_db:account_reports.partner_view_buttons
+msgid "Partner Ledger"
+msgstr "往来单位分类账"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_partner_ledger_report_handler
+msgid "Partner Ledger Custom Handler"
+msgstr "往来单位分类账自定义处理程序"
+
+#. module: account_reports
+#: model:ir.ui.menu,name:account_reports.account_reports_partners_reports_menu
+msgid "Partner Reports"
+msgstr "往来单位报表"
+
+#. module: account_reports
+#. odoo-javascript
+#. odoo-python
+#: code:addons/account_reports/models/account_report.py:0
+#: code:addons/account_reports/static/src/components/account_report/filters/filter_partner.xml:0
+#: code:addons/account_reports/static/src/components/account_report/filters/filter_partner.xml:0
+#, python-format
+msgid "Partners"
+msgstr "往来单位"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_filters
+msgid "Partners Categories:"
+msgstr "往来单位类别："
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.pdf_export_filters
+msgid "Partners:"
+msgstr "往来单位："
+
+
+#. module: account_reports
+#. odoo-javascript
+#: code:addons/account_reports/static/src/components/sales_report/warnings.xml:0
+#: code:addons/account_reports/static/src/components/sales_report/warnings.xml:0
+#: code:addons/account_reports/static/src/components/sales_report/warnings.xml:0
+#, python-format
+msgid "partners"
+msgstr "往来单位"
+
