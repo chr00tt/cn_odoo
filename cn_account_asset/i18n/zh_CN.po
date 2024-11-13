@@ -12,6 +12,11 @@ msgid "Fixed Asset Account"
 msgstr "固定资产科目"
 
 #. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__salvage_value
+msgid "Not Depreciable Value"
+msgstr "残值"
+
+#. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__salvage_value_pct
 msgid "Not Depreciable Value Percent"
 msgstr "残值百分比"
