@@ -27,6 +27,19 @@ msgid "Active Account"
 msgstr "启用的科目"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_account__code
+#: model:ir.model.fields,field_description:account.field_account_account_template__code
+#: model:ir.model.fields,field_description:account.field_account_analytic_line__code
+#: model:ir.model.fields,field_description:account.field_account_incoterms__code
+#: model:ir.model.fields,field_description:account.field_account_payment__payment_method_code
+#: model:ir.model.fields,field_description:account.field_account_payment_method__code
+#: model:ir.model.fields,field_description:account.field_account_payment_method_line__code
+#: model:ir.model.fields,field_description:account.field_account_report_line__code
+#: model_terms:ir.ui.view,arch_db:account.view_account_form
+msgid "Code"
+msgstr "编码"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__company_id
 #: model:ir.model.fields,field_description:account.field_account_accrued_orders_wizard__company_id
 #: model:ir.model.fields,field_description:account.field_account_automatic_entry_wizard__company_id
