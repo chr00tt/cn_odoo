@@ -1,5 +1,12 @@
 #. module: account_asset
 #. odoo-python
+#: code:addons/account_asset/models/account_move.py:0
+#, python-format
+msgid "%s created from invoice: %s"
+msgstr "%s创建于发票%s"
+
+#. module: account_asset
+#. odoo-python
 #: code:addons/account_asset/models/account_asset.py:0
 #, python-format
 msgid "A deferred expense has been created for this move:"
@@ -33,6 +40,16 @@ msgstr "已折旧金额"
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_model_search
 msgid "Fixed Asset Account"
 msgstr "固定资产科目"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
+msgid "Manage Items"
+msgstr "生成多个资产"
+
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__salvage_value
+msgid "Not Depreciable Value"
+msgstr "残值"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
