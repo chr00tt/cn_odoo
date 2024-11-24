@@ -130,7 +130,42 @@ msgstr "结算单"
 #: model_terms:ir.ui.view,arch_db:account.view_move_tree
 #, python-format
 msgid "Journal Entries"
-msgstr "日记帐分录"
+msgstr "会计凭证"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_invoice__move_id
+#: model:ir.model.fields,field_description:account.field_account_move_line__move_id
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+msgid "Journal Entry"
+msgstr "凭证分录"
+
+#. module: account
+#: code:addons/account/models/account_payment.py:529
+#: code:addons/account/models/reconciliation_widget.py:196
+#: model:ir.actions.act_window,name:account.act_account_journal_2_account_move_line
+#: model:ir.actions.act_window,name:account.act_account_move_to_account_move_line_open
+#: model:ir.actions.act_window,name:account.action_account_moves_all_a
+#: model:ir.actions.act_window,name:account.action_account_moves_all_tree
+#: model:ir.actions.act_window,name:account.action_move_line_graph
+#: model:ir.actions.act_window,name:account.action_move_line_graph_cash_basis
+#: model:ir.actions.act_window,name:account.action_move_line_graph_cash_basis_posted
+#: model:ir.actions.act_window,name:account.action_move_line_graph_posted
+#: model:ir.actions.act_window,name:account.action_move_line_select
+#: model:ir.actions.act_window,name:account.action_move_line_select_by_partner
+#: model:ir.actions.act_window,name:account.action_move_line_select_by_type
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__journal_entry_ids
+#: model:ir.model.fields,field_description:account.field_account_move__line_ids
+#: model:ir.model.fields,field_description:account.field_res_partner__journal_item_count
+#: model:ir.model.fields,field_description:account.field_res_users__journal_item_count
+#: model:ir.ui.menu,name:account.menu_action_account_moves_all
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_pivot
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_tree
+#, python-format
+msgid "Journal Items"
+msgstr "凭证分录"
 
 #. module: account
 #. openerp-web
