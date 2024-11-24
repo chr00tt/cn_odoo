@@ -8,3 +8,26 @@ msgstr "待处理银行存款"
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__amount_currency
 msgid "Amount Currency"
 msgstr "外币金额"
+
+#. module: account
+#: model:ir.ui.menu,name:account.account_report_folder
+#: model:ir.ui.menu,name:account.menu_finance_reports
+msgid "Reporting"
+msgstr "报表"
+
+#. module: account
+#: code:addons/account/models/account_bank_statement.py:0
+#: model:ir.actions.report,name:account.action_report_account_statement
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__statement_id
+#: model:ir.model.fields,field_description:account.field_account_move_line__statement_id
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#, python-format
+msgid "Statement"
+msgstr "对账单"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:account.view_bank_statement_tree
+msgid "Statements"
+msgstr "对账单"
+
