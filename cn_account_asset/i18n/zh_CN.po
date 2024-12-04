@@ -1,0 +1,4 @@
+#. module: account_asset
+#: model:ir.model.fields,field_description:account_asset.field_account_asset_category_group_entries
+msgid "Group Journal Entries"
+msgstr "会计凭证分组"
