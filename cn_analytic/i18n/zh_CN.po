@@ -19,3 +19,8 @@ msgstr "分析科目"
 msgid "Reference"
 msgstr "编号"
 
+#. module: analytic
+#: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_tree_view
+msgid "View"
+msgstr "查看"
+

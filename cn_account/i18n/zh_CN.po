@@ -17,6 +17,11 @@ msgid "Accounting Dashboard"
 msgstr "会计工作台"
 
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_analytic_distribution_model__account_prefix
+msgid "Accounts Prefix"
+msgstr "科目前缀"
+
+#. module: account
 #: model:ir.ui.menu,name:account.menu_finance_entries_actions
 msgid "Actions"
 msgstr "操作"

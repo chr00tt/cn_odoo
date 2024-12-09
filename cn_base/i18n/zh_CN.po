@@ -1,4 +1,23 @@
 #. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_act_window_view__act_window_id
+#: model:ir.model.fields,field_description:base.field_ir_actions_todo__action_id
+#: model:ir.model.fields,field_description:base.field_ir_filters__action_id
+#: model:ir.model.fields,field_description:base.field_ir_ui_menu__action
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_act_url__binding_type__action
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_act_window__binding_type__action
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_act_window_close__binding_type__action
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_actions__binding_type__action
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_client__binding_type__action
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_report__binding_type__action
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_server__binding_type__action
+#: model_terms:ir.ui.view,arch_db:base.action_view
+#: model_terms:ir.ui.view,arch_db:base.action_view_search
+#: model_terms:ir.ui.view,arch_db:base.action_view_tree
+#: model_terms:ir.ui.view,arch_db:base.view_window_action_search
+msgid "Action"
+msgstr "操作"
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access_search
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
 #: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
