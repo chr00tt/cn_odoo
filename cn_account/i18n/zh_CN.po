@@ -1,4 +1,16 @@
 #. module: account
+#: model:ir.model.fields,field_description:account.field_account_account__code
+#: model:ir.model.fields,field_description:account.field_account_account_template__code
+#: model:ir.model.fields,field_description:account.field_account_analytic_line__code
+#: model:ir.model.fields,field_description:account.field_account_incoterms__code
+#: model:ir.model.fields,field_description:account.field_account_payment__payment_method_code
+#: model:ir.model.fields,field_description:account.field_account_payment_method__code
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__new_journal_code
+#: model:ir.model.fields,field_description:account.field_account_tax_report_line__code
+msgid "Code"
+msgstr "编码"
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_accrual_accounting_wizard_form_view
 msgid "Accrued Account"
 msgstr "应计科目"
@@ -9,6 +21,11 @@ msgstr "应计科目"
 #, python-format
 msgid "Label"
 msgstr "摘要"
+
+#. module: account
+#: model:account.account.type,name:account.data_account_off_sheet
+msgid "Off-Balance Sheet"
+msgstr "表外科目"
 
 #. module: account
 #. openerp-web
