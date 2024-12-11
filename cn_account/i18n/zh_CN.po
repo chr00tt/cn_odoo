@@ -10,10 +10,29 @@ msgid "Amount Currency"
 msgstr "外币金额"
 
 #. module: account
-#: model:ir.ui.menu,name:account.account_report_folder
-#: model:ir.ui.menu,name:account.menu_finance_reports
-msgid "Reporting"
-msgstr "报表"
+#: model:ir.actions.act_window,name:account.action_validate_account_move
+msgid "Post entries"
+msgstr "凭证过账"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.action_account_resequence
+msgid "Resequence"
+msgstr "重新生成凭证编号"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.action_view_account_move_reversal
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
+#: model_terms:ir.ui.view,arch_db:account.view_move_line_tree_grouped
+msgid "Reverse"
+msgstr "反转"
+
+#. module: account
+#: model:ir.model.fields.selection,name:account.selection__account_move__payment_state__reversed
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Reversed"
+msgstr "反转"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
