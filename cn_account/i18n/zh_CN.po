@@ -282,30 +282,14 @@ msgid "Post entries"
 msgstr "凭证记账"
 
 #. module: account
-#: model:ir.model.fields.selection,name:account.selection__account_move__state__posted
-#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
-#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
-#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
-#: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
-msgid "Posted"
-msgstr "已记账"
-
-#. module: account
-#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__posted_before
-#: model:ir.model.fields,field_description:account.field_account_move__posted_before
-#: model:ir.model.fields,field_description:account.field_account_payment__posted_before
-msgid "Posted Before"
-msgstr "记账早于"
-
-#. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
 msgid "Posted Journal Entries"
-msgstr "记账的会计凭证"
+msgstr "过账的会计凭证"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Posted Journal Items"
-msgstr "已记账的会计分录"
+msgstr "已过账的会计分录"
 
 
 #. module: account
@@ -377,6 +361,12 @@ msgid ""
 msgstr ""
 "符合当地政府规定的符合法律法规的税务、财务制度、会计科目表 &amp; "
 "国家的法定报表。"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+msgid "Unposted"
+msgstr "未过账"
 
 #. module: account
 #. odoo-javascript
