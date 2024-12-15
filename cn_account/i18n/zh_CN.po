@@ -124,6 +124,11 @@ msgid "Financial Accounts Prefix"
 msgstr "会计科目前缀"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
+msgid "Gaps in the sequence"
+msgstr "编号中存在缺号"
+
+#. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 #: model:ir.model.fields,field_description:account.field_res_partner__invoice_warn
@@ -308,13 +313,12 @@ msgstr "收款"
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
 #, python-format
 msgid "Reference"
-msgstr "备注"
+msgstr "源单编号"
 
 #. module: account
-#: model:ir.ui.menu,name:account.account_report_folder
-#: model:ir.ui.menu,name:account.menu_finance_reports
-msgid "Reporting"
-msgstr "报表"
+#: model:ir.actions.act_window,name:account.action_account_resequence
+msgid "Resequence"
+msgstr "重新生成凭证编号"
 
 #. module: account
 #. odoo-python
@@ -385,4 +389,44 @@ msgstr "取消核对"
 #, python-format
 msgid "View"
 msgstr "查看"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Warning: this bill might be a duplicate of"
+msgstr "警告：该账单可能重复"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+#, python-format
+msgid "You can only change the period/account for posted journal items."
+msgstr "您只能更改已过账的凭证分录的期间/科目。"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/models/account_move_line.py:0
+#, python-format
+msgid "You can only reconcile posted entries."
+msgstr "您只能对已过账的分录进行对账."
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_payment_register.py:0
+#, python-format
+msgid "You can only register payment for posted journal entries."
+msgstr "您只能登记已过账的记账凭证的支付。"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_resequence.py:0
+#, python-format
+msgid "You can only resequence items from the same journal"
+msgstr "只能对相同的日记账重新生成凭证编号"
+
+#. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_move_reversal.py:0
+#, python-format
+msgid "You can only reverse posted moves."
+msgstr "只能反转已过账的凭证。"
 
