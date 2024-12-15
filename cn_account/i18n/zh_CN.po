@@ -1,4 +1,15 @@
 #. module: account
+#: model:ir.model.fields,field_description:account.field_res_partner__credit_limit
+#: model:ir.model.fields,field_description:account.field_res_users__credit_limit
+msgid "Credit Limit"
+msgstr "信用额度"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
+msgid "Credit Limits"
+msgstr "信用额度"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__use_partner_credit_limit
 #: model:ir.model.fields,field_description:account.field_res_users__use_partner_credit_limit
 msgid "Partner Limit"
