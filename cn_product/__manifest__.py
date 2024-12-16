@@ -7,6 +7,12 @@
     'category': 'Sales',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['product'],
+    'data': [
+        'data/product_data.xml',
+    ],
+    'demo': [
+        'data/product_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
 }

@@ -53,3 +53,15 @@ msgstr "凭证分录"
 msgid "Journal Items"
 msgstr "凭证分录"
 
+#. module: account
+#: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
+msgid "Last Month"
+msgstr "上月"
+
+#. module: account
+#. openerp-web
+#: code:addons/account/static/src/xml/account_reconciliation.xml:119
+#, python-format
+msgid "Last Reconciliation:"
+msgstr "上次对账："
+
