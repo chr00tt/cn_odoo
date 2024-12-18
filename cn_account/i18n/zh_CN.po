@@ -1,4 +1,9 @@
 #. module: account
+#: model:ir.actions.act_window,name:account.open_account_journal_dashboard_kanban
+msgid "Accounting Overview"
+msgstr "会计工作台"
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.invoice_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_refund
 msgid "Add Credit Note"
@@ -184,6 +189,11 @@ msgstr "日记账"
 #: model:ir.model.fields,field_description:account.field_account_move__name
 msgid "Number"
 msgstr "编号"
+
+#. module: account
+#: model:ir.ui.menu,name:account.menu_board_journal_1
+msgid "Overview"
+msgstr "工作台"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__reverse_date
