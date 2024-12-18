@@ -30,7 +30,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_employee_form
 msgid "Advance"
-msgstr ""
+msgstr "预付款"
 
 #. module: hr_expense_advance_clearing
 #: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_sheet_view_search
@@ -161,7 +161,7 @@ msgstr "员工预付款"
 #: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
 #, python-format
 msgid "Employee advance product has no payable account"
-msgstr ""
+msgstr "员工预付款产品缺乏应付科目"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
