@@ -37,7 +37,7 @@ msgstr "导入科目表"
 #: model:ir.actions.client,name:account_base_import.action_account_move_line_import
 #, python-format
 msgid "Import Journal Items"
-msgstr "导入日记账项目"
+msgstr "导入凭证分录"
 
 #. module: account_base_import
 #. odoo-javascript
