@@ -6,18 +6,8 @@
     'author': "He Jian",
     'category': 'Accounting/Accounting',
     'depends' : ['account'],
-    'data': [
-        'data/cn_account.xml',
-        'data/account.account.template.csv',
-        'data/cn_account_post.xml',
-    ],
     'demo': [
         'demo/cn_account_demo.xml',
-        'demo/account.account.csv',
-        'demo/res.bank.csv',
-        'demo/res.partner.bank.csv',
-        'demo/account.journal.csv',
-        'demo/account.move.csv',
     ],
     'auto_install': True,
     'license': 'LGPL-3',
