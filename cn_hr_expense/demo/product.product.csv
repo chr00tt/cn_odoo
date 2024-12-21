@@ -1,5 +1,0 @@
-"id","name","type","default_code","can_be_expensed","property_account_expense_id","supplier_taxes_id","company_id/id","categ_id/id"
-"expense_product_1","差旅费","service","CL","TRUE","管理费用-差旅费","","cn_account.res_company_cn_account","product.cat_expense"
-"expense_product_2","业务招待费","service","YW","TRUE","管理费用-业务招待费","","cn_account.res_company_cn_account","product.cat_expense"
-"expense_product_3","资料费","service","ZL","TRUE","管理费用-其他","","cn_account.res_company_cn_account","product.cat_expense"
-"expense_product_9","备用金","service","BYJ","TRUE","备用金","","cn_account.res_company_cn_account","product.cat_expense"

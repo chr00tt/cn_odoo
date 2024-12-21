@@ -10,9 +10,6 @@
     'depends': ['hr_expense'],
     'demo': [
         'data/hr_expense_demo.xml',
-        'demo/product.product.csv',
-        'demo/hr.expense.sheet.csv',
-        'demo/hr.expense.csv',
         'data/cn_hr_expense_demo.xml',
     ],
     'installable': True,
