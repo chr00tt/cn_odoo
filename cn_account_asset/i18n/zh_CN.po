@@ -47,6 +47,12 @@ msgid "Manage Items"
 msgstr "生成多个资产"
 
 #. module: account_asset
+#: model:account.report.column,name:account_asset.assets_report_first_method
+#: model:ir.model.fields,field_description:account_asset.field_account_asset__method
+msgid "Method"
+msgstr "方法"
+
+#. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__salvage_value
 msgid "Not Depreciable Value"
 msgstr "残值"
