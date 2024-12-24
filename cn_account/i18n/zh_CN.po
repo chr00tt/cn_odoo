@@ -1,4 +1,9 @@
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Add Credit Note"
+msgstr "添加贷记单"
+
+#. module: account
 #: code:addons/account/models/chart_template.py:0
 #, python-format
 msgid "Bank Suspense Account"
@@ -20,6 +25,11 @@ msgid "Communication Type"
 msgstr "编码类型"
 
 #. module: account
+#: model_terms:ir.actions.act_window,help:account.action_move_out_refund_type
+msgid "Create a credit note"
+msgstr "创建贷记单"
+
+#. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Payment Communications"
 msgstr "支付编码"
@@ -35,11 +45,49 @@ msgid "Resequence"
 msgstr "重新生成凭证编号"
 
 #. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
+msgid "Reversal Date"
+msgstr "冲销日期"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__reversal_move_id
+#: model:ir.model.fields,field_description:account.field_account_move__reversal_move_id
+#: model:ir.model.fields,field_description:account.field_account_payment__reversal_move_id
+msgid "Reversal Move"
+msgstr "冲销凭证"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_move_reversal__date
+msgid "Reversal date"
+msgstr "冲销日期"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__reversed_entry_id
+#: model:ir.model.fields,field_description:account.field_account_move__reversed_entry_id
+#: model:ir.model.fields,field_description:account.field_account_payment__reversed_entry_id
+msgid "Reversal of"
+msgstr "冲销"
+
+#. module: account
+#: code:addons/account/wizard/account_move_reversal.py:0
+#, python-format
+msgid "Reversal of: %(move_name)s, %(reason)s"
+msgstr "冲销: %(move_name)s, %(reason)s"
+
+#. module: account
+#: code:addons/account/models/account_full_reconcile.py:0
+#: code:addons/account/models/account_partial_reconcile.py:0
+#: code:addons/account/wizard/account_move_reversal.py:0
+#, python-format
+msgid "Reversal of: %s"
+msgstr "冲销: %s"
+
+#. module: account
 #: model:ir.actions.act_window,name:account.action_view_account_move_reversal
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_tree_grouped
 msgid "Reverse"
-msgstr "反转"
+msgstr "冲销"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move__payment_state__reversed
@@ -47,7 +95,7 @@ msgstr "反转"
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Reversed"
-msgstr "反转"
+msgstr "冲销"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:0
@@ -64,4 +112,31 @@ msgstr "对账单"
 #: model_terms:ir.ui.view,arch_db:account.view_bank_statement_tree
 msgid "Statements"
 msgstr "对账单"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
+msgid "The credit note is auto-validated and reconciled with the invoice."
+msgstr "贷记单已自动验证并与结算单对账。"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
+msgid ""
+"The credit note is auto-validated and reconciled with the invoice.\n"
+"                               The original invoice is duplicated as a new draft."
+msgstr ""
+"贷记单已自动验证并与结算单对账。\n"
+"                               原始结算单将复制为新的草稿。"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_reversal
+msgid ""
+"The credit note is created in draft and can be edited before being issued."
+msgstr "贷记单以草稿的形式创建，可以在发布之前进行编辑。"
+
+#. module: account
+#: code:addons/account/models/account_move.py:0
+#, python-format
+msgid ""
+"You cannot add/modify entries prior to and inclusive of the lock date %s."
+msgstr "不能在锁定日期之前以及锁定日期 %s 添加/修改记账凭证。"
 
