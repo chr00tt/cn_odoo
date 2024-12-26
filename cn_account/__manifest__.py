@@ -9,6 +9,9 @@
     'data': [
         'data/account_data.xml',
     ],
+    'demo': [
+        'demo/cn_account_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',
