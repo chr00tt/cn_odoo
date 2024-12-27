@@ -1,0 +1,15 @@
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__tax_lock_date
+msgid "Lock Tax Return"
+msgstr "锁定税务"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__tax_lock_date_for_everyone
+msgid "Lock Tax Return For Everyone"
+msgstr "锁定税务适用于所有人"
+
+#. module: account_accountant
+#: model:ir.model.fields,field_description:account_accountant.field_account_change_lock_date__tax_lock_date_for_me
+msgid "Lock Tax Return For Me"
+msgstr "锁定税务只适用于我"
+
