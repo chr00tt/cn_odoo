@@ -37,6 +37,17 @@ msgid "Add Credit Note"
 msgstr "添加贷记单"
 
 #. module: account
+#: model:ir.model,name:account.model_account_analytic_account
+msgid "Analytic Account"
+msgstr "分析科目"
+
+#. module: account
+#: model:ir.ui.menu,name:account.account_analytic_def_account
+#: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
+msgid "Analytic Accounts"
+msgstr "分析科目"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_report__availability_condition
 msgid "Availability"
 msgstr "可用性"
