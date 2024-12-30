@@ -18,6 +18,12 @@ msgid "Action"
 msgstr "操作"
 
 #. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_server__state
+#: model:ir.model.fields,field_description:base.field_ir_cron__state
+msgid "Action To Do"
+msgstr "执行的动作"
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access_search
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
 #: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search

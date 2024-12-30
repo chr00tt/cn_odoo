@@ -1,0 +1,42 @@
+#. module: auditlog
+#: model:ir.model.fields,field_description:auditlog.field_auditlog_rule__capture_record
+msgid "Capture Record"
+msgstr "捕捉记录"
+
+#. module: auditlog
+#: model:ir.model.fields,field_description:auditlog.field_auditlog_rule__fields_to_exclude_ids
+msgid "Fields to Exclude"
+msgstr "排除的字段"
+
+#. module: auditlog
+#: model:ir.model.fields,field_description:auditlog.field_auditlog_rule__log_create
+msgid "Log Creates"
+msgstr "记录创建"
+
+#. module: auditlog
+#: model:ir.model.fields,field_description:auditlog.field_auditlog_rule__log_unlink
+msgid "Log Deletes"
+msgstr "记录删除"
+
+#. module: auditlog
+#: model:ir.actions.act_window,name:auditlog.action_auditlog_line
+#: model:ir.ui.menu,name:auditlog.menu_auditlog_line
+#: model_terms:ir.ui.view,arch_db:auditlog.view_auditlog_line_search
+msgid "Log Lines"
+msgstr "日志明细"
+
+#. module: auditlog
+#: model:ir.model.fields,field_description:auditlog.field_auditlog_rule__log_read
+msgid "Log Reads"
+msgstr "记录读取"
+
+#. module: auditlog
+#: model:ir.model.fields,field_description:auditlog.field_auditlog_rule__log_write
+msgid "Log Writes"
+msgstr "记录更改"
+
+#. module: auditlog
+#: model:ir.model.fields,field_description:auditlog.field_auditlog_rule__users_to_exclude_ids
+msgid "Users to Exclude"
+msgstr "排除的用户"
+
