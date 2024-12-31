@@ -11,7 +11,6 @@
         "bi_sql_editor",
     ],
     "demo": ["demo/bi_sql_view_demo.xml"],
-    "installable": True,
     "auto_install": True,
     'license': 'LGPL-3',
 }

@@ -1,0 +1,5 @@
+#. module: bi_view_editor
+#: model:ir.model.fields.selection,name:bi_view_editor.selection__bve_view__state__draft
+msgid "Draft"
+msgstr "草稿"
+
