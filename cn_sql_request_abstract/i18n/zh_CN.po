@@ -1,0 +1,31 @@
+#. module: sql_request_abstract
+#: model:ir.model.fields,field_description:sql_request_abstract.field_sql_request_mixin__note
+#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
+msgid "Note"
+msgstr "备注"
+
+#. module: sql_request_abstract
+#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
+msgid "Preview Results"
+msgstr "预览结果"
+
+#. module: sql_request_abstract
+#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
+msgid "SQL Query"
+msgstr "SQL 查询"
+
+#. module: sql_request_abstract
+#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
+msgid "SQL Settings"
+msgstr "SQL 设置"
+
+#. module: sql_request_abstract
+#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
+msgid "Security"
+msgstr "安全"
+
+#. module: sql_request_abstract
+#: model_terms:ir.ui.view,arch_db:sql_request_abstract.view_sql_request_mixin_form
+msgid "Validate SQL Expression"
+msgstr "确认 SQL 表达式"
+
