@@ -6,12 +6,6 @@
     'author': "He Jian",
     'category': 'Accounting',
     'depends' : ['account'],
-    'data': [
-        'data/cn_account_coa_chart_data.xml',
-        'data/data_account_type.xml',
-        'data/account.account.template.csv',
-        'data/cn_account_coa_post.xml',
-    ],
     'demo': [
         'demo/cn_account_demo.xml',
     ],
