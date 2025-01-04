@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <!-- 开启库存计价 -->
+        <record model="res.groups" id="base.group_user">
+            <field name="implied_ids" eval="[(4, ref('stock_account.group_inventory_valuation'))]"/>
+        </record>
+    </data>
+</openerp>
