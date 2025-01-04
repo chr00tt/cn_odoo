@@ -2,11 +2,14 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'cn Inventory Management',
+    'name': 'cn WMS Accounting',
+    'description': 'cn WMS Accounting',
     'author': "He Jian",
-    'category': 'Warehouse',
+    'category': 'Hidden',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['stock'],
-    'installable': True,
+    'depends': ['stock_account'],
+    'demo': [
+        'data/cn_stock_account_demo.xml',
+    ],
     'auto_install': True,
 }
