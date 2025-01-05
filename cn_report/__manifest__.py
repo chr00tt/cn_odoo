@@ -2,10 +2,16 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'cn Products & Pricelists',
+    'name': 'cn Report',
     'author': "He Jian",
-    'category': 'Sales',
+    'category': 'Base',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['product'],
+    'description': """
+cn Report
+        """,
+    'depends': ['report'],
+    'data': [
+        'data/cn_report_data.xml',
+    ],
     'auto_install': True,
 }
