@@ -7,5 +7,8 @@
     'category': 'Sales',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['product'],
+    'demo': [
+        'data/cn_product_demo.xml',
+    ],
     'auto_install': True,
 }
