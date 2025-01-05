@@ -2,3 +2,75 @@
 #: model:ir.actions.report.xml,name:stock.action_report_delivery
 msgid "Delivery Slip"
 msgstr "送货单"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_exhausted
+msgid "Include Exhausted Products"
+msgstr "包含库存为0的产品"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_category_id
+msgid "Inventoried Category"
+msgstr "盘点的类别"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_location_id
+msgid "Inventoried Location"
+msgstr "盘点的库位"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_lot_id
+msgid "Inventoried Lot/Serial Number"
+msgstr "盘点的批次/序号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_partner_id
+msgid "Inventoried Owner"
+msgstr "盘点的所有者"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_package_id
+msgid "Inventoried Pack"
+msgstr "盘点的包裹"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_product_id
+msgid "Inventoried Product"
+msgstr "盘点的产品"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_name
+#: model:ir.ui.view,arch_db:stock.view_inventory_filter
+msgid "Inventory Reference"
+msgstr "盘点编号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type_return_picking_type_id
+msgid "Picking Type for Returns"
+msgstr "退货的拣货类型"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking_name
+#: model:ir.model.fields,field_description:stock.field_stock_scrap_name
+#: model:ir.ui.view,arch_db:stock.view_move_search
+#: model:ir.ui.view,arch_db:stock.view_move_tree
+#: model:ir.ui.view,arch_db:stock.view_move_tree_receipt_picking
+#: model:ir.ui.view,arch_db:stock.view_move_tree_receipt_picking_board
+msgid "Reference"
+msgstr "编号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type_sequence_id
+msgid "Reference Sequence"
+msgstr "编号序列"
+
+#. module: stock
+#: sql_constraint:stock.picking:0
+msgid "Reference must be unique per company!"
+msgstr "每个机构的编号必须是唯一的！"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_picking_origin
+msgid "Reference of the document"
+msgstr "单据的编号"
+
