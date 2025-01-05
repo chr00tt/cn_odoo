@@ -90,6 +90,17 @@ msgid "Journal Items"
 msgstr "凭证分录"
 
 #. module: account
+#. openerp-web
+#: code:addons/account/static/src/js/account_reconciliation_widgets.js:108
+#: code:addons/account/static/src/js/account_reconciliation_widgets.js:112
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line_name
+#: model:ir.model.fields,field_description:account.field_account_move_line_name
+#: model:ir.ui.view,arch_db:account.report_journal
+#, python-format
+msgid "Label"
+msgstr "摘要"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_abstract_payment_communication
 #: model:ir.model.fields,field_description:account.field_account_payment_communication
 #: model:ir.model.fields,field_description:account.field_account_register_payments_communication
@@ -109,6 +120,85 @@ msgstr "备注："
 #: model:ir.model.fields,field_description:account.field_account_move_name
 msgid "Number"
 msgstr "编号"
+
+#. module: account
+#: model:ir.model,name:account.model_account_partial_reconcile
+#: model:ir.ui.view,arch_db:account.view_account_move_line_reconcile_full
+msgid "Partial Reconcile"
+msgstr "部分对账"
+
+#. module: account
+#. openerp-web
+#: code:addons/account/static/src/js/account_reconciliation_widgets.js:1750
+#: code:addons/account/static/src/xml/account_reconciliation.xml:263
+#: model:ir.model,name:account.model_res_partner
+#: model:ir.model.fields,field_description:account.field_account_abstract_payment_partner_id
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line_partner_id
+#: model:ir.model.fields,field_description:account.field_account_invoice_line_partner_id
+#: model:ir.model.fields,field_description:account.field_account_invoice_partner_id
+#: model:ir.model.fields,field_description:account.field_account_invoice_report_partner_id
+#: model:ir.model.fields,field_description:account.field_account_move_line_partner_id
+#: model:ir.model.fields,field_description:account.field_account_move_partner_id
+#: model:ir.model.fields,field_description:account.field_account_payment_partner_id
+#: model:ir.model.fields,field_description:account.field_account_register_payments_partner_id
+#: model:ir.ui.view,arch_db:account.report_generalledger
+#: model:ir.ui.view,arch_db:account.report_journal
+#: model:ir.ui.view,arch_db:account.view_account_analytic_line_filter_inherit_account
+#: model:ir.ui.view,arch_db:account.view_account_invoice_filter
+#: model:ir.ui.view,arch_db:account.view_account_invoice_report_search
+#: model:ir.ui.view,arch_db:account.view_account_move_filter
+#: model:ir.ui.view,arch_db:account.view_account_move_line_filter
+#: model:ir.ui.view,arch_db:account.view_account_payment_search
+#, python-format
+msgid "Partner"
+msgstr "往来单位"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_invoice_report_commercial_partner_id
+msgid "Partner Company"
+msgstr "往来单位机构"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.action_account_partner_ledger_menu
+#: model:ir.actions.report.xml,name:account.action_report_partnerledger
+#: model:ir.ui.menu,name:account.menu_partner_ledger
+#: model:ir.ui.view,arch_db:account.report_partnerledger
+msgid "Partner Ledger"
+msgstr "往来单位分类账"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.act_account_partner_ledger_payable
+msgid "Partner Ledger: Payable"
+msgstr "往来单位分类账：应付"
+
+#. module: account
+#: model:ir.actions.act_window,name:account.act_account_partner_ledger_receivable
+msgid "Partner Ledger: Receivable"
+msgstr "往来单位分类账：应收"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line_partner_name
+msgid "Partner name"
+msgstr "往来单位名称"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_abstract_payment_partner_type
+#: model:ir.model.fields,field_description:account.field_account_payment_partner_type
+#: model:ir.model.fields,field_description:account.field_account_register_payments_partner_type
+msgid "Partner type"
+msgstr "往来单位类型"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_aged_trial_balance_result_selection
+#: model:ir.model.fields,field_description:account.field_account_common_partner_report_result_selection
+#: model:ir.model.fields,field_description:account.field_account_report_partner_ledger_result_selection
+msgid "Partner's"
+msgstr "往来单位的"
+
+#. module: account
+#: model:ir.ui.view,arch_db:account.report_agedpartnerbalance
+msgid "Partners"
+msgstr "往来单位"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line_ref
