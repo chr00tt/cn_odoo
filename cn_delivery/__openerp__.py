@@ -4,14 +4,13 @@
 
 {
     'name': 'cn Delivery Costs',
-    'website': 'https://github.com/chr00tt/cn_odoo',
     'author': "He Jian",
     'category': 'Stock',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['delivery'],
     'data': [
         'data/delivery_data.xml',
     ],
     'demo': ['data/delivery_demo.xml'],
-    'installable': True,
     'auto_install': True,
 }
