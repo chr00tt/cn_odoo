@@ -1,0 +1,36 @@
+#. module: stock_landed_costs
+#: field:stock.landed.cost,account_journal_id:0
+msgid "Account Journal"
+msgstr "会计日记账"
+
+#. module: stock_landed_costs
+#: field:stock.valuation.adjustment.lines,additional_landed_cost:0
+msgid "Additional Landed Cost"
+msgstr "额外的分摊成本"
+
+#. module: stock_landed_costs
+#: field:stock.valuation.adjustment.lines,cost_line_id:0
+msgid "Cost Line"
+msgstr "成本项目"
+
+#. module: stock_landed_costs
+#: field:stock.valuation.adjustment.lines,former_cost_per_unit:0
+msgid "Former Cost(Per Unit)"
+msgstr "单位前成本"
+
+#. module: stock_landed_costs
+#: field:stock.landed.cost,account_move_id:0
+msgid "Journal Entry"
+msgstr "记账凭证"
+
+#. module: stock_landed_costs
+#: field:stock.landed.cost,picking_ids:0
+msgid "Pickings"
+msgstr "调拨"
+
+#. module: stock_landed_costs
+#: field:product.template,split_method:0
+#: field:stock.landed.cost.lines,split_method:0
+msgid "Split Method"
+msgstr "分配方法"
+
