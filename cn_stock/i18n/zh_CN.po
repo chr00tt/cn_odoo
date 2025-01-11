@@ -1,4 +1,14 @@
 #. module: stock
+#: model:ir.ui.view,arch_db:stock.stock_picking_type_kanban
+msgid "<span>New</span>"
+msgstr "<span>添加</span>"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.view_overprocessed_transfer
+msgid "Are you sure you want to validate this picking?"
+msgstr "您确定要验证该调拨吗？"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_production_lot_ref
 msgid "Internal Reference"
 msgstr "内部编号"
@@ -64,6 +74,52 @@ msgid "Locations"
 msgstr "库位"
 
 #. module: stock
+#: model:ir.model,name:stock.model_stock_production_lot
+msgid "Lot/Serial"
+msgstr "批次/序号"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.message_body
+msgid "Lot/Serial :"
+msgstr "批次/序号 :"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_change_product_qty_lot_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line_prod_lot_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line_lot_name
+#: model:ir.model.fields,field_description:stock.field_stock_production_lot_name
+#: model:ir.model.fields,field_description:stock.field_stock_quant_lot_id
+#: model:ir.ui.view,arch_db:stock.product_form_view_procurement_button
+#: model:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
+#: model:ir.ui.view,arch_db:stock.quant_search_view
+#: model:ir.ui.view,arch_db:stock.report_delivery_document
+#: model:ir.ui.view,arch_db:stock.report_lot_barcode
+#: model:ir.ui.view,arch_db:stock.report_package_barcode
+#: model:ir.ui.view,arch_db:stock.report_picking
+#: model:res.request.link,name:stock.req_link_tracking
+msgid "Lot/Seril Number"
+msgstr "批次/序号"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.view_inventory_tree
+msgid "Lot/Serial Number Inventory"
+msgstr "批次/序号库存"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_res_config_settings_group_stock_production_lot
+msgid "Lots & Serial Numbers"
+msgstr "批次和序号"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_production_lot_form
+#: model:ir.ui.menu,name:stock.menu_action_production_lot_form
+#: model:ir.ui.view,arch_db:stock.view_production_lot_form
+#: model:ir.ui.view,arch_db:stock.view_production_lot_form_simple
+#: model:ir.ui.view,arch_db:stock.view_production_lot_tree
+msgid "Lots/Serial Numbers"
+msgstr "批次/序号"
+
+#. module: stock
 #: model:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 #: model:ir.ui.view,arch_db:stock.view_stock_quant_tree
@@ -127,4 +183,11 @@ msgstr "单据的编号"
 #: model:ir.ui.view,arch_db:stock.view_production_lot_form
 msgid "Up/Down Traceability"
 msgstr "上/下追溯"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.view_overprocessed_transfer
+msgid ""
+"You have processed more than what was initially\n"
+"                    planned for the product"
+msgstr "完成数量已超过初始需求"
 
