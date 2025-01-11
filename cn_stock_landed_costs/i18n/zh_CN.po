@@ -1,0 +1,6 @@
+#. module: stock_landed_costs
+#: model:ir.model.fields,field_description:stock_landed_costs.field_product_product__split_method
+#: model:ir.model.fields,field_description:stock_landed_costs.field_product_template__split_method
+#: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__split_method
+msgid "Split Method"
+msgstr "分配方法"

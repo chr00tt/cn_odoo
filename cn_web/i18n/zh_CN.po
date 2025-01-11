@@ -1,0 +1,46 @@
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2043
+#: code:addons/web/static/src/js/fields/basic_fields.js:2047
+#: code:addons/web/static/src/js/fields/basic_fields.js:2051
+#, python-format
+msgid "Active"
+msgstr "启用"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2048
+#: code:addons/web/static/src/js/views/list/list_controller.js:154
+#, python-format
+msgid "Archive"
+msgstr "禁用"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:27
+#, python-format
+msgid "Archive All"
+msgstr "禁用所有"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2047
+#, python-format
+msgid "Archived"
+msgstr "已禁用"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_column.js:372
+#, python-format
+msgid ""
+"Are you sure that you want to archive all the records from this column?"
+msgstr "您确定要禁用此列中的所有记录吗？"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/list/list_controller.js:156
+#, python-format
+msgid "Are you sure that you want to archive all the selected records?"
+msgstr "您确定要禁用所有选定的记录吗？"
+
