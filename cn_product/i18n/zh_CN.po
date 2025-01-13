@@ -1,0 +1,206 @@
+#. module: product
+#: model:ir.model,name:product.model_product_product
+#: model:ir.model.fields,field_description:product.field_product_packaging__product_id
+#: model:ir.model.fields,field_description:product.field_product_price_history__product_id
+#: model:ir.model.fields,field_description:product.field_product_pricelist_item__product_id
+#: model:ir.model.fields,field_description:product.field_product_product__product_variant_id
+#: model:ir.model.fields,field_description:product.field_product_template__product_variant_id
+#: model_terms:ir.ui.view,arch_db:product.product_kanban_view
+#: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
+#: model_terms:ir.ui.view,arch_db:product.product_search_form_view
+#: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
+#: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_search_view
+#: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_tree_view
+#: model_terms:ir.ui.view,arch_db:product.product_template_form_view
+#: model_terms:ir.ui.view,arch_db:product.product_template_kanban_view
+#: model_terms:ir.ui.view,arch_db:product.product_template_search_view
+#: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
+#: selection:product.pricelist.item,applied_on:0
+msgid "Product"
+msgstr "物品"
+
+#. module: product
+#: model:ir.model,name:product.model_product_attribute
+#: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
+#: model_terms:ir.ui.view,arch_db:product.product_template_attribute_value_view_form
+msgid "Product Attribute"
+msgstr "物品属性"
+
+#. module: product
+#: model:ir.model,name:product.model_product_template_attribute_value
+msgid "Product Attribute Value"
+msgstr "物品属性值"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_template_attribute_line__product_template_value_ids
+msgid "Product Attribute Values"
+msgstr "物品属性值"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_template_attribute_line_form
+msgid "Product Attribute and Values"
+msgstr "物品属性和值"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_product__attribute_line_ids
+#: model:ir.model.fields,field_description:product.field_product_template__attribute_line_ids
+msgid "Product Attributes"
+msgstr "物品属性"
+
+#. module: product
+#: model:ir.actions.report,name:product.report_product_product_barcode
+#: model:ir.actions.report,name:product.report_product_template_barcode
+msgid "Product Barcode (PDF)"
+msgstr "物品条码 (PDF)"
+
+#. module: product
+#: model:ir.actions.act_window,name:product.product_category_action_form
+#: model_terms:ir.ui.view,arch_db:product.product_category_list_view
+#: model_terms:ir.ui.view,arch_db:product.product_category_search_view
+msgid "Product Categories"
+msgstr "物品类别"
+
+#. module: product
+#: model:ir.model,name:product.model_product_category
+#: model:ir.model.fields,field_description:product.field_product_pricelist_item__categ_id
+#: model:ir.model.fields,field_description:product.field_product_product__categ_id
+#: model:ir.model.fields,field_description:product.field_product_template__categ_id
+#: model_terms:ir.ui.view,arch_db:product.product_category_list_view
+#: model_terms:ir.ui.view,arch_db:product.product_template_form_view
+msgid "Product Category"
+msgstr "物品类别"
+
+#. module: product
+#: model:ir.actions.report,name:product.report_product_label
+#: model:ir.actions.report,name:product.report_product_template_label
+msgid "Product Label (PDF)"
+msgstr "物品标签 (PDF)"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_template_form_view
+#: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
+msgid "Product Name"
+msgstr "物品名称"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_product__packaging_ids
+#: model:ir.model.fields,field_description:product.field_product_template__packaging_ids
+msgid "Product Packages"
+msgstr "物品包裹"
+
+#. module: product
+#: model:ir.model,name:product.model_product_packaging
+#: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
+msgid "Product Packaging"
+msgstr "物品包装"
+
+#. module: product
+#: model:ir.actions.report,name:product.report_product_packaging
+msgid "Product Packaging (PDF)"
+msgstr "物品包装 (PDF)"
+
+#. module: product
+#: model:ir.actions.act_window,name:product.action_packaging_view
+#: model:ir.model.fields,field_description:product.field_res_config_settings__group_stock_packaging
+#: model_terms:ir.ui.view,arch_db:product.product_packaging_tree_view
+msgid "Product Packagings"
+msgstr "物品包装"
+
+#. module: product
+#: model:ir.model,name:product.model_product_price_history
+msgid "Product Price List History"
+msgstr "物品价格历史列表"
+
+#. module: product
+#: model:ir.model,name:product.model_report_product_report_pricelist
+msgid "Product Price List Report"
+msgstr "物品价格表报告"
+
+#. module: product
+#: model:ir.model,name:product.model_product_template
+#: model:ir.model.fields,field_description:product.field_product_pricelist_item__product_tmpl_id
+#: model:ir.model.fields,field_description:product.field_product_product__product_tmpl_id
+#: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_tmpl_id
+#: model:ir.model.fields,field_description:product.field_product_template_attribute_exclusion__product_tmpl_id
+#: model:ir.model.fields,field_description:product.field_product_template_attribute_line__product_tmpl_id
+#: model:ir.model.fields,field_description:product.field_product_template_attribute_value__product_tmpl_id
+#: model_terms:ir.ui.view,arch_db:product.product_search_form_view
+msgid "Product Template"
+msgstr "物品模板"
+
+#. module: product
+#: model:ir.model,name:product.model_product_template_attribute_exclusion
+msgid "Product Template Attribute Exclusion"
+msgstr "物品模板属性排除"
+
+#. module: product
+#: model:ir.model,name:product.model_product_template_attribute_line
+msgid "Product Template Attribute Line"
+msgstr "物品模板属性明细行"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_product__type
+#: model:ir.model.fields,field_description:product.field_product_template__type
+msgid "Product Type"
+msgstr "物品类型"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_id
+#: model_terms:ir.ui.view,arch_db:product.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
+#: selection:product.pricelist.item,applied_on:0
+msgid "Product Variant"
+msgstr "物品变体"
+
+#. module: product
+#: model:ir.actions.act_window,name:product.product_attribute_value_action
+msgid "Product Variant Values"
+msgstr "物品变体值"
+
+#. module: product
+#: model:ir.actions.act_window,name:product.product_normal_action
+#: model:ir.actions.act_window,name:product.product_normal_action_sell
+#: model:ir.actions.act_window,name:product.product_variant_action
+#: model_terms:ir.ui.view,arch_db:product.product_product_tree_view
+msgid "Product Variants"
+msgstr "物品变体"
+
+#. module: product
+#: model:ir.actions.act_window,name:product.product_template_action
+#: model:ir.actions.act_window,name:product.product_template_action_all
+#: model:ir.model.fields,field_description:product.field_product_product__product_variant_ids
+#: model:ir.model.fields,field_description:product.field_product_template__product_variant_ids
+#: model_terms:ir.ui.view,arch_db:product.product_template_search_view
+#: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
+msgid "Products"
+msgstr "物品"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_search
+msgid "Products Price"
+msgstr "物品价格"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
+#: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_tree
+msgid "Products Price List"
+msgstr "物品价格表"
+
+#. module: product
+#: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_search
+msgid "Products Price Search"
+msgstr "物品价格搜索"
+
+#. module: product
+#: code:addons/product/models/product.py:475
+#, python-format
+msgid "Products: "
+msgstr "物品："
+
+#. module: product
+#: code:addons/product/models/product.py:586
+#: code:addons/product/models/product_template.py:566
+#, python-format
+msgid "product"
+msgstr "物品"
+
