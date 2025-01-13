@@ -8,6 +8,9 @@
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['stock'],
     'category': 'Warehouse',
+    'demo': [
+        'data/cn_stock_demo.xml',
+    ],
     'auto_install': True,
     'license': 'LGPL-3',
 }
