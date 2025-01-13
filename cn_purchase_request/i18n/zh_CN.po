@@ -1,0 +1,82 @@
+#. module: purchase_request
+#: model:ir.actions.report,name:purchase_request.action_report_purchase_requests
+#: model:ir.model,name:purchase_request.model_purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_product_product__purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_product_template__purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__request_id
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__request_id
+#: model:ir.module.category,name:purchase_request.module_category_purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
+#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
+msgid "Purchase Request"
+msgstr "采购申请"
+
+#. module: purchase_request
+#. odoo-python
+#: code:addons/purchase_request/models/purchase_order.py:0
+#, python-format
+msgid "Purchase Request %s has already been completed"
+msgstr "采购申请 %s 已完成"
+
+#. module: purchase_request
+#. odoo-python
+#: code:addons/purchase_request/models/purchase_order.py:0
+#: model:ir.actions.act_window,name:purchase_request.purchase_request_line_form_action
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_order_line__purchase_request_lines
+#: model:ir.ui.menu,name:purchase_request.menu_purchase_request_line
+#: model:ir.ui.menu,name:purchase_request.menu_purchase_request_line_act
+#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2
+#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2_sub
+#, python-format
+msgid "Purchase Request Lines"
+msgstr "采购申请明细"
+
+#. module: purchase_request
+#: model:res.groups,name:purchase_request.group_purchase_request_manager
+msgid "Purchase Request Manager"
+msgstr "采购申请经理"
+
+#. module: purchase_request
+#: model:res.groups,name:purchase_request.group_purchase_request_user
+msgid "Purchase Request User"
+msgstr "采购申请用户"
+
+#. module: purchase_request
+#: model:mail.message.subtype,description:purchase_request.mt_request_approved
+#: model:mail.message.subtype,name:purchase_request.mt_request_approved
+msgid "Purchase Request approved"
+msgstr "采购申请已批准"
+
+#. module: purchase_request
+#: model:mail.message.subtype,name:purchase_request.mt_request_done
+msgid "Purchase Request done"
+msgstr "采购申请已完成"
+
+#. module: purchase_request
+#: model:mail.message.subtype,description:purchase_request.mt_request_done
+msgid "Purchase Request is done"
+msgstr "采购申请已经完成"
+
+#. module: purchase_request
+#: model:mail.message.subtype,description:purchase_request.mt_request_rejected
+#: model:mail.message.subtype,name:purchase_request.mt_request_rejected
+msgid "Purchase Request rejected"
+msgstr "采购申请已驳回"
+
+#. module: purchase_request
+#: model:mail.message.subtype,description:purchase_request.mt_request_to_approve
+#: model:mail.message.subtype,name:purchase_request.mt_request_to_approve
+msgid "Purchase Request to be approved"
+msgstr "采购申请待批准"
+
+#. module: purchase_request
+#: model:ir.actions.act_window,name:purchase_request.action_purchase_request_line_product_tree
+#: model:ir.actions.act_window,name:purchase_request.purchase_request_form_action
+#: model:ir.model.fields,field_description:purchase_request.field_stock_move__purchase_request_ids
+#: model:ir.ui.menu,name:purchase_request.menu_purchase_request
+#: model:ir.ui.menu,name:purchase_request.menu_purchase_request_act
+#: model:ir.ui.menu,name:purchase_request.menu_purchase_request_pro_mgt
+#: model:ir.ui.menu,name:purchase_request.parent_menu_purchase_request
+msgid "Purchase Requests"
+msgstr "采购申请"
