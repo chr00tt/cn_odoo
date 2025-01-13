@@ -9,7 +9,7 @@
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['base'],
     'data': [
-        'base_data.xml',
+        'data/cn_base_data.xml',
     ],
     'installable': True,
     'auto_install': True,
