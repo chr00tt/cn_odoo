@@ -8,6 +8,9 @@
     'category': 'Hidden',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['base'],
+    'data': [
+        'data/cn_base_data.xml',
+    ],
     'auto_install': True,
     'license': 'LGPL-3',
 }
