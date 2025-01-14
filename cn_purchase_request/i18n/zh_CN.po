@@ -11,6 +11,11 @@ msgid "In progress"
 msgstr "进行中"
 
 #. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__sync_data_planned
+msgid "Match existing PO lines by Scheduled Date"
+msgstr "按计划日期匹配现有采购订单"
+
+#. module: purchase_request
 #: model:ir.actions.report,name:purchase_request.action_report_purchase_requests
 #: model:ir.model,name:purchase_request.model_purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_product_product__purchase_request
