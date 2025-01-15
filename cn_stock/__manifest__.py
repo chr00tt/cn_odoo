@@ -11,6 +11,9 @@
     'demo': [
         'data/cn_stock_demo.xml',
     ],
+    'data': [
+        'data/stock_data.xml',
+    ],
     'auto_install': True,
     'license': 'LGPL-3',
 }
