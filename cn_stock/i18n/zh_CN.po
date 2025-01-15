@@ -1,4 +1,9 @@
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_res_config_settings__group_lot_on_delivery_slip
+msgid "Display Lots & Serial Numbers"
+msgstr "显示批次/序号"
+
+#. module: stock
 #: selection:barcode.rule,type:0
 #: model:ir.model.fields,field_description:stock.field_product_product__location_id
 #: model:ir.model.fields,field_description:stock.field_product_template__location_id
