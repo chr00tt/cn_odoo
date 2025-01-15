@@ -1,0 +1,60 @@
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_product__location_id
+#: model:ir.model.fields,field_description:stock.field_product_template__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap__location_id
+#: model:ir.model.fields.selection,name:stock.selection__barcode_rule__type__location
+#: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_search_view
+#: model_terms:ir.ui.view,arch_db:stock.view_location_tree2
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
+#: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
+msgid "Location"
+msgstr "库位"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.action_report_location_barcode
+msgid "Location Barcode"
+msgstr "库位条码"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_location__name
+msgid "Location Name"
+msgstr "库位名称"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse__lot_stock_id
+msgid "Location Stock"
+msgstr "库位地点"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_location__usage
+msgid "Location Type"
+msgstr "库位类型"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_putaway_search
+msgid "Location: Store to"
+msgstr "库位：储存"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_putaway_search
+msgid "Location: When arrives to"
+msgstr "库位：到达"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_location_form
+#: model:ir.model.fields,field_description:stock.field_stock_inventory__location_ids
+#: model:ir.ui.menu,name:stock.menu_action_location_form
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+#: model_terms:ir.ui.view,arch_db:stock.view_warehouse
+msgid "Locations"
+msgstr "库位"
