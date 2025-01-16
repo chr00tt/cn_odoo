@@ -1,7 +1,29 @@
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+msgid "Create New"
+msgstr "允许创建"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_type_use_create_lots
+#: model:ir.model.fields,field_description:stock.field_stock_picking__use_create_lots
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__use_create_lots
+msgid "Create New Lots/Serial Numbers"
+msgstr "创建新批次/序号"
+
+#. module: stock
 #: model:ir.actions.report,name:stock.action_report_delivery
 msgid "Delivery Slip"
 msgstr "送货单"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_move_line__picking_type_use_existing_lots
+#: model:ir.model.fields,help:stock.field_stock_picking__use_existing_lots
+#: model:ir.model.fields,help:stock.field_stock_picking_type__use_existing_lots
+msgid ""
+"If this is checked, you will be able to choose the Lots/Serial Numbers. You "
+"can also decide to not put lots in this operation type.  This means it will "
+"create stock with no lot or not put a restriction on the lot taken. "
+msgstr "如果选中此项，您将可以选择批次/序号。 您也可以决定不要在这种作业类型中记录批次。 这意味着将创建没有批次的库存，或者不会限制记录批次。"
 
 #. module: stock
 #. odoo-python
@@ -69,6 +91,16 @@ msgid "Note"
 msgstr "备注"
 
 #. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__lot_label_layout__label_quantity__lots
+msgid "One per lot/SN"
+msgstr "每批次/序号一个"
+
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__lot_label_layout__label_quantity__units
+msgid "One per unit"
+msgstr "每单位一个"
+
+#. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:stock.picking.type,name:stock.chi_picking_type_in
@@ -108,4 +140,9 @@ msgstr "每个机构的编号必须是唯一！"
 #: model:ir.model.fields,help:stock.field_stock_picking__origin
 msgid "Reference of the document"
 msgstr "单据的编号"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+msgid "Use Existing ones"
+msgstr "选择批次/序号"
 

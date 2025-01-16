@@ -16,6 +16,11 @@ msgid "Match existing PO lines by Scheduled Date"
 msgstr "按计划日期匹配现有采购订单"
 
 #. module: purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
+msgid "Pickings"
+msgstr "调拨"
+
+#. module: purchase_request
 #: model:ir.actions.report,name:purchase_request.action_report_purchase_requests
 #: model:ir.model,name:purchase_request.model_purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_product_product__purchase_request
@@ -156,4 +161,9 @@ msgstr "申请状态"
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__requested_by
 msgid "Requested By"
 msgstr "申请人"
+
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request__estimated_cost
+msgid "Total Estimated Cost"
+msgstr "预计总成本"
 
