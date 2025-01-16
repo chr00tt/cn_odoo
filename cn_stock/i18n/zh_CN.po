@@ -26,12 +26,24 @@ msgid ""
 msgstr "如果选中此项，您将可以选择批次/序号。 您也可以决定不要在这种作业类型中记录批次。 这意味着将创建没有批次的库存，或者不会限制记录批次。"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_lot__ref
+msgid "Internal Reference"
+msgstr "内部编号"
+
+#. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:stock.picking.type,name:stock.picking_type_internal
 #, python-format
 msgid "Internal Transfers"
 msgstr "内部调拨"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_lot__ref
+msgid ""
+"Internal reference number in case it differs from the manufacturer's "
+"lot/serial number"
+msgstr "内部编号，它不同于制造商的批次/序号"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__location_id
