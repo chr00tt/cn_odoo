@@ -113,6 +113,140 @@ msgid "One per unit"
 msgstr "每单位一个"
 
 #. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
+#: model:ir.model,name:stock.model_product_template
+#: model:ir.model.fields,field_description:stock.field_product_replenish__product_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_assign_serial__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_change_product_qty__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_lot__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_move__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_replenishment_option__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_rules_report__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category_capacity__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_track_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap__product_id
+#: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
+#: model_terms:ir.ui.view,arch_db:stock.stock_reorder_report_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_search_view
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
+#, python-format
+msgid "Product"
+msgstr "物品"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking__products_availability
+msgid "Product Availability"
+msgstr "物品可用性"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category__product_capacity_ids
+msgid "Product Capacity"
+msgstr "物品能力"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_route__categ_ids
+#: model:ir.ui.menu,name:stock.menu_product_category_config_stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
+msgid "Product Categories"
+msgstr "物品类别"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_category
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__product_category_name
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__category_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__product_categ_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_category_id
+#: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
+msgid "Product Category"
+msgstr "物品类别"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.label_product_product
+msgid "Product Label (ZPL)"
+msgstr "物品标签 (ZPL)"
+
+#. module: stock
+#: model:ir.model,name:stock.model_report_stock_label_product_product_view
+msgid "Product Label Report"
+msgstr "物品标签报告"
+
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__picking_label_type__label_type__products
+msgid "Product Labels"
+msgstr "物品标签"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+msgid "Product Lots Filter"
+msgstr "物品批次筛选"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_form_view
+msgid "Product Moves"
+msgstr "物品移动"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "物品移动(移库明细)"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_packaging
+msgid "Product Packaging"
+msgstr "物品包装"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.label_product_packaging
+msgid "Product Packaging (ZPL)"
+msgstr "物品包装 (ZPL)"
+
+#. module: stock
+#: model:ir.ui.menu,name:stock.menu_product_packagings
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid "Product Packagings"
+msgstr "物品包装"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/wizard/stock_quantity_history.py:0
+#: model:ir.actions.act_window,name:stock.act_product_location_open
+#: model:ir.actions.act_window,name:stock.product_template_action_product
+#: model:ir.model.fields,field_description:stock.field_stock_route__product_ids
+#: model:ir.model.fields,field_description:stock.field_stock_track_confirmation__product_ids
+#: model:ir.ui.menu,name:stock.menu_product_in_config_stock
+#: model:ir.ui.menu,name:stock.menu_product_variant_config_stock
+#: model:ir.ui.menu,name:stock.menu_stock_inventory_control
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
+#, python-format
+msgid "Products"
+msgstr "物品"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking__products_availability_state
+msgid "Products Availability State"
+msgstr "物品可用状态"
+
+#. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:stock.picking.type,name:stock.chi_picking_type_in
