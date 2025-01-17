@@ -1,7 +1,90 @@
 #. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_lot.py:0
+#, python-format
+msgid " - Product: %s, Serial Number: %s"
+msgstr " - 产品: %s, 序号: %s"
+
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_orderpoint_snooze__predefined_date__month
+msgid "1 Month"
+msgstr "1 月"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Lot/Serial Number</strong>"
+msgstr "<strong>批次/序号</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Product Barcode</strong>"
+msgstr "<strong>物品条码</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Product</strong>"
+msgstr "<strong>物品</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+msgid "Add a Product"
+msgstr "添加物品"
+
+#. module: stock
+#: model_terms:ir.actions.act_window,help:stock.action_production_lot_form
+msgid "Add a lot/serial number"
+msgstr "增加批次/序号"
+
+#. module: stock
+#: model_terms:ir.actions.act_window,help:stock.action_location_form
+msgid "Add a new location"
+msgstr "增加新库位"
+
+#. module: stock
+#: model:ir.model,name:stock.model_res_company
+msgid "Companies"
+msgstr "机构"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_replenish__company_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_location__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_lot__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_level__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_type__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_route__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category_capacity__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__company_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+msgid "Company"
+msgstr "机构"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Create New"
 msgstr "允许创建"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_type_use_create_lots
+#: model:ir.model.fields,field_description:stock.field_stock_picking__use_create_lots
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__use_create_lots
+msgid "Create New Lots/Serial Numbers"
+msgstr "创建新批次/序号"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_type_use_create_lots
@@ -288,7 +371,43 @@ msgid "Reference of the document"
 msgstr "单据的编号"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__reserved_uom_qty
+#: model:ir.model.fields.selection,name:stock.selection__stock_package_level__state__assigned
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_move_tree
+msgid "Reserved"
+msgstr "预留"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_lot__product_uom_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__product_uom_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__product_uom_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking_line__uom_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__product_uom_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category_capacity__product_uom_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_uom
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty__product_uom_name
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap__product_uom_name
+#: model_terms:ir.ui.view,arch_db:stock.package_level_form_view
+#: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
+#: model_terms:ir.ui.view,arch_db:stock.view_move_line_tree_detailed
+#: model_terms:ir.ui.view,arch_db:stock.view_move_tree_receipt_picking
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_move_tree
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_move_line_kanban
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_move_line_operation_tree
+msgid "Unit of Measure"
+msgstr "单位"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Use Existing ones"
 msgstr "选择批次/序号"
+
+#. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/widgets/json_widget.xml:0
+#, python-format
+msgid "should be replenished"
+msgstr "需要补货"
 
