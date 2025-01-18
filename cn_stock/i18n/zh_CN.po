@@ -1,4 +1,97 @@
 #. module: stock
+#: model:ir.actions.report,print_report_name:stock.action_report_lot_label
+msgid "'Lot-Serial - %s' % object.name"
+msgstr "'批次/序号 - %s' % object.name"
+
+#. module: stock
+#: model:ir.actions.report,print_report_name:stock.action_report_picking_type_label
+msgid "'Operation-type - %s' % object.name"
+msgstr "'作业类型 - %s' % object.name"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+msgid "<strong>Location</strong>"
+msgstr "<strong>库位</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Lot/Serial Number</strong>"
+msgstr "<strong>批次/序号</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
+msgid "<strong>Package Type:</strong>"
+msgstr "<strong>包裹类型:</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Product Barcode</strong>"
+msgstr "<strong>物品条码</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_track_confirmation
+msgid "<strong>Product(s) tracked: </strong>"
+msgstr "<strong>追溯的物品: </strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Product</strong>"
+msgstr "<strong>物品</strong>"
+
+#. module: stock
+#: code:addons/stock/models/stock_quant.py:0
+#, python-format
+msgid "A serial number should only be linked to a single product."
+msgstr "一个物品只能有一个序号"
+
+#. module: stock
+#: model_terms:ir.actions.act_window,help:stock.action_production_lot_form
+msgid "Add a lot/serial number"
+msgstr "增加批次/序号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__delay_alert
+#: model:ir.model.fields,field_description:stock.field_stock_rule__delay_alert
+msgid "Alert if Delay"
+msgstr "延迟时发出警报"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_view_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_warehouse_view_search
+#: model_terms:ir.ui.view,arch_db:stock.view_location_form
+#: model_terms:ir.ui.view,arch_db:stock.view_location_search
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+#: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_filter
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
+#: model_terms:ir.ui.view,arch_db:stock.view_warehouse
+#: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_form
+#: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
+msgid "Archived"
+msgstr "已禁用"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.product_template_search_form_view_stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_product_search_form_view
+msgid "Available Products"
+msgstr "可用的物品"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_assign_serial__next_serial_number
+#: model:ir.model.fields,field_description:stock.field_stock_move__next_serial
+msgid "First SN"
+msgstr "第一个序号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_product__free_qty
+msgid "Free To Use Quantity "
+msgstr "可用数量"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__location_id
 #: model:ir.model.fields,field_description:stock.field_product_template__location_id
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__location_id
@@ -58,3 +151,17 @@ msgstr "库位：到达"
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
 msgid "Locations"
 msgstr "库位"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_assign_serial__next_serial_count
+#: model:ir.model.fields,field_description:stock.field_stock_move__next_serial_count
+msgid "Number of SN"
+msgstr "序号数量"
+
+#. module: stock
+#: code:addons/stock/models/stock_move_line.py:0
+#: code:addons/stock/models/stock_picking.py:0
+#, python-format
+msgid "You need to supply a Lot/Serial number for product %s."
+msgstr "需要为物品 %s 提供批次/序号。"
+
