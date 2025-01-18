@@ -10,6 +10,9 @@
     'data': [
         'data/product_data.xml',
     ],
+    'demo': [
+        'data/product_demo.xml',
+    ],
     'installable': True,
     'auto_install': True,
     'license': 'LGPL-3',

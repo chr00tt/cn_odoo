@@ -1,4 +1,16 @@
 #. module: stock
+#: code:addons/stock/models/stock_move.py:0
+#, python-format
+msgid ""
+"\n"
+"\n"
+"%s --> Product UoM is %s (%s) - Move UoM is %s (%s)"
+msgstr ""
+"\n"
+"\n"
+"%s --> 物品单位是 %s (%s) - 库存移动单位是 %s (%s)"
+
+#. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_lot_label
 msgid "'Lot-Serial - %s' % object.name"
 msgstr "'批次/序号 - %s' % object.name"
@@ -157,6 +169,143 @@ msgstr "库位"
 #: model:ir.model.fields,field_description:stock.field_stock_move__next_serial_count
 msgid "Number of SN"
 msgstr "序号数量"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_product
+#: model:ir.model.fields,field_description:stock.field_product_replenish__product_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_assign_serial__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_change_product_qty__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_move__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_production_lot__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_rules_report__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_track_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap__product_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+#: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_search_view
+#: model_terms:ir.ui.view,arch_db:stock.view_inventory_filter
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
+msgid "Product"
+msgstr "物品"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.label_barcode_product_product
+#: model:ir.actions.report,name:stock.label_barcode_product_template
+msgid "Product Barcode (ZPL)"
+msgstr "物品条码 (ZPL)"
+
+#. module: stock
+#: code:addons/stock/models/stock_location.py:0
+#: model:ir.model.fields,field_description:stock.field_stock_location_route__categ_ids
+#: model:ir.ui.menu,name:stock.menu_product_category_config_stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
+#, python-format
+msgid "Product Categories"
+msgstr "物品类别"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_category
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line__categ_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__category_id
+#: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
+msgid "Product Category"
+msgstr "物品类别"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.label_product_product
+#: model:ir.actions.report,name:stock.label_product_template
+msgid "Product Label (ZPL)"
+msgstr "物品标签 (ZPL)"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+msgid "Product Lots Filter"
+msgstr "物品批次筛选"
+
+#. module: stock
+#: code:addons/stock/models/stock_inventory.py:0
+#: model:ir.actions.act_window,name:stock.stock_move_line_action
+#: model:ir.ui.menu,name:stock.stock_move_line_menu
+#: model_terms:ir.ui.view,arch_db:stock.view_inventory_form
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_form
+#, python-format
+msgid "Product Moves"
+msgstr "物品移动"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "物品移动(移库明细)"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.label_product_packaging
+msgid "Product Packaging (ZPL)"
+msgstr "物品包装 (ZPL)"
+
+#. module: stock
+#: model:ir.ui.menu,name:stock.menu_product_packagings
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid "Product Packagings"
+msgstr "物品包装"
+
+#. module: stock
+#: code:addons/stock/models/stock_quant.py:0
+#, python-format
+msgid "Product Quantity Updated"
+msgstr "物品数量更新"
+
+#. module: stock
+#: code:addons/stock/models/stock_location.py:0
+#: code:addons/stock/wizard/stock_quantity_history.py:0
+#: model:ir.actions.act_window,name:stock.act_product_location_open
+#: model:ir.actions.act_window,name:stock.product_template_action_product
+#: model:ir.model.fields,field_description:stock.field_stock_inventory__product_ids
+#: model:ir.model.fields,field_description:stock.field_stock_location_route__product_ids
+#: model:ir.ui.menu,name:stock.menu_product_in_config_stock
+#: model:ir.ui.menu,name:stock.menu_product_variant_config_stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
+#: model_terms:ir.ui.view,arch_db:stock.view_location_form
+#, python-format
+msgid "Products"
+msgstr "物品"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_picking__priority
+msgid ""
+"Products will be reserved first for the transfers with the highest "
+"priorities."
+msgstr "物品将会首先为最高优先级的调拨预留。"
+
+#. module: stock
+#: code:addons/stock/models/product.py:0
+#, python-format
+msgid "Products: "
+msgstr "物品："
+
+#. module: stock
+#: code:addons/stock/models/product.py:0
+#, python-format
+msgid ""
+"You have product(s) in stock that have no lot/serial number. You can assign "
+"lot/serial numbers by doing an inventory adjustment."
+msgstr "库存中有的产品没有批次/序号。可通过库存调整来分配批次/序号。"
 
 #. module: stock
 #: code:addons/stock/models/stock_move_line.py:0
