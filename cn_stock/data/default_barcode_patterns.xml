@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- 翻译 -->
+    <record id="stock.barcode_rule_weight_three_dec" model="barcode.rule">
+        <field name="name">重量条形码（3位小数）</field>
+    </record>
+    <record id="stock.barcode_rule_package" model="barcode.rule">
+        <field name="name">包裹条形码</field>
+    </record>
+    <record id="stock.barcode_rule_lot" model="barcode.rule">
+        <field name="name">批次条形码</field>
+    </record>
+    <record id="stock.barcode_rule_location" model="barcode.rule">
+        <field name="name">位置条形码</field>
+    </record>
+</odoo>

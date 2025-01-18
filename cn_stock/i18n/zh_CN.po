@@ -1,0 +1,189 @@
+#. module: stock
+#: code:addons/stock/models/stock_picking.py:0
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Transfers %s: You need to supply a Lot/Serial number for products %s."
+msgstr ""
+"\n"
+"\n"
+"转移%s：需要提供物品%s的批次/序号。"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_view_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_warehouse_view_search
+#: model_terms:ir.ui.view,arch_db:stock.view_location_form
+#: model_terms:ir.ui.view,arch_db:stock.view_location_search
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+#: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_filter
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
+#: model_terms:ir.ui.view,arch_db:stock.view_warehouse
+#: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_form
+#: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
+msgid "Archived"
+msgstr "禁用"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.act_assign_serial_numbers
+#: model_terms:ir.ui.view,arch_db:stock.view_assign_serial_numbers
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_move_operations
+msgid "Assign Serial Numbers"
+msgstr "分配序号"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.product_template_search_form_view_stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_product_search_form_view
+msgid "Available Products"
+msgstr "可用的物品"
+
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__product_template__tracking__serial
+msgid "By Unique Serial Number"
+msgstr "按唯一序号"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_change_product_quantity
+#: model:ir.model,name:stock.model_stock_change_product_qty
+msgid "Change Product Quantity"
+msgstr "更改物品数量"
+
+#. module: stock
+#: model:ir.model,name:stock.model_res_company
+msgid "Companies"
+msgstr "机构"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_replenish__company_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_location__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_location_route__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_level__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_production_lot__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__company_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+msgid "Company"
+msgstr "机构"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_product__location_id
+#: model:ir.model.fields,field_description:stock.field_product_template__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap__location_id
+#: model:ir.model.fields.selection,name:stock.selection__barcode_rule__type__location
+#: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_reorder_report_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_search_view
+#: model_terms:ir.ui.view,arch_db:stock.view_location_tree2
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
+#: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
+msgid "Location"
+msgstr "库位"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.action_report_location_barcode
+msgid "Location Barcode"
+msgstr "库位条码"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_location__name
+msgid "Location Name"
+msgstr "库位名称"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse__lot_stock_id
+msgid "Location Stock"
+msgstr "库位库存"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_location__usage
+msgid "Location Type"
+msgstr "库位类型"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_location_form
+#: model:ir.actions.act_window,name:stock.action_prod_inv_location_form
+#: model:ir.model.fields,field_description:stock.field_stock_inventory__location_ids
+#: model:ir.ui.menu,name:stock.menu_action_location_form
+#: model_terms:ir.ui.view,arch_db:stock.report_location_barcode
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+#: model_terms:ir.ui.view,arch_db:stock.view_warehouse
+msgid "Locations"
+msgstr "库位"
+
+#. module: stock
+#: code:addons/stock/models/stock_location.py:0
+#, python-format
+msgid "You cannot archive the location %s as it is used by your warehouse %s"
+msgstr "不能将禁用库位%s，因为它被仓库%s使用"
+
+#. module: stock
+#: code:addons/stock/models/stock_move_line.py:0
+#: code:addons/stock/models/stock_move_line.py:0
+#, python-format
+msgid ""
+"You cannot use the same serial number twice. Please correct the serial "
+"numbers encoded."
+msgstr "相同的序号不能使用两次。 请更正序号编码。"
+
+#. module: stock
+#: code:addons/stock/models/product.py:0
+#, python-format
+msgid ""
+"You have product(s) in stock that have no lot/serial number. You can assign "
+"lot/serial numbers by doing an inventory adjustment."
+msgstr "库存中有的物品没有批次/序号。可以通过库存调整来分配批次/序号。"
+
+#. module: stock
+#: code:addons/stock/models/stock_orderpoint.py:0
+#, python-format
+msgid ""
+"You have to select a product unit of measure that is in the same category as"
+" the default unit of measure of the product"
+msgstr "必须选择与物品默认计量单位相同类别的计量单位"
+
+#. module: stock
+#: code:addons/stock/models/stock_move.py:0
+#, python-format
+msgid "You need to set a Serial Number before generating more."
+msgstr "在生成更多序号之前，需要先设置一个序号。"
+
+#. module: stock
+#: code:addons/stock/models/stock_move_line.py:0
+#, python-format
+msgid ""
+"You need to supply a Lot/Serial Number for product: \n"
+" - "
+msgstr ""
+"需要提供物品的批次/序号：\n"
+" - "
+
+#. module: stock
+#: code:addons/stock/models/stock_picking.py:0
+#, python-format
+msgid "You need to supply a Lot/Serial number for products %s."
+msgstr "需要提供物品 %s 的批次/序号。"
