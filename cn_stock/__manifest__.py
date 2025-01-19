@@ -9,7 +9,9 @@
     'depends': ['stock'],
     'demo': [
         'data/cn_stock_demo.xml',
+        'data/stock_demo_pre.xml',
         'data/stock_demo.xml',
+        'data/stock_demo2.xml',
     ],
     'data': [
         'data/stock_data.xml',

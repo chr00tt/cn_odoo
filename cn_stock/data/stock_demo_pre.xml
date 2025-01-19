@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="stock.stock_location_14" model="stock.location">
+            <field name="name">货架 2</field>
+        </record>
+        <record id="stock.stock_location_components" model="stock.location">
+            <field name="name">货架 1</field>
+        </record>
+        <record id="stock.location_order" model="stock.location">
+            <field name="name">订单处理</field>
+        </record>
+        <record id="stock.location_dispatch_zone" model="stock.location">
+            <field name="name">发货区</field>
+        </record>
+        <record id="stock.location_gate_a" model="stock.location">
+            <field name="name">1号门</field>
+        </record>
+        <record id="stock.location_gate_b" model="stock.location">
+            <field name="name">2号门</field>
+        </record>
+    </data>
+</odoo>
