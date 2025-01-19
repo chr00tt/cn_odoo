@@ -3,8 +3,8 @@
 
 {
     'name': 'cn Inventory',
-    'author': "He Jian",
-    'description': "",
+    'author': 'He Jian',
+    'description': '',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['stock'],
     'category': 'Inventory/Inventory',

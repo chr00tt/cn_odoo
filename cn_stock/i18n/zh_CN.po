@@ -22,6 +22,11 @@ msgid "'Location - %s' % object.name"
 msgstr "'库位 - %s' % object.name"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_move_operations
+msgid "<span>Assign Serial Numbers</span>"
+msgstr "<span>分配序号</span>"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
 #: model_terms:ir.ui.view,arch_db:stock.stock_location_route_view_search
 #: model_terms:ir.ui.view,arch_db:stock.stock_warehouse_view_search
@@ -407,10 +412,31 @@ msgid "Reference of the document"
 msgstr "单据的编号"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__origin
+#: model:ir.model.fields,field_description:stock.field_stock_picking__origin
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__origin
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
+msgid "Source Document"
+msgstr "源单据"
+
+#. module: stock
+#: model:ir.actions.server,name:stock.action_unreserve_picking
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+#: model_terms:ir.ui.view,arch_db:stock.vpicktree
+msgid "Unreserve"
+msgstr "取消预留"
+
+#. module: stock
 #: code:addons/stock/models/stock_location.py:0
 #, python-format
 msgid "You cannot archive the location %s as it is used by your warehouse %s"
 msgstr "不能将禁用库位%s，因为它被仓库%s使用"
+
+#. module: stock
+#: code:addons/stock/models/stock_move.py:0
+#, python-format
+msgid "You cannot unreserve a stock move that has been set to 'Done'."
+msgstr "你无法为已标记为“完成”的库存移动取消预留。"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:0
