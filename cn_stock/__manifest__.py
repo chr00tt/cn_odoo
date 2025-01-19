@@ -8,6 +8,7 @@
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['stock'],
     'demo': [
+        'data/cn_stock_demo.xml',
         'data/stock_demo.xml',
     ],
     'data': [
