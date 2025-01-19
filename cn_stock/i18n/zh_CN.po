@@ -225,6 +225,13 @@ msgid "Lots/Serial Numbers"
 msgstr "批次/序号"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_location__location_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__parent_location_id
+#: model_terms:ir.ui.view,arch_db:stock.view_location_search
+msgid "Parent Location"
+msgstr "上级库位"
+
+#. module: stock
 #: model:ir.model,name:stock.model_product_product
 #: model:ir.model.fields,field_description:stock.field_product_replenish__product_id
 #: model:ir.model.fields,field_description:stock.field_report_stock_quantity__product_id
@@ -365,6 +372,39 @@ msgstr "物品将会首先为最高优先级的调拨预留。"
 #, python-format
 msgid "Products: %(location)s"
 msgstr "物品: %(location)s"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_procurement_group__name
+#: model:ir.model.fields,field_description:stock.field_stock_move__reference
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__reference
+#: model:ir.model.fields,field_description:stock.field_stock_picking__name
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__name
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_inventory
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_search_view
+#: model_terms:ir.ui.view,arch_db:stock.view_inventory_filter
+#: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
+#: model_terms:ir.ui.view,arch_db:stock.view_move_line_tree
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.view_move_tree_receipt_picking
+msgid "Reference"
+msgstr "编号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__sequence_id
+msgid "Reference Sequence"
+msgstr "编号序列"
+
+#. module: stock
+#: model:ir.model.constraint,message:stock.constraint_stock_picking_name_uniq
+msgid "Reference must be unique per company!"
+msgstr "各机构的编号必须是唯一！"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_picking__origin
+msgid "Reference of the document"
+msgstr "单据的编号"
 
 #. module: stock
 #: code:addons/stock/models/stock_location.py:0

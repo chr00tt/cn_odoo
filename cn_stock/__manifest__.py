@@ -10,6 +10,7 @@
     'category': 'Inventory/Inventory',
     'demo': [
         'data/cn_stock_demo.xml',
+        'data/stock_demo_pre.xml',
     ],
     'data': [
         'data/stock_data.xml',
