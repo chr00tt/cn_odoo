@@ -1,4 +1,110 @@
 #. module: stock
+#: code:addons/stock/models/stock_move.py:0
+#, python-format
+msgid ""
+"\n"
+"\n"
+"%s --> Product UoM is %s (%s) - Move UoM is %s (%s)"
+msgstr ""
+"\n"
+"\n"
+"%s --> 物品单位是 %s (%s) - 库存移动单位是 %s (%s)"
+
+#. module: stock
+#: code:addons/stock/models/stock_picking.py:0
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Transfers %s: You need to supply a Lot/Serial number for products %s."
+msgstr ""
+"\n"
+"\n"
+"调拨%s：需要提供物品%s的批次/序号。"
+
+#. module: stock
+#: code:addons/stock/models/stock_move.py:0
+#, python-format
+msgid ""
+"\n"
+"(%s) exists in location %s"
+msgstr ""
+"\n"
+"(%s)存在于库位%s中。"
+
+#. module: stock
+#: code:addons/stock/models/stock_production_lot.py:0
+#, python-format
+msgid " - Product: %s, Serial Number: %s"
+msgstr " - 物品: %s, 序号: %s"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_location__cyclic_inventory_frequency
+msgid ""
+" When different than 0, inventory count date for products stored at this "
+"location will be automatically set at the defined frequency."
+msgstr "当不为 0 时，储存在这个位置的物品的库存盘点日期将按定义的频率自动设置。"
+
+#. module: stock
+#: model:ir.actions.report,print_report_name:stock.action_report_delivery
+msgid ""
+"'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+msgstr "'发货单 - %s - %s' % (object.partner_id.name or '', object.name)"
+
+#. module: stock
+#: model:ir.actions.report,print_report_name:stock.action_report_lot_label
+msgid "'Lot-Serial - %s' % object.name"
+msgstr "'批次/序号 - %s' % object.name"
+
+#. module: stock
+#: model:ir.actions.report,print_report_name:stock.action_report_picking_type_label
+msgid "'Operation-type - %s' % object.name"
+msgstr "'作业类型 - %s' % object.name"
+
+#. module: stock
+#: code:addons/stock/models/stock_rule.py:0
+#, python-format
+msgid ""
+"<br>If the products are not available in <b>%s</b>, a rule will be triggered"
+" to bring products in this location."
+msgstr "<br>如果物品不可用 <b>%s</b>, 将触发规则以将物品带入此位置。"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_move_operations
+msgid "<span>Assign Serial Numbers</span>"
+msgstr "<span>分配序号</span>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<span>Remaining quantities not yet delivered:</span>"
+msgstr "<span>剩余的数量尚未发货：</span>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Delivered</strong>"
+msgstr "<strong>发货数量</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Ordered</strong>"
+msgstr "<strong>订购数量</strong>"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category__allow_new_product
+msgid "Allow New Product"
+msgstr "允许新物品"
+
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__stock_storage_category__allow_new_product__mixed
+msgid "Allow mixed products"
+msgstr "允许混合物品"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_storage_category_form
+msgid "Capacity by Product"
+msgstr "按物品的容量"
+
+#. module: stock
 #: model:ir.model,name:stock.model_res_company
 msgid "Companies"
 msgstr "机构"
@@ -33,6 +139,11 @@ msgstr "机构"
 #: model_terms:ir.ui.view,arch_db:stock.view_location_form
 msgid "Cyclic Inventory"
 msgstr "周期性盘点"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.action_report_delivery
+msgid "Delivery Slip"
+msgstr "发货单"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__location_id
@@ -262,4 +373,61 @@ msgstr "单据的编号"
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
 msgid "Reference:"
 msgstr "编号："
+
+#. module: stock
+#: code:addons/stock/models/stock_move_line.py:0
+#: code:addons/stock/models/stock_move_line.py:0
+#, python-format
+msgid ""
+"You cannot use the same serial number twice. Please correct the serial "
+"numbers encoded."
+msgstr "不能两次使用相同的序号。 请更正序号。"
+
+#. module: stock
+#: code:addons/stock/models/res_config_settings.py:0
+#, python-format
+msgid ""
+"You have product(s) in stock that have lot/serial number tracking enabled. \n"
+"Switch off tracking on all the products before switching off this setting."
+msgstr ""
+"有启用批次/序号追溯的库存物品。\n"
+"在关闭此设置之前，请先关闭所有物品的追溯功能。"
+
+#. module: stock
+#: code:addons/stock/models/product.py:0
+#, python-format
+msgid ""
+"You have product(s) in stock that have no lot/serial number. You can assign "
+"lot/serial numbers by doing an inventory adjustment."
+msgstr "库存中有的产品没有批次/序号。可通过库存调整来分配批次/序号。"
+
+#. module: stock
+#: code:addons/stock/models/stock_orderpoint.py:0
+#, python-format
+msgid ""
+"You have to select a product unit of measure that is in the same category as"
+" the default unit of measure of the product"
+msgstr "需要选择与物品默认计量单位相同类别的计量单位"
+
+#. module: stock
+#: code:addons/stock/models/stock_move.py:0
+#, python-format
+msgid "You need to set a Serial Number before generating more."
+msgstr "需要在生成更多序号之前设置一个序号。"
+
+#. module: stock
+#: code:addons/stock/models/stock_move_line.py:0
+#, python-format
+msgid ""
+"You need to supply a Lot/Serial Number for product: \n"
+" - "
+msgstr ""
+"需要提供物品的批次/序号：\n"
+"- "
+
+#. module: stock
+#: code:addons/stock/models/stock_picking.py:0
+#, python-format
+msgid "You need to supply a Lot/Serial number for products %s."
+msgstr "需要提供物品%s的批次/序号。"
 

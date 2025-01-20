@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="stock.stock_storage_category_high_small" model="stock.storage.category">
+            <field name="name">高频率 - 小</field>
+        </record>
+        <record id="stock.stock_storage_category_high_big" model="stock.storage.category">
+            <field name="name">高频率 - 大</field>
+        </record>
+        <record id="stock.stock_storage_category_medium_small" model="stock.storage.category">
+            <field name="name">中频率 - 小</field>
+        </record>
+        <record id="stock.stock_storage_category_medium_big" model="stock.storage.category">
+            <field name="name">中频率 - 大</field>
+        </record>
+        <record id="stock.stock_storage_category_low_small" model="stock.storage.category">
+            <field name="name">低频率 - 小</field>
+        </record>
+        <record id="stock.stock_storage_category_low_big" model="stock.storage.category">
+            <field name="name">低频率 - 大</field>
+        </record>
+    </data>
+</odoo>
