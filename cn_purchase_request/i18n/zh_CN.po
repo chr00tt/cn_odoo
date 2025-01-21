@@ -230,3 +230,10 @@ msgstr "采购申请 %(pr_name)s 的以下物品在采购订单 %(po_name)s 得�
 msgid "Total Estimated Cost"
 msgstr "预计总成本"
 
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__product_uom_id
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__product_uom_id
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__product_uom_id
+msgid "UoM"
+msgstr "单位"
+
