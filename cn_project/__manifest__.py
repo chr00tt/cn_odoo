@@ -3,7 +3,7 @@
 
 {
     'name': 'cn Project',
-    'author': "He Jian",
+    'author': 'He Jian',
     'category': 'Services/Project',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': [

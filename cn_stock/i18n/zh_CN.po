@@ -11,6 +11,38 @@ msgid "1 Month"
 msgstr "1 月"
 
 #. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_rule.py:0
+#, python-format
+msgid ""
+"<br>If the products are not available in <b>%s</b>, a rule will be triggered"
+" to bring products in this location."
+msgstr "<br>如果物品不可用 <b>%s</b>, 将触发规则以将物品带入此位置。"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid ""
+"<i class=\"fa fa-exclamation-triangle\"/>\n"
+"                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products."
+msgstr ""
+"<i class=\"fa fa-exclamation-triangle\"/>\n"
+"                                所有物品都无法预留。 单击“检查可用性”按钮以尝试预留物品。"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"此处设置的值是特定于机构的。\"  "
+"groups=\"base.group_multi_company\"/>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_move_operations
+msgid "<span>Assign Serial Numbers</span>"
+msgstr "<span>分配序号</span>"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Lot/Serial Number</strong>"
@@ -27,6 +59,16 @@ msgstr "<strong>物品条码</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Product</strong>"
 msgstr "<strong>物品</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.message_head
+msgid "<strong>The initial demand has been updated.</strong>"
+msgstr "<strong>初始需求已更新。</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_track_confirmation
+msgid "<strong>Tracked product(s):</strong>"
+msgstr "<strong>追溯的物品：</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -377,6 +419,13 @@ msgstr "单据的编号"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_move_tree
 msgid "Reserved"
 msgstr "预留"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
+msgid ""
+"The stock will be reserved for operations waiting for availability and the "
+"reordering rules will be triggered."
+msgstr "库存会预留给待料的作业，同时会触发相应重订货规则。"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__product_uom_id
