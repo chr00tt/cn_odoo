@@ -223,6 +223,11 @@ msgid "Locations"
 msgstr "库位"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_removal__method
+msgid "Method"
+msgstr "方法"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Note"
 msgstr "备注"
