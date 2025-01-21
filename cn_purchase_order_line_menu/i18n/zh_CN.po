@@ -75,7 +75,7 @@ msgstr "采购订单"
 #. module: purchase_order_line_menu
 #: model:ir.model,name:purchase_order_line_menu.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr ""
+msgstr "采购订单明细"
 
 #. module: purchase_order_line_menu
 #: model:ir.actions.act_window,name:purchase_order_line_menu.action_purchase_orders_lines
