@@ -223,6 +223,11 @@ msgid "Locations"
 msgstr "库位"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_quant__last_count_date
+msgid "Last Count Date"
+msgstr "最近盘点日期"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_removal__method
 msgid "Method"
 msgstr "方法"
@@ -426,6 +431,11 @@ msgid "Reserved"
 msgstr "预留"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_show_reception_report
+msgid "Show Reception Report at Validation"
+msgstr "在验证时显示接收报告"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
 msgid ""
 "The stock will be reserved for operations waiting for availability and the "
@@ -459,9 +469,23 @@ msgid "Use Existing ones"
 msgstr "选择批次/序号"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_product_replenish
+msgid ""
+"Use this assistant to replenish your stock.\n"
+"                Depending on your product configuration, launching a replenishment may trigger a request for quotation,\n"
+"                a manufacturing order or a transfer."
+msgstr "使用这个助手进行补货。根据物品的配置，启动补货可能会触发一个询价单、制造订单或调拨。"
+
+#. module: stock
 #. odoo-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 #, python-format
 msgid "should be replenished"
 msgstr "需要补货"
+
+#. module: stock
+#: model:mail.template,subject:stock.mail_template_data_delivery_confirmation
+msgid ""
+"{{ object.company_id.name }} Delivery Order (Ref {{ object.name or 'n/a' }})"
+msgstr "${object.company_id.name} 交货单 (编号 ${object.name or '无' })"
 
