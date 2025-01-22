@@ -6,6 +6,9 @@
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['product_expiry'],
     'description': '',
+    'data': [
+        'data/product_expiry_data.xml',
+    ],
     'auto_install': True,
     'license': 'LGPL-3',
 }

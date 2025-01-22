@@ -129,11 +129,9 @@ msgid "Create New Lots/Serial Numbers"
 msgstr "创建新批次/序号"
 
 #. module: stock
-#: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_type_use_create_lots
-#: model:ir.model.fields,field_description:stock.field_stock_picking__use_create_lots
-#: model:ir.model.fields,field_description:stock.field_stock_picking_type__use_create_lots
-msgid "Create New Lots/Serial Numbers"
-msgstr "创建新批次/序号"
+#: model_terms:ir.ui.view,arch_db:stock.view_location_form
+msgid "Cyclic Counting"
+msgstr "周期性盘点"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_delivery
