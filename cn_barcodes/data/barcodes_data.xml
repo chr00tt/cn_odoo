@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    	<record id="barcodes.default_barcode_nomenclature" model="barcode.nomenclature">
+            <field name="name">默认命名规则</field>
+        </record>
+
+        <record id="barcodes.barcode_rule_product" model="barcode.rule">
+            <field name="name">物品条码</field>
+        </record>
+</odoo>

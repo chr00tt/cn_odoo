@@ -3,7 +3,7 @@
 
 {
     'name' : 'cn Analytic Accounting',
-    'author': "He Jian",
+    'author': 'He Jian',
     'category': 'Hidden/Dependency',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends' : ['analytic'],

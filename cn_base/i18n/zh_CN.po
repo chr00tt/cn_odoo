@@ -1,6 +1,80 @@
 #. module: base
+#: model:ir.actions.act_window,name:base.action_res_company_form
+#: model:ir.actions.act_window,name:base.company_normal_action_tree
+#: model:ir.model,name:base.model_res_company
+#: model:ir.model.fields,field_description:base.field_res_users__company_ids
+#: model:ir.ui.menu,name:base.menu_action_res_company_form
+#: model_terms:ir.ui.view,arch_db:base.view_company_tree
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+msgid "Companies"
+msgstr "机构"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form
+msgid "Companies count"
+msgstr "机构数量"
+
+#. module: base
+#: code:addons/base/models/ir_qweb_fields.py:396
+#: model:ir.model.fields,field_description:base.field_ir_attachment__company_id
+#: model:ir.model.fields,field_description:base.field_ir_default__company_id
+#: model:ir.model.fields,field_description:base.field_ir_property__company_id
+#: model:ir.model.fields,field_description:base.field_ir_sequence__company_id
+#: model:ir.model.fields,field_description:base.field_res_currency_rate__company_id
+#: model:ir.model.fields,field_description:base.field_res_partner__company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_bank__company_id
+#: model:ir.model.fields,field_description:base.field_res_users__company_id
+#: model_terms:ir.ui.view,arch_db:base.ir_default_search_view
+#: model_terms:ir.ui.view,arch_db:base.view_attachment_search
+#: model_terms:ir.ui.view,arch_db:base.view_company_form
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+#: model_terms:ir.ui.view,arch_db:base.view_partner_short_form
+#: model_terms:ir.ui.view,arch_db:base.view_partner_simple_form
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+#: model_terms:ir.ui.view,arch_db:base.view_users_search
+#: selection:res.partner,company_type:0
+#, python-format
+msgid "Company"
+msgstr "机构"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.onboarding_company_step
+msgid "Company Data"
+msgstr "机构数据"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__logo
+msgid "Company Logo"
+msgstr "机构 Logo"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__name
+#: model:ir.model.fields,field_description:base.field_res_partner__company_name
+#: model:ir.model.fields,field_description:base.field_res_users__company_name
+msgid "Company Name"
+msgstr "机构名称"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_rule__global
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
 #: model_terms:ir.ui.view,arch_db:base.view_rule_search
 msgid "Global"
 msgstr "全局"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_is_company
+msgid "Is Company"
+msgstr "是机构"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__is_company
+#: model:ir.model.fields,field_description:base.field_res_users__is_company
+msgid "Is a Company"
+msgstr "机构"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__group_by_parent_id
+#: model:ir.model.fields,field_description:base.field_res_company__parent_id
+msgid "Parent Company"
+msgstr "上级机构"
+
