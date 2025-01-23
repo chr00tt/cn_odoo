@@ -11,5 +11,8 @@
     'demo': [
         'data/cn_stock_demo.xml',
     ],
+    'data': [
+        'data/default_barcode_patterns.xml',
+    ],
     'auto_install': True,
 }

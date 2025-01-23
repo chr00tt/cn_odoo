@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+         <record id="stock.barcode_rule_weight_three_dec" model="barcode.rule">
+            <field name="name">重量条码3位小数</field>
+        </record>
+        
+        <record id="stock.barcode_rule_package" model="barcode.rule">
+            <field name="name">包裹条码</field>
+        </record>
+
+        <record id="stock.barcode_rule_lot" model="barcode.rule">
+            <field name="name">批次条码</field>
+        </record>
+
+        <record id="stock.barcode_rule_location" model="barcode.rule">
+            <field name="name">位置条码</field>
+        </record>
+    </data>
+</openerp>
