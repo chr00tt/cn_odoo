@@ -467,6 +467,13 @@ msgid "Use Existing ones"
 msgstr "选择批次/序号"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid ""
+"Use GS1 nomenclature datamatrix whenever barcodes are printed for lots and "
+"serial numbers."
+msgstr "打印批次和序号条码时，使用GS1命名规范的二维码。"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_product_replenish
 msgid ""
 "Use this assistant to replenish your stock.\n"

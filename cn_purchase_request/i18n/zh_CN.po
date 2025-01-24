@@ -8,6 +8,36 @@ msgid ""
 msgstr "<li><b>%(prl_name)s</b>: 订购数量 %(prl_qty)s %(prl_uom)s, 计划日期 %(prl_date_planned)s</li>"
 
 #. module: purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
+msgid ""
+"<strong>Request Reference:</strong>\n"
+"                                <br/>"
+msgstr ""
+"<strong>申请编号：</strong>\n"
+"                                <br/>"
+
+#. module: purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
+msgid "<strong>Requested Date</strong>"
+msgstr "<strong>申请日期</strong>"
+
+#. module: purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
+msgid ""
+"<strong>Requested by:</strong>\n"
+"                                <br/>"
+msgstr ""
+"<strong>申请人：</strong>\n"
+"                                <br/>"
+
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request__company_id
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__company_id
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__company_id
+msgid "Company"
+msgstr "机构"
+
+#. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
@@ -161,6 +191,11 @@ msgstr "采购申请"
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__purchased_qty
 msgid "RFQ/PO Qty"
 msgstr "采购数量"
+
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__date_required
+msgid "Request Date"
+msgstr "申请日期"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__name
