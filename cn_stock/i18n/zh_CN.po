@@ -61,6 +61,11 @@ msgid "<strong>Product</strong>"
 msgstr "<strong>物品</strong>"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Scheduled Date:</strong>"
+msgstr "<strong>计划日期:</strong>"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_head
 msgid "<strong>The initial demand has been updated.</strong>"
 msgstr "<strong>初始需求已更新。</strong>"
@@ -132,6 +137,12 @@ msgstr "创建新批次/序号"
 #: model_terms:ir.ui.view,arch_db:stock.view_location_form
 msgid "Cyclic Counting"
 msgstr "周期性盘点"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__date
+#: model_terms:ir.ui.view,arch_db:stock.view_move_form
+msgid "Date Scheduled"
+msgstr "计划日期"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_delivery
@@ -427,6 +438,15 @@ msgstr "单据的编号"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_move_tree
 msgid "Reserved"
 msgstr "预留"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_replenish__date_planned
+#: model:ir.model.fields,field_description:stock.field_stock_picking__scheduled_date
+#: model:ir.model.fields,field_description:stock.field_stock_quant__inventory_date
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
+msgid "Scheduled Date"
+msgstr "计划日期"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__auto_show_reception_report
