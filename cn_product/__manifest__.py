@@ -12,7 +12,6 @@
     ],
     'demo': [
         'data/product_demo.xml',
-        'demo/product.category.csv',
     ],
     'installable': True,
     'auto_install': True,

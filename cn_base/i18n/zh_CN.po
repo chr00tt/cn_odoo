@@ -1,0 +1,103 @@
+#. module: base
+#. odoo-python
+#: code:addons/base/models/res_company.py:0
+#: model:ir.model.fields,field_description:base.field_res_company__child_ids
+#: model_terms:ir.ui.view,arch_db:base.view_company_form
+#, python-format
+msgid "Branches"
+msgstr "下级机构"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.action_res_company_form
+#: model:ir.model,name:base.model_res_company
+#: model:ir.model.fields,field_description:base.field_res_users__company_ids
+#: model:ir.ui.menu,name:base.menu_action_res_company_form
+#: model_terms:ir.ui.view,arch_db:base.view_company_tree
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+msgid "Companies"
+msgstr "机构"
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_qweb_fields.py:0
+#: model:ir.model.fields,field_description:base.field_ir_attachment__company_id
+#: model:ir.model.fields,field_description:base.field_ir_default__company_id
+#: model:ir.model.fields,field_description:base.field_ir_property__company_id
+#: model:ir.model.fields,field_description:base.field_ir_sequence__company_id
+#: model:ir.model.fields,field_description:base.field_res_currency_rate__company_id
+#: model:ir.model.fields,field_description:base.field_res_partner__company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_bank__company_id
+#: model:ir.model.fields,field_description:base.field_res_users__company_id
+#: model:ir.model.fields.selection,name:base.selection__res_partner__company_type__company
+#: model_terms:ir.ui.view,arch_db:base.ir_default_search_view
+#: model_terms:ir.ui.view,arch_db:base.view_attachment_search
+#: model_terms:ir.ui.view,arch_db:base.view_company_form
+#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
+#: model_terms:ir.ui.view,arch_db:base.view_users_search
+#, python-format
+msgid "Company"
+msgstr "机构"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__company_details
+msgid "Company Details"
+msgstr "机构详情"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__company_registry
+#: model:ir.model.fields,field_description:base.field_res_partner__company_registry
+#: model:ir.model.fields,field_description:base.field_res_users__company_registry
+msgid "Company ID"
+msgstr "机构 ID"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__logo
+msgid "Company Logo"
+msgstr "机构 Logo"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__name
+#: model:ir.model.fields,field_description:base.field_res_partner__company_name
+#: model:ir.model.fields,field_description:base.field_res_users__company_name
+msgid "Company Name"
+msgstr "机构名称"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__commercial_company_name
+#: model:ir.model.fields,field_description:base.field_res_users__commercial_company_name
+msgid "Company Name Entity"
+msgstr "机构名称实体"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+#: model_terms:ir.ui.view,arch_db:base.view_partner_simple_form
+msgid "Company Name..."
+msgstr "机构名称..."
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_property_form
+#: model:ir.ui.menu,name:base.menu_ir_property_form_all
+msgid "Company Properties"
+msgstr "机构属性"
+
+#. module: base
+#: model:ir.model,name:base.model_ir_property
+msgid "Company Property"
+msgstr "机构属性"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_currency_rate__company_rate
+msgid "Company Rate"
+msgstr "机构汇率"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company__report_header
+msgid "Company Tagline"
+msgstr "机构标语"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner__company_type
+#: model:ir.model.fields,field_description:base.field_res_users__company_type
+msgid "Company Type"
+msgstr "机构类型"
+
