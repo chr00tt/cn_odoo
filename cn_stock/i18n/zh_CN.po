@@ -150,6 +150,23 @@ msgid "Delivery Slip"
 msgstr "送货单"
 
 #. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
+#, python-format
+msgid "Free Stock"
+msgstr "可用库存"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_product__free_qty
+msgid "Free To Use Quantity "
+msgstr "可用数量"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
+msgid "Free to Use"
+msgstr "可用"
+
+#. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__picking_type_use_existing_lots
 #: model:ir.model.fields,help:stock.field_stock_picking__use_existing_lots
 #: model:ir.model.fields,help:stock.field_stock_picking_type__use_existing_lots
@@ -430,6 +447,11 @@ msgstr "每个机构的编号必须是唯一！"
 #: model:ir.model.fields,help:stock.field_stock_picking__origin
 msgid "Reference of the document"
 msgstr "单据的编号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_location__replenish_location
+msgid "Replenish Location"
+msgstr "补货位置"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__reserved_uom_qty
