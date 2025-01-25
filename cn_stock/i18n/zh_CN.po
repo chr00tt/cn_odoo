@@ -1,4 +1,102 @@
 #. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_picking.py:0
+#, python-format
+msgid ""
+"\n"
+"\n"
+"Transfers %s: You need to supply a Lot/Serial number for products %s."
+msgstr ""
+"\n"
+"\n"
+"调拨%s：需要提供物品%s的批次/序号。"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_move.py:0
+#, python-format
+msgid ""
+"\n"
+"The quantity done for the product %s doesn't respect the rounding precision defined on the unit of measure %s.\n"
+"Please change the quantity done or the rounding precision of your unit of measure."
+msgstr ""
+"\n"
+"物品”%s“的完成数量小数点精度与单位”%s“设定精度不同。 请修改完成数量小数点精度或重新设置单位小数点精度。"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_lot.py:0
+#, python-format
+msgid " - Product: %s, Serial Number: %s"
+msgstr " - 物品: %s, 序号: %s"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_location__cyclic_inventory_frequency
+#: model:ir.model.fields,help:stock.field_stock_quant__cyclic_inventory_frequency
+msgid ""
+" When different than 0, inventory count date for products stored at this "
+"location will be automatically set at the defined frequency."
+msgstr "当不为0时，储存在这个位置的物品的库存盘点日期将按定义的频率自动设置。"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_warehouse.py:0
+#, python-format
+msgid "%(warehouse)s: Supply Product from %(supplier)s"
+msgstr "%(warehouse)s: 从 %(supplier)s 供应物品"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_move.py:0
+#, python-format
+msgid "%s --> Product UoM is %s (%s) - Move UoM is %s (%s)"
+msgstr "%s --> 物品单位为 %s (%s) - 移动单位为 %s (%s)"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "(product barcode)"
+msgstr "（物品条码）"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "(serial barcode)"
+msgstr "（序号条码）"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_move__state
+#: model:ir.model.fields,help:stock.field_stock_move_line__state
+msgid ""
+"* New: The stock move is created but not confirmed.\n"
+"* Waiting Another Move: A linked stock move should be done before this one.\n"
+"* Waiting Availability: The stock move is confirmed but the product can't be reserved.\n"
+"* Available: The product of the stock move is reserved.\n"
+"* Done: The product has been transferred and the transfer has been confirmed."
+msgstr ""
+"* 新建：库存移动已创建但未确认。\n"
+"* 等待下一步移动：在此之前应完成关联的库存移动。\n"
+"* 等待中：库存移动已确认，但物品无法预留。\n"
+"* 可移动：库存移动产品已预留。\n"
+"* 完成：物品已调拨，已完成确认。"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+#: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
+msgid "<span class=\"o_stat_text\">Traceability</span>"
+msgstr "<span class=\"o_stat_text\">追溯</span>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+msgid "<strong>Location</strong>"
+msgstr "<strong>库位</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Lot/Serial Number</strong>"
+msgstr "<strong>批次/序号</strong>"
+
+#. module: stock
 #: model:ir.model,name:stock.model_res_company
 msgid "Companies"
 msgstr "机构"
@@ -32,6 +130,128 @@ msgid "Company"
 msgstr "机构"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_quant__sn_duplicated
+msgid "Duplicated Serial Number"
+msgstr "重复的序号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_lot__ref
+msgid "Internal Reference"
+msgstr "内部编号"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_lot__ref
+msgid ""
+"Internal reference number in case it differs from the manufacturer's "
+"lot/serial number"
+msgstr "内部编号，不同于制造商的批次/序号"
+
+#. module: stock
+#: model_terms:ir.actions.act_window,help:stock.action_picking_tree_internal
+msgid ""
+"Internal transfers allow you to move products from one location to another."
+msgstr "内部调拨可将物品从一个库位调拨到另一个库位。"
+
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__picking_label_type__label_type__lots
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+msgid "Lot/SN Labels"
+msgstr "批次/序号标签"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_move_line_kanban
+msgid "Lot/SN:"
+msgstr "批次/序号"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_lot
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__lot_id
+msgid "Lot/Serial"
+msgstr "批次/序号"
+
+#. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
+#, python-format
+msgid "Lot/Serial #"
+msgstr "批次/序号 #"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_lot__name
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__lot_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__lot_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__lot_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_move_line_operation_tree
+msgid "Lot/Serial Number"
+msgstr "批次/序号"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.action_report_lot_label
+msgid "Lot/Serial Number (PDF)"
+msgstr "批次/序号 (PDF)"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.label_lot_template
+msgid "Lot/Serial Number (ZPL)"
+msgstr "批次/序号 (ZPL)"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__lot_name
+msgid "Lot/Serial Number Name"
+msgstr "批次/序号名称"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_lot.py:0
+#, python-format
+msgid "Lot/Serial Number Relocated"
+msgstr "批次/序号已重新分配"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.message_body
+msgid "Lot/Serial:"
+msgstr "批次/序号:"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_production_lot
+msgid "Lots & Serial Numbers"
+msgstr "批次和序号"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid "Lots & Serial numbers will appear on the delivery slip"
+msgstr "批次/序号会显示在送货单上"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_track_confirmation
+msgid "Lots or serial numbers were not provided for tracked products"
+msgstr "未提供批次或序号追溯物品"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_product_production_lot_form
+#: model:ir.actions.act_window,name:stock.action_production_lot_form
+#: model:ir.ui.menu,name:stock.menu_action_production_lot_form
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+#: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
+#: model_terms:ir.ui.view,arch_db:stock.view_production_lot_tree
+msgid "Lots/Serial Numbers"
+msgstr "批次/序号"
+
+#. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/widgets/lots_dialog.xml:0
+#, python-format
+msgid "Lots/Serial numbers"
+msgstr "批次/序号"
+
+
+#. module: stock
 #. odoo-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
 #: model:ir.model.fields,field_description:stock.field_product_product__outgoing_qty
@@ -41,4 +261,94 @@ msgstr "机构"
 #, python-format
 msgid "Outgoing"
 msgstr "出货"
+
+#. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
+#: code:addons/stock/static/src/stock_forecasted/forecasted_details.xml:0
+#: model:ir.model,name:stock.model_product_template
+#: model:ir.model.fields,field_description:stock.field_product_replenish__product_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_assign_serial__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_change_product_qty__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_lot__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_move__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_replenishment_info__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_replenishment_option__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_rules_report__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category_capacity__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_track_line__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty__product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap__product_id
+#: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
+#: model_terms:ir.ui.view,arch_db:stock.stock_reorder_report_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_search_view
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
+#, python-format
+msgid "Product"
+msgstr "物品"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking__products_availability
+msgid "Product Availability"
+msgstr "物品可用性"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/wizard/stock_quantity_history.py:0
+#: model:ir.actions.act_window,name:stock.act_product_location_open
+#: model:ir.actions.act_window,name:stock.product_template_action_product
+#: model:ir.model.fields,field_description:stock.field_stock_route__product_ids
+#: model:ir.model.fields,field_description:stock.field_stock_track_confirmation__product_ids
+#: model:ir.ui.menu,name:stock.menu_product_in_config_stock
+#: model:ir.ui.menu,name:stock.menu_product_variant_config_stock
+#: model:ir.ui.menu,name:stock.menu_stock_inventory_control
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
+#, python-format
+msgid "Products"
+msgstr "物品"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking__products_availability_state
+msgid "Products Availability State"
+msgstr "物品可用状态"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_picking__priority
+msgid ""
+"Products will be reserved first for the transfers with the highest "
+"priorities."
+msgstr "物品将会首先为最高优先级的调拨预留。"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/product.py:0
+#, python-format
+msgid "Products: %(location)s"
+msgstr "产品: %(location)s"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_assign_serial
+msgid "Stock Assign Serial Numbers"
+msgstr "库存分配序号"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_lot__name
+msgid "Unique Lot/Serial Number"
+msgstr "唯一批次/序号"
 
