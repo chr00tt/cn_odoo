@@ -147,6 +147,39 @@ msgid "<strong>Lot/Serial Number</strong>"
 msgstr "<strong>批次/序号</strong>"
 
 #. module: stock
+#: model:ir.model,name:stock.model_res_company
+msgid "Companies"
+msgstr "机构"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_replenish__company_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_location__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_lot__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_level__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_type__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_relocate__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_route__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category_capacity__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__company_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+msgid "Company"
+msgstr "机构"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant__sn_duplicated
 msgid "Duplicated Serial Number"
 msgstr "重复的序号"
@@ -162,6 +195,11 @@ msgstr "生成序号"
 #: code:addons/stock/static/src/widgets/lots_dialog.xml:0
 msgid "Generate Serials/Lots"
 msgstr "生成序号/批次"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_lot__ref
+msgid "Internal Reference"
+msgstr "内部编号"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_lot__ref
