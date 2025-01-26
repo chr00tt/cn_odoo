@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="1">
+
+    <record id="product.product_category_2" model="product.category">
+        <field name="name">内部</field>
+    </record>
+    <record id="product.product_category_3" model="product.category">
+        <field name="name">服务</field>
+    </record>
+    <record id="product.product_category_6" model="product.category">
+        <field name="name">可销售</field>
+    </record>
+    <record id="product.product_category_4" model="product.category">
+        <field name="name">软件</field>
+    </record>
+    <record id="product.product_category_5" model="product.category">
+        <field name="name">办公家具</field>
+    </record>
+    <record id="product.product_category_consumable" model="product.category">
+        <field name="name">耗材</field>
+    </record>
+    <record id="product.product_category_construction" model="product.category">
+        <field name="name">住宅装修</field>
+    </record>
+    <record id="product.product_category_outdoor_furniture" model="product.category">
+        <field name="name">户外家具</field>
+    </record>
+
+</odoo>

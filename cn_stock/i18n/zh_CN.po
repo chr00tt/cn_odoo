@@ -510,6 +510,16 @@ msgid "Products: %(location)s"
 msgstr "物品: %(location)s"
 
 #. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_warehouse.py:0
+#: model:ir.actions.act_window,name:stock.action_picking_tree_incoming
+#: model:ir.ui.menu,name:stock.in_picking
+#: model:stock.picking.type,name:stock.picking_type_in
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
+msgid "Receipts"
+msgstr "收货"
+
+#. module: stock
 #: model:ir.model.fields,help:stock.field_stock_lot__name
 msgid "Unique Lot/Serial Number"
 msgstr "唯一批次/序号"

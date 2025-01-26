@@ -1,18 +1,13 @@
+# -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'cn Products & Pricelists',
+    'name': 'cn WMS Accounting',
     'author': 'He Jian',
-    'category': 'Sales/Sales',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['product'],
     'description': '',
-    'data': [
-        'data/product_data.xml',
-    ],
-    'demo': [
-        'data/product_category_demo.xml',
-    ],
+    'depends': ['stock_account'],
+    'category': 'Hidden',
     'auto_install': True,
     'license': 'LGPL-3',
 }
