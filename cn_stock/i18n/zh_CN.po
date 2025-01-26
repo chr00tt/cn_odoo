@@ -233,6 +233,24 @@ msgid "Location"
 msgstr "库位"
 
 #. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_quant.py:0
+#: model:ir.actions.act_window,name:stock.action_location_form
+#: model:ir.actions.act_window,name:stock.action_prod_inv_location_form
+#: model:ir.actions.act_window,name:stock.action_storage_category_locations
+#: model:ir.ui.menu,name:stock.menu_action_location_form
+#: model:ir.ui.menu,name:stock.menu_valuation
+#: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
+#: model_terms:ir.ui.view,arch_db:stock.report_location_barcode
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:stock.stock_reorder_report_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_storage_category_form
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+#: model_terms:ir.ui.view,arch_db:stock.view_warehouse
+msgid "Locations"
+msgstr "库位"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_move_line_kanban
 msgid "Lot/SN:"
 msgstr "批次/序号"
@@ -374,6 +392,88 @@ msgstr "物品"
 #: model:ir.model.fields,field_description:stock.field_stock_picking__products_availability
 msgid "Product Availability"
 msgstr "物品可用性"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_route__categ_ids
+#: model:ir.ui.menu,name:stock.menu_product_category_config_stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
+msgid "Product Categories"
+msgstr "物品类别"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_category
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__product_category_name
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__category_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__product_categ_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_category_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
+msgid "Product Category"
+msgstr "物品类别"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_reception_report_label
+msgid "Product Display Name"
+msgstr "物品显示名称"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.label_product_product
+msgid "Product Label (ZPL)"
+msgstr "物品标签 (ZPL)"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__product_label_format
+msgid "Product Label Format to auto-print"
+msgstr "自动打印的物品标签格式"
+
+#. module: stock
+#: model:ir.model,name:stock.model_report_stock_label_product_product_view
+msgid "Product Label Report"
+msgstr "物品标签报告"
+
+#. module: stock
+#: model:ir.model.fields.selection,name:stock.selection__picking_label_type__label_type__products
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+msgid "Product Labels"
+msgstr "物品标签"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
+msgid "Product Lots Filter"
+msgstr "物品批次筛选"
+
+#. module: stock
+#: model:ir.model,name:stock.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "物品移动(库存移库明细)"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_packaging
+msgid "Product Packaging"
+msgstr "物品包裹"
+
+#. module: stock
+#: model:ir.actions.report,name:stock.label_product_packaging
+msgid "Product Packaging (ZPL)"
+msgstr "物品包裹 (ZPL)"
+
+#. module: stock
+#: model:ir.ui.menu,name:stock.menu_product_packagings
+#: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
+msgid "Product Packagings"
+msgstr "物品包裹"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_quant.py:0
+msgid "Product Quantity Confirmed"
+msgstr "确认的物品数量"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_quant.py:0
+msgid "Product Quantity Updated"
+msgstr "物品数量已更新"
 
 #. module: stock
 #. odoo-python
