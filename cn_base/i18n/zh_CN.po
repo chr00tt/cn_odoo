@@ -1,0 +1,23 @@
+#. module: base
+#: model:ir.actions.act_window,name:base.action_res_company_form
+#: model:ir.actions.act_window,name:base.company_normal_action_tree
+#: model:ir.model,name:base.model_res_company
+#: model:ir.ui.menu,name:base.menu_action_res_company_form
+#: model:ir.ui.menu,name:base.menu_res_company_global
+#: view:res.company:base.view_company_tree
+#: view:res.partner:base.view_res_partner_filter field:res.users,company_ids:0
+msgid "Companies"
+msgstr "机构"
+
+#. module: base
+#: view:ir.attachment:base.view_attachment_search
+#: field:ir.attachment,company_id:0 field:ir.default,company_id:0
+#: field:ir.property,company_id:0 field:ir.sequence,company_id:0
+#: field:ir.values,company_id:0 view:res.company:base.view_company_form
+#: field:res.currency,company_id:0 view:res.partner:base.view_partner_form
+#: view:res.partner:base.view_partner_simple_form
+#: view:res.partner:base.view_res_partner_filter
+#: field:res.partner,company_id:0 field:res.partner.bank,company_id:0
+#: view:res.users:base.view_users_search field:res.users,company_id:0
+msgid "Company"
+msgstr "机构"
