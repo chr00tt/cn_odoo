@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        
+        <record id="procurement.ir_cron_scheduler_action" model="ir.cron">
+            <field name="name">运行 mrp 调度程序</field>
+        </record>
+    </data>
+</openerp>
