@@ -1,0 +1,10 @@
+#. module: base_action_rule
+#: model:ir.actions.act_window,name:base_action_rule.base_action_rule_act
+#: model:ir.ui.menu,name:base_action_rule.menu_base_action_rule_form
+msgid "Automated Actions"
+msgstr "自动化动作"
+
+#. module: base_action_rule
+#: model:ir.actions.act_window,help:base_action_rule.base_action_rule_act
+msgid "Click to setup a new automated action rule."
+msgstr "点击创建一个自动化动作规则"

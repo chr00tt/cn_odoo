@@ -1,4 +1,20 @@
 #. module: base
+#: model:ir.ui.view,arch_db:base.ir_cron_view_search
+msgid "Scheduled Action"
+msgstr "计划任务"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_cron_act
+#: model:ir.ui.menu,name:base.menu_ir_cron_act
+#: model:ir.ui.view,arch_db:base.ir_cron_view
+#: model:ir.ui.view,arch_db:base.ir_cron_view_calendar
+#: model:ir.ui.view,arch_db:base.ir_cron_view_search
+#: model:ir.ui.view,arch_db:base.ir_cron_view_tree
+msgid "Scheduled Actions"
+msgstr "计划任务"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence_number_increment
 msgid "Step"
 msgstr "步长"
+
