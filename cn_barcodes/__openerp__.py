@@ -1,5 +1,7 @@
 {
     'name': 'cn Barcodes',
+    'author': 'He Jian',
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'category': 'Extra Tools',
     'description': '',
     'depends': ['barcodes'],
