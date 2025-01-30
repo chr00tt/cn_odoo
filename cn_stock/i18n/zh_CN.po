@@ -1,0 +1,154 @@
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.view_move_picking_form
+msgid "#Products"
+msgstr "#物品"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.report_delivery_document
+#: model:ir.ui.view,arch_db:stock.report_inventory
+#: model:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Product</strong>"
+msgstr "<strong>物品</strong>"
+
+#. module: stock
+#: code:addons/stock/stock.py:2867
+#, python-format
+msgid "All products"
+msgstr "所有物品"
+
+#. module: stock
+#: code:addons/stock/product.py:323
+#, python-format
+msgid "Produced Qty"
+msgstr "物品数量"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_product
+#: model:ir.model.fields,field_description:stock.field_make_procurement_product_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_forecast_product_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_forecast_product_tmpl_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_lines_date_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_change_product_qty_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_scrap_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_pack_operation_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_production_lot_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking_line_product_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint_product_id
+#: model:ir.ui.view,arch_db:stock.quant_search_view
+#: model:ir.ui.view,arch_db:stock.report_lot_barcode
+#: model:ir.ui.view,arch_db:stock.report_package_barcode
+#: model:ir.ui.view,arch_db:stock.search_product_lot_filter
+#: model:ir.ui.view,arch_db:stock.view_move_search
+msgid "Product"
+msgstr "物品"
+
+#. module: stock
+#: code:addons/stock/stock.py:253
+#: model:ir.model.fields,field_description:stock.field_stock_location_route_categ_ids
+#: model:ir.ui.menu,name:stock.menu_product_category_config_stock
+#: model:ir.ui.view,arch_db:stock.stock_location_route_form_view
+#, python-format
+msgid "Product Categories"
+msgstr "物品类别"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_category
+#: model:ir.model.fields,field_description:stock.field_stock_fixed_putaway_strat_category_id
+msgid "Product Category"
+msgstr "物品类别"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line_product_code
+msgid "Product Code"
+msgstr "物品编码"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.search_product_lot_filter
+msgid "Product Lots"
+msgstr "物品批次"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.search_product_lot_filter
+msgid "Product Lots Filter"
+msgstr "物品批次筛选"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line_product_name
+msgid "Product Name"
+msgstr "物品名称"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_config_settings_group_stock_tracking_owner
+msgid "Product Owners"
+msgstr "物品货主"
+
+#. module: stock
+#: model:ir.model,name:stock.model_product_template
+#: model:ir.model.fields,field_description:stock.field_stock_move_product_tmpl_id
+msgid "Product Template"
+msgstr "物品模板"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.inventory_planner
+msgid "Product Types"
+msgstr "物品类型"
+
+#. module: stock
+#: code:addons/stock/stock.py:243
+#: model:ir.actions.act_window,name:stock.act_product_location_open
+#: model:ir.model.fields,field_description:stock.field_stock_location_route_product_ids
+#: model:ir.ui.menu,name:stock.menu_product_in_config_stock
+#: model:ir.ui.menu,name:stock.menu_product_variant_config_stock
+#: model:ir.ui.view,arch_db:stock.stock_location_route_form_view
+#: model:ir.ui.view,arch_db:stock.view_location_form
+#: model:ir.ui.view,arch_db:stock.view_pack_operation_details_form
+#: model:ir.ui.view,arch_db:stock.view_production_lot_form
+#: model:ir.ui.view,arch_db:stock.view_stock_config_settings
+#, python-format
+msgid "Products"
+msgstr "物品"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_change_product_qty_lot_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line_prod_lot_id
+#: model:ir.model.fields,field_description:stock.field_stock_production_lot_name
+#: model:res.request.link,name:stock.req_link_tracking
+msgid "Serial Number"
+msgstr "序号"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.view_production_lot_form
+#: model:ir.ui.view,arch_db:stock.view_production_lot_tree
+msgid "Serial Number / Lots"
+msgstr "序号/批次"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line_prodlot_name
+msgid "Serial Number Name"
+msgstr "序号名称"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_production_lot_form
+#: model:ir.ui.menu,name:stock.menu_action_production_lot_form
+msgid "Serial Numbers / Lots"
+msgstr "序号/批次"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.inventory_planner
+msgid "the list of products"
+msgstr "物品列表"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.inventory_planner
+msgid "to mark the products as transferred to your stock location"
+msgstr "标识物品已经调拨到库存位置"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.inventory_planner
+msgid "when you receive the ordered products"
+msgstr "当收到订单中的物品"
+

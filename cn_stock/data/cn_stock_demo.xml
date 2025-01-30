@@ -3,7 +3,7 @@
     <data noupdate="1">
         <!-- 开启批次和序列号, 包裹, 路线-->
         <record model="res.groups" id="base.group_user">
-            <field name="implied_ids" eval="[(4, ref('stock.group_stock_production_lot')), (4, ref('stock.group_stock_tracking_lot')), (4, ref('stock.group_adv_location'))]"/>
+            <field name="implied_ids" eval="[(4, ref('stock.group_production_lot')), (4, ref('stock.group_tracking_lot')), (4, ref('stock.group_adv_location'))]"/>
         </record>
     </data>
 </odoo>
