@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data noupdate="1">
-        <!-- 开启多库位 -->
+        <!-- 开启批次和序列号, 包裹, 产品所有者, 多库位 -->
         <record model="res.groups" id="base.group_user">
-            <field name="implied_ids" eval="[(4, ref('stock.group_stock_multi_locations'))]"/>
+            <field name="implied_ids" eval="[
+                (4, ref('stock.group_production_lot')),
+                (4, ref('stock.group_tracking_owner')),
+                (4, ref('stock.group_tracking_lot')),
+                (4, ref('stock.group_stock_multi_locations'))]"/>
         </record>
     </data>
 </odoo>

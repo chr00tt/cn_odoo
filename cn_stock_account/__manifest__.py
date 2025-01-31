@@ -4,7 +4,7 @@
 {
     'name': 'cn WMS Accounting',
     'description': 'cn WMS Accounting',
-    'author': "He Jian",
+    'author': 'He Jian',
     'category': 'Hidden',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['stock_account'],
