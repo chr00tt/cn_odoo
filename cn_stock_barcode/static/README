@@ -1,0 +1,1 @@
+见 http.py Root.load_addons，有 static 目录的模块才会进入 addons_manefest。
