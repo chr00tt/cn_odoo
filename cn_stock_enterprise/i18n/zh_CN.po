@@ -1,0 +1,16 @@
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid "Receipts Cycle Time"
+msgstr "收货时间周期"
+
+#. module: stock_enterprise
+#: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_dashboard_view
+msgid "Receipts Delay"
+msgstr "收货延迟"
+
+#. module: stock_enterprise
+#: model:ir.actions.act_window,name:stock_enterprise.stock_report_dashboard_action
+#: model:ir.ui.menu,name:stock_enterprise.stock_dashboard_menuitem
+msgid "Warehouse Dashboard"
+msgstr "仓库驾驶舱"
+
