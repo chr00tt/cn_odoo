@@ -101,6 +101,11 @@ msgid "<strong>Ordered</strong>"
 msgstr "<strong>订购数量</strong>"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Scheduled Date:</strong>"
+msgstr "<strong>计划日期:</strong>"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_storage_category__allow_new_product
 msgid "Allow New Product"
 msgstr "允许新物品"
@@ -150,6 +155,17 @@ msgstr "机构"
 #: model_terms:ir.ui.view,arch_db:stock.view_location_form
 msgid "Cyclic Inventory"
 msgstr "周期性盘点"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__date
+#: model_terms:ir.ui.view,arch_db:stock.view_move_form
+msgid "Date Scheduled"
+msgstr "计划日期"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_product_replenish__date_planned
+msgid "Date at which the replenishment should take place."
+msgstr "需要完成补货的日期。"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_delivery
@@ -294,6 +310,26 @@ msgstr "批次/序号"
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
 msgid "Locations"
 msgstr "库位"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_quant__owner_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__owner_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__owner_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
+msgid "Owner"
+msgstr "货主"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__restrict_partner_id
+msgid "Owner "
+msgstr "货主 "
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.message_body
+msgid "Owner :"
+msgstr "货主 :"
 
 #. module: stock
 #: model:ir.model,name:stock.model_product_product
@@ -469,6 +505,15 @@ msgstr "单据的编号"
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
 msgid "Reference:"
 msgstr "编号："
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_replenish__date_planned
+#: model:ir.model.fields,field_description:stock.field_stock_picking__scheduled_date
+#: model:ir.model.fields,field_description:stock.field_stock_quant__inventory_date
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
+msgid "Scheduled Date"
+msgstr "计划日期"
 
 #. module: stock
 #: code:addons/stock/models/stock_move_line.py:0

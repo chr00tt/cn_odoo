@@ -1,0 +1,9 @@
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation
+msgid "for contact"
+msgstr "用于"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.view_batch_picking_confirmation
+msgid "should already be done or are scheduled on a date earlier than"
+msgstr "应该已经完成，或安排在一个更早的日期进行"
