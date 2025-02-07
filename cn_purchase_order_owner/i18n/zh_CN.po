@@ -1,0 +1,12 @@
+#. module: purchase_order_owner
+#: model:ir.model.fields,field_description:purchase_order_owner.field_purchase_order__owner_id
+msgid "Assign Owner"
+msgstr "指定货主"
+
+#. module: purchase_order_owner
+#: model:ir.model.fields,help:purchase_order_owner.field_purchase_order__owner_id
+msgid ""
+"The assigned value will be set on the corresponding field of the incoming "
+"stock picking."
+msgstr "指定的值将在入库单的相应字段上设置。"
+
