@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+        <record id="crm.rule_set_reminder_lead" model="base.action.rule">
+            <field name="name">对5天后未打开的潜在客户设置自动提醒。</field>
+        </record>
+
+        <record id="crm.rule_set_followers_lead" model="base.action.rule">
+            <field name="name">对来自美国的紧急线索上设置自动关注者。</field>
+        </record>
+    </data>
+</openerp>
