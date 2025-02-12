@@ -59,7 +59,6 @@ msgstr "格式化物品条码"
 msgid "Lot/Serial"
 msgstr "批次/序号"
 
-
 #. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/components/backorder_dialog.xml:0
@@ -102,6 +101,11 @@ msgstr "物品库存量"
 msgid "Product Unit of Measure"
 msgstr "物品计量单位"
 
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/components/main.xml:0
+msgid "Sign"
+msgstr "签名"
 
 #. module: stock_barcode
 #. odoo-javascript

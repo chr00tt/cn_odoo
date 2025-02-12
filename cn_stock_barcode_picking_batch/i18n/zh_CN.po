@@ -1,0 +1,10 @@
+#. module: stock_barcode_picking_batch
+#: model:ir.model.fields,field_description:stock_barcode_picking_batch.field_stock_picking_type__group_lines_by_product
+msgid "Group batch lines"
+msgstr "批量调拨明细分组"
+
+#. module: stock_barcode_picking_batch
+#: model_terms:ir.ui.view,arch_db:stock_barcode_picking_batch.stock_barcode_batch_picking_view_kanban
+msgid "Lines"
+msgstr "明细"
+
