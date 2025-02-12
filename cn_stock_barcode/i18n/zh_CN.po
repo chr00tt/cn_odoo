@@ -1,0 +1,111 @@
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/models/barcode_model.js:0
+msgid ""
+"A product tracked by serial numbers can't have multiple quantities for the "
+"same serial number."
+msgstr " 由序号追溯的物品，不能有多个物品共用相同的序号。"
+
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/components/main.js:0
+msgid "Add Product"
+msgstr "添加物品"
+
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
+msgid "Add extra product?"
+msgstr "添加额外物品？"
+
+#. module: stock_barcode
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_picking_type__barcode_allow_extra_product
+msgid "Allow extra products"
+msgstr "允许额外物品"
+
+#. module: stock_barcode
+#: model_terms:ir.ui.view,arch_db:stock_barcode.res_config_settings_view_form
+msgid "Configure Product Barcodes"
+msgstr "配置物品的条码"
+
+#. module: stock_barcode
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_picking_type__restrict_scan_tracking_number
+msgid "Force Lot/Serial scan?"
+msgstr "强制扫描批次/序号?"
+
+#. module: stock_barcode
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_picking_type__restrict_scan_product
+msgid "Force Product scan?"
+msgstr "强制扫描物品?"
+
+#. module: stock_barcode
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_picking_type__barcode_validation_after_dest_location
+msgid "Force a destination on all products"
+msgstr "强制所有物品扫描目的位置"
+
+#. module: stock_barcode
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_picking_type__restrict_put_in_pack
+msgid "Force put in pack?"
+msgstr "强制放入包裹?"
+
+#. module: stock_barcode
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__formatted_product_barcode
+msgid "Formatted Product Barcode"
+msgstr "格式化物品条码"
+
+#. module: stock_barcode
+#: model:ir.model,name:stock_barcode.model_stock_lot
+#: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_view_picking_type_form
+msgid "Lot/Serial"
+msgstr "批次/序号"
+
+
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/components/backorder_dialog.xml:0
+#: model_terms:ir.ui.view,arch_db:stock_barcode.scrap_product_selector
+#: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_view_picking_type_form
+#: model_terms:ir.ui.view,arch_db:stock_barcode.stock_move_line_product_selector
+#: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode
+msgid "Product"
+msgstr "物品"
+
+#. module: stock_barcode
+#: model:ir.actions.act_window,name:stock_barcode.product_action_barcodes
+#: model_terms:ir.ui.view,arch_db:stock_barcode.product_view_list_barcodes
+msgid "Product Barcodes"
+msgstr "物品条码"
+
+#. module: stock_barcode
+#: model:ir.model,name:stock_barcode.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "物品移动(库存移动明细)"
+
+#. module: stock_barcode
+#: model:ir.model,name:stock_barcode.model_product_packaging
+msgid "Product Packaging"
+msgstr "物品包裹"
+
+#. module: stock_barcode
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__product_reference_code
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_quant__product_reference_code
+msgid "Product Reference Code"
+msgstr "物品参考编码"
+
+#. module: stock_barcode
+#: model:ir.model.fields,field_description:stock_barcode.field_stock_move_line__product_stock_quant_ids
+msgid "Product Stock Quant"
+msgstr "物品库存量"
+
+#. module: stock_barcode
+#: model:ir.model,name:stock_barcode.model_uom_uom
+msgid "Product Unit of Measure"
+msgstr "物品计量单位"
+
+
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/main_menu/main_menu.xml:0
+msgid "tracking number"
+msgstr "追溯编号"
+
