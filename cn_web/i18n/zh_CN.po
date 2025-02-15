@@ -36,6 +36,13 @@ msgid "Odoo Client Error"
 msgstr "客户端错误"
 
 #. module: web
+#. odoo-python
+#: code:addons/web/models/models.py:0
+#, python-format
+msgid "Too many items to display."
+msgstr "有太多的项目需要展示。"
+
+#. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/legacy/js/views/form/form_controller.js:0
 #: code:addons/web/static/src/legacy/js/views/list/list_controller.js:0

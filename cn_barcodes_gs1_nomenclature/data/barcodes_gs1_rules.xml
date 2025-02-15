@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="barcodes_gs1_nomenclature.default_gs1_nomenclature" model="barcode.nomenclature">
+            <field name="name">默认 GS1 命名规则</field>
+        </record>
+    </data>
+</odoo>
