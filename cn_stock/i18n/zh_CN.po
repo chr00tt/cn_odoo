@@ -198,7 +198,7 @@ msgstr "批次/序号库存"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__lot_name
 msgid "Lot/Serial Number Name"
-msgstr "批次/序号 名称"
+msgstr "批次/序号"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
