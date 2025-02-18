@@ -1,0 +1,4 @@
+#. module: stock_lot_production_date
+#: model:ir.model.fields,field_description:stock_lot_production_date.field_stock_lot__production_date
+msgid "Production Date"
+msgstr "生产日期"

@@ -8,4 +8,5 @@
     "category": "Extra Tools",
     "depends": ["stock_barcodes"],
     "auto_install": True,
+    'license': 'LGPL-3',
 }
