@@ -1,0 +1,4 @@
+#. module: product
+#: model:ir.model.fields.selection,name:product.selection__product_label_layout__print_format__dymo
+msgid "Dymo"
+msgstr "Dymo"
