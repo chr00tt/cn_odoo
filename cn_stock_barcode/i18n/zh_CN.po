@@ -53,6 +53,13 @@ msgid "Configure Product Barcodes"
 msgstr "配置物品的条码"
 
 #. module: stock_barcode
+#. odoo-python
+#: code:addons/stock_barcode/models/stock_picking.py:0
+#, python-format
+msgid "No product or package found for barcode %s"
+msgstr "没有找到条码 %s 的物品或者包裹"
+
+#. module: stock_barcode
 #. odoo-javascript
 #: code:addons/stock_barcode/static/src/models/barcode_picking_model.js:0
 #, python-format
@@ -60,11 +67,29 @@ msgid "Press Validate or scan another product"
 msgstr "点击验证按钮或扫描其他物品"
 
 #. module: stock_barcode
-#. odoo-python
-#: code:addons/stock_barcode/models/stock_picking.py:0
+#: model_terms:ir.ui.view,arch_db:stock_barcode.stock_barcode_view_picking_type_form
+#: model_terms:ir.ui.view,arch_db:stock_barcode.stock_move_line_product_selector
+#: model_terms:ir.ui.view,arch_db:stock_barcode.stock_quant_barcode
+msgid "Product"
+msgstr "物品"
+
+#. module: stock_barcode
+#: model:ir.actions.act_window,name:stock_barcode.product_action_barcodes
+#: model_terms:ir.ui.view,arch_db:stock_barcode.product_view_list_barcodes
+msgid "Product Barcodes"
+msgstr "物品条码"
+
+#. module: stock_barcode
+#: model:ir.model,name:stock_barcode.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "物品移动(移库明细)"
+
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/components/main.xml:0
 #, python-format
-msgid "No product or package found for barcode %s"
-msgstr "没有找到条码 %s 的物品或者包裹"
+msgid "Validate"
+msgstr "确认"
 
 #. module: stock_barcode
 #. odoo-javascript
@@ -74,6 +99,13 @@ msgid ""
 "You are expected to scan one or more products or a package available at the "
 "picking location"
 msgstr "扫描一或多个物品，或拣货位置的包裹"
+
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/models/barcode_model.js:0
+#, python-format
+msgid "You are expected to scan one or more products."
+msgstr "扫描一或多个物品。"
 
 #. module: stock_barcode
 #. odoo-javascript
