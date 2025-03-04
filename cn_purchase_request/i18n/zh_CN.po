@@ -193,6 +193,13 @@ msgid "RFQ/PO Qty"
 msgstr "采购数量"
 
 #. module: purchase_request
+#. odoo-python
+#: code:addons/purchase_request/models/stock_move_line.py:0
+#, python-format
+msgid "Receipt confirmation %(picking_name)s for your Request %(request_name)s"
+msgstr "申请 %(request_name)s 的收货 %(picking_name)s 确认"
+
+#. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__date_required
 msgid "Request Date"
 msgstr "申请日期"

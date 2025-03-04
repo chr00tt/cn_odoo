@@ -1,0 +1,10 @@
+#. module: stock_request
+#: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__open
+msgid "In progress"
+msgstr "进行中"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
+msgid "Stock request Order"
+msgstr "库存申请单"
+
