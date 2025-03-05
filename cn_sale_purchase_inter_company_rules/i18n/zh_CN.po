@@ -1,6 +1,8 @@
 #. module: sale_purchase_inter_company_rules
+#. odoo-python
 #: code:addons/sale_purchase_inter_company_rules/models/res_company.py:0
 #: code:addons/sale_purchase_inter_company_rules/models/res_company.py:0
 #, python-format
 msgid "purchase order"
 msgstr "采购订单"
+

@@ -5,6 +5,29 @@ msgstr "进行中"
 
 #. module: stock_request
 #: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
+msgid "Items"
+msgstr "项目"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__product_uom_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__product_uom_id
+msgid "Product Unit of Measure"
+msgstr "单位"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__requested_by
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__requested_by
+msgid "Requested By"
+msgstr "申请人"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_request_order
+#: model:res.groups,name:stock_request.group_stock_request_order
+msgid "Stock Request Order"
+msgstr "库存申请单"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
 msgid "Stock request Order"
 msgstr "库存申请单"
 
