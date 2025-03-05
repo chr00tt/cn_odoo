@@ -1,4 +1,10 @@
 #. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Finished"
+msgstr "已完成"
+
+#. module: stock_request
 #: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__open
 msgid "In progress"
 msgstr "进行中"
@@ -9,10 +15,24 @@ msgid "Items"
 msgstr "项目"
 
 #. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__location_id
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Location"
+msgstr "库位"
+
+#. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__product_uom_id
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__product_uom_id
 msgid "Product Unit of Measure"
 msgstr "单位"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__qty_cancelled
+msgid "Qty Cancelled"
+msgstr "取消数量"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__requested_by
