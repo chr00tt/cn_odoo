@@ -1,0 +1,4 @@
+#. module: purchase
+#: selection:res.company,po_lock:0
+msgid "Confirmed purchase orders are not editable"
+msgstr "确认过的采购订单不可编辑"
