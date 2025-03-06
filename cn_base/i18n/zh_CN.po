@@ -1,4 +1,60 @@
 #. module: base
+#: model:ir.actions.act_window,name:base.action_res_company_form
+#: model:ir.actions.act_window,name:base.company_normal_action_tree
+#: model:ir.model,name:base.model_res_company
+#: model:ir.model.fields,field_description:base.field_res_users_company_ids
+#: model:ir.ui.menu,name:base.menu_action_res_company_form
+#: model:ir.ui.view,arch_db:base.view_company_tree
+#: model:ir.ui.view,arch_db:base.view_res_partner_filter
+msgid "Companies"
+msgstr "机构"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_attachment_company_id
+#: model:ir.model.fields,field_description:base.field_ir_property_company_id
+#: model:ir.model.fields,field_description:base.field_ir_sequence_company_id
+#: model:ir.model.fields,field_description:base.field_ir_values_company_id
+#: model:ir.model.fields,field_description:base.field_res_currency_rate_company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_bank_company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_company_id
+#: model:ir.model.fields,field_description:base.field_res_users_company_id
+#: model:ir.ui.view,arch_db:base.view_attachment_search
+#: model:ir.ui.view,arch_db:base.view_company_form
+#: model:ir.ui.view,arch_db:base.view_partner_form
+#: model:ir.ui.view,arch_db:base.view_partner_simple_form
+#: model:ir.ui.view,arch_db:base.view_res_partner_filter
+#: model:ir.ui.view,arch_db:base.view_users_search
+#: selection:res.partner,company_type:0
+msgid "Company"
+msgstr "机构"
+
+#. module: base
+#: model:res.partner.category,name:base.res_partner_category_17
+msgid "Company Contact"
+msgstr "机构联系方式"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company_name
+msgid "Company Name"
+msgstr "机构名称"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_property_form
+#: model:ir.ui.menu,name:base.menu_ir_property_form_all
+msgid "Company Properties"
+msgstr "机构属性"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company_company_registry
+msgid "Company Registry"
+msgstr "机构注册"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company_rml_header1
+msgid "Company Tagline"
+msgstr "机构标语"
+
+#. module: base
 #: model:ir.ui.view,arch_db:base.ir_cron_view_search
 msgid "Scheduled Action"
 msgstr "计划任务"

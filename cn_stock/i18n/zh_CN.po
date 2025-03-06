@@ -17,10 +17,50 @@ msgid "All products"
 msgstr "所有物品"
 
 #. module: stock
-#: code:addons/stock/product.py:323
+#: code:addons/stock/stock.py:4912
+#: model:ir.model.fields,field_description:stock.field_product_product_location_id
+#: model:ir.model.fields,field_description:stock.field_product_template_location_id
+#: model:ir.model.fields,field_description:stock.field_stock_change_product_qty_location_id
+#: model:ir.model.fields,field_description:stock.field_stock_fixed_putaway_strat_fixed_location_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line_location_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_scrap_location_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_location_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package_location_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint_location_id
+#: model:ir.ui.view,arch_db:stock.quant_package_search_view
+#: model:ir.ui.view,arch_db:stock.quant_search_view
+#: model:ir.ui.view,arch_db:stock.view_move_search
+#: model:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 #, python-format
-msgid "Produced Qty"
-msgstr "物品数量"
+msgid "Location"
+msgstr "库位"
+
+#. module: stock
+#: model:ir.ui.view,arch_db:stock.view_stock_config_settings
+msgid "Location & Warehouse"
+msgstr "库位和仓库"
+
+#. module: stock
+#: model:ir.actions.report.xml,name:stock.action_report_location_barcode
+msgid "Location BarCode"
+msgstr "库位条码"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line_location_name
+#: model:ir.model.fields,field_description:stock.field_stock_location_name
+msgid "Location Name"
+msgstr "库位名称"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_location_form
+#: model:ir.ui.menu,name:stock.menu_action_location_form
+#: model:ir.ui.view,arch_db:stock.stock_location_path_form
+#: model:ir.ui.view,arch_db:stock.view_move_picking_form
+#: model:ir.ui.view,arch_db:stock.view_pack_operation_details_form
+#: model:ir.ui.view,arch_db:stock.view_picking_type_form
+#: model:ir.ui.view,arch_db:stock.view_warehouse
+msgid "Locations"
+msgstr "库位"
 
 #. module: stock
 #: model:ir.model,name:stock.model_product_product
