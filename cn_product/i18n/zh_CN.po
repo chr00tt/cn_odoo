@@ -1,5 +1,32 @@
 #. module: product
+#: model:ir.model.fields,help:product.field_product_product_standard_price
+msgid ""
+"Cost used for stock valuation in standard price and as a first price to set "
+"in average/fifo. Also used as a base price for pricelists. Expressed in the "
+"default unit of measure of the product."
+msgstr "以标准价格进行库存核算所用的成本，以及平均/fifo的第一个价格。 也用作价格表的基准价格。 以产品的默认度量单位表示。"
+
+#. module: product
+#: model:ir.model.fields,help:product.field_product_template_standard_price
+msgid ""
+"Cost used for stock valuation in standard price and as a first price to set "
+"in average/fifo. Also used as a base price for pricelists. Expressed in the "
+"default unit of measure of the product. "
+msgstr "以标准价格进行库存核算所用的成本，以及平均/fifo的第一个价格。 也用作价格表的基准价格。 以产品的默认度量单位表示 "
+
+#. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_default_code
 #: model:ir.model.fields,field_description:product.field_product_template_default_code
 msgid "Internal Reference"
 msgstr "编码"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_packaging_name
+msgid "Package Type"
+msgstr "包装类型"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_packaging_qty
+msgid "Quantity per Package"
+msgstr "每包装的数量"
+
