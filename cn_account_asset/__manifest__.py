@@ -3,6 +3,8 @@
 
 {
     'name': 'cn Assets Management',
+    'author': "He Jian",
+    'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['account_asset'],
     'category': 'Accounting',
     'auto_install': True,

@@ -1,0 +1,74 @@
+#. module: base
+#: model:ir.ui.view,arch_db:base.view_users_form
+msgid "Allowed Companies"
+msgstr "允许的机构"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company_child_ids
+msgid "Child Companies"
+msgstr "下级机构"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.action_res_company_form
+#: model:ir.actions.act_window,name:base.company_normal_action_tree
+#: model:ir.model,name:base.model_res_company
+#: model:ir.model.fields,field_description:base.field_res_users_company_ids
+#: model:ir.ui.menu,name:base.menu_action_res_company_form
+#: model:ir.ui.view,arch_db:base.view_company_tree
+#: model:ir.ui.view,arch_db:base.view_res_partner_filter
+msgid "Companies"
+msgstr "机构"
+
+#. module: base
+#: model:ir.ui.view,arch_db:base.view_users_form
+msgid "Companies count"
+msgstr "机构数量"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_attachment_company_id
+#: model:ir.model.fields,field_description:base.field_ir_property_company_id
+#: model:ir.model.fields,field_description:base.field_ir_sequence_company_id
+#: model:ir.model.fields,field_description:base.field_ir_values_company_id
+#: model:ir.model.fields,field_description:base.field_res_currency_rate_company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_bank_company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_company_id
+#: model:ir.model.fields,field_description:base.field_res_users_company_id
+#: model:ir.ui.view,arch_db:base.view_attachment_search
+#: model:ir.ui.view,arch_db:base.view_company_form
+#: model:ir.ui.view,arch_db:base.view_partner_form
+#: model:ir.ui.view,arch_db:base.view_partner_simple_form
+#: model:ir.ui.view,arch_db:base.view_res_partner_filter
+#: model:ir.ui.view,arch_db:base.view_users_search
+#: selection:res.partner,company_type:0
+msgid "Company"
+msgstr "机构"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company_name
+#: model:ir.model.fields,field_description:base.field_res_partner_company_name
+#: model:ir.model.fields,field_description:base.field_res_users_company_name
+msgid "Company Name"
+msgstr "机构名称"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_partner_is_company
+#: model:ir.model.fields,field_description:base.field_res_users_is_company
+msgid "Is a Company"
+msgstr "机构"
+
+#. module: base
+#: model:ir.ui.view,arch_db:base.view_users_form
+#: model:res.groups,name:base.group_multi_company
+msgid "Multi Companies"
+msgstr "多机构"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company_parent_id
+msgid "Parent Company"
+msgstr "上级机构"
+
+#. module: base
+#: sql_constraint:res.company:0
+msgid "The company name must be unique !"
+msgstr "机构名称必须唯一！"
+
