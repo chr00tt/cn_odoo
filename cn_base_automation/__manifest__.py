@@ -1,15 +1,11 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-
 {
-    'name': 'cn Base',
+    'name': 'cn Automated Action Rules',
     'author': "He Jian",
-    'category': 'Hidden',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['base'],
-    'data': [
-        'data/cn_base_data.xml',
-    ],
+    'category': 'Sales',
+    'depends': ['base_automation'],
     'auto_install': True,
 }

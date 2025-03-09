@@ -1,0 +1,89 @@
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_cron_active
+#: model:ir.model.fields,field_description:base.field_ir_filters_active
+#: model:ir.model.fields,field_description:base.field_ir_mail_server_active
+#: model:ir.model.fields,field_description:base.field_ir_model_access_active
+#: model:ir.model.fields,field_description:base.field_ir_rule_active
+#: model:ir.model.fields,field_description:base.field_ir_sequence_active
+#: model:ir.model.fields,field_description:base.field_ir_ui_menu_active
+#: model:ir.model.fields,field_description:base.field_ir_ui_view_active
+#: model:ir.model.fields,field_description:base.field_res_bank_active
+#: model:ir.model.fields,field_description:base.field_res_currency_active
+#: model:ir.model.fields,field_description:base.field_res_lang_active
+#: model:ir.model.fields,field_description:base.field_res_partner_active
+#: model:ir.model.fields,field_description:base.field_res_partner_category_active
+#: model:ir.model.fields,field_description:base.field_res_partner_industry_active
+#: model:ir.model.fields,field_description:base.field_res_users_active
+#: model:ir.ui.view,arch_db:base.res_lang_search
+#: model:ir.ui.view,arch_db:base.view_currency_search
+#: model:ir.ui.view,arch_db:base.view_view_search
+msgid "Active"
+msgstr "启用"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_company_child_ids
+msgid "Child Companies"
+msgstr "下级机构"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.action_res_company_form
+#: model:ir.actions.act_window,name:base.company_normal_action_tree
+#: model:ir.model,name:base.model_res_company
+#: model:ir.model.fields,field_description:base.field_res_users_company_ids
+#: model:ir.ui.menu,name:base.menu_action_res_company_form
+#: model:ir.ui.view,arch_db:base.view_company_tree
+#: model:ir.ui.view,arch_db:base.view_res_partner_filter
+msgid "Companies"
+msgstr "机构"
+
+#. module: base
+#: model:ir.ui.view,arch_db:base.view_users_form
+msgid "Companies count"
+msgstr "机构数量"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_attachment_company_id
+#: model:ir.model.fields,field_description:base.field_ir_default_company_id
+#: model:ir.model.fields,field_description:base.field_ir_property_company_id
+#: model:ir.model.fields,field_description:base.field_ir_sequence_company_id
+#: model:ir.model.fields,field_description:base.field_res_currency_rate_company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_bank_company_id
+#: model:ir.model.fields,field_description:base.field_res_partner_company_id
+#: model:ir.model.fields,field_description:base.field_res_users_company_id
+#: model:ir.ui.view,arch_db:base.ir_default_search_view
+#: model:ir.ui.view,arch_db:base.view_attachment_search
+#: model:ir.ui.view,arch_db:base.view_company_form
+#: model:ir.ui.view,arch_db:base.view_partner_form
+#: model:ir.ui.view,arch_db:base.view_partner_short_form
+#: model:ir.ui.view,arch_db:base.view_partner_simple_form
+#: model:ir.ui.view,arch_db:base.view_res_partner_filter
+#: model:ir.ui.view,arch_db:base.view_users_search
+#: selection:res.partner,company_type:0
+msgid "Company"
+msgstr "机构"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.res_partner_industry_action
+#: model:ir.model,name:base.model_res_partner_industry
+#: model:ir.model.fields,field_description:base.field_res_partner_industry_id
+#: model:ir.model.fields,field_description:base.field_res_users_industry_id
+#: model:ir.ui.view,arch_db:base.res_partner_industry_view_form
+#: model:ir.ui.view,arch_db:base.res_partner_industry_view_tree
+msgid "Industry"
+msgstr "行业"
+
+#. module: base
+#: selection:ir.actions.server,usage:0
+#: model:ir.ui.view,arch_db:base.ir_cron_view_search
+msgid "Scheduled Action"
+msgstr "计划任务"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_cron_act
+#: model:ir.model,name:base.model_ir_cron
+#: model:ir.ui.menu,name:base.menu_ir_cron_act
+#: model:ir.ui.view,arch_db:base.ir_cron_view_calendar
+#: model:ir.ui.view,arch_db:base.ir_cron_view_search
+#: model:ir.ui.view,arch_db:base.ir_cron_view_tree
+msgid "Scheduled Actions"
+msgstr "计划任务"

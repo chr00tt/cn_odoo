@@ -1,0 +1,4 @@
+#. module: contacts
+#: model:ir.ui.menu,name:contacts.res_partner_industry_menu
+msgid "Sectors of Activity"
+msgstr "业务领域"

@@ -1,0 +1,10 @@
+#. module: base_automation
+#: model:ir.model,name:base_automation.model_base_automation
+msgid "Automated Action"
+msgstr "自动化动作"
+
+#. module: base_automation
+#: model:ir.actions.act_window,name:base_automation.base_automation_act
+#: model:ir.ui.menu,name:base_automation.menu_base_automation_form
+msgid "Automated Actions"
+msgstr "自动化动作"

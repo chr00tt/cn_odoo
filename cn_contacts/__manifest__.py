@@ -3,13 +3,10 @@
 
 
 {
-    'name': 'cn Base',
+    'name': 'cn Contacts Directory',
     'author': "He Jian",
-    'category': 'Hidden',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['base'],
-    'data': [
-        'data/cn_base_data.xml',
-    ],
-    'auto_install': True,
+    'category': 'Tools',
+    'depends': ['contacts'],
+    'auto_isntall': True,
 }
