@@ -8,12 +8,12 @@
     'category': 'Inventory/Inventory',
     'depends': ['stock'],
     'demo': [
+        'data/cn_stock_demo.xml',
         'data/stock_demo_pre.xml',
         'data/stock_demo.xml',
     ],
     'data': [
         'data/stock_data.xml',
-        'data/cn_stock_demo.xml',
     ],
     'installable': True,
     'auto_install': True,

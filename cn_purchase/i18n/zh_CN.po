@@ -1,4 +1,28 @@
 #. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__user_id
+msgid "Buyer"
+msgstr "采购员"
+
+#. module: purchase
+#: model:ir.model,name:purchase.model_res_company
+msgid "Companies"
+msgstr "机构"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__company_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_order__company_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_order_line__company_id
+#: model:ir.model.fields,field_description:purchase.field_purchase_report__company_id
+#: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
+msgid "Company"
+msgstr "机构"
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_res_config_settings__company_currency_id
+msgid "Company Currency"
+msgstr "机构币种"
+
+#. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__name
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_tree
@@ -6,3 +30,4 @@
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_filter
 msgid "Reference"
 msgstr "编号"
+
