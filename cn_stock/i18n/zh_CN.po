@@ -1,7 +1,22 @@
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_inventory
+msgid "<strong>Location</strong>"
+msgstr "<strong>库位</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_picking
+msgid "<strong>Lot/Serial Number</strong>"
+msgstr "<strong>批次/序列号</strong>"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_lot_on_delivery_slip
 msgid "Display Lots & Serial Numbers"
 msgstr "显示批次/序号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_production_lot__ref
+msgid "Internal Reference"
+msgstr "内部编号"
 
 #. module: stock
 #: selection:barcode.rule,type:0
@@ -45,6 +60,7 @@ msgstr "库存位置"
 msgid "Location Type"
 msgstr "库位类型"
 
+
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_location_form
 #: model:ir.ui.menu,name:stock.menu_action_location_form
@@ -82,7 +98,7 @@ msgstr "批次/序号 :"
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 msgid "Lot/Serial Number"
-msgstr "批次/序号"
+msgstr "批次/序列号"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_lot_label
@@ -108,6 +124,15 @@ msgstr "批次和序号"
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Lots &amp; Serial numbers will appear on the delivery slip"
 msgstr "批次和序号会出现在出库单"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_production_lot_form
+#: model:ir.ui.menu,name:stock.menu_action_production_lot_form
+#: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
+#: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form_simple
+#: model_terms:ir.ui.view,arch_db:stock.view_production_lot_tree
+msgid "Lots/Serial Numbers"
+msgstr "批次/序列号"
 
 #. module: stock
 #: model:ir.model,name:stock.model_product_product
