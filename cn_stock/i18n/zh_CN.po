@@ -76,28 +76,28 @@ msgstr "物品批次"
 #. module: stock
 #: view:stock.production.lot:stock.search_product_lot_filter
 msgid "Product Lots Filter"
-msgstr "产品批次筛选器"
+msgstr "物品批次筛选器"
 
 #. module: stock
 #: view:stock.return.picking.line:stock.stock_return_line_tree_in
 msgid "Product Moves"
-msgstr "产品移动"
+msgstr "物品移动"
 
 #. module: stock
 #: field:stock.inventory.line,product_name:0
 msgid "Product Name"
-msgstr "产品名称"
+msgstr "物品名称"
 
 #. module: stock
 #: model:ir.model,name:stock.model_product_template
 #: field:stock.move,product_tmpl_id:0
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "物品模板"
 
 #. module: stock
 #: field:stock.move,product_uos:0
 msgid "Product UOS"
-msgstr "产品销售单位"
+msgstr "物品销售单位"
 
 #. module: stock
 #: field:stock.inventory.line,product_uom_id:0
@@ -106,12 +106,12 @@ msgstr "产品销售单位"
 #: field:stock.transfer_details_items,product_uom_id:0
 #: field:stock.warehouse.orderpoint,product_uom:0
 msgid "Product Unit of Measure"
-msgstr "产品计量单位"
+msgstr "物品计量单位"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_product_variant_config_stock
 msgid "Product Variants"
-msgstr "产品变体"
+msgstr "物品变体"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.act_product_location_open
@@ -127,6 +127,19 @@ msgstr "产品变体"
 #: view:stock.production.lot:stock.view_production_lot_form
 msgid "Products"
 msgstr "物品"
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.quantsact
+#: model:ir.model,name:stock.model_stock_quant
+#: model:ir.ui.menu,name:stock.menu_quants
+#: field:stock.production.lot,quant_ids:0
+#: view:stock.quant:stock.quant_search_view
+#: view:stock.quant:stock.view_stock_quant_form
+#: view:stock.quant:stock.view_stock_quant_graph_value
+#: view:stock.quant:stock.view_stock_quant_tree
+#: view:stock.quant.package:stock.view_quant_package_form
+msgid "Quants"
+msgstr "数量"
 
 #. module: stock
 #: field:stock.picking,min_date:0 view:website:stock.report_picking
