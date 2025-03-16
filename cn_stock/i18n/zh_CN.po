@@ -93,6 +93,36 @@ msgid "Available Products"
 msgstr "可用的物品"
 
 #. module: stock
+#: model:ir.model,name:stock.model_res_company
+msgid "Companies"
+msgstr "机构"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_replenish__company_id
+#: model:ir.model.fields,field_description:stock.field_report_stock_quantity__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_line__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_location__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_location_route__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_level__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_production_lot__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_return_picking__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_rule__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse__company_id
+#: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__company_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+msgid "Company"
+msgstr "机构"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_assign_serial__next_serial_number
 #: model:ir.model.fields,field_description:stock.field_stock_move__next_serial
 msgid "First SN"
@@ -300,6 +330,23 @@ msgid "Products: "
 msgstr "物品："
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__propagate_date
+#: model:ir.model.fields,field_description:stock.field_stock_rule__propagate_date
+msgid "Propagate Rescheduling"
+msgstr "传播重新安排"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__propagate_date_minimum_delta
+#: model:ir.model.fields,field_description:stock.field_stock_rule__propagate_date_minimum_delta
+msgid "Reschedule if Higher Than"
+msgstr "重新安排，如果大于"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_rule__propagate_warehouse_id
+msgid "Warehouse to Propagate"
+msgstr "传播的仓库"
+
+#. module: stock
 #: code:addons/stock/models/product.py:0
 #, python-format
 msgid ""
@@ -313,4 +360,10 @@ msgstr "库存中有的产品没有批次/序号。可通过库存调整来分�
 #, python-format
 msgid "You need to supply a Lot/Serial number for product %s."
 msgstr "需要为物品 %s 提供批次/序号。"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
+#: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
+msgid "days"
+msgstr "天"
 
