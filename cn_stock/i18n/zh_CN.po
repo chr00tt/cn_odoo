@@ -93,7 +93,7 @@ msgstr "增加新库位"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__owner_id
 msgid "Assign Owner"
-msgstr "指定货主"
+msgstr "货主"
 
 #. module: stock
 #: model:ir.model,name:stock.model_res_company

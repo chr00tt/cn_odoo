@@ -8,5 +8,5 @@
     "category": "Purchase Management",
     "depends": ["purchase_order_type"],
     'website': 'https://github.com/chr00tt/cn_odoo',
-    "auto_install": False,
+    "auto_install": True,
 }
