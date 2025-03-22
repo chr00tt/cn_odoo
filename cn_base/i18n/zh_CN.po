@@ -101,3 +101,8 @@ msgstr "机构标语"
 msgid "Company Type"
 msgstr "机构类型"
 
+#. module: base
+#: model:ir.ui.menu,name:base.menu_users
+msgid "Users & Companies"
+msgstr "用户和机构"
+
