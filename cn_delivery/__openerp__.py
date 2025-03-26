@@ -4,7 +4,7 @@
 
 {
     'name': 'cn Delivery Costs',
-    'author': "He Jian",
+    'author': 'He Jian',
     'category': 'Stock',
     'website': 'https://github.com/chr00tt/cn_odoo',
     'depends': ['delivery'],

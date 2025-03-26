@@ -1,0 +1,4 @@
+#. module: mail
+#: model:ir.model.fields,field_description:mail.field_mail_message_subtype_internal
+msgid "Internal Only"
+msgstr "仅内部"
