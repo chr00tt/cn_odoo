@@ -534,6 +534,20 @@ msgid ""
 msgstr "使用这个助手进行补货。根据物品的配置，启动补货可能会触发一个询价单、制造订单或调拨。"
 
 #. module: stock
+#: model:ir.actions.server,name:stock.action_validate_picking
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_form_view
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+msgid "Validate"
+msgstr "确认"
+
+#. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/xml/inventory_lines.xml:0
+#, python-format
+msgid "Validate Inventory"
+msgstr "确认库存"
+
+#. module: stock
 #. odoo-javascript
 #: code:addons/stock/static/src/widgets/json_widget.xml:0
 #, python-format

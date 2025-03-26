@@ -6,5 +6,6 @@
     'category': 'Inventory/Purchase',
     'description': '',
     'depends': ['purchase_requisition'],
+    'auto_intall': True,
     'license': 'LGPL-3',
 }
