@@ -1,0 +1,74 @@
+#. module: purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
+msgid "<strong>Analytic Distribution</strong>"
+msgstr "<strong>分析分配</strong>"
+
+#. module: purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
+msgid ""
+"<strong>Requested by:</strong>\n"
+"                                <br/>"
+msgstr ""
+"<strong>申请人:</strong>\n"
+"                                <br/>"
+
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__analytic_distribution
+#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+msgid "Analytic Distribution"
+msgstr "分析分配"
+
+#. module: purchase_request
+#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
+#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
+msgid "In Progress"
+msgstr "进行中"
+
+#. module: purchase_request
+#: model:ir.model.fields.selection,name:purchase_request.selection__purchase_request__state__in_progress
+msgid "In progress"
+msgstr "进行中"
+
+#. module: purchase_request
+#. odoo-python
+#: code:addons/purchase_request/models/purchase_request.py:0
+#, python-format
+msgid "New"
+msgstr "新的"
+
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__purchased_qty
+msgid "RFQ/PO Qty"
+msgstr "订单数量"
+
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request__requested_by
+msgid "Requested By"
+msgstr "申请人"
+
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__requested_by
+#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
+msgid "Requested by"
+msgstr "申请人"
+
+#. module: purchase_request
+#. odoo-python
+#: code:addons/purchase_request/models/stock_move_line.py:0
+#, python-format
+msgid ""
+"The following requested items from Purchase Request %(request_name)s "
+"requested by %(requestor)s have now been received in %(location_name)s:"
+msgstr "采购申请 %(request_name)s 中由 %(requestor)s 申请的以下项目现已在 %(location_name)s 收到:"
+
+#. module: purchase_request
+#. odoo-python
+#: code:addons/purchase_request/models/purchase_order.py:0
+#, python-format
+msgid ""
+"The following requested services from Purchase Request %(request_name)s "
+"requested by %(requestor)s have now been received:"
+msgstr "采购申请 %(request_name)s 中由 %(requestor)s 申请的以下服务现已收到:"
+
