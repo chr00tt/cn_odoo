@@ -102,6 +102,28 @@ msgid "Company Type"
 msgstr "机构类型"
 
 #. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_server__usage__ir_cron
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
+msgid "Scheduled Action"
+msgstr "计划任务"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_cron_act
+#: model:ir.model,name:base.model_ir_cron
+#: model:ir.ui.menu,name:base.menu_ir_cron_act
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_calendar
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_tree
+msgid "Scheduled Actions"
+msgstr "计划任务"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_cron_trigger_action
+#: model:ir.ui.menu,name:base.ir_cron_trigger_menu
+msgid "Scheduled Actions Triggers"
+msgstr "计划任务触发器"
+
+#. module: base
 #: model:ir.ui.menu,name:base.menu_users
 msgid "Users & Companies"
 msgstr "用户和机构"
