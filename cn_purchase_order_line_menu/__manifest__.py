@@ -6,5 +6,5 @@
     'license': 'LGPL-3',
     "depends": ["purchase_order_line_menu"],
     "category": "Inventory/Purchase",
-    "auto_isntall": True,
+    "auto_install": True,
 }

@@ -1,0 +1,17 @@
+#. module: product_manufacturer
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_pref
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_pref
+msgid "Manufacturer Product Code"
+msgstr "生产厂家产品编码"
+
+#. module: product_manufacturer
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_pname
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_pname
+msgid "Manufacturer Product Name"
+msgstr "生产厂家产品名称"
+
+#. module: product_manufacturer
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_product__manufacturer_purl
+#: model:ir.model.fields,field_description:product_manufacturer.field_product_template__manufacturer_purl
+msgid "Manufacturer Product URL"
+msgstr "生产厂家产品 URL"
