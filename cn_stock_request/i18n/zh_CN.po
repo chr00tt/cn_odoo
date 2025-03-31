@@ -5,6 +5,22 @@ msgid "Current requests"
 msgstr "库存申请"
 
 #. module: stock_request
+#: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__open
+msgid "In progress"
+msgstr "进行中"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
+msgid "Items"
+msgstr "项目"
+
+#. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__requested_by
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__requested_by
+msgid "Requested By"
+msgstr "申请人"
+
+#. module: stock_request
 #: model:ir.model,name:stock_request.model_stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_allocation__stock_request_id
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_order__stock_request_ids
@@ -30,6 +46,11 @@ msgstr "库存申请  #"
 #: model_terms:ir.ui.view,arch_db:stock_request.view_picking_form
 msgid "Stock Requests"
 msgstr "库存申请"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_form
+msgid "Stock request Order"
+msgstr "库存申请单"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_order__stock_request_count
