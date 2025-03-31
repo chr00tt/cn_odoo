@@ -121,3 +121,8 @@ msgid ""
 "requested by %(requestor)s have now been received:"
 msgstr "采购申请 %(request_name)s 中由 %(requestor)s 申请的以下服务现已收到:"
 
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request__estimated_cost
+msgid "Total Estimated Cost"
+msgstr "总预估成本"
+
