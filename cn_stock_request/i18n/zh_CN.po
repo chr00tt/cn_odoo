@@ -56,3 +56,16 @@ msgstr "库存申请单"
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_order__stock_request_count
 msgid "Stock requests"
 msgstr "库存申请"
+
+#. module: stock_request
+#: model:ir.model.fields,help:stock_request.field_stock_request_order__route_id
+msgid "The route related to a stock request order"
+msgstr "与库存申请相关的路线"
+
+#. module: stock_request
+#. odoo-python
+#: code:addons/stock_request/models/stock_request_order.py:0
+#, python-format
+msgid "There should be at least one request item for confirming the order."
+msgstr "确认订单时至少应有一个申请项目。"
+
