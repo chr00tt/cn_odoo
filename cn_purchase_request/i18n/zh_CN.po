@@ -126,3 +126,10 @@ msgstr "采购申请 %(request_name)s 中由 %(requestor)s 申请的以下服务
 msgid "Total Estimated Cost"
 msgstr "总预估成本"
 
+#. module: purchase_request
+#: model:ir.model.fields,help:purchase_request.field_purchase_request_line_make_purchase_order__sync_data_planned
+msgid ""
+"When checked, PO lines on the selected purchase order are only reused if the "
+"scheduled date matches as well."
+msgstr "如果勾选了此选项，则只有当计划日期也匹配时，才会重用所选采购订单上的采购订单行。"
+
