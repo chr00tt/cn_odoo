@@ -151,9 +151,15 @@ msgid "Company"
 msgstr "机构"
 
 #. module: stock
+#: model:ir.actions.report,name:stock.action_report_delivery
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
+msgid "Delivery Slip"
+msgstr "交货单"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant__sn_duplicated
 msgid "Duplicated Serial Number"
-msgstr "重复的序号"
+msgstr "重复的序列号"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__ref

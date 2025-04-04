@@ -8,8 +8,9 @@
     'depends': ['stock'],
     'category': 'Inventory/Inventory',
     'demo': [
-        'data/stock_demo.xml',
         'data/cn_stock_demo.xml',
+        'data/stock_demo_pre.xml',
+        'data/stock_demo.xml',
     ],
     'data': [
         'data/stock_data.xml',

@@ -1,0 +1,13 @@
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/main_menu.xml:0
+#, python-format
+msgid "location"
+msgstr "库位"
+
+#. module: stock_barcode
+#. odoo-javascript
+#: code:addons/stock_barcode/static/src/main_menu.xml:0
+#, python-format
+msgid "operation type"
+msgstr "作业类型"

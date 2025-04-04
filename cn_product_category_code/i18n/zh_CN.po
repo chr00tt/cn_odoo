@@ -1,0 +1,5 @@
+#. module: product_category_code
+#: model:ir.model.fields,field_description:product_category_code.field_product_category__code
+msgid "Code"
+msgstr "编码"
+
