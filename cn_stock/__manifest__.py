@@ -10,6 +10,7 @@
     'category': 'Operations/Inventory',
     'demo': [
         'data/cn_stock_demo.xml',
+        'data/stock_demo.xml',
     ],
     'data': [
         'data/stock_data.xml',
