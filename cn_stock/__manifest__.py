@@ -11,6 +11,7 @@
         'data/cn_stock_demo.xml',
         'data/stock_demo_pre.xml',
         'data/stock_demo.xml',
+        'data/stock_storage_category_demo.xml',
     ],
     'data': [
         'data/stock_data.xml',
