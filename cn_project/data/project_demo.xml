@@ -4,5 +4,22 @@
         <record id="project.project_project_2" model="project.project">
             <field name="name">新产品研发</field>
         </record>
+
+        <record id="project.project_task_8" model="project.task">
+            <field name="name">全新门户系统</field>
+        </record>
+        <record id="project.project_task_9" model="project.task">
+            <field name="name">文档历史管理</field>
+        </record>
+        <record id="project.project_task_10" model="project.task">
+            <field name="name">社交网络集成</field>
+        </record>
+        <record id="project.project_task_11" model="project.task">
+            <field name="name">用户界面优化</field>
+        </record>
+        <record id="project.project_task_12" model="project.task">
+            <field name="name">改进并优化代码与功能</field>
+        </record>
+
     </data>
 </odoo>
