@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record model="mail.channel" id="mail.channel_all_employees">
+            <field name="description">面向全体员工的通用通知。</field>
+        </record>
+
+    </data>
+</odoo>
