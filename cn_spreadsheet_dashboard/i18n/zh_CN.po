@@ -1,0 +1,4 @@
+#. module: spreadsheet_dashboard
+#: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__company_id
+msgid "Company"
+msgstr "机构"

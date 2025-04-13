@@ -510,6 +510,29 @@ msgid "Products: %(location)s"
 msgstr "物品: %(location)s"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_adjustment_name__quant_ids
+#: model:ir.model.fields,field_description:stock.field_stock_inventory_warning__quant_ids
+#: model:ir.model.fields,field_description:stock.field_stock_location__quant_ids
+#: model:ir.model.fields,field_description:stock.field_stock_quant_relocate__quant_ids
+#: model:ir.model.fields,field_description:stock.field_stock_request_count__quant_ids
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty__quant_ids
+#: model:ir.model.fields,field_description:stock.field_stock_warn_insufficient_qty_scrap__quant_ids
+msgid "Quant"
+msgstr "库存数量"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_quant.py:0
+msgid "Quant's creation is restricted, you can't do this operation."
+msgstr "库存数量的创建被限制，不能执行此操作。"
+
+#. module: stock
+#. odoo-python
+#: code:addons/stock/models/stock_quant.py:0
+msgid "Quant's editing is restricted, you can't do this operation."
+msgstr "库存数量的编辑被限制，无法执行此操作。"
+
+#. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #: model:ir.actions.act_window,name:stock.action_picking_tree_incoming
