@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
-
 {
-    'name': 'cn Purchase',
+    'name': "cn Spreadsheet",
     'author': 'He Jian',
-    'category': 'Inventory/Purchase',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['purchase'],
+    'category': 'Hidden',
+    'depends': ['spreadsheet'],
     'auto_install': True,
     'license': 'LGPL-3',
 }

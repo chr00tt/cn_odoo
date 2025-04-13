@@ -1,0 +1,5 @@
+#. module: spreadsheet_edition
+#. odoo-javascript
+#: code:addons/spreadsheet_edition/static/src/bundle/pivot/side_panels/pivot_details_side_panel.js:0
+msgid "This pivot is not used"
+msgstr "此透视表未被使用"
