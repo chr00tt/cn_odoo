@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 {
     "name": "cn Purchase Order Line Menu",
     'author': 'He Jian',
