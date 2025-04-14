@@ -1,0 +1,46 @@
+#. module: base_import_async
+#. odoo-python
+#: code:addons/base_import_async/models/base_import_import.py:0
+#, python-format
+msgid ""
+"Import %(model)s from file %(file_name)s - #%(chunk)s - lines %(from)s to "
+"%(to)s"
+msgstr "从文件 %(file_name)s 导入 %(model)s - #%(chunk)s - %(from)s 到 %(to)s 行"
+
+#. module: base_import_async
+#. odoo-python
+#: code:addons/base_import_async/models/base_import_import.py:0
+#, python-format
+msgid "Import %(model)s from file %(from_file)s"
+msgstr "从文件 %(from_file)s 导入 %(model)s"
+
+#. module: base_import_async
+#. odoo-javascript
+#: code:addons/base_import_async/static/src/xml/import_data_sidepanel.xml:0
+#, python-format
+msgid "Import in the background"
+msgstr "后台导入"
+
+#. module: base_import_async
+#. odoo-javascript
+#: code:addons/base_import_async/static/src/xml/import_data_sidepanel.xml:0
+#, python-format
+msgid ""
+"When checked, the import will be executed as a background job, after "
+"splitting your file in small chunks that will be processed independently. "
+"Use this to import very large files."
+msgstr "勾选后，导入将作为后台任务执行，在将文件拆分成多个小块后独立处理每个部分。可用于导入非常大的文件。"
+
+#. module: base_import_async
+#. odoo-javascript
+#: code:addons/base_import_async/static/src/js/import_model.esm.js:0
+#, python-format
+msgid "You can check the status of this job in menu 'Queue / Jobs'."
+msgstr "您可以在菜单“队列/任务”中查看此任务的状态。"
+
+#. module: base_import_async
+#. odoo-javascript
+#: code:addons/base_import_async/static/src/js/import_model.esm.js:0
+#, python-format
+msgid "Your request is being processed"
+msgstr "请求正在处理中"
