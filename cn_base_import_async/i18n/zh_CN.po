@@ -1,0 +1,46 @@
+#. module: base_import_async
+#: code:addons/base_import_async/models/base_import_async.py:120
+#, python-format
+msgid "Attachment"
+msgstr ""
+
+#. module: base_import_async
+#: code:addons/base_import_async/models/base_import_async.py:222
+#, python-format
+msgid "Import %s from file %s"
+msgstr ""
+
+#. module: base_import_async
+#: code:addons/base_import_async/models/base_import_async.py:169
+#, python-format
+msgid "Import %s from file %s - #%s - lines %s to %s"
+msgstr ""
+
+#. module: base_import_async
+#. openerp-web
+#: code:addons/base_import_async/static/src/xml/import.xml:9
+#, python-format
+msgid "Import in the background"
+msgstr "在后台导入"
+
+#. module: base_import_async
+#. openerp-web
+#: code:addons/base_import_async/static/src/xml/import.xml:6
+#, python-format
+msgid "When checked, the import will be executed as a background job,  after splitting your file in small chunks that will be processed independently.  Use this to import very large files."
+msgstr "当勾选此选项时，导入操作将作为后台任务执行，在此过程中，文件将被拆分成多个小块，这些小块将独立处理。可使用此功能来导入非常大的文件。"
+
+#. module: base_import_async
+#. openerp-web
+#: code:addons/base_import_async/static/src/js/import.js:17
+#, python-format
+msgid "You can check the status of this job in menu 'Connector / Jobs'."
+msgstr "可在菜单“连接器/任务”中查看此任务的状态。"
+
+#. module: base_import_async
+#. openerp-web
+#: code:addons/base_import_async/static/src/js/import.js:17
+#, python-format
+msgid "Your request is being processed"
+msgstr ""
+
