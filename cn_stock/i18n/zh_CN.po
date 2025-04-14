@@ -63,6 +63,11 @@ msgid "Locations"
 msgstr "库位"
 
 #. module: stock
+#: selection:product.template,tracking:0
+msgid "No Tracking"
+msgstr "不追溯"
+
+#. module: stock
 #: model:ir.model,name:stock.model_product_product
 #: model:ir.model.fields,field_description:stock.field_make_procurement_product_id
 #: model:ir.model.fields,field_description:stock.field_report_stock_forecast_product_id
@@ -175,7 +180,18 @@ msgstr "序号名称"
 #: model:ir.actions.act_window,name:stock.action_production_lot_form
 #: model:ir.ui.menu,name:stock.menu_action_production_lot_form
 msgid "Serial Numbers / Lots"
-msgstr "序号/批次"
+msgstr "序列号/批次"
+
+#. module: stock
+#: selection:stock.config.settings,group_stock_production_lot:0
+msgid "Track lots or serial numbers"
+msgstr "追溯批次或序列号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_product_tracking
+#: model:ir.model.fields,field_description:stock.field_product_template_tracking
+msgid "Tracking"
+msgstr "追溯"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
