@@ -102,6 +102,28 @@ msgid "Company Type"
 msgstr "机构类型"
 
 #. module: base
+#: model:ir.actions.act_window,name:base.res_partner_industry_action
+msgid "Industries"
+msgstr "行业"
+
+#. module: base
+#: model:ir.model,name:base.model_res_partner_industry
+#: model:ir.model.fields,field_description:base.field_res_partner__industry_id
+#: model:ir.model.fields,field_description:base.field_res_users__industry_id
+#: model_terms:ir.ui.view,arch_db:base.res_partner_industry_view_form
+#: model_terms:ir.ui.view,arch_db:base.res_partner_industry_view_tree
+msgid "Industry"
+msgstr "行业"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_model_data__reference
+#: model:ir.model.fields,field_description:base.field_res_partner__ref
+#: model:ir.model.fields,field_description:base.field_res_users__ref
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid "Reference"
+msgstr "编号"
+
+#. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_actions_server__usage__ir_cron
 #: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
 msgid "Scheduled Action"
