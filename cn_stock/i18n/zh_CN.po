@@ -68,6 +68,11 @@ msgid "No Tracking"
 msgstr "不追溯"
 
 #. module: stock
+#: model:ir.ui.view,arch_db:stock.view_stock_level_forecast_filter
+msgid "Pivot"
+msgstr "透视表"
+
+#. module: stock
 #: model:ir.model,name:stock.model_product_product
 #: model:ir.model.fields,field_description:stock.field_make_procurement_product_id
 #: model:ir.model.fields,field_description:stock.field_report_stock_forecast_product_id
