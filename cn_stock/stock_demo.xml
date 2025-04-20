@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+
+        <record id="stock.res_partner_company_1" model="res.partner">
+            <field name="name">xx公司,重庆</field>
+        </record>
+
+        <record id="stock.res_company_1" model="res.company">
+            <field name="name">xx公司,重庆</field>
+        </record>
+
+        <record id="stock.stock_warehouse_shop0" model="stock.warehouse">
+            <field name="name">重庆仓库</field>
+        </record>
+
+    </data>
+</openerp>
