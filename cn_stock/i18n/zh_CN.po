@@ -167,6 +167,16 @@ msgid "Duplicated Serial Number"
 msgstr "重复的序列号"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_product__free_qty
+msgid "Free To Use Quantity "
+msgstr "可用数量"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.product_product_stock_tree
+msgid "Free to Use"
+msgstr "可用"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__ref
 msgid "Internal Reference"
 msgstr "内部编号"
