@@ -15,6 +15,15 @@ msgid "Items"
 msgstr "项目"
 
 #. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_abstract__location_id
+#: model:ir.model.fields,field_description:stock_request.field_stock_request_order__location_id
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Location"
+msgstr "库位"
+
+#. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__requested_by
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_order__requested_by
 msgid "Requested By"

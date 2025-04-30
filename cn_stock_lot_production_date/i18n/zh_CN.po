@@ -1,0 +1,16 @@
+#. module: stock_lot_production_date
+#: model:ir.model,name:stock_lot_production_date.model_stock_lot
+msgid "Lot/Serial"
+msgstr "批次/序列号"
+
+#. module: stock_lot_production_date
+#: model:ir.model.fields,field_description:stock_lot_production_date.field_stock_lot__production_date
+msgid "Production Date"
+msgstr "生产日起"
+
+#. module: stock_lot_production_date
+#: model:ir.model.fields,help:stock_lot_production_date.field_stock_lot__production_date
+msgid ""
+"This is the date when the goods with this lot/serial number have been "
+"produced."
+msgstr "这是此批次/序列号的商品的生产日期。"
