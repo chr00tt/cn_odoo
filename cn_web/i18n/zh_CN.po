@@ -44,3 +44,10 @@ msgstr "您确定要禁用此列中的所有记录吗？"
 msgid "Are you sure that you want to archive all the selected records?"
 msgstr "您确定要禁用所有选定的记录吗？"
 
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:240
+#, python-format
+msgid "Run Click Everywhere Test"
+msgstr "执行 Click Everywhere 测试"
+
