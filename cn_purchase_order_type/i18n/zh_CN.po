@@ -1,0 +1,40 @@
+#. module: purchase_order_type
+#: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__description
+msgid "Description"
+msgstr "描述"
+
+#. module: purchase_order_type
+#: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__sequence_id
+#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
+msgid "Entry Sequence"
+msgstr "序列"
+
+#. module: purchase_order_type
+#: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__incoterm_id
+#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
+msgid "Incoterm"
+msgstr "国际贸易术语"
+
+#. module: purchase_order_type
+#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
+msgid "Payment Term"
+msgstr "付款条款"
+
+#. module: purchase_order_type
+#: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__payment_term_id
+msgid "Payment Terms"
+msgstr "付款条款"
+
+#. module: purchase_order_type
+#: model:ir.model.fields,field_description:purchase_order_type.field_res_partner__purchase_type
+#: model:ir.model.fields,field_description:purchase_order_type.field_res_users__purchase_type
+#: model_terms:ir.ui.view,arch_db:purchase_order_type.res_partner_purchase_type_form_view
+msgid "Purchase Order Type"
+msgstr "采购订单类型"
+
+#. module: purchase_order_type
+#: model:ir.actions.act_window,name:purchase_order_type.action_purchase_order_type_view
+#: model:ir.ui.menu,name:purchase_order_type.menu_purchase_order_type
+#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
+msgid "Purchase Order Types"
+msgstr "采购订单类型"
