@@ -6,5 +6,5 @@
     'author': 'He Jian',
     'license': 'LGPL-3',
     "auto_install": True,
-    "depends": ["base_tire_validation"],
+    "depends": ["base_tier_validation"],
 }
