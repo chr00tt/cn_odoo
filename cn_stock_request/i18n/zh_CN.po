@@ -24,6 +24,11 @@ msgid "Location"
 msgstr "库位"
 
 #. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__qty_cancelled
+msgid "Qty Cancelled"
+msgstr "取消数量"
+
+#. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__requested_by
 #: model:ir.model.fields,field_description:stock_request.field_stock_request_order__requested_by
 msgid "Requested By"
