@@ -119,3 +119,37 @@ msgstr "待办人"
 msgid "Validate"
 msgstr "批准"
 
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+#, python-format
+msgid ""
+"You are not allowed to write those fields after validation.\n"
+"- %(not_allowed_fields)s\n"
+"\n"
+"Only those fields can be modified:\n"
+"- %(allowed_fields)s"
+msgstr ""
+"批准后，不允许修改这些字段：\n"
+"- %(not_allowed_fields)s\n"
+"\n"
+"只有这些字段可被修改：\n"
+"- %(allowed_fields)s"
+
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+#, python-format
+msgid ""
+"You are not allowed to write those fields under validation.\n"
+"- %(not_allowed_fields)s\n"
+"\n"
+"Only those fields can be modified:\n"
+"- %(allowed_fields)s"
+msgstr ""
+"处于审批过程中时，不允许修改这些字段：\n"
+"- %(not_allowed_fields)s\n"
+"\n"
+"只有这些字段可被修改：\n"
+"- %(allowed_fields)s"
+
