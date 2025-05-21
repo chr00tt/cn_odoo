@@ -8,6 +8,11 @@ msgid "Branches"
 msgstr "下级机构"
 
 #. module: base
+#: model:ir.model.fields,field_description:base.field_ir_cron_trigger__call_at
+msgid "Call At"
+msgstr "调用时间"
+
+#. module: base
 #: model:ir.actions.act_window,name:base.action_res_company_form
 #: model:ir.model,name:base.model_res_company
 #: model:ir.model.fields,field_description:base.field_res_users__company_ids
@@ -144,6 +149,15 @@ msgstr "计划任务"
 #: model:ir.ui.menu,name:base.ir_cron_trigger_menu
 msgid "Scheduled Actions Triggers"
 msgstr "计划任务触发器"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_sequence_form
+#: model:ir.ui.menu,name:base.menu_ir_sequence_form
+#: model_terms:ir.ui.view,arch_db:base.sequence_view
+#: model_terms:ir.ui.view,arch_db:base.sequence_view_tree
+#: model_terms:ir.ui.view,arch_db:base.view_sequence_search
+msgid "Sequences"
+msgstr "序列"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_users

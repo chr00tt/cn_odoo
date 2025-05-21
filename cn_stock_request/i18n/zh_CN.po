@@ -5,6 +5,12 @@ msgid "Current requests"
 msgstr "库存申请"
 
 #. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
+msgid "Finished"
+msgstr "已完成"
+
+#. module: stock_request
 #: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__open
 msgid "In progress"
 msgstr "进行中"
