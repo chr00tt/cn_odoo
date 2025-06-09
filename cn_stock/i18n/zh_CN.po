@@ -195,6 +195,14 @@ msgid ""
 msgstr "内部调拨可将物品从一个库位调拨到另一个库位。"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__is_inventory
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__is_inventory
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+msgid "Inventory"
+msgstr "盘点"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__location_id
 #: model:ir.model.fields,field_description:stock.field_product_template__location_id
 #: model:ir.model.fields,field_description:stock.field_stock_lot__location_id
