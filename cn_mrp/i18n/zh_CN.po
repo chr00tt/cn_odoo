@@ -45,3 +45,24 @@ msgstr "收货"
 #, python-format
 msgid "Receipts"
 msgstr "收货"
+
+#. module: mrp
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom__code
+#: model:ir.model.fields,field_description:mrp.field_mrp_production__name
+#: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__name
+msgid "Reference"
+msgstr "编号"
+
+#. module: mrp
+#: model:ir.model.constraint,message:mrp.constraint_mrp_production_name_uniq
+msgid "Reference must be unique per Company!"
+msgstr "机构的编号必须唯一！"
+
+#. module: mrp
+#. odoo-javascript
+#: code:addons/mrp/static/src/components/bom_overview_table/mrp_bom_overview_table.xml:0
+#: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
+#, python-format
+msgid "Reference:"
+msgstr "编号："
+
