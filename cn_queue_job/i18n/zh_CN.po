@@ -1,0 +1,25 @@
+#. module: queue_job
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Created date"
+msgstr "创建日期"
+
+#. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__graph_uuid
+msgid "Graph UUID"
+msgstr "任务 UUID"
+
+#. module: queue_job
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Last 24 hours"
+msgstr "最近24小时"
+
+#. module: queue_job
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Last 30 days"
+msgstr "最近30天"
+
+#. module: queue_job
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Last 7 days"
+msgstr "最近7天"
+
