@@ -9,35 +9,14 @@ Chinese Odoo (中国 Odoo)
 overwrite_existing_translations = True
 ```
 
-另外需要修改 odoo/tools/translate.py 文件的 get_po_paths 函数，添加这段代码：
+另外需要修改 odoo/tools/translate.py 文件的 get_po_paths_env 函数：
 ```
-    po_paths += [
-        join('cn_' + module_name, dir_, filename + '.po')
-        for filename in po_names
-        for dir_ in ('i18n', 'i18n_extra')
-    ]
-```
-
-最终的 get_po_paths 函数为：
-```
-def get_po_paths_env(module_name: str, lang: str, env: odoo.api.Environment | None = None):
-    lang_base = lang.split('_')[0]
-    # Load the base as a fallback in case a translation is missing:
-    po_names = [lang_base, lang]
-    # Exception for Spanish locales: they have two bases, es and es_419:
-    if lang_base == 'es' and lang not in ('es_ES', 'es_419'):
-        po_names.insert(1, 'es_419')
-    po_paths = [
-        join(module_name, dir_, filename + '.po')
-        for filename in po_names
-        for dir_ in ('i18n', 'i18n_extra')
-    ]
-    po_paths += [
-        join('cn_' + module_name, dir_, filename + '.po')
-        for filename in po_names
-        for dir_ in ('i18n', 'i18n_extra')
-    ]
-    for path in po_paths:
-        with suppress(FileNotFoundError):
-            yield file_path(path, env=env)
+@@ -1642,6 +1642,7 @@ def get_po_paths_env(module_name: str, lang: str, env: odoo.api.Environment | No
+         po_names.insert(1, 'es_419')
+     po_paths = (
+         join(module_name, dir_, filename + '.po')
++        for module_name in (module_name, 'cn_' + module_name)
+         for filename in po_names
+         for dir_ in ('i18n', 'i18n_extra')
+     )
 ```
