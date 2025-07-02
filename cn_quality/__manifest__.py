@@ -9,5 +9,6 @@
     'data': [
         'data/quality_data.xml',
     ],
+    'auto_install': True,
     'license': 'LGPL-3',
 }
