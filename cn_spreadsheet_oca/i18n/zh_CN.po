@@ -1,0 +1,119 @@
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/list_controller.xml:0
+#, python-format
+msgid "Add to spreadesheet"
+msgstr "添加到电子表格"
+
+#. module: spreadsheet_oca
+#. odoo-javascript
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/graph_controller.xml:0
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/graph_controller.xml:0
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/list_controller.xml:0
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/pivot_controller.esm.js:0
+#: code:addons/spreadsheet_oca/static/src/spreadsheet/pivot_controller.xml:0
+#: model:spreadsheet.spreadsheet.import.mode,name:spreadsheet_oca.spreadsheet_import_mode_add
+#, python-format
+msgid "Add to spreadsheet"
+msgstr "添加到电子表格"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__company_id
+msgid "Company"
+msgstr "机构"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__contributor_ids
+msgid "Contributors"
+msgstr "协作者"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__contributor_group_ids
+msgid "Contributors Groups"
+msgstr "协作组"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_oca_revision__create_uid
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_select_row_number__create_uid
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__create_uid
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import__create_uid
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import_mode__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_oca_revision__create_date
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_select_row_number__create_date
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__create_date
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import__create_date
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import_mode__create_date
+msgid "Created on"
+msgstr "创建日期"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_oca_revision__write_uid
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_select_row_number__write_uid
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__write_uid
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import__write_uid
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import_mode__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_oca_revision__write_date
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_select_row_number__write_date
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__write_date
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import__write_date
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import_mode__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_abstract__name
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__name
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import__name
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import_mode__name
+#: model_terms:ir.ui.view,arch_db:spreadsheet_oca.spreadsheet_spreadsheet_form_view
+msgid "Name"
+msgstr "名称"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__owner_id
+msgid "Owner"
+msgstr "所有者"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__reader_ids
+msgid "Readers"
+msgstr "阅读者"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__reader_group_ids
+msgid "Readers Groups"
+msgstr "阅读组"
+
+#. module: spreadsheet_oca
+#: model:ir.model,name:spreadsheet_oca.model_spreadsheet_spreadsheet
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet_import__spreadsheet_id
+#: model:ir.module.category,name:spreadsheet_oca.module_category_spreedsheet
+msgid "Spreadsheet"
+msgstr "电子表格"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_abstract__spreadsheet_revision_ids
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__spreadsheet_revision_ids
+msgid "Spreadsheet Revision"
+msgstr "电子表格版本"
+
+#. module: spreadsheet_oca
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_abstract__spreadsheet_binary_data
+#: model:ir.model.fields,field_description:spreadsheet_oca.field_spreadsheet_spreadsheet__spreadsheet_binary_data
+msgid "Spreadsheet file"
+msgstr "电子表格文件"
+
+#. module: spreadsheet_oca
+#: model:ir.actions.act_window,name:spreadsheet_oca.spreadsheet_spreadsheet_act_window
+#: model:ir.ui.menu,name:spreadsheet_oca.spreadsheet_spreadsheet_menu
+msgid "Spreadsheets"
+msgstr "电子表格"
+

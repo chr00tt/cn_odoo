@@ -195,6 +195,14 @@ msgid ""
 msgstr "内部调拨可将物品从一个库位调拨到另一个库位。"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_move__is_inventory
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__is_inventory
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+msgid "Inventory"
+msgstr "盘点"
+
+#. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__location_id
 #: model:ir.model.fields,field_description:stock.field_product_template__location_id
 #: model:ir.model.fields,field_description:stock.field_stock_lot__location_id
@@ -258,20 +266,6 @@ msgid "Lot/SN:"
 msgstr "批次/序号"
 
 #. module: stock
-#: model:ir.model,name:stock.model_stock_lot
-#: model:ir.model.fields,field_description:stock.field_stock_scrap__lot_id
-msgid "Lot/Serial"
-msgstr "批次/序号"
-
-#. module: stock
-#. odoo-javascript
-#: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
-#: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
-#, python-format
-msgid "Lot/Serial #"
-msgstr "批次/序号 #"
-
-#. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_lot__name
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__lot_id
 #: model:ir.model.fields,field_description:stock.field_stock_picking__lot_id
@@ -298,19 +292,19 @@ msgstr "批次/序号 (ZPL)"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__lot_name
 msgid "Lot/Serial Number Name"
-msgstr "批次/序号名称"
+msgstr "批次/序列号名称"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_lot.py:0
 #, python-format
 msgid "Lot/Serial Number Relocated"
-msgstr "批次/序号已重新分配"
+msgstr "批次/序列号已重新分配"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_body
 msgid "Lot/Serial:"
-msgstr "批次/序号:"
+msgstr "批次/序列号:"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_production_lot
@@ -435,6 +429,45 @@ msgstr "物品将会首先为最高优先级的调拨预留。"
 #, python-format
 msgid "Products: %(location)s"
 msgstr "产品: %(location)s"
+
+#. module: stock
+#. odoo-javascript
+#: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
+#: model:ir.model.fields,field_description:stock.field_procurement_group__name
+#: model:ir.model.fields,field_description:stock.field_stock_move__reference
+#: model:ir.model.fields,field_description:stock.field_stock_move_line__reference
+#: model:ir.model.fields,field_description:stock.field_stock_picking__name
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__name
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.stock_scrap_search_view
+#: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
+#: model_terms:ir.ui.view,arch_db:stock.view_move_line_tree
+#: model_terms:ir.ui.view,arch_db:stock.view_move_search
+#: model_terms:ir.ui.view,arch_db:stock.view_move_tree_receipt_picking
+#, python-format
+msgid "Reference"
+msgstr "编号"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_picking_type__sequence_id
+msgid "Reference Sequence"
+msgstr "编号序列"
+
+#. module: stock
+#: model:ir.model.constraint,message:stock.constraint_stock_picking_name_uniq
+msgid "Reference must be unique per company!"
+msgstr "每个机构的编号必须是唯一！"
+
+#. module: stock
+#: model:ir.model.fields,help:stock.field_stock_picking__origin
+msgid "Reference of the document"
+msgstr "文档的编号"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_stock_body_print
+msgid "Reference:"
+msgstr "编号："
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_assign_serial

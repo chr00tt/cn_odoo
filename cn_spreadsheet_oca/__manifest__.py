@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'cn Resource',
+    "name": "cn Spreadsheet Oca",
+    "license": "AGPL-3",
     'author': 'He Jian',
-    'category': 'Hidden',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['resource'],
+    "depends": ["spreadsheet_oca"],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

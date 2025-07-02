@@ -107,6 +107,12 @@ msgid "Company Type"
 msgstr "机构类型"
 
 #. module: base
+#: model:ir.actions.act_window,name:base.action_wizard_lang_export
+#: model:ir.ui.menu,name:base.menu_wizard_lang_export
+msgid "Export Translation"
+msgstr "导出翻译"
+
+#. module: base
 #: model:ir.actions.act_window,name:base.res_partner_industry_action
 msgid "Industries"
 msgstr "行业"

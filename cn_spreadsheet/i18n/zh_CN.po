@@ -1,0 +1,6 @@
+#. module: spreadsheet
+#. odoo-javascript
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+#, python-format
+msgid "Unknown function: \"%s\""
+msgstr "未知函数：“%s”"
