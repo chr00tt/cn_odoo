@@ -153,3 +153,15 @@ msgstr ""
 "只有这些字段可被修改：\n"
 "- %(allowed_fields)s"
 
+#. module: base_tier_validation
+#. odoo-python
+#: code:addons/base_tier_validation/models/tier_validation.py:0
+#, python-format
+msgid ""
+"This action needs to be validated for at least one record. Reviews pending:\n"
+" - %s \n"
+"Please request a validation."
+msgstr ""
+"此操作需要至少对一条记录进行验证。待审核：\n"
+" - %s \n"
+"请申请审批.\n"
