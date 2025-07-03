@@ -4,7 +4,7 @@
         <!-- Fix issue in docker: wkhtmltopdf: Exit with code 1 due to network error: ConnectionRefusedError -->
         <record model="ir.config_parameter" id="report_url" forcecreate="False">
             <field name="key">report.url</field>
-            <field name="value">http://0.0.0.0:8069</field>
+            <field name="value">http://0.0.0.0:9769</field>
         </record>
     </data>
 </odoo>
