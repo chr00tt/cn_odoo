@@ -1,0 +1,6 @@
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/view.xml:0
+#, python-format
+msgid "Measures"
+msgstr "取值"
