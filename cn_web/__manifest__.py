@@ -7,5 +7,10 @@
     'category': 'Hidden',
     'depends': ['web'],
     'auto_install': True,
+    'assets': {
+        'web.assets_backend': [
+            'cn_web/static/src/views/**/*',
+        ],
+    },
     'license': 'LGPL-3',
 }
