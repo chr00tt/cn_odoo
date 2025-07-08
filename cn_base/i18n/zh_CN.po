@@ -127,6 +127,11 @@ msgid "Industry"
 msgstr "行业"
 
 #. module: base
+#: model:ir.model.fields,field_description:base.field_ir_cron__numbercall
+msgid "Number of Calls"
+msgstr "调用次数"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_data__reference
 #: model:ir.model.fields,field_description:base.field_res_partner__ref
 #: model:ir.model.fields,field_description:base.field_res_users__ref
