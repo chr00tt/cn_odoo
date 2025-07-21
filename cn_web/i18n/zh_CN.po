@@ -1,6 +1,25 @@
 #. module: web
 #. odoo-javascript
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#, python-format
+msgid "Archive"
+msgstr "停用"
+
+#. module: web
+#. odoo-javascript
 #: code:addons/web/static/src/views/view.xml:0
 #, python-format
 msgid "Measures"
 msgstr "取值"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#, python-format
+msgid "Unarchive"
+msgstr "启用"
+
