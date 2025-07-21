@@ -10,6 +10,36 @@ msgstr "停用"
 
 #. module: web
 #. odoo-javascript
+#: code:addons/web/static/src/views/kanban/kanban_header.js:0
+#: code:addons/web/static/src/views/kanban/kanban_header.js:0
+#, python-format
+msgid "Archive All"
+msgstr "全部停用"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/kanban/kanban_header.js:0
+#, python-format
+msgid ""
+"Are you sure that you want to archive all the records from this column?"
+msgstr "确定要停用此列中的所有记录吗？"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#, python-format
+msgid "Are you sure that you want to archive all the selected records?"
+msgstr "确定要停用所有选定的记录吗？"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#, python-format
+msgid "Are you sure that you want to archive this record?"
+msgstr "确定要停用此记录吗？"
+
+#. module: web
+#. odoo-javascript
 #: code:addons/web/static/src/views/view.xml:0
 #, python-format
 msgid "Measures"
