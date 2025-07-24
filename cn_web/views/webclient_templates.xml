@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="login" name="Login" inherit_id="web.login">
+        <xpath expr="//label[@for='login']" position="replace">
+                    <label for="login" class="form-label">用户</label>
+        </xpath>
+        <xpath expr="//input[@name='login']" position="attributes">
+            <attribute name="placeholder">用户</attribute>
+        </xpath>
+    </template>
+
+</odoo>

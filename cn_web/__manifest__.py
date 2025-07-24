@@ -7,6 +7,9 @@
     'category': 'Hidden',
     'depends': ['web'],
     'auto_install': True,
+    'data': [
+        'views/webclient_templates.xml',
+    ],
     'assets': {
         'web.assets_backend': [
             'cn_web/static/src/views/**/*',
