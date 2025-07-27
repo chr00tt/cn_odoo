@@ -1,0 +1,5 @@
+#. module: stock_restrict_lot
+#: model:ir.model.fields,field_description:stock_restrict_lot.field_stock_move__restrict_lot_id
+#: model:ir.model.fields,field_description:stock_restrict_lot.field_stock_picking__restrict_lot_id
+msgid "Restrict Lot"
+msgstr "限制批次"
