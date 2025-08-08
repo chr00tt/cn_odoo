@@ -53,7 +53,7 @@ msgstr "机构详情"
 #: model:ir.model.fields,field_description:base.field_res_partner__company_registry
 #: model:ir.model.fields,field_description:base.field_res_users__company_registry
 msgid "Company ID"
-msgstr "机构 ID"
+msgstr "统一社会信用代码"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_company__logo
