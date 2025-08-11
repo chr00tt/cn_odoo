@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="hr.onboarding_plan" model="mail.activity.plan">
+            <field name="name">入职</field>
+        </record>
+
+        <record id="hr.offboarding_plan" model="mail.activity.plan">
+            <field name="name">离职</field>
+        </record>
+    </data>
+</odoo>
