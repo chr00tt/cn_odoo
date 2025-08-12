@@ -11,6 +11,11 @@ msgid "Finished"
 msgstr "已完成"
 
 #. module: stock_request
+#: model:ir.model.fields,field_description:stock_request.field_res_config_settings__group_stock_request_order
+msgid "Group Stock Request Order"
+msgstr "库存申请单"
+
+#. module: stock_request
 #: model:ir.model.fields.selection,name:stock_request.selection__stock_request__state__open
 msgid "In progress"
 msgstr "进行中"
@@ -61,6 +66,19 @@ msgstr "库存申请"
 #: model:ir.model.fields,field_description:stock_request.field_stock_picking__stock_request_count
 msgid "Stock Request #"
 msgstr "库存申请  #"
+
+#. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_request_order
+#: model:res.groups,name:stock_request.group_stock_request_order
+msgid "Stock Request Order"
+msgstr "库存申请单"
+
+#. module: stock_request
+#: model:ir.actions.act_window,name:stock_request.stock_request_order_action
+#: model:ir.ui.menu,name:stock_request.stock_request_order_menu
+#: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
+msgid "Stock Request Orders"
+msgstr "库存申请单"
 
 #. module: stock_request
 #: model:ir.actions.act_window,name:stock_request.action_stock_request_form
