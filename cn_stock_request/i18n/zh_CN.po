@@ -68,6 +68,24 @@ msgid "Stock Request #"
 msgstr "库存申请  #"
 
 #. module: stock_request
+#: model:ir.model,name:stock_request.model_stock_request_allocation
+#: model:ir.model.fields,field_description:stock_request.field_stock_move__allocation_ids
+#: model:ir.model.fields,field_description:stock_request.field_stock_request__allocation_ids
+msgid "Stock Request Allocation"
+msgstr "库存申请分配"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.view_move_form
+#: model_terms:ir.ui.view,arch_db:stock_request.view_stock_request_allocation_form
+msgid "Stock Request Allocations"
+msgstr "库存申请分配"
+
+#. module: stock_request
+#: model:res.groups,name:stock_request.group_stock_request_manager
+msgid "Stock Request Manager"
+msgstr "库存申请管理"
+
+#. module: stock_request
 #: model:ir.model,name:stock_request.model_stock_request_order
 #: model:res.groups,name:stock_request.group_stock_request_order
 msgid "Stock Request Order"
