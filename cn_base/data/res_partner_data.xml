@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="True">
+
+        <record model="res.partner" id="base.partner_admin">
+            <field name="name">管理员</field>
+        </record>
+
+    </data>
+</odoo>
