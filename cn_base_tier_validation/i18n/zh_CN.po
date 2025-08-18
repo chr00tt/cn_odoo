@@ -86,6 +86,11 @@ msgid "Reviewer field"
 msgstr "审批人字段"
 
 #. module: base_tier_validation
+#: model:ir.actions.server,name:base_tier_validation.ir_cron_auto_tier_validation_ir_actions_server
+msgid "Send Tier Review Reminder"
+msgstr "发送审批提醒"
+
+#. module: base_tier_validation
 #: model:ir.model.fields,field_description:base_tier_validation.field_tier_definition__notify_reminder_delay
 msgid "Send reminder message on pending reviews"
 msgstr "在待审阅时发送提醒消息"
