@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="hr_expense_advance_clearing.product_emp_advance_product_template" model="product.template">
+            <field name="property_account_expense_id" ref="cn_account.account_122101"/>
+        </record>
+    </data>
+</odoo>
