@@ -107,6 +107,11 @@ msgid "<span class=\"o_stat_text\">Traceability</span>"
 msgstr "<span class=\"o_stat_text\">追溯</span>"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode_small
+msgid "<span>Package Type: </span>"
+msgstr "<span>包装类型: </span>"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Location</strong>"
 msgstr "<strong>库位</strong>"
@@ -116,6 +121,16 @@ msgstr "<strong>库位</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Lot/Serial Number</strong>"
 msgstr "<strong>批次/序列号</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
+msgid "<strong>Package Type:</strong>"
+msgstr "<strong>包装类型:</strong>"
+
+#. module: stock
+#: model:ir.model.constraint,message:stock.constraint_stock_package_type_barcode_uniq
+msgid "A barcode can only be assigned to one package type!"
+msgstr "一个条码只能分配给一种包装类型！"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_location_route_form_view
@@ -370,6 +385,34 @@ msgstr "批次/序号"
 #, python-format
 msgid "Outgoing"
 msgstr "出货"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_product_packaging__package_type_id
+#: model:ir.model.fields,field_description:stock.field_stock_package_type__name
+#: model:ir.model.fields,field_description:stock.field_stock_putaway_rule__package_type_ids
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__package_type_id
+#: model:ir.model.fields,field_description:stock.field_stock_storage_category_capacity__package_type_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
+#: model_terms:ir.ui.view,arch_db:stock.stock_package_type_form
+msgid "Package Type"
+msgstr "包装类型"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode_small
+msgid "Package Type:"
+msgstr "包装类型："
+
+#. module: stock
+#: model:ir.actions.act_window,name:stock.action_package_type_view
+#: model:ir.ui.menu,name:stock.menu_packaging_types
+#: model_terms:ir.ui.view,arch_db:stock.stock_package_type_tree
+msgid "Package Types"
+msgstr "包装类型"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.stock_putaway_list
+msgid "Package type"
+msgstr "包装类型"
 
 #. module: stock
 #. odoo-javascript
