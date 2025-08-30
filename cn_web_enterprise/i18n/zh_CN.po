@@ -1,0 +1,6 @@
+#. module: web_enterprise
+#. odoo-javascript
+#: code:addons/web_enterprise/static/src/webclient/home_menu/expiration_panel.js:0
+#, python-format
+msgid "This database will expire in %s. "
+msgstr "此数据库将在 %s 后过期。"

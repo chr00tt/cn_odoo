@@ -1,8 +1,18 @@
 #. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Check Stock Request Order requested by"
+msgstr "检查库存申请单申请人"
+
+#. module: stock_request
 #: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
 #, fuzzy
 msgid "Current requests"
 msgstr "库存申请"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Enable Stock Requests for Manufacturing"
+msgstr "启用制造的库存申请功能"
 
 #. module: stock_request
 #: model_terms:ir.ui.view,arch_db:stock_request.stock_request_order_search
@@ -33,6 +43,18 @@ msgstr "项目"
 #: model_terms:ir.ui.view,arch_db:stock_request.stock_request_search
 msgid "Location"
 msgstr "库位"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Manufacturing"
+msgstr "制造"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid ""
+"Only the user who submitted the request will be able to edit the stock "
+"request order."
+msgstr "仅提交该库存申请单的用户才能编辑该申请单。"
 
 #. module: stock_request
 #: model:ir.model.fields,field_description:stock_request.field_stock_request__qty_cancelled
@@ -131,4 +153,9 @@ msgstr "与库存申请相关的路线"
 #, python-format
 msgid "There should be at least one request item for confirming the order."
 msgstr "确认订单时至少应有一个申请项目。"
+
+#. module: stock_request
+#: model_terms:ir.ui.view,arch_db:stock_request.res_config_settings_view_form
+msgid "Use Manufacturing Orders with Stock Requests"
+msgstr "在制造订单中使用库存申请"
 
