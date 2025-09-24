@@ -374,7 +374,6 @@ msgstr "批次/序号"
 msgid "Lots/Serial numbers"
 msgstr "批次/序号"
 
-
 #. module: stock
 #. odoo-javascript
 #: code:addons/stock/static/src/stock_forecasted/forecasted_header.xml:0
@@ -493,6 +492,11 @@ msgstr "物品将会首先为最高优先级的调拨预留。"
 #, python-format
 msgid "Products: %(location)s"
 msgstr "产品: %(location)s"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+msgid "Receive From"
+msgstr "接收自"
 
 #. module: stock
 #. odoo-javascript
