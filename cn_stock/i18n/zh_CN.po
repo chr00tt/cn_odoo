@@ -368,12 +368,9 @@ msgid "Lots/Serial Numbers"
 msgstr "批次/序号"
 
 #. module: stock
-#. odoo-javascript
-#: code:addons/stock/static/src/widgets/lots_dialog.xml:0
-#, python-format
-msgid "Lots/Serial numbers"
-msgstr "批次/序号"
-
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+msgid "Note"
+msgstr "备注"
 
 #. module: stock
 #. odoo-javascript
@@ -385,6 +382,23 @@ msgstr "批次/序号"
 #, python-format
 msgid "Outgoing"
 msgstr "出货"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_quant__owner_id
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__owner_id
+#: model:ir.model.fields,field_description:stock.field_stock_scrap__owner_id
+#: model_terms:ir.ui.view,arch_db:stock.quant_search_view
+#: model_terms:ir.ui.view,arch_db:stock.stock_move_line_view_search
+#: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
+msgid "Owner"
+msgstr "货主"
+
+#. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_quant_package__name
+#: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
+#: model_terms:ir.ui.view,arch_db:stock.view_quant_package_form
+msgid "Package Reference"
+msgstr "包裹编号"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_packaging__package_type_id
@@ -495,6 +509,11 @@ msgid "Products: %(location)s"
 msgstr "产品: %(location)s"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+msgid "Receive From"
+msgstr "接收自"
+
+#. module: stock
 #. odoo-javascript
 #: code:addons/stock/static/src/client_actions/stock_traceability_report_backend.xml:0
 #: model:ir.model.fields,field_description:stock.field_procurement_group__name
@@ -542,9 +561,4 @@ msgstr "库存分配序号"
 #: model:ir.model.fields,help:stock.field_stock_lot__name
 msgid "Unique Lot/Serial Number"
 msgstr "唯一批次/序号"
-
-#. module: stock
-#: model:ir.model.fields,field_description:stock.field_stock_quant__owner_id
-msgid "Owner"
-msgstr "货主"
 

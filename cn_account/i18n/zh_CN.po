@@ -135,6 +135,20 @@ msgid "Journal Entry"
 msgstr "记账凭证"
 
 #. module: account
+#. odoo-python
+#: code:addons/account/wizard/account_automatic_entry_wizard.py:0
+#: code:addons/account/wizard/accrued_orders.py:0
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__payment_ref
+#: model:ir.model.fields,field_description:account.field_account_move_line__name
+#: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_label
+#: model:ir.model.fields,field_description:account.field_account_report_expression__label
+#: model_terms:ir.ui.view,arch_db:account.view_account_payment_register_form
+#: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_form
+#, python-format
+msgid "Label"
+msgstr "摘要"
+
+#. module: account
 #: model:ir.model.fields,field_description:account.field_account_bank_statement_line__name
 #: model:ir.model.fields,field_description:account.field_account_move__name
 #: model:ir.model.fields,field_description:account.field_account_move_line__move_name
