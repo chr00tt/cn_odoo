@@ -368,11 +368,9 @@ msgid "Lots/Serial Numbers"
 msgstr "批次/序号"
 
 #. module: stock
-#. odoo-javascript
-#: code:addons/stock/static/src/widgets/lots_dialog.xml:0
-#, python-format
-msgid "Lots/Serial numbers"
-msgstr "批次/序号"
+#: model_terms:ir.ui.view,arch_db:stock.view_picking_form
+msgid "Note"
+msgstr "备注"
 
 #. module: stock
 #. odoo-javascript
