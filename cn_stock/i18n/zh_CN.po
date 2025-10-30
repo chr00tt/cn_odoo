@@ -450,18 +450,18 @@ msgstr "物品移动(库存移库明细)"
 #. module: stock
 #: model:ir.model,name:stock.model_product_packaging
 msgid "Product Packaging"
-msgstr "物品包裹"
+msgstr "产品包装"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.label_product_packaging
 msgid "Product Packaging (ZPL)"
-msgstr "物品包裹 (ZPL)"
+msgstr "产品包装 (ZPL)"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_product_packagings
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Product Packagings"
-msgstr "物品包裹"
+msgstr "产品包装"
 
 #. module: stock
 #. odoo-python
