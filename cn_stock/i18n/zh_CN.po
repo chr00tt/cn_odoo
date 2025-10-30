@@ -112,6 +112,11 @@ msgid "<span>Package Type: </span>"
 msgstr "<span>包装类型: </span>"
 
 #. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Delivered</strong>"
+msgstr "<strong>送货数量</strong>"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Location</strong>"
 msgstr "<strong>库位</strong>"
@@ -121,6 +126,11 @@ msgstr "<strong>库位</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Lot/Serial Number</strong>"
 msgstr "<strong>批次/序列号</strong>"
+
+#. module: stock
+#: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
+msgid "<strong>Ordered</strong>"
+msgstr "<strong>订购数量</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
