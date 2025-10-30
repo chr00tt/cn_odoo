@@ -2,3 +2,20 @@
 #: model:ir.model.fields,field_description:base.field_ir_model__order
 msgid "Order"
 msgstr "排序"
+
+#. module: base
+#: model:ir.model.fields.selection,name:base.selection__ir_actions_server__usage__ir_cron
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
+msgid "Scheduled Action"
+msgstr "计划任务"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_cron_act
+#: model:ir.model,name:base.model_ir_cron
+#: model:ir.ui.menu,name:base.menu_ir_cron_act
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_calendar
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_tree
+msgid "Scheduled Actions"
+msgstr "计划任务"
+
