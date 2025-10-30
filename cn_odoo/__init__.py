@@ -17,6 +17,7 @@ def cn_odoo_get_po_paths_env(module_name: str, lang: str, env: odoo.api.Environm
         po_names.insert(1, 'es_419')
     po_paths = (
         join(module_name, dir_, filename + '.po')
+        # 同时考虑 <模块名> 和 cn_<模块名>:
         for module_name in (module_name, 'cn_' + module_name)
         for filename in po_names
         for dir_ in ('i18n', 'i18n_extra')
