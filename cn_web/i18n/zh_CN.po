@@ -53,3 +53,9 @@ msgstr "取值"
 msgid "Unarchive"
 msgstr "启用"
 
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/errors/error_dialogs.js:0
+#, python-format
+msgid "Validation Error"
+msgstr "审批中"
