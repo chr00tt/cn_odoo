@@ -575,6 +575,11 @@ msgid "Stock Assign Serial Numbers"
 msgstr "库存分配序号"
 
 #. module: stock
+#: model:ir.model.constraint,message:stock.constraint_stock_warehouse_warehouse_code_uniq
+msgid "The short name of the warehouse must be unique per company!"
+msgstr "每个机构的仓库的短名称必须是唯一!"
+
+#. module: stock
 #: model:ir.model.fields,help:stock.field_stock_lot__name
 msgid "Unique Lot/Serial Number"
 msgstr "唯一批次/序号"
