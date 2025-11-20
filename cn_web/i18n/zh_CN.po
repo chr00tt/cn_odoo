@@ -40,6 +40,16 @@ msgstr "确定要停用此记录吗？"
 
 #. module: web
 #. odoo-javascript
+#: code:addons/web/static/src/views/calendar/calendar_controller.js:0
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/kanban/kanban_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#, python-format
+msgid "Bye-bye, record!"
+msgstr "删除！"
+
+#. module: web
+#. odoo-javascript
 #: code:addons/web/static/src/views/view.xml:0
 #, python-format
 msgid "Measures"
