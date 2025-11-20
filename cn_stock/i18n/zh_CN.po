@@ -197,6 +197,12 @@ msgid "Company"
 msgstr "机构"
 
 #. module: stock
+#: model:ir.model.fields,field_description:stock.field_stock_quant__inventory_quantity
+#: model_terms:ir.ui.view,arch_db:stock.stock_inventory_conflict_form_view
+msgid "Counted Quantity"
+msgstr "实盘数"
+
+#. module: stock
 #: model:ir.actions.report,name:stock.action_report_delivery
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Delivery Slip"
