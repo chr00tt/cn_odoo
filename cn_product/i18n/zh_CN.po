@@ -37,3 +37,7 @@ msgstr "内部编号"
 msgid "Product Template Tags"
 msgstr "标签"
 
+#. module: product_expiry
+#: model:ir.model.fields,field_description:product_expiry.field_stock_lot__use_date
+msgid "Best before Date"
+msgstr "在此日期前使用"
