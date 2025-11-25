@@ -5,7 +5,7 @@
 #: model_terms:ir.ui.view,arch_db:base.view_company_form
 #, python-format
 msgid "Branches"
-msgstr "下级机构"
+msgstr "分支机构"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_trigger__call_at
