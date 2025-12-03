@@ -57,6 +57,21 @@ msgstr "取值"
 
 #. module: web
 #. odoo-javascript
+#: code:addons/web/static/src/core/confirmation_dialog/confirmation_dialog.js:0
+#, python-format
+msgid ""
+"Ready to make your record disappear into thin air? Are you sure?\n"
+"It will be gone forever!\n"
+"\n"
+"Think twice before you click that 'Delete' button!"
+msgstr ""
+"确认要删除记录吗？\n"
+"一旦删除，将无法恢复！\n"
+"\n"
+"在点击‘删除’按钮之前请三思！"
+
+#. module: web
+#. odoo-javascript
 #: code:addons/web/static/src/views/form/form_controller.js:0
 #: code:addons/web/static/src/views/list/list_controller.js:0
 #, python-format
