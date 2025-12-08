@@ -57,6 +57,13 @@ msgstr "取值"
 
 #. module: web
 #. odoo-javascript
+#: code:addons/web/static/src/views/form/form_error_dialog/form_error_dialog.xml:0
+#, python-format
+msgid "Oh snap!"
+msgstr "错误!"
+
+#. module: web
+#. odoo-javascript
 #: code:addons/web/static/src/core/confirmation_dialog/confirmation_dialog.js:0
 #, python-format
 msgid ""

@@ -113,6 +113,15 @@ msgid "Export Translation"
 msgstr "导出翻译"
 
 #. module: base
+#. odoo-python
+#: code:addons/base/models/ir_rule.py:0
+#, python-format
+msgid ""
+"If you really, really need access, perhaps you can win over your friendly "
+"administrator with a batch of freshly baked cookies."
+msgstr "如果确实需要访问，请联系管理员。"
+
+#. module: base
 #: model:ir.actions.act_window,name:base.res_partner_industry_action
 msgid "Industries"
 msgstr "行业"
@@ -169,6 +178,19 @@ msgstr "计划任务触发器"
 #: model_terms:ir.ui.view,arch_db:base.view_sequence_search
 msgid "Sequences"
 msgstr "序列"
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_rule.py:0
+#, python-format
+msgid ""
+"Uh-oh! Looks like you have stumbled upon some top-secret records.\n"
+"\n"
+"Sorry, %s doesn't have '%s' access to:"
+msgstr ""
+"权限错误。\n"
+"\n"
+"对不起，%s不能'%s'："
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_users
