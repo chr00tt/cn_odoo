@@ -1,4 +1,22 @@
 #. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+msgid "Actual Code"
+msgstr "实际代码"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_server_action_history_wizard__code_diff
+msgid "Code Diff"
+msgstr "代码比较"
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_actions.py:0
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
+msgid "Code History"
+msgstr "代码历史"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__privilege_id
 msgid "Privilege"
 msgstr "权限"
@@ -25,3 +43,22 @@ msgstr "权限"
 #: model_terms:ir.ui.view,arch_db:base.ir_cron_view_tree
 msgid "Scheduled Actions"
 msgstr "定时任务"
+
+#. module: base
+#: model:ir.model,name:base.model_ir_actions_server_history
+msgid "Server Action History"
+msgstr "服务器动作历史记录"
+
+#. module: base
+#: model:ir.model,name:base.model_server_action_history_wizard
+msgid "Server Action History Wizard"
+msgstr "服务器动作历史向导"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.action_server_action
+#: model:ir.ui.menu,name:base.menu_server_action
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_search
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_tree
+msgid "Server Actions"
+msgstr "服务器动作"
+
