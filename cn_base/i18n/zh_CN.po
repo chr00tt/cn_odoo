@@ -1,0 +1,27 @@
+#. module: base
+#: model:ir.model.fields,field_description:base.field_res_groups__privilege_id
+msgid "Privilege"
+msgstr "权限"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_groups_privilege_form
+msgid "Privilege Name"
+msgstr "权限名称"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.action_res_groups_privilege
+#: model:ir.model,name:base.model_res_groups_privilege
+#: model:ir.model.fields,field_description:base.field_ir_module_category__privilege_ids
+#: model:ir.ui.menu,name:base.menu_action_res_groups_privilege
+msgid "Privileges"
+msgstr "权限"
+
+#. module: base
+#: model:ir.actions.act_window,name:base.ir_cron_act
+#: model:ir.model,name:base.model_ir_cron
+#: model:ir.ui.menu,name:base.menu_ir_cron_act
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_calendar
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_search
+#: model_terms:ir.ui.view,arch_db:base.ir_cron_view_tree
+msgid "Scheduled Actions"
+msgstr "定时任务"
