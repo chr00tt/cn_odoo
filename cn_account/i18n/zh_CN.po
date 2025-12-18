@@ -348,6 +348,12 @@ msgstr "过账的会计凭证"
 msgid "Posted Journal Items"
 msgstr "已过账的会计分录"
 
+#. module: account
+#: model:ir.model.fields,field_description:account.field_res_company__quick_edit_mode
+#: model:ir.model.fields,field_description:account.field_res_config_settings__quick_edit_mode
+msgid "Quick encoding"
+msgstr "快速录入"
+
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_payment__payment_type__inbound
