@@ -15,6 +15,12 @@ msgid "Invoice lines"
 msgstr "发票明细"
 
 #. module: account
+#: model:account.group,name:account.2_us_group_7
+#: model:ir.model.fields.selection,name:account.selection__account_account__account_type__expense_other
+msgid "Other Expenses"
+msgstr "其他费用"
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_bank_statement_line__quick_edit_total_amount
 #: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
 msgid ""
