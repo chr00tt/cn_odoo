@@ -1,0 +1,26 @@
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
+msgid "Invoice Line"
+msgstr "发票明细"
+
+#. module: account
+#: model_terms:ir.ui.view,arch_db:account.view_move_form
+msgid "Invoice Lines"
+msgstr "发票明细"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_bank_statement_line__invoice_line_ids
+#: model:ir.model.fields,field_description:account.field_account_move__invoice_line_ids
+msgid "Invoice lines"
+msgstr "发票明细"
+
+#. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__quick_edit_total_amount
+#: model:ir.model.fields,help:account.field_account_move__quick_edit_total_amount
+msgid ""
+"Use this field to encode the total amount of the invoice.\n"
+"Odoo will automatically create one invoice line with default values to match "
+"it."
+msgstr ""
+"使用该字段对发票总金额进行录入。\n"
+"系统将自动创建具有默认值的发票明细，以与之匹配。"
