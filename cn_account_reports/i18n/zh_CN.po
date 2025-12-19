@@ -45,6 +45,14 @@ msgid "Aged Receivables"
 msgstr "应收账龄分析"
 
 #. module: account_reports
+#. odoo-javascript
+#: code:addons/account_reports/static/src/components/account_report/filters/filter_comparison.xml:0
+#: code:addons/account_reports/static/src/components/account_report/filters/filter_date.xml:0
+#, python-format
+msgid "From"
+msgstr "从"
+
+#. module: account_reports
 #: model:account.report.column,name:account_reports.general_ledger_report_partner_name
 msgid "Partner"
 msgstr "往来单位"
