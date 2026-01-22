@@ -32,9 +32,9 @@ class Database(database.Database):
 
         with file_open("cn_web/static/src/public/database_manager.qweb.html", "r") as fd:
             templates['database_manager'] = fd.read()
-        with file_open("web/static/src/public/database_manager.master_input.qweb.html", "r") as fd:
+        with file_open("cn_web/static/src/public/database_manager.master_input.qweb.html", "r") as fd:
             templates['master_input'] = fd.read()
-        with file_open("web/static/src/public/database_manager.create_form.qweb.html", "r") as fd:
+        with file_open("cn_web/static/src/public/database_manager.create_form.qweb.html", "r") as fd:
             templates['create_form'] = fd.read()
 
         def load(template_name):
