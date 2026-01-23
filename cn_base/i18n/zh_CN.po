@@ -1,4 +1,11 @@
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid ""
+"API Keys are used to connect to Odoo from external tools without the need "
+"for a password or Two-factor Authentication."
+msgstr "API 密钥用于从外部工具连接系统，无需密码或双因素验证。"
+
+#. module: base
 #. odoo-python
 #: code:addons/base/models/res_company.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__child_ids
