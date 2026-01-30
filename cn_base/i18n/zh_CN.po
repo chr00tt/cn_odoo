@@ -1,11 +1,18 @@
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
+msgid ""
+"API Keys are used to connect to Odoo from external tools without the need "
+"for a password or Two-factor Authentication."
+msgstr "API 密钥用于从外部工具连接系统，无需密码或双因素验证。"
+
+#. module: base
 #. odoo-python
 #: code:addons/base/models/res_company.py:0
 #: model:ir.model.fields,field_description:base.field_res_company__child_ids
 #: model_terms:ir.ui.view,arch_db:base.view_company_form
 #, python-format
 msgid "Branches"
-msgstr "下级机构"
+msgstr "分支机构"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron_trigger__call_at
@@ -113,6 +120,15 @@ msgid "Export Translation"
 msgstr "导出翻译"
 
 #. module: base
+#. odoo-python
+#: code:addons/base/models/ir_rule.py:0
+#, python-format
+msgid ""
+"If you really, really need access, perhaps you can win over your friendly "
+"administrator with a batch of freshly baked cookies."
+msgstr "如果确实需要访问，请联系管理员。"
+
+#. module: base
 #: model:ir.actions.act_window,name:base.res_partner_industry_action
 msgid "Industries"
 msgstr "行业"
@@ -169,6 +185,19 @@ msgstr "计划任务触发器"
 #: model_terms:ir.ui.view,arch_db:base.view_sequence_search
 msgid "Sequences"
 msgstr "序列"
+
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_rule.py:0
+#, python-format
+msgid ""
+"Uh-oh! Looks like you have stumbled upon some top-secret records.\n"
+"\n"
+"Sorry, %s doesn't have '%s' access to:"
+msgstr ""
+"权限错误。\n"
+"\n"
+"对不起，%s不能'%s'："
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_users
