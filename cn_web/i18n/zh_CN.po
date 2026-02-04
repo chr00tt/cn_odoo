@@ -91,3 +91,39 @@ msgstr "启用"
 #, python-format
 msgid "Validation Error"
 msgstr "审批中"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/calendar/calendar_controller.js:0
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/kanban/kanban_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#, python-format
+msgid "Bye-bye, record!"
+msgstr "删除单据！"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/views/calendar/calendar_controller.js:0
+#: code:addons/web/static/src/views/form/form_controller.js:0
+#: code:addons/web/static/src/views/kanban/kanban_controller.js:0
+#: code:addons/web/static/src/views/list/list_controller.js:0
+#, python-format
+msgid "No, keep it"
+msgstr "取消"
+
+#. module: web
+#. odoo-javascript
+#: code:addons/web/static/src/core/confirmation_dialog/confirmation_dialog.js:0
+#, python-format
+msgid ""
+"Ready to make your record disappear into thin air? Are you sure?\n"
+"It will be gone forever!\n"
+"\n"
+"Think twice before you click that 'Delete' button!"
+msgstr ""
+"您确定要删除当前（选中）单据吗？\n"
+"\n"
+"单据一旦删除，该单据将无法恢复！\n"
+"\n"
+"您确认要删除请点击‘删除’按钮，否则请点‘取消’按钮！"
