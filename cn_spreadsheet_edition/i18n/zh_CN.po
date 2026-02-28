@@ -1,0 +1,13 @@
+#. module: spreadsheet_edition
+#. odoo-javascript
+#: code:addons/spreadsheet_edition/static/src/bundle/ir_ui_menu/index.js:0
+#, python-format
+msgid "Link an Odoo menu"
+msgstr "链接菜单"
+
+#. module: spreadsheet_edition
+#. odoo-javascript
+#: code:addons/spreadsheet_edition/static/src/bundle/chart/odoo_menu/chart_panel.xml:0
+#, python-format
+msgid "Link to Odoo menu"
+msgstr "链接菜单"
