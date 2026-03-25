@@ -213,3 +213,9 @@ msgstr "自定义默认值"
 msgid "Users & Companies"
 msgstr "用户和机构"
 
+#. module: base
+#. odoo-python
+#: code:addons/base/models/ir_model.py:0
+#, python-format
+msgid "This column contains module data and cannot be removed!"
+msgstr "系统字段不允许删除！"
