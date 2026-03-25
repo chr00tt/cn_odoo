@@ -200,6 +200,15 @@ msgstr ""
 "对不起，%s不能'%s'："
 
 #. module: base
+#: model:ir.actions.act_window,name:base.ir_default_menu_action
+#: model:ir.ui.menu,name:base.ir_default_menu
+#: model_terms:ir.ui.view,arch_db:base.ir_default_form_view
+#: model_terms:ir.ui.view,arch_db:base.ir_default_search_view
+#: model_terms:ir.ui.view,arch_db:base.ir_default_tree_view
+msgid "User-defined Defaults"
+msgstr "自定义默认值"
+
+#. module: base
 #: model:ir.ui.menu,name:base.menu_users
 msgid "Users & Companies"
 msgstr "用户和机构"
