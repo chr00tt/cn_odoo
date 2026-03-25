@@ -74,3 +74,10 @@ msgstr "计划任务"
 msgid "Step"
 msgstr "步长"
 
+#. module: base
+#: model:ir.actions.act_window,name:base.act_values_form_defaults
+#: model:ir.ui.menu,name:base.menu_values_form_defaults
+#: model:ir.ui.view,arch_db:base.values_view_form_defaults
+msgid "User-defined Defaults"
+msgstr "自定义默认值"
+
