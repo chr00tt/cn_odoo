@@ -1,0 +1,4 @@
+#. module: sale
+#: model:ir.ui.view,arch_db:sale.crm_team_salesteams_view_form
+msgid "Invoicing/Progression Ratio"
+msgstr "开票进度比率"
