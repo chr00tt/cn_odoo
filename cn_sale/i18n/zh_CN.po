@@ -1,0 +1,4 @@
+#. module: sale
+#: model:ir.ui.view,arch_db:sale.portal_order_page
+msgid "<i class=\"fa fa-arrow-circle-right\"/> Accept &amp; Sign"
+msgstr "<i class=\"fa fa-arrow-circle-right\"/>同意 &amp; 签名"

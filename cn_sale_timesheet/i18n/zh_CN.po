@@ -1,0 +1,10 @@
+#. module: sale_timesheet
+#: model:ir.ui.view,arch_db:sale_timesheet.project_project_view_kanban_inherit_sale_timesheet
+msgid "<span class=\"o_label\">Overview</span>"
+msgstr "<span class=\"o_label\">概览</span>"
+
+#. module: sale_timesheet
+#: code:addons/sale_timesheet/models/project.py:45
+#, python-format
+msgid "Overview"
+msgstr "概览"
