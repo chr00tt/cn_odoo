@@ -1,0 +1,4 @@
+#. module: sale
+#: model:ir.model.fields,field_description:sale.field_sale_order__amount_tax
+msgid "Taxes"
+msgstr "税额"
