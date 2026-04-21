@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'cn Purchase',
+    'name': 'cn Sales',
     'author': "He Jian",
-    'category': 'Operations/Purchase',
     'website': 'https://github.com/chr00tt/cn_odoo',
-    'depends': ['purchase'],
+    'category': 'Sales/Sales',
+    'depends': ['sale'],
     'auto_install': True,
     'license': 'LGPL-3',
 }
